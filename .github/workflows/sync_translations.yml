@@ -21,10 +21,10 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Run script
+            - name: Run sync translation script
               run: node index.js
 
-            - name: Commit changes
+            - name: Add and commit changes to translation files
               run: |
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
