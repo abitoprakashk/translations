@@ -35,4 +35,4 @@ jobs:
               with:
                   branch: ${{ github.ref }}
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  commit_message: Translation strings updated
+                  commit-message: Translation strings updated
