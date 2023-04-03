@@ -1,0 +1,19 @@
+{
+    "name": "translations",
+    "version": "1.0.0",
+    "description": "To test github workflows",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abitoprakash/translations.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/abitoprakash/translations/issues"
+    },
+    "homepage": "https://github.com/abitoprakash/translations#readme"
+}
