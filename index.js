@@ -8,3 +8,5 @@ const data = {
 };
 
 fs.writeFileSync("result.json", JSON.stringify(data, null, 4));
+
+console.log("Completed");
