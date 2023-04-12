@@ -1,0 +1,50 @@
+.modalContent {
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-icon-size-s);
+}
+
+.uploadSummary {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.duplicatesCard {
+  border: none;
+  padding: 0px;
+  margin-top: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-semantic-warning-10);
+  padding-bottom: var(--tm-kr-spacing-s);
+}
+
+.duplicatesCardDivider {
+  background-color: var(--tm-kr-color-pastels-calico-50);
+}
+
+.duplicateErrorCard {
+  padding: var(--tm-kr-spacing-xs) 0px;
+  border: none;
+}
+
+.duplicateCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  margin: var(--tm-kr-spacing-s);
+  margin-bottom: 0px;
+}
+
+.duplicateSummary {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  padding: var(--tm-kr-spacing-s);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+
+.duplicateCardPadding {
+  padding-left: var(--tm-kr-spacing-xs);
+}

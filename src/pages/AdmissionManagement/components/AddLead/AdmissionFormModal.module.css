@@ -1,0 +1,43 @@
+.formDisplay {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-searchbar-padding-y);
+  height: 600px;
+}
+
+.scrollClass {
+  overflow: auto;
+}
+
+.stepperWrapper {
+  position: sticky;
+  top: var(--tm-kr-spacing-s);
+}
+
+.stepperStyles {
+  margin-right: 20px;
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.modalFooter {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalFooter2 {
+  float: right;
+}

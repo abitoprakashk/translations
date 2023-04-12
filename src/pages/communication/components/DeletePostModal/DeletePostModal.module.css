@@ -1,0 +1,93 @@
+.deletePostSection {
+  padding: 20px;
+}
+
+.imageSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imageOuterSec {
+  width: 80px;
+  height: 80px;
+  background: var(--tm-color-rd-2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteHeading {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--tm-color-text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.messageWithPostTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tm-color-light-gray);
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.btn {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cancelBtn {
+  border: 1px solid var(--tm-color-gy-1);
+  color: var(--tm-color-text-secondary);
+  margin-right: 10px;
+}
+
+.removeBtn {
+  border: 1px solid var(--tm-color-rd-1);
+  color: var(--tm-color-rd-1);
+  margin-left: 10px;
+}
+
+.deletePostModalParentDiv .modalSection {
+  width: 45%;
+  min-height: 34%;
+}
+
+@media only screen and (max-width: 600px) {
+  .deletePostModalParentDiv .modalSection {
+    width: 100%;
+    min-height: 37%;
+  }
+}

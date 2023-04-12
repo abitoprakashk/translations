@@ -1,0 +1,44 @@
+.sliderMainContainer {
+  font-weight: normal;
+}
+.sliderContainer {
+  font-weight: normal;
+}
+.sliderBody {
+  padding: 20px 3.625rem;
+  text-align: left;
+  position: relative;
+  height: calc(100vh - 185px);
+  overflow: auto;
+}
+.sliderFooter > div {
+  border-bottom-left-radius: 1.5rem;
+}
+.fieldAddSliderIcon {
+  margin-right: 10px;
+}
+.customFieldBox {
+  font-weight: normal;
+}
+/* Toggle part css */
+.fieldSettingsToggleBlock {
+  margin-top: 36px;
+}
+.addSaveButton {
+  width: 240px;
+}
+
+.sliderFooter .addSectionNote {
+  background: var(--tm-color-white);
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  bottom: 68px;
+  padding-top: 4px;
+  left: 0;
+  z-index: 13;
+  color: var(--tm-color-text-secondary);
+  text-align: left;
+  padding-left: 40px;
+  border-bottom-left-radius: 0px;
+}

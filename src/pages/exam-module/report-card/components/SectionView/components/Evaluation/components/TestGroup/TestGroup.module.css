@@ -1,0 +1,62 @@
+.accordionHeader {
+  width: 100%;
+  padding-right: var(--tm-kr-spacing-2xl);
+}
+
+.accordionHeader.mobile {
+  font-size: 14px;
+}
+
+.accordionBody {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mobile.accordionBody {
+  gap: var(--tm-kr-spacing-s);
+}
+
+.testName {
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.mobile .testName {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.gap1 {
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.white {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.emptyState {
+  margin: var(--tm-kr-spacing-2xl) 0;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: 0;
+  padding: 16px;
+}
+
+.section:hover {
+  background: var(--tm-kr-color-primary-60);
+}
+
+.disabledButton {
+  color: var(--tm-kr-color-semantic-error-110);
+}
+
+.enabledButton {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.active {
+  background: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.headingWrapper {
+  width: 70%;
+}

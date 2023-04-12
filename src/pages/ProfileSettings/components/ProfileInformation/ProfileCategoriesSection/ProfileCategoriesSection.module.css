@@ -1,0 +1,99 @@
+/* Card section */
+.categoriesInnerSection {
+  display: block;
+}
+.noCategoryFound {
+  text-align: center;
+}
+.statsContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.statsCard {
+  cursor: pointer;
+}
+.statsCardLinks {
+  cursor: pointer;
+}
+.cardSection {
+  height: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
+.cardItemsSection {
+  display: block;
+}
+.titleSection {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.titleText {
+  float: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+  width: 85%;
+}
+.linkBlock {
+  float: right;
+  transform: rotate(180deg);
+  color: var(--tm-color-text-primary);
+}
+.arrowImg {
+  display: inline-block;
+  vertical-align: text-top;
+}
+.totalFieldsCounts {
+  display: inline-block;
+  width: 100%;
+  margin-top: 16px;
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  vertical-align: top;
+}
+.titleSection div.toolTipBlock {
+  background: var(--tm-color-text-primary);
+}
+
+.cardItemsSection div.titleSection div.toolTipBlock::before {
+  display: none;
+}
+
+.cardItemsSection div.titleSection div.toolTipBlock::after {
+  border-top-color: var(--tm-color-text-primary);
+  border-left-color: transparent;
+  background: var(--tm-color-text-primary);
+}
+
+@media (min-width: 640px) {
+  .statsContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .statsContainer {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+  .statsContainer {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1440px) {
+  .statsContainer {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,13 @@
+.inputWrapper {
+  display: grid;
+  grid-template-columns: 128px 128px;
+  grid-gap: var(--tm-kr-spacing-2xs);
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--tm-kr-spacing-2xs);
+}

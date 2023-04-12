@@ -1,0 +1,9 @@
+.radioOptionWrapper {
+  padding: 0.5rem;
+}
+
+.radioOptionLabel {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--tm-color-text-primary);
+}

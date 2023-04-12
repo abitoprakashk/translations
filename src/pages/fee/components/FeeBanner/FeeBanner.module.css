@@ -1,0 +1,16 @@
+.backgroundColor {
+  background: #fcf4e5;
+}
+
+.stripText {
+  display: inline-flex;
+}
+
+.extraText {
+  margin-left: 5px;
+}
+
+.registeredExtraText {
+  display: flex;
+  gap: 4px;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--tm-kr-spacing-s) 0px;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: var(--tm-kr-spacing-s);
+
+  height: 26px;
+}
+
+.rowItem:first-child {
+  flex: 0 0 100px;
+}

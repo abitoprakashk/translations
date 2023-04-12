@@ -1,0 +1,55 @@
+.feeWidget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  min-height: 232px;
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.feeWidget canvas {
+  max-width: 140px;
+  max-height: 140px;
+}
+.legend {
+  display: inline-block;
+  min-width: 13px;
+  min-height: 13px;
+  border-radius: var(--tm-kr-border-radius-s);
+}
+.legendLabel {
+  display: inline-block;
+  min-width: 74px;
+  font-size: var(--tm-kr-para-font-size-m);
+  margin: 0 var(--tm-kr-spacing-3xs);
+  color: #7a7a7a;
+}
+.legendValue {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+.iconBgColor {
+  background-color: var(--tm-kr-color-pastels-fringy-110) !important;
+}
+
+.dateDropDown {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  width: 142px;
+  height: 36px;
+  padding: 8px 12px;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.emptyState {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.emptyStateIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+@media (min-width: 768px) {
+  .feeWidget {
+    flex-direction: row;
+  }
+}

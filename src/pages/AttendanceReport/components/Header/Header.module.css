@@ -1,0 +1,23 @@
+.title {
+  margin-bottom: 8px;
+}
+
+.divider {
+  padding: var(--tm-kr-spacing-s) 0;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--tm-kr-spacing-4xs);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--tm-kr-heading-mobile-font-size-m);
+    line-height: var(--tm-kr-heading-mobile-line-height-m);
+  }
+  .divider {
+    padding: var(--tm-kr-spacing-2xs) 0;
+  }
+}

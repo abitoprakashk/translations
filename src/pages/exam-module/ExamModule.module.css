@@ -1,0 +1,103 @@
+:root {
+  --exam-container-padding: 30px;
+}
+
+.container {
+  height: auto;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.content {
+  background-color: #fff;
+  padding: var(--tm-kr-spacing-s);
+  border-radius: 8px;
+}
+
+.tabMenu {
+  width: 100%;
+  overflow-y: scroll;
+  border-bottom: 1px solid var(--tm-color-gy-3);
+  margin-top: 8px;
+}
+
+.tabMenu a {
+  padding: 10px 0px 10px 0;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: var(--tm-line-height-2);
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  display: inline-block;
+}
+
+.tabMenu a.active {
+  color: var(--tm-color-bl-2);
+  border-bottom: 1px solid var(--tm-color-bl-2);
+}
+
+.tabsWrapper {
+  min-width: 1000px;
+}
+
+.divider {
+  margin-top: -31px;
+  margin-bottom: 23px;
+}
+
+.helpTab {
+  display: flex;
+  align-items: baseline;
+}
+
+.youtubeIcon {
+  align-self: center;
+}
+
+.bannerWrapper {
+  display: none;
+}
+
+.krayonContainer {
+  padding: var(--exam-container-padding);
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  min-height: 100%;
+  /*   height: 1px; */
+}
+
+.krayonContainer.mobile {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.krayonContainer.fixedHeight {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .tabMenu a {
+    margin-right: 40px;
+  }
+
+  .tabsWrapper {
+    width: auto;
+  }
+
+  .bannerWrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .bannerCloseIcon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,69 @@
+.bodyContent {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.sessionAlert {
+  width: 100%;
+}
+
+.sessionAlert > div {
+  align-items: center;
+}
+
+.sessionAlert p {
+  margin-left: 5px;
+}
+
+.formContent {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.formContent > div:nth-child(1) {
+  width: 250px;
+}
+
+.formContent > div:nth-child(2) {
+  margin-left: var(--tm-kr-spacing-s);
+  width: 70%;
+}
+
+.titleContainer {
+  display: flex;
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-input-title-mobile-font-size);
+  line-height: var(--tm-kr-input-title-mobile-font-height);
+  font-weight: var(--tm-kr-input-title-font-weight);
+}
+
+.setupCardHeading.setupCardHeading2 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.accordionWrapper {
+  margin-bottom: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-accordion-border-radius);
+}
+
+.accordionWrapper label {
+  margin-bottom: 16px;
+  margin-left: 0px;
+}
+
+.accordionWrapper label:last-child {
+  margin-bottom: 0px;
+}
+
+.accordionWrapper .headerContent label {
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

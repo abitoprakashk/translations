@@ -1,0 +1,11 @@
+.cardDesign {
+  background-color: var(--tm-bg-gray-3);
+  margin: 16px;
+  width: 232px;
+  height: 165px;
+  position: relative;
+  overflow: hidden;
+}
+.cardDesign:hover {
+  border: 2px solid var(--tm-color-blue);
+}

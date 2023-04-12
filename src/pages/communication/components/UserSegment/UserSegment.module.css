@@ -1,0 +1,408 @@
+.userCount {
+  margin: 15px 0px;
+}
+
+.radioWrapper {
+  margin: 10px -30px;
+  color: var(--tm-color-text-secondary);
+  display: inline-block;
+}
+
+.radioWrapper input {
+  margin-left: 20px;
+}
+
+.hierarchyContainer {
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 45px auto;
+  border: 1px solid var(--tm-color-dark-gray);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.hierarchyContainer .border {
+  padding-top: 12px;
+  border: 1px solid var(--tm-color-gy-3);
+}
+
+.hierarchyContainer div {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.hierarchyContainer .checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  min-width: 16px;
+}
+
+.tag {
+  background-color: var(--tm-color-off-white);
+  border-radius: var(--tm-kr-border-radius-l);
+  color: var(--tm-color-text-secondary);
+  align-items: center;
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  margin-right: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.filterTags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filterLabel {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 600;
+  color: var(--tm-color-gy-1);
+}
+.filterTagContainer {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--tm-kr-spacing-3xs);
+}
+.tableListContianer {
+  max-height: 65vh;
+}
+.tableListContianer span:after {
+  box-sizing: content-box;
+}
+.tableListContianer table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.tableHeaderWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderText {
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.tableHeaderIcon {
+  padding-right: 4px;
+}
+.tableHeaderErrorState {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+.tableHeaderToolTipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+@media (min-width: 1024px) {
+  .filterNumbers {
+    display: none;
+  }
+}
+
+.moreTags {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  margin: 0px 8px;
+}
+
+.img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.link {
+  color: var(--tm-input-focused-border-color);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.searchInput {
+  width: 100%;
+  height: 40px;
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-dark-gray);
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput img {
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  margin: 4px 4px 4px 10px;
+}
+
+.searchInput input {
+  width: 90%;
+  height: -moz-stretch;
+  height: -webkit-stretch;
+  height: stretch;
+  outline: none;
+  border-radius: 100px;
+}
+
+.radioLabelBtn {
+  display: flex;
+  align-items: center;
+}
+
+.hierarchyNodeSection {
+  display: flex;
+  align-items: baseline;
+}
+.actionSection {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding-bottom: var(--tm-kr-spacing-3xs);
+}
+.searchBoxSection {
+  flex-grow: 1;
+}
+.filterGroup {
+  display: flex;
+  padding: 0px 6px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.filterLabel {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.userSegmentLoader {
+  position: absolute;
+}
+.dropDownWrapper {
+  padding: 0px var(--tm-kr-spacing-3xs);
+  width: 128px;
+}
+.dropDown {
+  height: var(--tm-kr-spacing-2xl);
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 600;
+  padding: 10px var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-l);
+  border-color: transparent;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+.dropDown div:nth-child(2) {
+  z-index: 2;
+}
+.addFilterBtn {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  height: 44px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: var(--tm-kr-border-radius-l);
+  font-weight: 600;
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-color-text-primary);
+  align-items: center;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.addFilterIcon {
+  padding-left: var(--tm-kr-spacing-2xs);
+}
+.filterSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.applyFilterBtn {
+  background: var(--tm-color-bl-2);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 15px;
+  color: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-bl-2);
+}
+
+.filterButtonSection {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.phoneNumberAndStatusSec {
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  display: flex;
+}
+
+.input {
+  background-color: var(--tm-color-gy-3);
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.footerText {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.classLabel {
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+  margin-left: 15px;
+}
+
+.filters {
+  padding: 5px;
+}
+
+.filters span {
+  background-color: lightgray;
+  padding: 5px;
+  margin: 5px;
+}
+
+.filters span a {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.clearAll {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--tm-color-error);
+  white-space: nowrap;
+}
+.clearAllMweb {
+  display: none;
+}
+.accordionButton {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.closeNode {
+  color: var(--tm-color-text-secondary);
+}
+
+.userSegmentUserType {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.userSegmentTableBg {
+  background: var(--bg-color-secondary);
+}
+
+.noUserSelected {
+  float: right;
+  color: var(--tm-color-text-primary);
+  margin-bottom: 2px;
+}
+
+.phnNumber {
+  color: var(--tm-color-text-secondary);
+}
+
+.filterCancelBtn {
+  font-size: 13px;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+.userNameNumberStatusSec {
+  margin-left: 5px;
+}
+
+.userDP {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 640px) {
+  .clearAll {
+    display: none;
+  }
+  .clearAllMweb {
+    display: flex;
+  }
+  .dropDownWrapper {
+    width: 100%;
+  }
+  .addFilterBtn {
+    flex-grow: 1;
+    padding: 8px;
+    justify-content: space-between;
+  }
+}
+
+.hierarchyNodeCheckbox {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .searchInput input {
+    width: 84%;
+  }
+
+  .phoneNumberAndStatusSec {
+    display: block;
+  }
+  .hierarchyNodeCheckbox {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  .inlineBlock {
+    position: relative;
+    right: 7px;
+    top: 5px;
+  }
+}
+.chipCloseIcon {
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .actionSection {
+    flex-direction: column;
+  }
+  .searchBoxSection {
+    width: 100%;
+  }
+  .filterSection {
+    padding-top: 4px;
+    align-self: flex-start;
+    align-items: stretch;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  tbody tr td:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}

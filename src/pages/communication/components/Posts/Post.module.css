@@ -1,0 +1,769 @@
+.postCardSec {
+  padding-bottom: var(--tm-kr-spacing-2xs);
+}
+.dotSec {
+  display: flex;
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--tm-color-text-secondary);
+  font-size: 12px;
+}
+.postCard {
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-gy-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px;
+}
+.fileAttachedBtn {
+  background-color: var(--tm-color-off-white);
+  border-color: var(--tm-color-off-white);
+  height: var(--tm-kr-spacing-l);
+  padding: 0px var(--tm-kr-spacing-2xs);
+}
+.fileAttachedText {
+  color: var(--tm-color-text-primary) !important;
+  font-size: var(--tm-kr-para-font-size-m) !important;
+  font-weight: 600;
+}
+.postMedia .attachWrapper button div {
+  color: var(--tm-color-text-primary);
+}
+.countText {
+  color: var(--tm-color-text-secondary);
+}
+
+.footerDivider {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.dFlex,
+.postHeadingSec,
+.postHeadingSection {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.moreActionLabel {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.removeModalIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+}
+.removeModalIconWrapper::after {
+  position: absolute;
+  content: '';
+  height: 96px;
+  width: 96px;
+  background-color: var(--tm-color-red);
+  border-radius: 50%;
+  opacity: 0.15;
+}
+.postHeadingSection {
+  justify-content: space-between;
+}
+.postContentContainerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.postCreationInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}
+
+.postContentContainerInfoUserSegment,
+.postContentContainerInfoChannels,
+.postContentContainerInfoDuration {
+  flex: 0 0 100%;
+}
+
+.postContentSec {
+  padding: 16px 0px;
+  padding-bottom: 5px;
+  color: var(--tm-color-text-primary);
+}
+.userSegmentReadCountContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.postHeadingIconImgSec {
+  margin-right: 8px;
+}
+
+.postHeadingIconImg {
+  width: 20px;
+  height: 20px;
+}
+
+.postHeading {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  word-break: break-all;
+  transform: translateY(-2px);
+}
+.smsCountLabelMweb {
+  display: none;
+}
+.badge {
+  padding-left: 24px;
+}
+.removed {
+  color: var(--tm-color-light-gray);
+}
+.shareHeading {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-bl-2);
+  word-break: break-all;
+}
+
+.postAnnouncementTitle {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 14px;
+  word-break: break-all;
+  white-space: break-spaces;
+  display: flex;
+  column-gap: var(--tm-kr-spacing-2xs);
+}
+
+.postAnnouncementMessage {
+  font-size: 14px;
+  word-break: break-all;
+}
+.toolTipBody {
+  color: var(--tm-color-white);
+}
+.postUserSegmentSec {
+  display: flex;
+}
+
+.postContentContainerSec {
+  align-items: center;
+}
+
+.postContentContainerLabel {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  margin-right: 8px;
+}
+
+.postContentContainerBadge {
+  background: var(--tm-bg-tag-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--tm-color-text-primary);
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-transform: capitalize;
+}
+
+.postFooterSec {
+  background: var(--tm-bg-light-gray);
+  border-top: 1px solid var(--tm-color-gy-3);
+  justify-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.postFooterCreateSec {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.postFooterCalendarIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.postFooterCalendarIcon img {
+  height: 14px;
+  max-width: min-content;
+}
+
+.postFooterBtn {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-input-focused-border-color);
+}
+
+.postFooterPostButton {
+  width: 150px;
+  background: var(--tm-bg-light-gray);
+  border: 1px solid var(--tm-input-focused-border-color);
+  border-radius: 6px;
+  padding: 10px;
+}
+.draftActionBtn {
+  display: flex;
+}
+.deleteDraftBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tm-kr-spacing-xl);
+  height: var(--tm-kr-spacing-xl);
+  border: 1px solid var(--tm-color-red);
+  border-radius: 6px;
+  margin-left: 8px;
+}
+.editDraftBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--tm-kr-spacing-xl);
+  border: 1px solid var(--tm-color-blue);
+  color: var(--tm-color-blue);
+  padding: 0px 16px;
+  border-radius: 6px;
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 500;
+}
+.editDraftLabel {
+  padding-left: var(--tm-kr-spacing-3xs);
+}
+.reminderText {
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 4px;
+  color: var(--tm-color-light-gray);
+}
+.redText {
+  color: var(--tm-color-red);
+}
+
+.postMedia {
+  display: flex;
+  padding-top: 16px;
+  position: relative;
+}
+.forwardMwebIcon {
+  display: none;
+}
+.smsInfoContainer {
+  margin-top: var(--tm-kr-spacing-xs);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1024px) {
+}
+
+.postFooterButtonSeparator {
+  color: var(--tm-color-dark-gray);
+  margin: 0px 16px;
+}
+.footerSettings {
+  margin-top: -5px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.postFooterLeftSide {
+  padding: 20px;
+}
+.postFooterRightSide {
+  padding: 15px;
+}
+.dateData {
+  text-align: center;
+}
+
+.postResponsesContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  pointer-events: all;
+}
+.outsideContainer {
+  flex-grow: 1;
+  align-self: flex-start;
+  pointer-events: none;
+}
+.postResponses {
+  display: flex;
+  background-color: var(--tm-color-off-white);
+  border-radius: 16px;
+  height: var(--tm-kr-spacing-2xl);
+  align-items: center;
+  margin-right: var(--tm-kr-spacing-3xs);
+  padding: 0px var(--tm-kr-spacing-xs);
+}
+.postResponses:hover {
+  background-color: var(--tm-bg-light-white);
+}
+.postResponseLabel {
+  font-family: var(--tm-font-family);
+  font-weight: 600;
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-color-gy-1);
+  padding-left: var(--tm-kr-spacing-3xs);
+  padding-right: var(--tm-kr-spacing-5xs);
+}
+.forwardIconContainer {
+  display: flex;
+  align-items: center;
+}
+.forwardIconContainer span.forwardIcon::before {
+  color: var(--tm-color-light-gray);
+}
+.reminderBtn {
+  padding: var(--tm-kr-spacing-3xs) 0px;
+}
+.postRespondedValue,
+.postNotRespondedVal,
+.postSmsCount {
+  font-weight: 700;
+  font-size: var(--tm-kr-para-font-size-l);
+  padding: 0px var(--tm-kr-spacing-5xs);
+}
+.postRespondedValue {
+  color: var(--tm-color-blue);
+}
+.postNotRespondedVal {
+  color: var(--tm-color-blue);
+}
+.postSmsCount {
+  color: var(--tm-color-blue);
+}
+.alignCenter {
+  align-items: center;
+  flex-grow: 1;
+}
+
+.postAnalyticFeedbackQuestion {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+  margin-left: 37px;
+  word-break: break-all;
+  padding: 0.5rem;
+}
+
+.postAnalyticFeedbackQuestionBg {
+  background: var(--tm-bg-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  min-width: 289px;
+  display: -webkit-inline-box;
+}
+
+.postAnalyticQuestionLabel {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: var(--tm-color-text-secondary);
+}
+
+.postAnalyticPollOptionSec {
+  position: relative;
+}
+
+.postAnalyticPollOptionSec,
+.postFeedback-sec {
+  border: 1px solid var(--tm-border-color-gy-2);
+  border-radius: 4px;
+}
+
+.postAnalyticPollOptionWrapper {
+  border-radius: 4px;
+  background-color: var(--tm-bg-tag-light-gray);
+  padding: 10px 0px;
+}
+
+.postAnalyticOptionValue {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-text-primary);
+  width: 75%;
+  margin-left: 10px;
+  padding: 1px 5px;
+  position: absolute;
+}
+
+.postAnalyticOptionVotePercentage {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-text-primary);
+  margin-right: 40px;
+}
+
+.postAnalyticOptionValueText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-light-gray);
+}
+
+.postAnalylicsOptionVotesSec {
+  align-items: center;
+  position: absolute;
+  right: 15%;
+}
+
+.pollAnalyticOptionAndVoteSec {
+  height: 24px;
+  align-items: center;
+}
+
+.postFeedbackAnswerUserImg {
+  width: 24px;
+  height: 24px;
+  margin: 0px 6px;
+}
+
+.postFeedbackAnswerUserName {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+  margin: 0px 6px;
+}
+
+.postFeedbackAnswerUserType {
+  padding: 2px 10px;
+  background: var(--tm-color-gy-3);
+  border-radius: 4px;
+  margin: 0px 8px;
+}
+
+.postFeedbackAnswerUserTypeText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--tm-color-text-secondary);
+}
+
+.postFeedbackAnswerTextSec {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60%;
+}
+
+.postFeedbackAnswerText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.postFeedbackAnswerDateText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(107, 130, 171, 0.5);
+}
+
+.postFeedbackViewResponseBtn {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--tm-color-bl-2);
+}
+
+.postAnalyticQuestionLabelSection {
+  display: flex;
+  align-items: center;
+}
+
+.postAnalyticPollQuestionOptionSection {
+  margin-left: 10px;
+}
+
+.postFooterSection {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.postFooterCreated {
+  order: 4;
+  flex: 0 0 100%;
+}
+
+.postFooterDate {
+  display: flex;
+  align-items: center;
+  order: 1;
+}
+
+.postFooterUserSegmentInfo {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  text-transform: capitalize;
+}
+.postFooterDuration {
+  display: flex;
+  align-items: center;
+  order: 3;
+  flex-grow: 1;
+}
+
+.postFooterButtonSec {
+  display: flex;
+  align-items: center;
+  flex-basis: max-content;
+  margin-top: 0px;
+  position: relative;
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.fileAttached {
+  background: #f7f9fc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.fileDropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-color-white);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  color: var(--tm-color-text-primary);
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px var(--tm-color-shadow);
+  min-width: 200px;
+  width: fit-content;
+  position: absolute;
+  margin-top: 4px;
+  z-index: 1;
+}
+.fileAttachedBtn:hover {
+  background-color: var(--tm-bg-light-white);
+  border-color: var(--tm-bg-light-white);
+}
+.attachmentAnchorTag {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #1da1f2;
+}
+.reminderContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-color-white);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  color: var(--tm-color-text-primary);
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px var(--tm-color-shadow);
+  width: 200px;
+  position: absolute;
+  z-index: 10;
+  right: 0%;
+  top: 105%;
+}
+.reminderArea {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .postResponses {
+    pointer-events: none;
+  }
+  .reminderArea {
+    flex-direction: column-reverse;
+  }
+  .postAnalyticQuestionLabel {
+    display: block;
+  }
+  .dotSec {
+    display: none;
+  }
+  .postFooterCalendarIcon img {
+    padding-left: 12px;
+  }
+  .badge {
+    padding-left: 6px;
+  }
+
+  .postAnalyticFeedbackQuestion {
+    margin-top: 6px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .postFooterSec {
+    display: block;
+  }
+
+  .postFooterLeftSide,
+  .postFooterRightSide {
+    padding: 10px 20px;
+  }
+  .reminderContainer {
+    left: 0%;
+    top: 40%;
+  }
+}
+.moreActions {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.moreActionLabel {
+  font-size: 14px;
+  height: var(--tm-kr-spacing-xl);
+}
+.moreActionContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-color-white);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  color: var(--tm-color-text-primary);
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px var(--tm-color-shadow);
+  width: 200px;
+  position: absolute;
+  z-index: 10;
+  right: 0%;
+  top: 105%;
+}
+
+.moreActionItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 600;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+}
+.prefixIcon {
+  padding-right: 4px;
+}
+.prefixIcon {
+  padding-right: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .postFooterCreated {
+    order: 1;
+    flex: none;
+  }
+
+  .postFooterDate {
+    order: 2;
+  }
+
+  .postFooterDuration {
+    order: 4;
+  }
+
+  .postContentContainerInfoUserSegment,
+  .postContentContainerInfoChannels,
+  .postContentContainerInfoDuration {
+    flex: none;
+  }
+}
+
+.editBtn {
+  height: 30px;
+}
+
+.editBtnLabel {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .deleteDraftBtn {
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+  }
+
+  .editDraftBtn {
+    width: 32px;
+    height: 32px;
+    padding: 0px 12px;
+  }
+  .editDraftLabel {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .postFooterButtonSec {
+    flex-direction: column-reverse;
+    background-color: var(--tm-bg-light-blue);
+    border-radius: var(--tm-kr-border-radius-m);
+    padding: var(--tm-kr-spacing-3xs);
+    gap: var(--tm-kr-spacing-3xs);
+  }
+  .outsideContainer {
+    display: flex;
+    border-top: 1px solid var(--tm-bg-light-white);
+    padding: var(--tm-kr-spacing-3xs) 0px;
+    width: 100%;
+    cursor: pointer;
+    pointer-events: all;
+  }
+  .smsCountLabelMweb {
+    display: inline;
+  }
+  .smsCountLabel {
+    display: none;
+  }
+  .postResponses {
+    margin-right: var(--tm-kr-spacing-5xs);
+    flex-direction: column;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0 0;
+  }
+  .forwardIconContainer {
+    display: none;
+  }
+  .forwardMwebIcon {
+    display: inline;
+    align-self: flex-end;
+  }
+}

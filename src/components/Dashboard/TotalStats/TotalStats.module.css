@@ -1,0 +1,27 @@
+.newFeature {
+  border: 1px solid var(--tm-color-green);
+}
+
+.newFeature img {
+  border-radius: 8px;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-color-text-primary);
+  margin-top: 10px;
+  padding: 0.75rem 1rem;
+  padding-bottom: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .heading {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0px;
+  }
+}

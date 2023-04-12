@@ -1,0 +1,28 @@
+.wishIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+.contentContainer {
+  display: flex;
+  padding: var(--tm-kr-spacing-l) 0 0 0;
+  gap: 30px;
+  align-items: flex-start;
+  height: 100%;
+}
+.stepperWrapper {
+  flex-shrink: 0;
+}
+.infoCollection {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.modalActionBtn {
+  width: 120px;
+}
+
+.modalActionBtn:last-child {
+  margin-left: var(--tm-kr-spacing-2xs);
+}

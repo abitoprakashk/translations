@@ -1,0 +1,39 @@
+.studentDetailsSection {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.amountDetailsText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-dark-red);
+}
+
+.reasonText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.feeTypeMonthYearText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.actionDotBtn {
+  width: 1rem;
+  height: 1rem;
+}
+
+.receiptTooltip {
+  padding: 8px 16px;
+  border-radius: 12px;
+}

@@ -1,0 +1,6 @@
+.inputWrapper {
+  padding: 0px;
+  background: var(--tm-color-white);
+  cursor: pointer;
+  width: 220px;
+}

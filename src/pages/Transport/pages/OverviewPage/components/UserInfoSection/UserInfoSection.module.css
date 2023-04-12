@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.searchBar {
+  width: 400px;
+}
+
+.deletePopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+
+.emptyStateWrapper {
+  margin-top: var(--tm-kr-spacing-5xl);
+}
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+.tableWrapper {
+  margin-bottom: 10px;
+  margin-top: var(--tm-kr-spacing-s);
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}
+
+.kebabMenuIconFrame {
+  background: none;
+}
+
+.filterButton {
+  padding-top: var(--tm-kr-spacing-5xs);
+}

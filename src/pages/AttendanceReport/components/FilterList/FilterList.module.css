@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-xs);
+  padding: var(--tm-kr-spacing-s) 0 0 0;
+}
+.chip {
+  margin: 0;
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-3xs);
+  cursor: unset;
+}
+.chipWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-5xs);
+  align-items: center;
+}

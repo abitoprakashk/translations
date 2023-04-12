@@ -1,0 +1,22 @@
+.inputWrapper {
+  padding: 0px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.amount {
+  margin-left: 8px;
+}
+
+.deleteIcon {
+  align-items: center;
+  height: 40px;
+  width: 20px;
+  cursor: pointer;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.dropdownClass {
+  white-space: nowrap;
+}

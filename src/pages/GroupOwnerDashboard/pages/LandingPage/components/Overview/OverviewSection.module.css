@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--tm-kr-spacing-xs);
+}
+.schools {
+  background-color: var(--tm-kr-color-pastels-poloBlue-10);
+}
+.owner {
+  background-color: var(--tm-kr-color-pastels-melaine-10);
+}
+.students {
+  background-color: var(--tm-kr-color-pastels-calico-10);
+}
+.teachers {
+  background-color: var(--tm-kr-color-pastels-ash-10);
+}
+.nonTeachingStaffs {
+  background-color: var(--tm-kr-color-pastels-biloba-10);
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wrapper div:nth-child(5) {
+    grid-column-end: span 2;
+  }
+}

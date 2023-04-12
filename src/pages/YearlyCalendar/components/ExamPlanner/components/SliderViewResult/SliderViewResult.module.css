@@ -1,0 +1,18 @@
+.selectboxWrapper {
+  padding: 0px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--tm-color-gy-1);
+  margin-bottom: 6px;
+}
+
+.deleteTxt {
+  display: block;
+  color: var(--tm-color-rd-1);
+  font-size: 12px;
+  cursor: pointer;
+}

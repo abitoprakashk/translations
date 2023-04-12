@@ -1,0 +1,71 @@
+.title {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+}
+.mb {
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+.cardWrapper {
+  display: flex;
+  gap: 16px;
+}
+.card {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-s);
+  border-width: 0;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+}
+.title {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.desc {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.iconWrapper {
+  min-width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.schoolCap {
+  background: var(--tm-kr-color-pastels-seaPink-100);
+}
+.students {
+  background: var(--tm-kr-color-palette-morningGlory);
+}
+.infoWrapper {
+  display: flex;
+  gap: 14px;
+}
+.link {
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+}
+.comingSoon {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.comingSoonBadge {
+  border: 1px solid var(--tm-kr-badges-info-text);
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--tm-kr-heading-mobile-font-size-xs);
+  }
+  .cardWrapper {
+    flex-direction: column;
+  }
+}

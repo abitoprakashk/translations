@@ -1,0 +1,108 @@
+.chartWidget {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.chartWidget canvas {
+  width: 90%;
+  max-height: 194px;
+  margin: auto;
+}
+.legendWrapper {
+  display: flex;
+  justify-content: center;
+  margin: var(--tm-kr-spacing-xs) 0;
+  flex-wrap: wrap;
+}
+.legendSpan {
+  display: flex;
+  align-items: center;
+}
+.legend {
+  display: inline-block;
+  min-width: 13px;
+  min-height: 13px;
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.legendLabel {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 var(--tm-kr-spacing-3xs);
+  color: #7a7a7a;
+}
+.legendValue {
+  font-size: var(tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+.chartFilters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  margin-top: var(--tm-kr-spacing-2xs);
+  margin-left: var(--tm-kr-spacing-xs);
+}
+.subHeading {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.admissionIconBgColor {
+  background-color: var(--tm-kr-color-pastels-poloBlue-100) !important;
+}
+.feeIconBgColor {
+  background-color: var(--tm-kr-color-pastels-fringy-110) !important;
+}
+.staffIconBgColor {
+  background-color: var(--tm-kr-color-pastels-morningGlory-100) !important;
+}
+.studentIconBgColor {
+  background-color: var(--tm-kr-color-palette-biloba) !important;
+}
+
+.emptyState {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.emptyStateIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.filterOption {
+  width: 164px;
+}
+.filterDropdown {
+  width: 120px;
+  font-size: 14px;
+  height: 36px;
+  padding: 8px 12px;
+}
+.dateDropdown {
+  height: 36px;
+  padding: 8px 12px;
+}
+.dateInput {
+  width: 148px;
+  height: 36px;
+}
+
+.admissionDateDropDown {
+  width: 142px;
+  height: 36px;
+  padding: 8px 12px;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+@media (max-width: 767px) {
+  .chartWidget {
+    flex-direction: column;
+  }
+  .filterOption {
+    width: 100%;
+  }
+  .calendarWrapper {
+    left: -100%;
+  }
+}

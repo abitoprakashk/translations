@@ -1,0 +1,78 @@
+.mainContainer {
+  width: 328px;
+  margin-top: -10px;
+}
+
+.label {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.noFieldFound {
+  text-align: center;
+  width: 100%;
+}
+
+.noDocuments {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+  width: 250px;
+  text-align: center;
+}
+
+.iconFrame {
+  height: 72px;
+  width: 72px;
+  border-radius: 20px;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.savedDocument {
+  height: 44px;
+  width: 100%;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--tm-kr-spacing-2xs);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.fileName {
+  width: 236px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fileWrapper {
+  width: 330px;
+}
+
+.WraperStyle {
+  margin-top: 20px;
+}
+
+.outerWrapper {
+  margin-top: -20px;
+}

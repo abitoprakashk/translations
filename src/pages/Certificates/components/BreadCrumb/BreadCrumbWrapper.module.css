@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper a {
+  color: var(--tm-color-blue);
+}

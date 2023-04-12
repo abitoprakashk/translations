@@ -1,0 +1,119 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--tm-kr-spacing-s);
+  position: sticky;
+  bottom: 0;
+  padding: var(--tm-kr-spacing-m);
+  background-color: var(--tm-kr-color-base-light-100);
+  box-shadow: 0px -1px 12px rgba(157, 182, 217, 0.1);
+}
+.footer > div {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.wrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-m) var(--tm-kr-spacing-l) var(--tm-kr-spacing-l)
+    var(--tm-kr-spacing-l);
+}
+
+.savePopContent {
+  padding: var(--tm-kr-spacing-l) 0px;
+}
+
+.secondayButton {
+  border: 1px solid var(--tm-kr-color-semantic-basic-10);
+}
+
+.wrapper .popup .secondayButtonLabel {
+  color: var(--tm-kr-color-semantic-basic-100);
+}
+
+.cardWidth {
+  width: 540px;
+}
+
+.cancelButton {
+  width: 120px;
+}
+
+.TemplateGeneratorWrapper {
+  padding: var(--tm-kr-spacing-s);
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.TemplateGeneratorWrapper :global(.templateGeneratorPageSetup) {
+  min-height: 100vh;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-m);
+  padding-right: var(--tm-kr-spacing-s);
+}
+
+.breadcrumb > div:last-of-type {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+  align-items: center;
+}
+.fitContent {
+  width: fit-content;
+}
+
+.fullscreenButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  border: 1px solid var(--tm-kr-color-primary-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-3xs);
+}
+
+.fullScreenContainer {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 14;
+}
+.proceedButtonDiv {
+  position: 'absolute';
+  right: '42px';
+}
+
+.proceedButtonDiv .iconButton {
+  padding: var(--tm-kr-spacing-2xs);
+  border: none;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.iconButton > div {
+  display: inline-flex;
+}
+
+.defaultTemplateHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--tm-kr-spacing-m) var(--tm-kr-spacing-l);
+  padding-bottom: 0px;
+}
+.headerInput {
+  width: 72%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 32px;
+}
+.headerInput > div:last-of-type {
+  display: none;
+}

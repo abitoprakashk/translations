@@ -1,0 +1,40 @@
+.classFilter {
+  margin-top: 20px;
+}
+.mainContainer {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: 20px;
+  cursor: pointer;
+}
+.noPadding {
+  padding: unset;
+}
+.filterFont {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.displayData {
+  display: flex;
+  height: 100%;
+}
+.active {
+  color: var(--tm-kr-color-primary-100);
+}
+.leftMenuBar {
+  width: 30%;
+  position: sticky;
+}
+.dividerPadding {
+  padding-left: unset;
+  padding-right: 21px;
+}
+.subContainer {
+  width: 100%;
+  padding-right: 21px;
+  height: 335px;
+  overflow: auto;
+}
+.iconStyles {
+  float: right;
+}

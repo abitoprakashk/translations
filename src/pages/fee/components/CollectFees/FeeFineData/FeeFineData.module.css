@@ -1,0 +1,72 @@
+.commonWrapper {
+  padding: 0px;
+}
+
+.fineInputField {
+  width: 272px;
+}
+
+.section {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  background: var(--tm-bg-modal-light-gray);
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.dueAmountText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-red);
+}
+
+.appliedAmountText,
+.waivedOffAmountText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--tm-color-text-primary);
+}
+
+.subText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.dueFineText {
+  color: var(--tm-color-semantic-error-1);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+/* .feeDataSection {
+  margin: 10px;
+} */
+
+.feeDataContentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feeDataInnerContentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collectDueFineBtn {
+  margin-top: 20px;
+}
+
+.plainCard {
+  margin-top: 8px;
+}

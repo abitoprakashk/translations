@@ -1,0 +1,6 @@
+.tabGroupWrapper {
+  width: 230px;
+}
+.componentWrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}

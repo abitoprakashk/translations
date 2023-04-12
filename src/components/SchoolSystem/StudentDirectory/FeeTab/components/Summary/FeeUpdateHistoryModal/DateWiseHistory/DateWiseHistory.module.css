@@ -1,0 +1,39 @@
+.section {
+  padding: 20px;
+  flex: 1;
+  overflow: auto;
+}
+
+.calloutCardSection {
+  display: flex;
+  gap: 20px;
+}
+
+.amountChangedSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upTransform {
+  transform: rotate(-90deg);
+}
+.downTransform {
+  transform: rotate(90deg);
+}
+
+.alertComp {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.alertComp > div > p {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.updatedByName {
+  text-transform: capitalize;
+}

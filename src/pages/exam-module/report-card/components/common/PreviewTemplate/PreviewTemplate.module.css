@@ -1,0 +1,7 @@
+.wrapper {
+  background-color: var(--tm-color-wh-1);
+  width: 590px;
+  height: 835px;
+  margin-top: 15px;
+  overflow-y: scroll;
+}

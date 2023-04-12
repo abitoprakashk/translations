@@ -1,0 +1,32 @@
+.sessionLabel {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: var(--tm-font-weight-semi-bold);
+  display: flex;
+  column-gap: var(--tm-kr-spacing-5xs);
+}
+
+.contentTitle {
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  margin-top: var(--tm-kr-spacing-xs);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sectionsCell {
+  display: flex;
+  align-items: center;
+  column-gap: var(--tm-kr-spacing-4xs);
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}

@@ -1,0 +1,21 @@
+.archivedContainer {
+  margin-bottom: var(--tm-kr-spacing-m);
+}
+.archivedContainer > h6 {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.wrapper {
+  padding-top: var(--tm-kr-spacing-m);
+}
+
+.modalDownloadButton {
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.wrapper .previewModal .modalDownloadButton > span {
+  padding: 0px;
+}
+
+.modalHeader div:last-of-type {
+  display: inline-flex;
+}

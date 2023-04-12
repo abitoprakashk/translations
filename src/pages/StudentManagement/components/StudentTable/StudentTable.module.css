@@ -1,0 +1,114 @@
+/* Table items */
+.nameAvatarWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nameAvatarWrapper div:first-child {
+  flex-shrink: 0;
+}
+.nameWrapper {
+  width: 100%;
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.mailIcon {
+  cursor: pointer;
+}
+.textWhite {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+.classroomNamePara {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.classSubjectWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.classSubjectTooltipBadge {
+  cursor: pointer;
+}
+.statusInActiveBadge {
+  background-color: var(--tm-kr-color-neutrals-grey-60) !important;
+}
+
+.phoneIcon {
+  margin-left: var(--tm-kr-spacing-4xs);
+}
+
+@media screen and (min-width: 768px) {
+  .phoneIcon {
+    display: none;
+  }
+}
+
+/* Table */
+.tableWrapper {
+  height: calc(100vh - 250px);
+}
+.tableWrapper > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+/* Handle */
+.tableWrapper > div > div::-webkit-scrollbar-thumb {
+  background: #cccccc !important;
+}
+/* Handle on hover */
+.tableWrapper > div > div::-webkit-scrollbar-thumb:hover {
+  background: #cccccc !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  display: initial !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.tableWrapper > div > div {
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.tableWrapper table {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  margin: 0;
+}
+.tableWrapper table thead {
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+}
+
+.table tbody tr td,
+.table thead tr td {
+  min-width: 150px;
+  max-width: 200px;
+  word-break: break-word;
+}
+
+.table tbody tr td:nth-child(2),
+.table thead tr td:nth-child(2) {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+@media (min-width: 768px) {
+  .tableWrapper table {
+    table-layout: fixed;
+  }
+
+  .table tbody tr td,
+  .table thead tr td,
+  .table tbody tr td:nth-child(2),
+  .table thead tr td:nth-child(2) {
+    min-width: 150px;
+    max-width: 300px;
+  }
+}

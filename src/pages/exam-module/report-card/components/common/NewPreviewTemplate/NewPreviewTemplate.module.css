@@ -1,0 +1,13 @@
+.pdfContainer {
+  height: 100%;
+  width: 8.17in;
+  margin: 16px auto;
+  overflow: hidden;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.pdfContainer > object {
+  width: calc(8.17in + 20px);
+  margin-left: -10px;
+  margin-top: -3px;
+}

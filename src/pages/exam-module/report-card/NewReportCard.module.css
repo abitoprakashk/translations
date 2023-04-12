@@ -1,0 +1,43 @@
+.wrapper {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+.wrapper [data-qa='tab-group'] {
+  width: fit-content;
+  min-width: 225px;
+}
+
+.tabWrapper {
+  margin-bottom: var(--tm-kr-spacing-s);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.tabWrapper ul > li > a {
+  padding: 0;
+}
+
+.headerDivider {
+  padding: var(--tm-kr-spacing-s) 0 !important;
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper [data-qa='tab-group'] {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .headerDivider {
+    padding: var(--tm-kr-spacing-xs) 0 !important;
+  }
+
+  .wrapper .reportcardCtaWrapper {
+    flex-grow: 1;
+  }
+}

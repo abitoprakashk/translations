@@ -1,0 +1,82 @@
+.modal {
+  height: 450px;
+  width: 540px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--tm-kr-modal-header-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalTitle {
+  display: flex;
+  align-items: center;
+}
+
+.modalClickable {
+  cursor: pointer;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.changeLeadStageButton {
+  width: 115px;
+  height: 44px;
+}
+
+.feeStructure {
+  margin-top: 20px;
+}
+
+.dropdown.zIndex {
+  z-index: 4;
+}
+
+.dropdownField {
+  font-size: var(--tm-kr-text-input-font-size);
+}
+
+.dropdownOptionWidth > p {
+  width: 100%;
+}
+
+.structureDetailsSpacing {
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+.structureName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.structureDetails {
+  display: flex;
+}
+
+.descriptionStyle {
+  margin-top: 20px;
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 40px;
+  width: 320px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}

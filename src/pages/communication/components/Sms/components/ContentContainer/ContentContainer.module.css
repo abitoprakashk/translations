@@ -1,0 +1,29 @@
+.contentSection {
+  padding-top: var(--tm-kr-spacing-m);
+  height: auto;
+}
+.contentAreaTitle {
+  padding-bottom: var(--tm-kr-spacing-xs);
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.contentAreaBody {
+  height: 100%;
+}
+.toolTipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+.infoIcon {
+  transform: translateY(2px);
+}
+.templateSelectionTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+@media screen and (max-width: 576px) {
+  .contentSection {
+    padding-top: 0px;
+  }
+}

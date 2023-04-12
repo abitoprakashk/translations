@@ -1,0 +1,15 @@
+.titleContainer {
+  display: flex;
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-input-title-mobile-font-size);
+  line-height: var(--tm-kr-input-title-mobile-font-height);
+  font-weight: var(--tm-kr-input-title-font-weight);
+}
+
+/* width >=768px is same as --large-devices in krayon*/
+@media (width >= 768px) {
+  .titleContainer {
+    font-size: var(--tm-kr-input-title-laptop-font-size);
+  }
+}

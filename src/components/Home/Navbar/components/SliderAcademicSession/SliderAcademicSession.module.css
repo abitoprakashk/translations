@@ -1,0 +1,21 @@
+.sliderContent {
+  padding: var(--tm-kr-spacing-s);
+  height: 90%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoContainer {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: 12px;
+  padding: var(--tm-kr-spacing-xs);
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  column-gap: var(--tm-kr-spacing-4xs);
+  margin: 0 var(--tm-kr-spacing-xs);
+}

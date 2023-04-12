@@ -1,0 +1,38 @@
+.settingsHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.settingsHeaderImage {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.settingsHeaderImageContainer {
+  display: table;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--tm-color-light-green);
+  border-radius: 8px;
+}
+
+.settingsHeaderTitleWrapper {
+  padding-left: 1rem;
+}
+
+.settingsHeaderTitle {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.settingsHeaderDesc {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}

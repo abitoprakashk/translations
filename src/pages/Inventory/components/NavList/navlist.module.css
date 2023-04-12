@@ -1,0 +1,24 @@
+.tabMenu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+}
+
+.tabMenu a {
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.active {
+  color: var(--tm-color-blue);
+  border-bottom: 1px solid var(--tm-color-blue);
+}
+
+.tabSection {
+  display: flex;
+  align-items: center;
+}

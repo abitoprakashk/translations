@@ -1,0 +1,19 @@
+.errorWrapper {
+  height: 300px;
+  position: relative;
+  margin-top: var(--tm-kr-spacing-s);
+}
+.iconFrame {
+  background: var(--tm-kr-color-pastels-feijoa-100);
+}
+.footer {
+  padding: 0;
+}
+
+.widgetHeaderTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+.header {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s);
+}

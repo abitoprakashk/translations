@@ -1,0 +1,80 @@
+.wrapper {
+  width: 100%;
+  display: block;
+  padding: 16px 0;
+}
+
+.breadcrumbWrapper {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.container {
+  height: auto;
+  padding: 20px;
+}
+
+.first_div {
+  width: 100%;
+  margin-top: 15px;
+}
+.template_info {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: var(--tm-kr-color-base-light-100);
+  border-radius: 8px;
+  gap: 16px;
+}
+.instituteInfo {
+  margin-top: 15px;
+}
+
+.template_info .image_wrapper {
+  padding: 6px 8px;
+  width: max-content;
+  border-radius: 5px;
+  background-color: var(--tm-bg-modal-light-gray);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.template_info img {
+  width: 100px;
+  height: 72px;
+  margin: 0;
+}
+
+.template_change {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
+.template_change p span {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+.template_change p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.link {
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .breadcrumbWrapper {
+    margin-left: 0px;
+  }
+
+  .noReportCardWrapper {
+    margin-top: 70px;
+  }
+}

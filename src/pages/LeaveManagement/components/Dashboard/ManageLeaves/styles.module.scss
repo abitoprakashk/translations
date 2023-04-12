@@ -1,0 +1,32 @@
+$vertical-spacing: 20px;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $vertical-spacing;
+
+  > div {
+    order: 10;
+  }
+
+  > .header,
+  > .staffOnLeave {
+    order: 0;
+  }
+}
+
+.isMobile {
+  & > .header {
+    order: 1;
+  }
+
+  .listWrapper {
+    background: var(--tm-color-off-white);
+    margin: 0 -16px;
+    padding: 16px;
+  }
+}
+
+.divider {
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}

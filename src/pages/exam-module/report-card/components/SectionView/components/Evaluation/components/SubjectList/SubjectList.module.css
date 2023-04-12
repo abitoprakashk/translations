@@ -1,0 +1,48 @@
+.subjectGrid {
+  --columns: 8;
+  display: grid;
+  gap: var(--tm-kr-spacing-s);
+  grid-template-columns: repeat(var(--columns), minmax(min-content, 1fr));
+}
+
+@media screen and (max-width: 2400px) {
+  .subjectGrid {
+    --columns: 7;
+  }
+}
+
+@media screen and (max-width: 2150px) {
+  .subjectGrid {
+    --columns: 6;
+  }
+}
+
+@media screen and (max-width: 1830px) {
+  .subjectGrid {
+    --columns: 5;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  .subjectGrid {
+    --columns: 4;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .subjectGrid {
+    --columns: 3;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subjectGrid {
+    --columns: 2;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .subjectGrid {
+    --columns: 1;
+  }
+}

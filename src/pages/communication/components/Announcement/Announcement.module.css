@@ -1,0 +1,18 @@
+.messageTextareaCount {
+  position: relative;
+  bottom: -20%;
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  color: var(--tm-color-text-secondary);
+}
+
+.letterLimit {
+  color: red;
+  font-size: 14px;
+}
+@media screen and (max-width: 640px) {
+  .messageTextareaCount {
+    bottom: -36%;
+  }
+}

@@ -1,0 +1,148 @@
+.feeHistory {
+  padding: 10px 20px;
+  overflow: scroll;
+  height: calc(100% - 100px);
+}
+
+Table {
+  margin-bottom: 30px;
+}
+
+.feeDetails > div:not(:first-child) {
+  border-left: 1px solid var(--tm-color-gy-1);
+  padding-left: 30px;
+}
+
+.feeDetails > div {
+  margin: auto;
+}
+
+.feeHistory > div {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.feeHistory input[type='text'],
+.feeHistory select {
+  background-color: var(--tm-color-gy-3);
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.feeHistory label {
+  display: block;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 600;
+}
+
+.feeFilterAndDetailsSection {
+  background-color: var(--tm-bg-slider-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  padding: 20px;
+}
+
+.feeDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feeDetails p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.feeDetails span {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.total {
+  color: var(--tm-color-bl-2);
+}
+
+.paid {
+  color: var(--tm-color-gr-1);
+}
+
+.due {
+  color: var(--tm-color-text-primary);
+}
+
+.payment > div {
+  font-size: 14px;
+  color: var(--tm-color-gr-1);
+  margin-bottom: 6px;
+}
+
+.payment > span {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+}
+
+.discountAmount {
+  color: var(--tm-color-rd-1);
+}
+
+.totalPending {
+  color: var(--tm-color-og-1);
+}
+
+.cstTxnId {
+  display: inline-block;
+}
+
+.cstTxnIdCopyIcon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.downloadIcon {
+  cursor: pointer;
+  color: var(--tm-sk-bl-2);
+}
+
+.inputWrapper {
+  padding: 0px;
+  background: var(--tm-color-white);
+  cursor: pointer;
+  width: 220px;
+}
+
+.inputDropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.summaryText {
+  font-size: 20px;
+  color: var(--tm-color-bl-1);
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.payableAmount {
+  color: var(--tm-fee-statistics-color-applied);
+}
+
+.paidAmount {
+  color: var(--tm-fee-statistics-color-paid);
+}
+
+.dueAmount {
+  color: var(--tm-fee-statistics-color-due);
+}
+
+.discountAmount {
+  color: var(--tm-fee-statistics-color-discount);
+}
+
+.pendingAmount {
+  color: var(--tm-fee-statistics-color-pending);
+}

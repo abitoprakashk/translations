@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 150px;
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.white.wrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.white.input {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.infoMsg {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  color: var(--tm-color-text-primary);
+  padding: 16px;
+  height: 100%;
+}
+
+.text {
+  color: var(--tm-color-text-primary);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 20px;
+    margin-bottom: 1rem;
+    overflow: auto;
+  }
+}

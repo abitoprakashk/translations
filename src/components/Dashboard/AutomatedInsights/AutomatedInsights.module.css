@@ -1,0 +1,87 @@
+.backGround {
+  display: flex;
+}
+.pStyles {
+  margin-top: 20px;
+}
+.subText {
+  font-size: 20px;
+}
+.subTextStyling {
+  margin-left: 5px;
+}
+.announcementStyle {
+  position: sticky;
+  top: 90px;
+  margin-bottom: 10px;
+}
+.headerStyle {
+  position: sticky;
+  top: 0px;
+  margin-bottom: 15px;
+}
+.iconStyle {
+  margin-top: 2px;
+}
+
+.textColor {
+  color: var(--tm-color-text-secondary);
+}
+.srickySidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  gap: var(--tm-kr-spacing-s);
+}
+.stickySidebar {
+  position: sticky;
+  bottom: 20px;
+}
+
+.fontSizer {
+  display: inline-block;
+}
+
+.flexStyling {
+  flex-grow: 2;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 360px) {
+  .stickySidebar {
+    position: inherit;
+    bottom: 20px;
+  }
+  .announcementStyle {
+    position: inherit;
+    top: 90px;
+  }
+  .headerStyle {
+    position: inherit;
+    top: 50px;
+  }
+}
+
+.todayFeeCollectionText {
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+  .srickySidebar {
+    height: unset;
+    position: sticky;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .srickySidebar {
+    justify-content: flex-start;
+  }
+
+  .headerStyle,
+  .announcementStyle,
+  .stickySidebar {
+    position: inherit;
+  }
+}

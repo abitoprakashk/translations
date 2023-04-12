@@ -1,0 +1,67 @@
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  gap: 45px;
+}
+
+.fromAccount {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.fromText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.previousAccountNameText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.previousAccountNumberText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  width: 200px;
+}
+
+.dropdownOptionWidthFitContent {
+  height: 64px;
+}
+.dropdownOptionEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footerMessage {
+  color: var(--tm-kr-color-semantic-error-110);
+}

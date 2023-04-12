@@ -1,0 +1,17 @@
+.section {
+  padding-left: 12px;
+  border-left: 3px solid var(--tm-color-light-gray);
+  margin-top: 20px;
+}
+
+.headingtext {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.success {
+  border-color: var(--tm-kr-color-semantic-success-100);
+}

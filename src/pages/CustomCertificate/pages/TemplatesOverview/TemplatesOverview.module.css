@@ -1,0 +1,44 @@
+.wrapper .tabsWrapper {
+  width: 200px;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.documentHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.documentHeader > span {
+  color: var(--tm-kr-color-primary-100);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oldCertificate {
+  margin: var(--tm-kr-spacing-m) 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.oldCertificate span {
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+}
+
+.modalDownloadButton {
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.wrapper .previewModal .modalDownloadButton > span {
+  padding: 0px;
+}
+
+.modalHeader div:last-of-type {
+  display: inline-flex;
+}

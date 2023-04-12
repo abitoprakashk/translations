@@ -1,0 +1,11 @@
+.iconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+.unpaidWidgetLockContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--tm-kr-spacing-4xs);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+  height: 260px;
+}

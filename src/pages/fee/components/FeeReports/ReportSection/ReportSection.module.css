@@ -1,0 +1,36 @@
+.reportChildrenSection {
+  width: 100%;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 188px;
+  background: var(--tm-bg-modal-light-gray);
+  box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card:hover {
+  background: var(--tm-bg-tag-light-gray);
+}
+
+.cardIconBg {
+  width: 40px;
+  height: 40px;
+  background: var(--tm-bg-gray-1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.headingSection {
+  margin-bottom: 16px;
+}
+
+.titleSection {
+  margin-top: 12px;
+}

@@ -1,0 +1,64 @@
+.tableWrapper {
+  height: calc(100vh - 360px);
+}
+.tableWrapper > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+/* Handle */
+.tableWrapper > div > div::-webkit-scrollbar-thumb {
+  background: #cccccc !important;
+}
+/* Handle on hover */
+.tableWrapper > div > div::-webkit-scrollbar-thumb:hover {
+  background: #cccccc !important;
+}
+
+.tableWrapper > div > div::-webkit-scrollbar {
+  display: initial !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+.tableWrapper table {
+  margin: 0;
+}
+.tableWrapper table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: var(--tm-kr-table-row-color-dark);
+}
+.table tbody tr:nth-child(odd) td {
+  background-color: var(--tm-kr-color-base-light-100);
+}
+.table tbody tr td:first-child {
+  left: calc(var(--tm-kr-spacing-m) * -1);
+}
+.table thead tr td:first-child {
+  left: calc(var(--tm-kr-spacing-m) * -1);
+}
+.table tbody tr td,
+.table thead tr td {
+  min-width: 150px;
+  max-width: 300px;
+}
+.rowsWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-right: var(--tm-kr-spacing-3xs);
+}
+.table thead tr th:first-child {
+  min-width: 268px;
+}
+@media (max-width: 768px) {
+  .tableWrapper table thead {
+    top: 120px;
+  }
+}

@@ -1,0 +1,52 @@
+.modal {
+  padding: 0px;
+}
+.filterWrapper {
+  display: flex;
+  height: fit-content;
+  min-height: 300px;
+  width: fit-content;
+  min-width: 740px;
+}
+.filterList {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.filterDetails {
+  width: 100%;
+  align-self: stretch;
+}
+.filterListItem {
+  display: flex;
+  align-items: center;
+  padding: var(--tm-kr-spacing-s) 0px var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-l);
+  cursor: pointer;
+}
+.itemText {
+  min-width: 160px;
+  width: fit-content;
+  flex-grow: 1;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.selected {
+  color: var(--tm-kr-color-primary-100);
+}
+.checkboxWrapper {
+  margin-top: var(--tm-kr-spacing-s);
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  height: 100%;
+  overflow-y: scroll;
+}
+.dateWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+  margin-left: var(--tm-kr-spacing-xs);
+}
+.dateInput {
+  width: 150px;
+}

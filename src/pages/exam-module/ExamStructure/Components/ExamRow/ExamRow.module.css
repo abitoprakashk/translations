@@ -1,0 +1,86 @@
+.container {
+  padding: 0.25rem;
+  background-color: var(--tm-color-white);
+  width: 100%;
+}
+
+.titleClass {
+  /* border-radius: 8px; */
+  background-color: var(--tm-bg-modal-light-gray);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionClass {
+  margin: 0.25rem;
+  border-radius: 8px;
+  background-color: var(--tm-bg-modal-light-gray);
+  box-shadow: none;
+}
+
+.textInputClass {
+  width: 68%;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+.numberInputClass {
+  width: 30%;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+.examName {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.subjectListContainer {
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: var(--tm-color-text-primary);
+  margin-left: 20px;
+}
+/* .deleteExamContainer {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-end;
+} */
+.deleteExam {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-dark-red);
+}
+
+.DragHolder {
+  margin-right: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.horizontalLine {
+  width: 100%;
+  border-width: 1px;
+  color: var(--tm-bg-light-white);
+}
+
+@media screen and (max-width: 640px) {
+  .textInputClass {
+    width: 50%;
+  }
+  .numberInputClass {
+    width: 50%;
+  }
+}

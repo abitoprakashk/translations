@@ -1,0 +1,142 @@
+.container {
+  background: var(--tm-kr-color-base-light-100);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.container table {
+  margin-top: 0px;
+}
+
+.searchWrapper {
+  padding: 16px;
+}
+
+.generateButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .generateButton {
+  margin-top: -38px;
+} */
+
+.generateLoading {
+  padding: 0px;
+  box-shadow: none;
+}
+
+.previewButton {
+  width: fit-content;
+}
+
+.downloadButton {
+  box-shadow: none;
+  background-color: transparent;
+  border: 1px solid var(--tm-color-bl-2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+.printAllButton {
+  border: 1px solid var(--tm-color-bl-2);
+  border-radius: 8px;
+  float: right;
+  padding: 8px 8px 0px;
+  margin-top: -45px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tableContainer {
+  overflow: scroll;
+  height: 30vh;
+}
+
+.tableContainer tbody {
+  background: var(--tm-kr-color-base-light-100);
+}
+
+.tableContainer td {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.tableContainer .cell {
+  padding: 10px 10px;
+}
+
+.tableContainer thead td {
+  font-size: 12px;
+  min-width: 200px;
+}
+
+.desktopButtonView {
+  display: none;
+}
+
+.mobileButtonView {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  gap: 10px;
+  margin-right: 28px;
+}
+
+.mobileButtonView button {
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.generateDownloadButton {
+  margin-bottom: 16px;
+  margin-right: 10px;
+}
+
+.generateButton {
+  margin-bottom: 16px;
+}
+
+.generateButtonWrapper {
+  width: inherit;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.loader {
+  margin-top: 300px;
+}
+
+.emptyStateContainer {
+  margin-top: 100px;
+}
+
+.generateBtn {
+  height: auto;
+  white-space: break-spaces;
+  min-height: var(--tm-kr-button-size-m-height);
+}
+
+@media (min-width: 1024px) {
+  .printAllButton {
+    margin-bottom: 22px;
+  }
+
+  .tableContainer {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .desktopButtonView {
+    display: flex;
+  }
+
+  .mobileButtonView {
+    display: none;
+  }
+}

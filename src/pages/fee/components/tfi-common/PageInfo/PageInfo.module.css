@@ -1,0 +1,20 @@
+.wrapper {
+  background: var(--tm-dark-blue-3);
+  border-radius: 12px;
+  display: flex;
+  /* width: 100%; */
+}
+
+.numberSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.numberText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-wh-1);
+}

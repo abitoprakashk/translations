@@ -1,0 +1,39 @@
+.dropdown {
+  background: var(--tm-color-wh-1);
+  box-shadow: 0px 3px 5px rgba(157, 182, 217, 0.2);
+}
+
+.courseLogo {
+  height: 20px;
+  width: 20px;
+  margin-right: var(--tm-kr-spacing-5xs);
+}
+
+.dropdownPlaceholder {
+  display: flex;
+  align-items: flex-end;
+}
+
+.courseDropDownCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseDropdownTab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comingSoonText {
+  color: var(--tm-kr-para-type-info);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+}
+.dropdownTabLabelCont {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

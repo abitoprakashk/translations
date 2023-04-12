@@ -1,0 +1,23 @@
+.historyCardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+}
+
+.activityMessage {
+  height: 48px;
+  width: 100%;
+}
+
+.historyCard {
+  display: flex;
+  gap: 10px;
+  border: 1px solid var(--tm-kr-plaincard-border-color);
+  border-radius: var(--tm-kr-plaincard-border-radius);
+  padding: 12px;
+}

@@ -1,0 +1,56 @@
+.setupCard.bgColor {
+  background-color: var(--tm-kr-color-base-dark-100);
+}
+
+.setupCardBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setupCardDescription {
+  display: flex;
+}
+
+.setupCardProgress {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+}
+
+.setupCardContent {
+  margin-left: var(--tm-kr-spacing-xs);
+}
+
+.setupCardContent p {
+  color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+.setupCardHeading.color {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.setupContent {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schoolCapIcon {
+  height: 70px;
+  width: 70px;
+}
+
+.setupContent h6 {
+  margin-top: 16px;
+}
+
+.setupContent p {
+  margin-top: 4px;
+  width: 500px;
+  text-align: center;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

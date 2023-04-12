@@ -1,0 +1,217 @@
+.wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 var(--tm-kr-spacing-s);
+}
+
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-plaincard-spacing) 0;
+  border: none;
+}
+.mainModal {
+  width: 630px;
+  height: auto;
+}
+.content {
+  overflow: scroll;
+  min-width: 600px;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.gridItem {
+  width: 100%;
+}
+
+.info {
+  grid-column: 1 / 3;
+}
+
+.leaveTypeLabel {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.leaveCount {
+  margin-left: auto;
+}
+
+.readOnlyField [class^='krayon__TextInput-module'] {
+  background: var(--tm-kr-color-neutrals-grey-10);
+  border: none;
+  padding: 0;
+  height: var(--tm-kr-spacing-m);
+}
+
+.readOnlyField input {
+  background: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.editAttendanceBox {
+  font-weight: normal;
+}
+.viewProfileDetails {
+  font-weight: normal;
+  padding: 0 var(--tm-kr-plaincard-spacing) var(--tm-kr-plaincard-spacing);
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.subInfoDetails {
+  font-weight: normal;
+}
+
+.viewDetailsLeft,
+.viewDetailsRight {
+  display: inline-block;
+  width: 50%;
+}
+
+.viewDetailsLeft {
+  font-weight: normal;
+}
+.profileImg {
+  display: inline-block;
+  vertical-align: top;
+}
+.infoWrapper {
+  display: inline-block;
+  padding-left: var(--tm-kr-spacing-3xs);
+}
+.userName {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.subInfoDetails {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-weight: 500;
+}
+.designation {
+  display: inline-block;
+  padding-right: var(--tm-kr-spacing-3xs);
+}
+.dotBox {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--tm-kr-color-neutrals-grey-70);
+  vertical-align: middle;
+}
+.shiftName {
+  padding-left: var(--tm-kr-spacing-3xs);
+}
+.viewDetailsRight {
+  text-align: right;
+}
+.statusBox {
+  display: inline-block;
+}
+.statusLabel {
+  font-weight: normal;
+}
+
+.dateInfoBlock {
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.dateBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+  border-right: 1px solid var(--tm-border-color-gray-2);
+}
+.checkInBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+  border-right: 1px solid var(--tm-border-color-gray-2);
+}
+.checkOutBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+}
+.labelInfo {
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.labelValue {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.attendanceBox {
+  display: block;
+  min-height: 200px;
+  margin: var(--tm-kr-spacing-s) var(--tm-kr-spacing-s) 0;
+  background: var(--tm-kr-color-base-light-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  border: 1px solid var(--tm-border-color-gray-2);
+}
+.attendanceTopBlock {
+  padding: var(--tm-kr-icon-size-s);
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.selectLeaveType {
+  display: flex;
+}
+.radioInnerBlock {
+  width: 100%;
+}
+.radioWrapper {
+  margin-left: 0;
+}
+.radioBtn {
+  font-weight: normal;
+}
+.radioLabel {
+  font-weight: normal;
+}
+.attendanceBottomBlock {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-icon-size-s);
+}
+.innerCommonWrapper {
+  display: inline-block;
+  width: 100%;
+}
+.presentBoxTitle {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-spacing-2xs);
+  font-weight: 500;
+  line-height: var(--tm-kr-spacing-s);
+}
+.wrapperCheckBox {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.wrapperCheckBox > label {
+  margin-left: 0;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-weight: 500;
+}
+.wrapperCheckBox > label:first-child {
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+@media screen and (max-width: 768px) {
+  .optionClass {
+    padding: 0px 20px;
+  }
+  .content {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,5 @@
+.disabled:global(.submit) {
+  background-color: var(--tm-color-light-gray);
+  border: 1 solid var(--tm-color-light-gray);
+  cursor: default;
+}

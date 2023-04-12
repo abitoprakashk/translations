@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--tm-kr-pagination-wrapper-bg-color);
+  height: var(--tm-kr-pagination-height);
+  border-radius: var(--tm-kr-pagination-border-radius);
+  padding: var(--tm-kr-pagination-padding);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.action {
+  margin-left: var(--tm-kr-spacing-xs);
+}
+
+.iconButton {
+  height: var(--tm-kr-pagination-icon-btn-height);
+  width: var(--tm-kr-pagination-icon-btn-width);
+  border-radius: var(--tm-kr-pagination-icon-btn-border-radius);
+}
+
+.label {
+  color: var(--tm-kr-pagination-label-color);
+  font-size: var(--tm-kr-pagination-label-font-size);
+}
+
+.currentPageLabel {
+  font-size: var(--tm-kr-pagination-current-page-label-font-size);
+  color: var(--tm-kr-pagination-current-page-label-color);
+}

@@ -1,0 +1,129 @@
+.contentSection {
+  padding: 20px 40px;
+  overflow-y: auto;
+  height: 84vh;
+}
+
+/* .sliderTitleSection {
+  margin-bottom: 16px;
+} */
+
+.sliderTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.blockSection {
+  border-bottom: 1px solid var(--tm-color-gy-2);
+  padding: 20px 0px 18px 0px;
+}
+
+.inputFieldSection {
+  margin-top: 16px;
+  width: 400px;
+}
+.inputFieldSection span {
+  color: var(--tm-color-text-secondary);
+}
+
+.inputField {
+  width: 400px;
+  height: 48px;
+  background: var(--tm-bg-modal-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  border-radius: 8px;
+}
+
+.numberLabelSection {
+  margin-bottom: 1px;
+}
+
+.footerSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.isPendingChequeIncludedSection {
+  margin-top: 5px;
+}
+
+.dateSection {
+  display: flex;
+}
+
+.modalContentSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.datePicker {
+  padding: 16px;
+  width: 100%;
+}
+
+.dateField {
+  padding: 16px 16px 10px 0px;
+}
+
+.footerCheckboxSection {
+  margin-right: 20px;
+}
+
+.footerCheckbox {
+  outline: none;
+}
+
+.footerCheckbox label {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-text-primary);
+}
+
+.downloadReportBtn {
+  min-width: 240px;
+  height: 44px;
+}
+
+.headerBigDotIcon {
+  width: 24px;
+  height: 24px;
+  background: var(--tm-color-bl-1);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.disabled span {
+  background-color: var(--tm-color-rd-1);
+}
+.enabled label span:nth-child(2) {
+  right: 0px;
+  background-color: var(--tm-color-gr-1) !important;
+}
+
+.textCapitalize {
+  text-transform: capitalize;
+}
+
+.multiSelectDDContent {
+  max-height: 200px;
+  height: auto;
+}
+
+.isPendingChequeIncludedText {
+  margin-right: 8px;
+}
+
+.dateWrapper.higherSpecifisity {
+  z-index: 12;
+}
+
+.zIndex15 {
+  z-index: 13;
+}

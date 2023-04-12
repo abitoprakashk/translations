@@ -1,0 +1,50 @@
+.datePickersWrapper > div {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+
+.datePickersWrapper input {
+  width: 100%;
+}
+
+.selectClassWrapper {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* .selectClassWrapper div {
+  width: 172px;
+} */
+
+/* .selectClassWrapper div:first-child {
+  margin-right: 15px;
+} */
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+
+.infoText {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .datePickersWrapper > div {
+    display: block;
+  }
+  .datePickersWrapper > div > div {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}
+
+.inputWrapper {
+  padding: 0px;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  margin-top: 80px;
+}
+
+.wrapper [class^='krayon__IconFrame-module__'] {
+  width: 70px;
+  height: 70px;
+}
+
+.button {
+  display: none;
+}

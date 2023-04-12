@@ -1,0 +1,74 @@
+.bg {
+  background-color: #f6f7fa;
+  float: left;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.amountWrapper {
+  display: flex;
+  font-size: 14px;
+}
+
+.amountWrapper > div:nth-child(1) {
+  border-right: 1px solid #6b82ab;
+  padding: 0 10px 0 0;
+}
+
+.amountWrapper > div:nth-child(2) {
+  padding: 0 0 0 10px;
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+  font-size: 24px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading a {
+  font-size: 14px;
+  color: #1da1f2;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.iconSize {
+  width: 15px;
+  font-weight: bold;
+}
+.paid {
+  color: #36b37e;
+}
+
+.due {
+  color: #ff5e5e;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 18px;
+}
+.fontSettings {
+  color: var(--tm-color-text-secondary);
+}
+.classData {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+}
+div.classDataName {
+  font-size: 16px;
+  white-space: nowrap;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen and (max-width: 600px) {
+  .feeSummaryData {
+    display: table-cell;
+    min-width: 250px;
+    overflow: auto;
+  }
+}

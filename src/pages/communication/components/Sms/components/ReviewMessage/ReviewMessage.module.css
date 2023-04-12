@@ -1,0 +1,121 @@
+.outsideContainer {
+  height: 100%;
+  overflow-y: scroll;
+  min-height: 435px;
+}
+.container {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-s);
+}
+.smsBubble {
+  position: relative;
+}
+.smsBodyContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: var(--tm-kr-color-base-dark-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+  font-size: var(--tm-kr-para-font-size-l);
+  border-radius: 16px;
+  padding: var(--tm-kr-spacing-xs);
+  margin: var(--tm-kr-spacing-3xs) 0px;
+}
+.smsBodyContainer > * {
+  margin: 2px;
+}
+.smsBubble {
+  position: relative;
+}
+.smsBodyContainer:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 20px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 10px solid;
+  border-color: var(--tm-kr-color-base-dark-100) transparent transparent
+    var(--tm-kr-color-base-dark-100);
+}
+.smsHelpContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 400;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+.smsHelpContainer span {
+  margin: var(--tm-kr-spacing-5xs) 0px;
+}
+.titleArea {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.helpTitle {
+  padding-top: var(--tm-kr-spacing-s);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.inputWrapper {
+  width: 130px;
+  height: 24px;
+  border-radius: var(--tm-kr-border-radius-m);
+  position: static;
+}
+.datePickerDisabled {
+  cursor: auto;
+  pointer-events: none;
+}
+
+.helperInputText div {
+  display: inline-flex;
+  margin-left: 2px;
+}
+.helperInputText span:nth-child(1) {
+  white-space: nowrap;
+}
+.variablesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateOutsideWrapper > div div:nth-child(2) {
+  position: static;
+}
+.dateOutsideWrapper > div div:nth-child(2) > div {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  width: 332px;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.errorText {
+  display: flex;
+  align-items: center;
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+  color: var(--tm-kr-color-semantic-error-100);
+  padding-top: var(--tm-kr-spacing-xs);
+}
+.timeFieldWrapper {
+  width: 130px;
+  height: 36px;
+  border-radius: var(--tm-kr-border-radius-m);
+}
+@media screen and (max-width: 576px) {
+  .dateOutsideWrapper > div div:nth-child(2) > div {
+    margin-right: auto;
+  }
+}

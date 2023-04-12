@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  gap: var(--tm-kr-searchbar-dropdown-topBottom);
+}
+
+.documentContainer {
+  width: 100%;
+}
+
+.subContainer {
+  margin-right: var(--tm-kr-searchbar-padding-y);
+}
+
+.dividerMargin {
+  margin-left: var(--tm-kr-text-input-suffix-pading-left);
+}
+
+.fileInput {
+  width: 100%;
+}
+
+.formDisplay {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-searchbar-padding-y);
+}
+
+.stepperWrapper {
+  position: sticky;
+  top: var(--tm-kr-spacing-s);
+}
+.headingMargin:not(:first-child) {
+  margin-top: var(--tm-kr-searchbar-dropdown-topBottom);
+}
+.stepperContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--tm-kr-searchbar-dropdown-topBottom);
+  margin-top: var(--tm-kr-searchbar-dropdown-topBottom);
+}
+
+.stepperStyles {
+  margin-right: var(--tm-kr-searchbar-dropdown-topBottom);
+}
+
+.enquiryContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-searchbar-dropdown-topBottom);
+}

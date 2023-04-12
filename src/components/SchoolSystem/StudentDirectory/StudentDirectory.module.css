@@ -1,0 +1,75 @@
+.studentDirectoryWrapper {
+  height: 100%;
+}
+.studentListCardWrapper {
+  height: 100%;
+}
+.studentList {
+  height: calc(100% - 15px);
+}
+
+.studentsListTableContainer {
+  height: calc(100% - 130px);
+}
+
+.hazardIcon {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.mainDiv {
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  margin-left: auto;
+  position: relative;
+  float: right;
+}
+
+.dropdownContent {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 220px;
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-gy-2);
+  box-shadow: 0px 14px 28px rgba(31, 57, 101, 0.14);
+  border-radius: 4px;
+}
+
+.dropdownContent button {
+  color: var(--tm-color-text-primary);
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdownContent button:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+@media screen and (max-width: 400px) {
+  .fullWidth {
+    width: 100%;
+  }
+
+  .dropdown {
+    float: unset;
+  }
+
+  .dropdownContent {
+    width: auto;
+  }
+}

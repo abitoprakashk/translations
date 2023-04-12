@@ -1,0 +1,42 @@
+.titleClass {
+  border-radius: 0;
+  background-color: var(--tm-bg-modal-light-gray);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  min-height: 62px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.accordionClass {
+  border-radius: 8px;
+  background-color: var(--tm-bg-modal-light-gray);
+  box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+  margin-bottom: 16px;
+}
+
+.horizontalLine {
+  color: var(--tm-bg-light-white);
+  height: 10px;
+  width: 100%;
+}
+
+.title {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.createdTag {
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tm-color-gr-1);
+  align-items: center;
+  gap: 5px;
+  padding-top: var(--tm-kr-spacing-5xs);
+}

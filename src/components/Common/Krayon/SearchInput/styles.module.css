@@ -1,0 +1,7 @@
+.search [class^='krayon__TextInput-module__'] {
+  display: inline-flex;
+}
+
+.search [class^='krayon__HelperMessage-module__'] {
+  display: none;
+}

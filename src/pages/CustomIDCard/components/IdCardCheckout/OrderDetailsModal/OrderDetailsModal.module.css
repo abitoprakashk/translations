@@ -1,0 +1,127 @@
+/* Id card details accordion */
+.modalWrapper {
+  height: 680px;
+  max-height: 90%;
+}
+
+.accordionWrapper {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-top: var(--tm-kr-spacing-s);
+}
+.modalBody {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.detailWrapper {
+  display: grid;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.detailsItem {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  align-items: center;
+}
+.detailsItem p:first-child {
+  min-width: 105px;
+}
+
+.lanyardColorWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-4xs);
+  align-items: center;
+}
+.lanyardColorBox {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--tm-kr-border-radius-s);
+}
+
+/* Address section */
+.addressItem {
+  display: grid;
+  gap: var(--tm-kr-spacing-3xs);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: var(--tm-kr-spacing-2xs) 0;
+}
+
+.listing {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+/* Image Info top  */
+.imgInfoWrapper {
+  display: flex;
+  height: 150px;
+  gap: var(--tm-kr-spacing-2xs);
+  padding: 0;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.imgWrapper {
+  width: 180px;
+  height: 100%;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgWrapper > img {
+  width: 90px;
+}
+
+.infoContent {
+  display: grid;
+  gap: var(--tm-kr-spacing-4xs);
+}
+.infoTextWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+
+.checkboxWrapper {
+  margin: 0;
+}
+
+.tabGroupWrapper {
+  width: 170px;
+  margin: var(--tm-kr-spacing-2xs) 0;
+}
+.listingTable {
+  width: 100%;
+  border-radius: var(--tm-kr-border-radius-l);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  overflow: hidden;
+}
+.listingTableHeader {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+}
+.userInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--tm-kr-spacing-2xs);
+}
+.userInfo:nth-child(odd) {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+}
+.basicInfoWrapper {
+  display: flex;
+}
+.basicInfo {
+  margin-left: var(--tm-kr-spacing-2xs);
+}
+
+.detailsItem a{
+  font-size: var(--tm-kr-spacing-2xs);
+  color: var(--tm-kr-button-primary-color);
+}
+.detailsItem span{
+  font-size: var(--tm-kr-spacing-2xs);
+}

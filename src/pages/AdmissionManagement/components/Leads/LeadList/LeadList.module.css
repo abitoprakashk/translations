@@ -1,0 +1,80 @@
+.addNewLeadBtn {
+  width: max-content;
+}
+
+.addNewLeadBtn > div {
+  width: -webkit-fill-available;
+}
+
+.addNewLeadBtn > button {
+  padding: 0 10px;
+  gap: 5px;
+  width: 162px;
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.dropdownContainer {
+  position: absolute;
+}
+
+.kanbanSearchFilterSection,
+.kanbanContainer {
+  margin-top: 20px;
+}
+
+.kanbanSearchFilterSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kanbanSearchFilterSection > div:first-child {
+  width: 60%;
+}
+
+.kanbanFilterSection {
+  display: flex;
+  gap: 12px;
+}
+
+.searchBar {
+  max-width: 400px;
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+}
+
+.filterItem > div {
+  margin-left: 8px;
+}
+
+.chipUnsetMargin {
+  margin-top: unset;
+}
+
+.filterChipsSection {
+  margin-top: 20px;
+}
+
+.filteredChips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.filteredChips > div {
+  padding-right: 16px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: var(--tm-color-wh-1);
+  border-radius: 8px;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.accordionStyle {
+  background-color: var(--tm-bg-modal-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  box-shadow: 0px 4px 8px rgba(157, 182, 217, 0.2);
+}
+
+.classDetailWrapper {
+  width: 100%;
+  background-color: var(--tm-bg-modal-light-gray);
+  padding: 8px;
+}
+
+.classDetails {
+  background-color: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-gy-3);
+  border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+  .classDetailWrapper {
+    padding: 16px;
+  }
+}

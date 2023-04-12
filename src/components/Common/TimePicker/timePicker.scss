@@ -1,0 +1,29 @@
+@import '../../../index.scss';
+
+.rc-time-picker-clear {
+  display: none;
+}
+
+// Hide Scroll Bar
+.rc-time-picker-panel *::-webkit-scrollbar {
+  display: none;
+}
+.rc-time-picker * {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.rc-time-picker * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.rc-time-picker-input {
+  @extend .tm-para2 !optional;
+  border: none !important;
+  outline: none !important;
+  padding: 0px !important;
+  cursor: pointer;
+}
+.rc-time-picker-panel * {
+  @extend .tm-para2 !optional;
+  outline: none !important;
+}

@@ -1,0 +1,72 @@
+.table {
+  border-collapse: collapse;
+  margin: 0 -16px;
+}
+
+.table > tbody > div:nth-of-type(2) {
+  width: 100%;
+}
+.table > tbody > div:nth-of-type(2) tr {
+  height: 72px;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  width: 100%;
+}
+
+.table > tbody > div:nth-of-type(2) tr > td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--tm-color-text-primary);
+  padding: 15px 20px;
+  font-size: 14px;
+}
+.headerCell {
+  background-color: var(--tm-color-light-grayish-blue);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  padding: 14px 20px;
+}
+
+.cell {
+  padding: 15px 20px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.accordion_row {
+  background-color: white;
+}
+
+.accordion_row .down_arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.stickData {
+  width: 60%;
+}
+@media only screen and (max-width: 600px) {
+  .stickHeadData {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    left: 0px;
+    position: sticky;
+  }
+
+  .stickData {
+    background-color: white;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    left: 0px;
+    position: sticky;
+  }
+  .table tr td:nth-last-child(2) {
+    display: none;
+  }
+}

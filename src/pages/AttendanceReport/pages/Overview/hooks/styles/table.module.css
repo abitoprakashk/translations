@@ -1,0 +1,27 @@
+.teacherNotAssigned {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+.notMarked {
+  background: var(--tm-kr-color-neutrals-grey-50) !important;
+  color: var(--tm-kr-color-neutrals-grey-10);
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.tableHeading {
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.tableHeading .bothIcon {
+  display: flex;
+  flex-direction: column;
+}
+.tableHeading span {
+  display: flex;
+}
+.tableHeading .icon[data-type='basic']:before {
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.tableHeading [data-type='basic']:nth-child(2) {
+  margin-top: -10px;
+}

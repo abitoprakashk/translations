@@ -1,0 +1,18 @@
+.modal {
+  width: auto;
+  height: auto;
+}
+.modalContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.downloadButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.imgDesign {
+  border-radius: 10px;
+}

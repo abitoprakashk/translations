@@ -1,0 +1,12 @@
+.titleWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+  align-items: center;
+}
+.editIcon {
+  cursor: pointer;
+}
+
+.buttonWrapper {
+  gap: var(--tm-kr-spacing-2xs);
+}

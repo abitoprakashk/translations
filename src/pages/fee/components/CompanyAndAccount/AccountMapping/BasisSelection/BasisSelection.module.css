@@ -1,0 +1,16 @@
+.card {
+  width: 336px;
+  margin-top: 50px;
+}
+
+.radioGroupSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.radioGroupSection > label {
+  margin: 0px;
+}

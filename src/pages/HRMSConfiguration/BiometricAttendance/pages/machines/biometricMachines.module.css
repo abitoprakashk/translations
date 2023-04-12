@@ -1,0 +1,132 @@
+.wrapper {
+  padding: var(--tm-kr-spacing-m);
+  min-height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.subHeading {
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.divider {
+  padding: var(--tm-kr-spacing-s) 0px;
+  display: none;
+}
+
+.mainHeading {
+  font-size: var(--tm-kr-heading-laptop-font-size-m);
+  font-weight: bold;
+}
+
+.header {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.lineBreak {
+  padding: var(--tm-kr-spacing-s) 0px var(--tm-kr-spacing-xs) 0px;
+}
+
+.deletePopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+/* --------------------------------------------- */
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: var(--tm-kr-spacing-2xs);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 700;
+  line-height: var(--tm-kr-heading-laptop-font-size-m);
+  width: 100%;
+}
+
+.kebabMenuIconFrame {
+  background-color: inherit;
+}
+
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+/* ------- */
+
+.verified {
+  background-color: var(--tm-kr-color-semantic-success-100);
+  height: var(--tm-kr-spacing-m);
+  font-size: var(--tm-kr-para-font-size-l);
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  color: var(--tm-kr-avatar-font-color);
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.verificationPending {
+  background-color: var(--tm-kr-color-semantic-warning-100);
+  height: var(--tm-kr-spacing-m);
+  font-size: var(--tm-kr-para-font-size-l);
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  color: var(--tm-kr-avatar-font-color);
+  width: fit-content;
+  block-size: fit-content;
+}
+
+/* Empty state */
+
+.emptyStateWrapper {
+  margin-top: 150px;
+}
+
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+
+.buttonWrapper {
+  margin-top: var(--tm-kr-spacing-2xs);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Tooltip css */
+
+.statusHeader {
+  display: flex;
+}
+.statusHeaderIconWrapper {
+  margin-left: var(--tm-kr-spacing-5xs);
+}
+
+.statusTooltipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+  text-transform: initial;
+  width: 160px;
+}
+
+.kebabMenuWrapper {
+  position: relative;
+}
+
+.tooltipWrapper {
+  top: 28px !important;
+  left: auto !important;
+  right: 0px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  opacity: 1 !important;
+}

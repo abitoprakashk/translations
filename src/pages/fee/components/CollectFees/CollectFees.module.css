@@ -1,0 +1,639 @@
+.modal {
+  width: 60%;
+}
+
+.feeData {
+  margin: 10px;
+}
+.feeData {
+  margin-bottom: 50px;
+}
+.feeData > textarea {
+  padding: 5px 10px;
+}
+.pendingStatus {
+  color: #ea8804;
+  font-weight: bolder;
+}
+.textCenterData {
+  text-align: center;
+}
+.stuProfile {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: black 2px solid;
+  border-radius: 50px;
+}
+.labeledContainer {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #6b82ab;
+  height: 50px;
+}
+.labeledText {
+  background-color: #fff;
+  border-color: #6b82ab;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0px 10px;
+  width: 5%;
+  color: var(--tm-color-text-secondary);
+  outline: none;
+}
+.textData {
+  display: flex;
+  background-color: #eeeded;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.currency {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.textInput {
+  outline: none;
+  background-color: #eeeded;
+}
+
+.feeDataNew {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+.normalStyles {
+  color: var(--tm-color-text-secondary);
+  font-weight: 500;
+  font-size: 14px;
+}
+.status {
+  background-color: #e5ffdc;
+  color: #36b37e;
+}
+
+.feeStatus {
+  color: #ff5e5e;
+}
+
+.success {
+  margin-right: 5px;
+}
+
+.sel {
+  background-color: #f2f4f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 175px;
+  border: 1px solid #f2f4f8;
+  height: 35px;
+}
+
+.paymentStructure {
+  margin-right: 10px;
+}
+
+.dateClass [type='date'] {
+  background-color: #f2f4f8;
+  border: 1px solid #f2f4f8;
+}
+
+.optionalData {
+  background: #fafbff;
+  border: 1px solid #f2f4f8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  /* margin-bottom: 65px; */
+}
+
+.students {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.feeHistory {
+  /* padding: 10px 20px; */
+  overflow: scroll;
+  height: calc(100% - 100px);
+}
+
+.vl {
+  border-left: 1px solid #6b82ab;
+  height: 60px;
+  width: 1px;
+}
+
+.feeHistory > div {
+  margin-bottom: 48px;
+}
+
+/* .feeHistory input[type='text'],
+.feeHistory select {
+  background-color: #f2f4f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 100%;
+} */
+
+.feeHistory label {
+  display: block;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 600;
+}
+
+.feeDetails {
+  display: flex;
+  /* background-color: #f8f9fc;
+  border: 1px solid #f2f4f8; */
+  /* padding: 20px; */
+  justify-content: space-between;
+}
+
+.testClass {
+  margin-top: 6px;
+  margin-left: 15px;
+}
+.toggleText {
+  color: var(--tm-color-text-secondary);
+  font-size: 12px;
+  margin: 10px;
+}
+.feeDetails p {
+  /* font-size: 20px; */
+  /* font-weight: 700; */
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.feeDetails span {
+  font-size: 14px;
+}
+
+.total {
+  color: #1da1f2;
+}
+
+.paid {
+  color: #36b37e;
+}
+
+.due {
+  font-size: 20px;
+  color: #ff5e5e !important;
+  font-weight: 700;
+}
+
+.dueAmount {
+  color: #ff5e5e;
+  font-weight: 700;
+}
+.tableDueAmount {
+  font-size: 14px;
+}
+.footerDueAmount {
+  font-size: 16px;
+}
+.spaceClass {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.payment > div {
+  font-size: 14px;
+  color: #36b37e;
+}
+
+.paidButton {
+  border: 1px solid var(--tm-color-green);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--tm-color-white);
+  background-color: var(--tm-color-green);
+}
+
+.payment > span {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+}
+
+.studentDetails {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.studentDetails > header {
+  padding: 20px 20px 0 20px;
+  background-color: #f2f4f8;
+}
+
+.studentDetails header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.studentDetails section {
+  padding: 15px;
+}
+
+.studentD {
+  font-size: 16px;
+}
+
+.stuProfile {
+  margin-left: 20px;
+  border: black 2px solid;
+  border-radius: 50px;
+}
+
+.stuName {
+  margin-left: 10px;
+}
+
+.status {
+  background-color: #e5ffdc;
+  color: #36b37e;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin-top: 2px;
+}
+
+.feeStatus {
+  color: #ff5e5e;
+}
+
+.success {
+  margin-right: 5px;
+}
+
+.confirmModalHeader {
+  font-weight: lighter;
+}
+
+.disabledButton {
+  border-style: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+}
+
+.sel {
+  background-color: #f2f4f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 175px;
+  border: 1px solid #f2f4f8;
+  height: 48px;
+}
+
+.optionalData {
+  background: #fafbff;
+  border: 1px solid #f2f4f8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.students {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mobileView {
+  display: none;
+}
+
+.stickTableData {
+  width: 100%;
+  overflow: auto;
+}
+
+.feeCount {
+  display: none;
+}
+
+.buttonSet > button {
+  margin: 5px;
+}
+.confirmPayment {
+  border-radius: 85px;
+  background: #ebf7f2;
+  padding: 25px;
+  display: inline-block;
+}
+.displayData {
+  display: flex;
+}
+.mt5 {
+  margin-top: 5px;
+  color: var(--tm-color-text-secondary);
+}
+.failStatus {
+  color: #ff5e5e !important;
+  background: #f8efef;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+.stuDetails {
+  display: flex;
+}
+.standradSection {
+  font-size: 20px;
+  text-align: center;
+  margin-left: unset !important;
+}
+.classSectionName {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.icon img {
+  display: inline-block;
+  width: 10px;
+  margin-right: 5px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.errorMsg {
+  color: red;
+}
+.showAcadamic {
+  background: var(--tm-bg-textarea-grey);
+  border: 1px solid var(--tm-color-off-white);
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  margin: 10px;
+}
+
+.discountValueSection {
+  display: flex;
+  align-items: center;
+}
+
+.adHocDiscountAddBtn {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.adHocDiscountAddBtn:hover {
+  color: var(--tm-color-blue);
+}
+
+.adHocDiscountAddBtnIconRotate {
+  transform: rotate(45deg);
+}
+
+.adOnDiscountSection {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-wh-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  gap: 8px;
+  border-radius: 12px;
+}
+
+.availableFineSection {
+  display: flex;
+  background: var(--tm-bg-modal-light-gray);
+}
+
+@media only screen and (max-width: 1024px) {
+  .optionalData {
+    margin-bottom: 100px;
+  }
+  .feeHistory {
+    padding: unset;
+    overflow: unset;
+    height: unset;
+  }
+  .stuDetails {
+    display: flex;
+    width: 100%;
+  }
+  .showAcadamic {
+    display: none;
+  }
+  .mobileView {
+    display: none;
+    background: #fff;
+    padding: 10px 15px;
+  }
+  .feeHistory {
+    display: block;
+  }
+  .newbg2 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+  }
+  .bg {
+    /* background-color: #f6f7fa; */
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  .studentStatus {
+    /* display: flex; */
+    margin-left: 5px;
+  }
+
+  .feeDetails {
+    display: flex;
+    /* background-color: #f8f9fc;
+    border: 1px solid #f2f4f8; */
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+  .feeDetails p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .feeDetails span {
+    font-size: 14px;
+    color: var(--tm-color-text-secondary);
+  }
+
+  .sel {
+    background-color: #f2f4f8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #f2f4f8;
+  }
+
+  .fill {
+    border: 1px solid #1da1f1;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1da1f1;
+  }
+  .responsiveModal {
+    text-align: center;
+  }
+}
+
+.lumpsumAmount {
+  margin-top: 8px;
+}
+
+.lumpsumAmountBox {
+  width: 272px;
+}
+
+.adHocDiscountButton {
+  margin-top: 5px;
+}
+
+.discountMargin {
+  margin-top: 22px;
+}
+
+.discountChip {
+  background: var(--tm-kr-color-base-light-100);
+  margin-top: 16px;
+  padding: 2px 2px 0px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-width: 69px;
+  height: 24px;
+  border: 1px solid var(--tm-color-light-gray);
+  border-radius: 6px;
+  color: var(--tm-color-text-secondary);
+}
+
+.deleteDiscount {
+  display: flex;
+}
+
+.discountTextRightMargin {
+  margin-right: 4px;
+}
+
+.higherSpecificity.errorColor::before,
+.krErrorColor {
+  color: var(--tm-color-semantic-error-1);
+}
+
+.rupeeSymobol {
+  font-weight: var(--tm-kr-heading-font-weight-regular);
+}
+
+.higherSpecificity.radioDiv {
+  display: flex;
+}
+
+.firstRadioMarginZero {
+  margin-left: 0px;
+}
+
+.recordBy {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.radioSpan.higherSpecificity {
+  font-size: var(--tm-kr-heading-mobile-font-size-2xs);
+  font-weight: var(--tm-kr-heading-font-weight-regular);
+}
+
+.lumpsumDiscountButton {
+  margin-top: 18px;
+}
+
+.selectPaymentMethodDropdown {
+  width: 272px;
+}
+
+.paymentDateLable {
+  font-family: 'Inter';
+  font-style: normal;
+
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+
+  display: flex;
+
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-input-title-laptop-font-size);
+  line-height: var(--tm-kr-input-title-mobile-font-height);
+  font-weight: var(--tm-kr-input-title-font-weight);
+}
+
+.contentSection {
+  padding: 20px 20px 0px 20px;
+}
+
+.errorDiv {
+  color: var(--tm-kr-helper-message-color-error);
+
+  display: flex;
+
+  align-items: center;
+  font-weight: var(--tm-kr-helper-message-font-weight);
+  font-size: var(--tm-kr-helper-message-font-size);
+  line-height: var(--tm-kr-helper-message-font-height);
+  margin-top: var(--tm-kr-helper-message-margin-top);
+}
+
+.datePickerZindex {
+  z-index: 5;
+  position: relative;
+}
+
+.textCapitalize {
+  text-transform: lowercase;
+}
+
+.textCapitalize::first-letter {
+  text-transform: uppercase;
+}
+
+.calendarWrapper :global(.rdrDayNumber) {
+  outline: 0;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  top: 5px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionalDataComp {
+  margin-top: 8px;
+}
+
+.optionsOverflow > div > div {
+  overflow: auto;
+}

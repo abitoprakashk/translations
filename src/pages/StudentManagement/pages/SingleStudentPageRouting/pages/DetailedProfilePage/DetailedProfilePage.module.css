@@ -1,0 +1,36 @@
+.accordionWrapper {
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+.accordionBody {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.accordionHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: var(--tm-kr-spacing-s);
+}
+.accordionHeading {
+  word-break: break-word;
+}
+
+.itemDataformat {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: var(--tm-kr-spacing-m);
+  column-gap: var(--tm-kr-spacing-xs);
+}
+
+.addressSubSectionHeading {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.infoItemLabel {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+
+@media screen and (min-width: 768px) {
+  .itemDataformat {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

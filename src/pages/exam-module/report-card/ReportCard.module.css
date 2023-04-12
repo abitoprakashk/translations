@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  display: block;
+  padding: 16px 0;
+}
+
+.breadcrumbWrapper {
+  display: block;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+  .breadcrumbWrapper {
+    margin-left: 0px;
+  }
+
+  .noReportCardWrapper {
+    margin-top: 70px;
+  }
+}

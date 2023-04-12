@@ -1,0 +1,168 @@
+.wrapper {
+  padding: var(--tm-kr-spacing-m);
+  min-height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.subHeading {
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.divider {
+  padding: var(--tm-kr-spacing-s) 0px;
+}
+
+.mainHeading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header {
+  margin: 20px 0px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchBox {
+  width: 400px;
+}
+
+.bulkUploadButton {
+  width: 190px;
+}
+
+.bulkUploadIcon {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.marginRight {
+  margin-left: var(--tm-kr-spacing-2xs);
+}
+
+.marginTop {
+  margin-top: var(--tm-kr-spacing-l);
+}
+
+.tabGroupWrapper {
+  width: 575px;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.registered {
+  background-color: var(--tm-kr-color-semantic-success-100);
+  height: var(--tm-kr-spacing-m);
+  font-size: var(--tm-kr-para-font-size-l);
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  color: var(--tm-kr-avatar-font-color);
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.unregistered {
+  background-color: var(--tm-kr-color-semantic-warning-100);
+  height: var(--tm-kr-spacing-m);
+  font-size: var(--tm-kr-para-font-size-l);
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  color: var(--tm-kr-avatar-font-color);
+  width: fit-content;
+  block-size: fit-content;
+}
+
+/* ------------ */
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}
+
+.kebabMenuIconFrame {
+  background-color: inherit;
+}
+
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+/* ------------- */
+
+.addNewLeadBtn {
+  width: 200px;
+  max-width: 10px;
+
+  /* padding: 0px var(--tm-kr-spacing-3xl); */
+  /* width: var(--tm-kr-spacing-3xl); */
+  margin-right: 100px;
+}
+
+.addNewLeadBtn > div {
+  width: max-content;
+}
+
+/* -------- */
+
+.emptyStateWrapper {
+  margin-top: 150px;
+}
+
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+
+.buttonWrapper {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Tooltip */
+
+.statusHeader {
+  display: flex;
+}
+.statusHeaderIconWrapper {
+  margin-left: var(--tm-kr-spacing-5xs);
+}
+
+.statusTooltipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+  text-transform: initial;
+  width: 160px;
+}
+
+/* Phone number */
+
+.phoneNumber {
+  margin-bottom: 6px;
+}
+
+.kebabMenuWrapper {
+  position: relative;
+}
+
+.tooltipWrapper {
+  top: 28px !important;
+  left: auto !important;
+  right: 0px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  opacity: 1 !important;
+}

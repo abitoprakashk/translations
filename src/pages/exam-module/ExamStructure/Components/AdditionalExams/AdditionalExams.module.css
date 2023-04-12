@@ -1,0 +1,89 @@
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--tm-color-text-primary);
+}
+.desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5rem;
+}
+
+.titleClass {
+  /* border-radius: 8px; */
+  background-color: var(--tm-color-white);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--tm-color-text-primary);
+  font-size: 20px;
+}
+
+.accordionClass {
+  margin: 0.25rem;
+  border-radius: 8px;
+  background-color: var(--tm-bg-modal-light-gray);
+  box-shadow: none;
+  margin-bottom: 8rem;
+}
+
+.statusAndDate {
+}
+
+.examName {
+  color: var(--tm-color-text-primary);
+}
+.subjectsName {
+  color: var(--tm-color-text-primary);
+}
+
+.statusSuccess {
+  color: var(--tm-color-green);
+}
+.statusOngoing {
+  color: var(--tm-color-orange);
+}
+.statusUpcoming {
+  color: var(--tm-color-text-secondary);
+}
+.date {
+  padding-top: 0.5rem;
+  color: var(--tm-color-text-secondary);
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.viewResult {
+  color: var(--tm-color-blue);
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.verticalLine {
+  border-left: 2px solid var(--tm-bg-light-white);
+  height: 20px;
+}
+
+.addToTerm {
+  color: var(--tm-color-blue);
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.tableClass {
+  margin-top: 0;
+}

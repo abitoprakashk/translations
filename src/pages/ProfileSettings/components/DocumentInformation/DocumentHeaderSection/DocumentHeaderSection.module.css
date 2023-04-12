@@ -1,0 +1,63 @@
+.headerInnerSection {
+  display: block;
+}
+.headerLeftSection {
+  display: inline-block;
+  word-break: break-all;
+  width: 100%;
+}
+.headerRightSection {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: right;
+  margin-top: 10px;
+}
+.headerRightSection > div:nth-child(2) {
+  display: inline-block;
+}
+.commonBtnBlock {
+  display: inline-block;
+  vertical-align: top;
+}
+.addCategoryBlock {
+  margin-left: 22px;
+}
+.commonBtnBlock button {
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+.previewButton {
+  width: 48px;
+  height: 48px;
+  padding: 0px;
+}
+.previewIcon {
+  vertical-align: middle;
+  display: inline-block;
+}
+.previewTitle {
+  display: inline-block;
+  vertical-align: super;
+}
+.addCategoryButton {
+  width: 190px;
+  padding: 0px 16px;
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .headerLeftSection {
+    width: 60%;
+  }
+  .headerRightSection {
+    width: 40%;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1280px) {
+}

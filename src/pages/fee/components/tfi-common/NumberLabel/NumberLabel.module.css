@@ -1,0 +1,29 @@
+.section {
+  display: flex;
+  color: var(--tm-color-text-primary);
+}
+
+.sectionNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 50%;
+  background: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+}
+
+.sectionLabel {
+  margin-left: 10px;
+}
+
+.required {
+  color: var(--tm-color-error);
+  margin-left: 2px;
+}
+
+.textCapitalize {
+  text-transform: capitalize;
+}

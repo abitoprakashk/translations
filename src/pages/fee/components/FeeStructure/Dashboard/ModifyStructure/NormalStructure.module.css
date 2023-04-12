@@ -1,0 +1,18 @@
+.title {
+  margin-left: 10px;
+}
+
+.months {
+  height: 80%;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.month {
+  margin-top: 10px;
+  display: flex;
+}
+
+.higherSpecificityFontSize.higherSpecificityIcon.infoIcon {
+  font-size: 80px;
+}

@@ -1,0 +1,103 @@
+.topicCardSection {
+  background: var(--tm-color-wh-1);
+  box-shadow: 0px 5.90909px 10.6364px rgba(157, 182, 217, 0.15);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.titleText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  color: var(--tm-color-text-primary);
+  padding: 7px;
+  word-break: break-all;
+}
+
+.cardHeaderSection {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 1;
+}
+
+.studyMaterialHeaderSection {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px 0px 5px 1px;
+}
+
+.dotsBtnDiv:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.reportIcon {
+  cursor: pointer;
+}
+
+.thumbnailDiv,
+.studyMaterialThumbnailDiv {
+  position: relative;
+  border-radius: 4px;
+}
+
+.videoTime {
+  position: absolute;
+  background-color: var(--tm-color-text-primary);
+  border-radius: 4px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  color: var(--tm-color-wh-1);
+  bottom: 6px;
+  right: 6px;
+  padding: 8px;
+}
+
+.playIcon {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.thubmnailImg {
+  width: 100%;
+  height: 71px;
+  object-fit: cover;
+}
+
+.studyThubmnailImg,
+.studyMaterialThumbnailDiv {
+  margin: auto;
+  width: 86px;
+  height: 122px;
+}
+
+.studyMaterialThumbnailDiv {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 765px) {
+  .titleText {
+    font-size: 14px;
+  }
+
+  .studyThubmnailImg,
+  .studyMaterialThumbnailDiv {
+    width: 106px;
+    height: 152px;
+  }
+
+  .thubmnailImg {
+    height: 120px;
+  }
+}

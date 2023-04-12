@@ -1,0 +1,38 @@
+.text {
+  color: var(--tm-color-text-primary);
+  font-weight: var(--tm-font-weight-medium);
+  font-size: 18px;
+  line-height: 36px;
+}
+.headerwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addLeavetext {
+  margin-left: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+}
+
+.iconBtn {
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .btnWrapper {
+    gap: 8px;
+  }
+}

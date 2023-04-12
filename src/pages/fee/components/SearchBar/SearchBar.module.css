@@ -1,0 +1,32 @@
+.searchContainer {
+  background-color: #f2f4f8;
+  padding: 4px 8px;
+  border-radius: 8px;
+  display: flex;
+  /* width: 75%;
+  margin: auto; */
+  height: 44px;
+}
+
+.searchWrapper {
+  position: relative;
+  margin: auto;
+}
+.searchContainer input {
+  background-color: transparent;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.searchContainer input:focus-visible {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.searchIcon {
+  width: 15px;
+}

@@ -1,0 +1,25 @@
+.removeModalIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.removeModalIconWrapper::after {
+  position: absolute;
+  content: '';
+  height: 96px;
+  width: 96px;
+  background-color: var(--tm-color-red);
+  border-radius: 50%;
+  opacity: 0.15;
+}
+@media screen and (max-width: 1024px) {
+  .removeModalIconWrapper {
+    margin-top: 15px;
+  }
+}

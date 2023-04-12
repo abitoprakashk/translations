@@ -1,0 +1,30 @@
+.content {
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-xs);
+}
+
+.tabGroupWrapper {
+  width: 100%;
+}
+.componentWrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+@media only screen and (min-width: 1024px) {
+  .tabGroupWrapper {
+    width: 430px;
+  }
+
+  .content {
+    padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-m);
+  }
+}

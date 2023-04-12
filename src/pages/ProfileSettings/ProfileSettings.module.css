@@ -1,0 +1,66 @@
+.profileSettingsContainer {
+  height: auto;
+}
+.profileSettingsBody {
+  position: relative;
+}
+.mainHeaderBlock {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+.sliderHeaderIcon {
+  margin-right: 10px;
+}
+.tabMenuContainer {
+  margin-top: 20px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.tabMenuBlock {
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom;
+}
+.tabMenu {
+  color: var(--tm-color-gy-1);
+}
+.tabMenu a {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 0px 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--tm-line-height-2);
+}
+.tabMenu a.active {
+  color: var(--tm-color-bl-2);
+  border-bottom: 1px solid var(--tm-color-bl-2);
+}
+.tabMenu.studentTabSelected a:first-child {
+  font-weight: bolder;
+}
+.tabMenu.staffTabSelected a:nth-last-child() {
+  font-weight: bolder;
+}
+.divider {
+  border-color: var(--tm-color-off-white);
+}
+.tabInsideBody {
+  height: calc(100vh - 235px);
+  overflow: scroll;
+  padding-top: 24px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+@media (min-width: 1024px) {
+  .profileSettingsContainer {
+    padding-bottom: 1.5rem;
+    padding-top: 1.875rem;
+  }
+  .tabMenu a {
+    margin-right: 40px;
+  }
+}

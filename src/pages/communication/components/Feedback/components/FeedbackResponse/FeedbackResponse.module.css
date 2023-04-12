@@ -1,0 +1,81 @@
+.feedbackResponseQuestion {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--tm-color-text-primary);
+  margin-bottom: 20px;
+}
+
+.feedbackResponseUserImage {
+  width: 40px;
+}
+
+.feedbackResponseUserName {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.feedbackResponseUserProfession {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-light-gray);
+}
+
+.feedbackResponseOfUser {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-text-primary);
+  word-break: break-all;
+}
+
+.feedbackResponseDatetime {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(107, 130, 171, 0.5);
+  justify-content: flex-end;
+  display: flex;
+}
+
+.feedbackResponseUserSec {
+  border-bottom: 2px solid var(--tm-border-color-gy-2);
+}
+
+.feedbackResponseSec {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.feedbackResponseSecion {
+  padding: 40px;
+}
+
+.feedbackResponseLoader {
+  position: absolute;
+}
+
+.feedbackResponseNotYet {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackResponseUserInfoSection {
+  width: 100%;
+  margin-left: 10px;
+}

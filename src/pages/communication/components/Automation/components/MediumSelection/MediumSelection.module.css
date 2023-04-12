@@ -1,0 +1,74 @@
+.container {
+  row-gap: var(--tm-kr-spacing-2xs);
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+  border-radius: 12px;
+}
+
+.header {
+  padding: var(--tm-kr-spacing-xs);
+  padding-bottom: 0;
+}
+
+.noLeftMargin {
+  margin-left: 0;
+}
+
+.cardBody {
+  line-height: 16px;
+  font-size: 12px;
+  padding: var(--tm-kr-spacing-xs);
+  padding-top: 0;
+}
+
+.bodyHeading {
+  color: var(--tm-kr-color-neutrals-grey-60);
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.message {
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.notifyContainer {
+  background-color: var(--tm-kr-color-semantic-info-10);
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-2xs);
+  border-radius: 8px;
+}
+
+.notifyCheckboxLabel {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-semantic-info-100);
+}
+
+.alertContainer {
+  padding: var(--tm-kr-spacing-s);
+  background: var(--tm-kr-color-semantic-error-10);
+  border-radius: 12px;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.alertTitleContainer {
+  display: flex;
+  align-items: center;
+  column-gap: var(--tm-kr-spacing-3xs);
+}
+
+.alertTitle {
+  color: var(--tm-kr-color-semantic-error-100);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.alertBody {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}

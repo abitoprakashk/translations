@@ -1,0 +1,53 @@
+$vertical-spacing: 20px;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $vertical-spacing;
+
+  > div {
+    order: 10;
+  }
+
+  > .header,
+  .staffUpcomingLeave {
+    order: 0;
+  }
+
+  > .statsWrapper {
+    order: 1;
+  }
+}
+
+.isMobile {
+  & > .header {
+    order: 1;
+  }
+
+  & > .statsWrapper {
+    order: 0;
+  }
+
+  .listWrapper {
+    margin-top: -15px;
+  }
+}
+
+.leaveStats {
+  width: 65%;
+}
+
+.statsWrapper {
+  margin-top: -$vertical-spacing !important;
+  margin-bottom: -$vertical-spacing !important;
+}
+
+.staffUpcomingLeave {
+  margin-bottom: -16px;
+}
+
+@media screen and (max-width: 600px) {
+  .leaveStats {
+    width: auto;
+  }
+}

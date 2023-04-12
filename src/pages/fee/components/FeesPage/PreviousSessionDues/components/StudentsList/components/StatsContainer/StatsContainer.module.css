@@ -1,0 +1,22 @@
+.statsContainer {
+  height: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.statTitle {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.statDescription {
+  font-size: 14px;
+  font-weight: 400;
+}

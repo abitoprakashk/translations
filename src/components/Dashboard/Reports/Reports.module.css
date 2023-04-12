@@ -1,0 +1,210 @@
+.dFlex {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.dashboardReportSection {
+  padding: 0.75rem 1rem;
+  display: none;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.headingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.higherspecifisity.downloadLogBtn {
+  background-color: transparent;
+  width: auto;
+}
+
+.cardSection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  position: relative;
+}
+
+.card {
+  width: 100%;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.cardChildrenSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.titleText {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.subTextSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.iconBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.feeIconbg {
+  background: linear-gradient(
+    180deg,
+    rgba(54, 179, 126, 0.35) -15.63%,
+    rgba(54, 179, 126, 0.04) 118.75%
+  );
+}
+
+.classAttandanceIconBg {
+  background: linear-gradient(
+    158.78deg,
+    rgba(234, 136, 4, 0.41) -14.14%,
+    rgba(255, 216, 189, 0.13) 119.26%
+  );
+}
+
+.higherSpecificity.performanceIcon::before {
+  color: var(--tm-color-cyan-1);
+}
+
+.performanceIconBg {
+  background: linear-gradient(
+    158.78deg,
+    rgba(4, 234, 234, 0.63) -14.14%,
+    rgba(210, 255, 255, 0) 119.26%
+  );
+}
+
+.subTextIconRotate {
+  transform: rotate(270deg);
+}
+
+/* Modal */
+.modalSection {
+  padding: 12px;
+}
+
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalIconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modalContentSection {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modalFooterSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.modalHeadingText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.crossBtn {
+  color: var(--tm-color-text-secondary);
+}
+/* End Modal */
+
+.dataNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.HideScreen {
+  z-index: 1;
+}
+
+.higherspecifisity.downlodUlrIcon::before {
+  color: var(--tm-color-bl-2);
+}
+
+.displayNoneForMobile {
+  display: none;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.performanceCardContent {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cashIconWrapper {
+  height: 32px;
+  width: 32px;
+  display: flex;
+}
+
+@media only screen and (min-width: 720px) {
+  .cardSection {
+    display: flex;
+  }
+
+  .displayNoneForMobile {
+    display: flex;
+  }
+
+  .modalSection {
+    padding: 40px;
+  }
+
+  .dashboardReportSection {
+    padding: 0px;
+    display: block;
+  }
+
+  .subText {
+    font-size: 14px;
+  }
+}

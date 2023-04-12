@@ -1,0 +1,63 @@
+.assign_classteacher_container {
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-off-white);
+  box-shadow: 0px 0px 24px rgba(157, 182, 217, 0.06);
+  border-radius: 8px;
+  border-left: 2px solid var(--tm-sk-bl-2);
+  padding: 16px;
+}
+
+.assign_classteacher_header {
+  background: var(--tm-color-off-white);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 40px;
+}
+.assign_classteacher_header_section {
+  width: 40%;
+}
+.assign_classteacher_header_class_teacher {
+  width: 60%;
+  padding-left: 102px;
+}
+.assign_classteacher_container_section {
+  padding-left: 40px;
+}
+.assign_classteacher_row {
+  background: var(--tm-bg-textarea-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.assign_classteacher_container_input_container {
+  width: 400px;
+}
+.assign_classteacher_container_input_ {
+  background: var(--tm-color-white);
+}
+.unassign_classteacher_container {
+  height: 75%;
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.text_message {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text_message_redirect {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--tm-sk-bl-2);
+  margin-left: 10px;
+}
+.text_message_padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,53 @@
+.section {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fieldsSection {
+  display: flex;
+  justify-items: center;
+  align-items: baseline;
+  gap: 20px;
+  width: 100%;
+}
+
+.inputWrapper {
+  width: 100%;
+}
+
+.higherSpecificity.errorColor::before {
+  color: var(--tm-color-semantic-error-1);
+}
+
+.deleteBtnIconDiv {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.noBorder.higherSpecificity {
+  border: none;
+}
+
+.deleteIconSectionForMobile {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.showInMobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .fieldsSection,
+  .section {
+    flex-direction: column;
+  }
+  .hideInMobile {
+    display: none;
+  }
+  .showInMobile {
+    display: flex;
+  }
+}

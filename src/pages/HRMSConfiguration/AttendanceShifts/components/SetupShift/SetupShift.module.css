@@ -1,0 +1,92 @@
+.attendanceContainer {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin: var(--tm-kr-spacing-xs) 0;
+  width: 100%;
+}
+
+.scrollContainer {
+  overflow-y: auto;
+  padding: var(--tm-kr-spacing-xs);
+  flex: 1 1 auto;
+  height: 0px;
+}
+
+.headingWrapper {
+  padding: var(--tm-kr-spacing-xs);
+  padding-bottom: 0;
+}
+
+.attendanceSection {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.shiftNameWrapper {
+  width: 300px;
+}
+
+.tooltipText p {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.graceTimeTooltip {
+  width: 200px;
+}
+
+.headingWithTooltip {
+  display: flex;
+  align-items: center;
+}
+
+.headingWithTooltip span {
+  display: flex;
+  align-items: center;
+  margin-left: var(--tm-kr-spacing-5xs);
+}
+
+.radioGroupWrapper {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.attendanceTimingWrapper {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.checkBoxWrapper {
+  margin: var(--tm-kr-spacing-3xs) 0;
+}
+
+.checkBoxWrapper label {
+  margin: 0;
+}
+
+.separator {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.inputTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+@media (min-width: 1024px) {
+  .inputWrapper {
+    width: 140px;
+    margin-right: var(--tm-kr-spacing-xs);
+  }
+
+  .textInput {
+    width: 30px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .inputWrapper {
+    width: 160px;
+  }
+
+  .textInput {
+    width: 50px;
+  }
+}

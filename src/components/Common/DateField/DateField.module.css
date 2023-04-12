@@ -1,0 +1,9 @@
+.dateWrapper {
+  padding: 0px;
+}
+
+@media (min-width: 1024px) {
+  .dateWrapper {
+    /* z-index: 100; */
+  }
+}

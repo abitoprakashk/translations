@@ -1,0 +1,41 @@
+.section {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.userInfoWrapper {
+  padding: 10px;
+}
+
+.userInfoBlock {
+  width: 240px;
+  height: 80px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+.dataWrapper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statsWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.statsBlock {
+  width: 150px;
+  height: 70px;
+  border-radius: 0px;
+}
+
+.updatedByBlock {
+  width: 100%;
+  height: 50px;
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+  margin-top: 20px;
+}

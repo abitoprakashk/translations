@@ -1,0 +1,6 @@
+.errorMessage {
+  height: 1rem;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--tm-color-red);
+}

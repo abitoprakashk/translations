@@ -1,0 +1,58 @@
+.wrapper {
+  padding-top: 20px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion {
+  margin-top: 16px;
+}
+
+.accordionHeading p {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+  font-weight: var(--tm-font-weight-semi-bold);
+}
+
+.accordionBody {
+  border: 1px solid var(--tm-border-color-gray-2);
+  border-top: none;
+}
+
+.subjectRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  height: 48px;
+}
+
+.subjectName {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+  font-weight: var(--tm-font-weight-semi-bold);
+}
+
+.subjectInput {
+  width: 150px;
+}
+
+.marksWrapper {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  justify-items: center;
+}
+
+.absent {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-color-red-2);
+}

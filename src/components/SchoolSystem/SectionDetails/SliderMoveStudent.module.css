@@ -1,0 +1,58 @@
+.infoDiv {
+  padding: 24px 0 0 40px;
+  padding-right: 0;
+  width: 94% !important;
+}
+
+.content {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.heading {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-kr-color-neutrals-grey-90);
+}
+
+.heading > button {
+  margin-top: 10px;
+  color: var(--tm-color-blue);
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 70px 70px;
+  padding: 20px 20px 20px 35px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.gridDiv {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.textValue {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.textKey {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}

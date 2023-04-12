@@ -1,0 +1,55 @@
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.modalContent {
+  padding: 0;
+}
+
+.modal {
+  border-radius: 20px;
+}
+
+.stepper {
+  height: 100%;
+  border: none;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 0;
+}
+
+.stepperWrapper {
+  height: 100%;
+}
+
+.disabledStepTitle {
+  color: var(--tm-kr-color-neutrals-grey-60);
+  cursor: not-allowed;
+}
+
+.disabledStepDesc {
+  color: var(--tm-kr-color-neutrals-grey-40);
+  cursor: not-allowed;
+}
+
+.footerInfo {
+  display: flex;
+  align-items: center;
+  column-gap: var(--tm-kr-spacing-4xs);
+  color: var(--tm-kr-color-semantic-info-100);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.configContainer {
+  padding: var(--tm-kr-spacing-xs);
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.footerBtn {
+  min-width: 144px;
+  margin-left: var(--tm-kr-spacing-2xs);
+}

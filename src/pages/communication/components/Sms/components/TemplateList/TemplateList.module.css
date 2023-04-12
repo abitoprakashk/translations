@@ -1,0 +1,47 @@
+.searchContainer {
+  position: sticky;
+  top: -1px;
+  padding-bottom: var(--tm-kr-spacing-2xs);
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+.templateCard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: var(--tm-kr-spacing-s);
+  font-weight: 500;
+  cursor: pointer;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.listContainer .templateCard:hover {
+  background-color: var(--tm-kr-color-primary-60);
+  font-weight: 600;
+}
+.templateContent {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+}
+.templateTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.templateBody {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  font-weight: 400;
+}
+.iconContainer {
+  padding-right: var(--tm-kr-spacing-5xs);
+}
+@media screen and (max-width: 576px) {
+  .templateCard {
+    padding: var(--tm-kr-spacing-xs);
+  }
+}

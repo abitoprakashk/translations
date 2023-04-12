@@ -1,0 +1,13 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.popover {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+}

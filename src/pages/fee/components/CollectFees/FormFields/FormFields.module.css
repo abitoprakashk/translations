@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.requiredStarSpan {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-semantic-error-100);
+  padding-left: 0.5ch;
+}
+
+.datePickerZindex {
+  z-index: 4;
+  position: relative;
+}
+.zIndex3 {
+  z-index: 3;
+  position: relative;
+}
+
+.zIndex4 {
+  z-index: 4;
+  position: relative;
+}

@@ -1,0 +1,29 @@
+.searchInputDiv {
+  border: 1px solid var(--tm-color-gy-3);
+  border-radius: 9999px;
+  outline: none;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background: var(--tm-color-off-white);
+}
+.searchInput {
+  padding: 0px;
+  border: none;
+  outline: none;
+  width: 100%;
+  line-height: 0px;
+  height: 40px;
+  background: var(--tm-color-off-white);
+}
+
+.inputWrapper {
+  padding: 0px;
+  width: 100%;
+  background: var(--tm-color-off-white);
+}
+
+.input {
+  background: var(--tm-color-off-white);
+}

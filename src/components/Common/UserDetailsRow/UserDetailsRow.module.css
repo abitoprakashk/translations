@@ -1,0 +1,22 @@
+.userProfile {
+  display: flex;
+  /* padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-2xs); */
+  gap: var(--tm-kr-spacing-3xs);
+  align-items: center;
+}
+
+.userImage {
+  width: var(--tm-kr-spacing-xl);
+  height: var(--tm-kr-spacing-xl);
+  overflow: hidden;
+  border-radius: var(--tm-kr-border-radius-m);
+  -webkit-border-radius: var(--tm-kr-border-radius-m);
+  -moz-border-radius: var(--tm-kr-border-radius-m);
+  -ms-border-radius: var(--tm-kr-border-radius-m);
+  -o-border-radius: var(--tm-kr-border-radius-m);
+  background-size: cover;
+}
+
+.userImage img {
+  background-size: cover;
+}

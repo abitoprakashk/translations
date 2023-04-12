@@ -1,0 +1,66 @@
+.card {
+  border: 1px solid #f2f4f8;
+  box-shadow: 0px 0px 24px rgba(157, 157, 157, 0.12);
+  border-radius: 8px;
+  margin: 12px 0px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.first_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classroom_settings {
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+}
+
+.second_row {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subject_tag {
+  margin: 0 8px 8px 0;
+}
+
+.third_row {
+  margin-top: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classroom_info_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.classroom_info_section > div {
+  margin: 0 0 12px 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .classroom_info_section {
+    flex-direction: row;
+  }
+
+  .classroom_info_section > div {
+    margin: 0 20px 0 0;
+  }
+
+  .classroom_settings {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+  }
+}

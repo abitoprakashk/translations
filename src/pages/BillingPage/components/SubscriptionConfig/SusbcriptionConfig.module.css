@@ -1,0 +1,51 @@
+.wrapper {
+  background-color: #f4f4f4;
+  border-radius: var(--tm-kr-border-radius-m);
+  margin: var(--tm-kr-spacing-m) 0;
+}
+
+.config1 {
+  display: flex;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.config2 {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-m);
+}
+
+.pspm {
+  margin-left: auto;
+  display: flex;
+  align-items: end;
+}
+
+.pspmValue {
+  font-size: 18px;
+  font-weight: var(--tm-font-weight-bold);
+  margin-right: 2px;
+}
+
+.pspmLabel {
+  font-size: 14px;
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.divider {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.configItemHeader {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: 14px;
+  font-weight: var(--tm-font-weight-regular);
+}
+
+.configItemValue {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: 14px;
+  font-weight: var(--tm-font-weight-medium);
+}

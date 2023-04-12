@@ -1,0 +1,172 @@
+:root {
+  --blue: #eea036;
+  --gray: #f7f9fc;
+  --circle-diameter: 109px;
+  --wrapper-height: calc(var(--circle-diameter) / 2);
+  --percent: 50;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+}
+
+.progress {
+  position: relative;
+  margin: auto auto;
+  padding: 1rem;
+  width: var(--circle-diameter);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar-overflow {
+  position: relative;
+  overflow: hidden;
+  width: var(--circle-diameter);
+  height: 54.5px;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--circle-diameter);
+  height: var(--circle-diameter);
+  border-radius: 50%;
+  border: 8px solid var(--gray);
+  border-bottom-color: var(--blue);
+  border-right-color: var(--blue);
+
+  /* 100% = 180° => ° = % * 1.8 */
+  /* --rotation: calc(45deg + calc(var(--percent) * 1.8 * 1deg));
+	transform: rotate(var(--rotation)); */
+}
+
+.info {
+  position: absolute;
+  bottom: 20%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  min-width: 7.5rem;
+  font-weight: bold;
+}
+
+.info h2 {
+  font-size: 2rem;
+}
+.info p {
+  font-size: 0.75rem;
+}
+
+/* Triangle */
+.info-arrow {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0px;
+  bottom: 100%;
+  left: 50%;
+}
+.info-arrow:after {
+  content: ' ';
+
+  position: absolute;
+  top: -0.5rem;
+  margin-left: -0.5rem;
+  height: 0;
+  width: 0;
+}
+
+.min-max {
+  color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% + 4rem);
+  margin: 0 -2rem;
+  margin-top: 0.5rem;
+  padding-left: 0.75rem;
+}
+
+.circle {
+  --diameter: 20px;
+  height: 20px;
+  width: var(--diameter);
+  border-radius: 50%;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1.3rem;
+  left: 0.7rem;
+
+  /* Magic? */
+  transform-origin: 43px 48.5px;
+  /* The circle's starting position is at the top in the
+    center, -90deg is the position where the bar is 0%. */
+  --rotation: calc(-50deg + calc(var(--percent) * 1.8 * 1deg));
+  transform: rotate(var(--rotation));
+}
+.inner-circle {
+  padding: 2.5px;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  background-color: #eea036;
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.number {
+  position: relative;
+  z-index: 10;
+}
+
+.number:before {
+  display: block;
+
+  min-width: 5ch;
+  content: attr(data-number);
+}
+.left {
+  position: absolute;
+  background: white;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 0px;
+  bottom: 13px;
+  overflow: hidden;
+  background-color: #f7f9fc;
+}
+.right {
+  position: absolute;
+  background: white;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 13px;
+  overflow: hidden;
+  background-color: #f7f9fc;
+}

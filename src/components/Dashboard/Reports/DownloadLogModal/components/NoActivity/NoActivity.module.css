@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.higherSpecificity.icon {
+  font-size: 100px;
+}
+.noActivityTextSection {
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+.noActivityText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.noActivitySubText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--tm-color-text-secondary);
+}

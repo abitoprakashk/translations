@@ -1,0 +1,155 @@
+.rdrDayEndOfWeek .rdrDayStartPreview {
+  border: none !important;
+}
+
+div[class*='krayon__Datepicker-module'] button span:hover {
+  cursor: inherit !important;
+  background-color: var(--tm-kr-color-base-light-100) !important;
+  /* Intensely commented this code
+  color: var(--tm-kr-color-semantic-basic-200) !important; */
+  border: none !important;
+}
+
+div[class*='krayon__Datepicker-module'] .rdrSelected {
+  cursor: inherit !important;
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+  background-color: var(--tm-kr-color-base-light-100) !important;
+  border: none !important;
+}
+
+.rdrDayHovered span::after,
+.rdrDayStartPreview,
+.rdrDayInPreview,
+.rdrDayEndPreview,
+.rdrDay {
+  cursor: inherit !important;
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+  background-color: var(--tm-kr-color-base-light-100) !important;
+  border: none !important;
+}
+
+.rdrSelected {
+  cursor: inherit !important;
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+  background-color: var(--tm-kr-color-base-light-100) !important;
+  border: none !important;
+}
+
+div[class*='krayon__Datepicker-module'] .rdrSelected:hover {
+  cursor: inherit !important;
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+  background-color: var(--tm-kr-color-base-light-100) !important;
+  border: none !important;
+}
+
+.cstHalfDayLeave {
+  background: linear-gradient(
+    to top,
+    var(--tm-kr-color-palette-feijoa) 0 50%,
+    var(--tm-kr-color-pastels-feijoa-10) 50% 100%
+  );
+}
+
+.cstFullDayLeave {
+  background: var(--tm-kr-color-pastels-calico-100) !important;
+}
+
+.cstHoliday {
+  background: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.cstLateEarly::after {
+  content: ' ' !important;
+  display: block !important;
+  width: 8px !important;
+  height: 8px !important;
+  background-color: var(--tm-color-semantic-error-100) !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 3px !important;
+  left: initial !important;
+  transform: initial !important;
+}
+
+.cstPresent {
+  background: var(--tm-kr-color-palette-feijoa);
+}
+
+.cstAbsent {
+  background: var(--tm-kr-color-pastels-seaPink-100);
+}
+
+.dateBlock {
+  display: inline-block;
+  width: 34px;
+}
+.dateNumber {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--tm-kr-border-radius-l);
+  color: var(--tm-kr-color-base-light-100) !important;
+}
+
+.cstTodaysDate {
+  background: var(--tm-kr-color-base-light-100);
+  color: var(--tm-kr-color-primary-110) !important;
+  border: 1px solid var(--tm-kr-color-primary-110);
+}
+
+.cstTodaysDate::after {
+  width: 0px;
+}
+.legends {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+  width: 485px;
+  flex-wrap: wrap;
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.legend {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.legendItem {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  align-self: center;
+  position: relative;
+}
+
+.hasDot::after {
+  content: ' ';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--tm-color-semantic-error-100);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.normalDay {
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+}
+.calendar {
+  position: relative;
+}
+span.cstHoliday {
+  color: var(--tm-kr-color-semantic-basic-200) !important;
+}
+span span.cstHoliday::after {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .legends {
+    width: 400px;
+    margin-top: var(--tm-kr-spacing-xs);
+  }
+}

@@ -1,0 +1,17 @@
+.inputWrapper {
+  height: 44px;
+  width: 100%;
+}
+.searchIcon {
+  margin-top: 4px;
+  display: flex;
+}
+.pointer {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .inputWrapper {
+    height: 44px;
+    width: 350px;
+  }
+}

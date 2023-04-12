@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.evaluationDrawerModals > [data-qa='modal-overlay'] {
+  z-index: 111;
+}
+.evaluationDrawerModals [data-qa='modal'] {
+  height: auto;
+}
+
+.relative {
+  position: relative;
+}

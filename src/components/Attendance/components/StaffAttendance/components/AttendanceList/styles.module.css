@@ -1,0 +1,43 @@
+.attendanceGrid {
+  --columns: 5;
+  display: grid;
+  gap: var(--tm-kr-spacing-s);
+  grid-template-columns: repeat(var(--columns), minmax(min-content, 1fr));
+}
+
+@media screen and (max-width: 1890px) {
+  .attendanceGrid {
+    --columns: 4;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .attendanceGrid {
+    --columns: 3;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .attendanceGrid {
+    --columns: 2;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 936px) {
+  .attendanceGrid {
+    --columns: 3;
+  }
+}
+
+@media screen and (max-width: 935px) and (min-width: 640px) {
+  .attendanceGrid {
+    --columns: 2;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .attendanceGrid {
+    --columns: 1;
+    gap: var(--tm-kr-spacing-2xs);
+  }
+}

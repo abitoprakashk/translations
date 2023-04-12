@@ -1,0 +1,130 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.accordionBody {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+}
+
+.mobile .accordionBody {
+  padding-right: var(--tm-kr-accordion-padding);
+}
+
+.importReportCard.accordionBody {
+  justify-content: center;
+  padding-bottom: var(--tm-kr-spacing-2xl);
+  position: relative;
+}
+
+.divider {
+  height: calc(
+    100% + var(--tm-kr-accordion-padding) + var(--tm-kr-spacing-2xl)
+  );
+  position: relative;
+  bottom: var(--tm-kr-accordion-padding);
+}
+
+.sectionGrid {
+  display: flex;
+  grid-gap: var(--tm-kr-spacing-s);
+  gap: var(--tm-kr-spacing-s);
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: var(--tm-kr-accordion-padding);
+  padding-right: 0;
+}
+
+.white {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.emptyState {
+  margin: var(--tm-kr-spacing-l) 0;
+  text-align: center;
+}
+
+.previewContainer {
+  max-width: 500px;
+  display: flex;
+  gap: var(--tm-kr-spacing-l);
+  align-self: stretch;
+  padding: var(--tm-kr-accordion-padding) var(--tm-kr-spacing-l) 0;
+}
+
+.preview {
+  min-width: 250px;
+  max-height: initial;
+  flex-grow: 3;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  position: relative;
+}
+
+.preview > img,
+.preview > embed {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.btnGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
+  gap: var(--tm-kr-spacing-xs);
+  flex-basis: var(--tm-kr-spacing-3xl);
+  flex-grow: 1;
+  max-width: calc(2 * var(--tm-kr-spacing-3xl) + var(--tm-kr-spacing-xs));
+}
+
+.contentCenter {
+  align-content: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.emptyWithImport {
+  display: flex;
+  flex-direction: column;
+}
+
+.importBtnGroup {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.importBtnGroup .importBtn {
+  background: transparent;
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-90);
+}
+
+.headingBadge {
+  margin-left: auto;
+  margin-right: var(--tm-kr-spacing-s);
+}
+
+@media screen and (max-width: 700px) {
+  .preview {
+    min-width: 150px;
+  }
+}

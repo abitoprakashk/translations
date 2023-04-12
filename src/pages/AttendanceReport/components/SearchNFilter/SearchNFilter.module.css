@@ -1,0 +1,85 @@
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.alignCenter {
+  align-items: center;
+}
+.inputWrapper {
+  height: 44px;
+  width: 100%;
+}
+.searchIcon {
+  margin-top: 4px;
+  display: flex;
+}
+.gap10 {
+  gap: 10px;
+}
+.gap3xs {
+  gap: var(--tm-kr-spacing-3xs);
+}
+.optionsClass {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.optionsClass > div {
+}
+.dropdownClass,
+.dropdownClassCopy {
+  background: var(--tm-kr-color-neutrals-grey-10);
+  border: 1px solid var(--tm-kr-color-primary-100);
+  color: var(--tm-kr-color-primary-100);
+  font-weight: 500;
+  width: 200px;
+  cursor: pointer;
+}
+.dropdownClassCopy input {
+  background: unset;
+}
+:global(.krayon__Input-module__iHNUs).dropdownClassCopy {
+  border: none;
+}
+.dropdownClass span[data-type='basic']:before,
+.dropdownClassCopy span[data-type='basic']:before {
+  color: var(--tm-kr-color-primary-100);
+}
+.dropdownClass span[data-type='basic'][class^='icon-close']:before {
+  color: var(--tm-kr-icon-type-basic);
+}
+
+.wrapperClass {
+}
+
+:global(button .rdrDayNumber) {
+  display: flex;
+  position: absolute;
+}
+.button {
+  padding: 0 var(--tm-kr-spacing-2xs);
+}
+.mwebFilterWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+}
+.container {
+}
+.zi2 {
+  z-index: 2;
+}
+.pointer {
+  cursor: pointer;
+}
+.dropdownOptions {
+}
+@media (min-width: 768px) {
+  .inputWrapper {
+    height: 44px;
+    width: 350px;
+  }
+}

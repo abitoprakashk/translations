@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.iconFrame {
+  background-color: var(--tm-kr-color-pastels-morningGlory-100);
+}
+
+.body {
+  width: 100%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+}
+
+.overviewItem {
+  border: none;
+}
+.overviewItemValue {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+.totalDaysCardValueWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.emptyButtonWrapper {
+  margin: auto;
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+.emptyStateIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}

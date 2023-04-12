@@ -1,0 +1,84 @@
+.phoneNumberField > input {
+  margin-left: 20px;
+}
+
+.datepickerLabel {
+  display: flex;
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-input-title-laptop-font-size);
+  line-height: var(--tm-kr-input-title-mobile-font-height);
+  font-weight: var(--tm-kr-input-title-font-weight);
+}
+
+.datepickerField {
+  width: 100%;
+}
+
+.datepickerFieldLabel {
+  display: flex;
+}
+
+.datepickerField > div:nth-child(2) > div:first-child {
+  z-index: 20;
+}
+
+.calendarWrapper {
+  width: 100%;
+}
+
+.calendarWrapper :global(.rdrCalendarWrapper) {
+  top: calc(100% + 5px);
+  left: 0;
+  max-width: calc(100vw - 2 * var(--tm-kr-spacing-xs));
+  z-index: 4;
+}
+
+.calendarWrapper :global(.rdrDayNumber) {
+  display: flex;
+  position: absolute;
+}
+
+.calendarWrapper :global(.rdrMonth) {
+  max-width: 27.667em;
+  width: auto;
+}
+
+.calendarWrapper :global(.rdrDayNumber) {
+  z-index: 20;
+  outline: 0;
+  font-weight: 300;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  top: 5px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datepickerInput {
+  width: 100%;
+}
+
+.calendarZindex,
+.dropdown.zIndex {
+  z-index: 4;
+}
+
+.dropdownOption {
+  height: auto;
+  min-height: 48px;
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.dropdownField {
+  font-size: var(--tm-kr-text-input-font-size);
+}
+
+.dropdownTextTransform {
+  text-transform: capitalize;
+}

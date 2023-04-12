@@ -1,0 +1,84 @@
+.topTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.toptext {
+  color: var(--tm-color-text-primary);
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.width {
+  width: 85%;
+}
+
+.optionText {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.departmentName {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-text-secondary);
+}
+
+.toogleAccordionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--tm-color-white);
+  padding: 1rem;
+  width: 100%;
+}
+
+.toggleTitleContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  background-color: var(--tm-bg-modal-light-gray);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.inputBgColor {
+  background-color: var(--tm-bg-modal-light-gray);
+  width: 100%;
+}
+
+.inactiveText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.updateButton {
+  position: absolute;
+  bottom: 6%;
+  width: 90%;
+  margin-left: 5%;
+  height: 48px;
+}
+
+@media (min-width: 1024px) {
+  .updateButton {
+    bottom: 2%;
+  }
+}

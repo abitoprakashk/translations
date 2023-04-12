@@ -1,0 +1,183 @@
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.iconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modalSection {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modal.higherSpecificity {
+  max-height: 600px;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerMessage {
+  color: var(--tm-kr-color-semantic-error-110);
+}
+
+.tabGroup {
+  width: 285px;
+  height: 44px;
+  margin-top: 20px;
+}
+
+.table {
+  display: table;
+}
+
+.sticky {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: var(--tm-kr-color-pastels-biloba-10);
+}
+
+.addNewFeeTypeCard {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.infoMessageColor {
+  color: var(--tm-kr-color-semantic-error-110);
+}
+
+.feeTypeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 200px;
+}
+
+.feeTypeBlockFeeName {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.taxText {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.prefixText {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.addOnFeeTable {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tooltipSection {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltipAmount {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tooltipText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.existingFeeAmount {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  width: 140px;
+}
+
+.newFeeAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}
+
+.totalRowColumn0 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 25px;
+  width: 280px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.totalRowColumn1 {
+  width: 250px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.totalRowColumn2 {
+  width: 155px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.totalRowColumn3 {
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.addOnFeeTypeButton {
+  margin-bottom: 20px;
+}
+
+.addNewFeeTypeCardParent {
+  margin-bottom: 20px;
+}
+
+.addOnAmountBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.addOnAmountTaxText {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.addOnAmountInput {
+  width: 100px;
+}

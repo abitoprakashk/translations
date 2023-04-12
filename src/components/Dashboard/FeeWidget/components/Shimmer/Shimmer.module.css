@@ -1,0 +1,14 @@
+.shimmer {
+  height: 15px;
+}
+.short {
+  width: 90px;
+}
+.long {
+  width: 123px;
+}
+.shimmerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

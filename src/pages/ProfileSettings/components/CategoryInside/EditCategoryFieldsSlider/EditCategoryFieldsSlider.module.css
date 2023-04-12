@@ -1,0 +1,43 @@
+.fieldEditSliderIcon {
+  margin-right: 10px;
+}
+.sliderMainContainer {
+  font-weight: normal;
+}
+.sliderContainer {
+  font-weight: normal;
+}
+.sliderBody {
+  padding: 20px 3.625rem;
+  text-align: left;
+  position: relative;
+  height: calc(100vh - 185px);
+  overflow: auto;
+}
+.sliderFooter > div {
+  border-bottom-left-radius: 1.5rem;
+}
+.customFieldSection {
+  font-weight: normal;
+}
+
+/* Toggle part css */
+.fieldSettingsToggleBlock {
+  margin-top: 10px;
+}
+.commonToggleInputGroup {
+  margin-bottom: 24px;
+}
+.toggleSwitchInput {
+  margin-right: 6px;
+}
+.toggleSwitchTitle {
+  font-size: 14px;
+  color: var(--tm-color-bl-1);
+}
+.addSaveButton {
+  width: 240px;
+}
+.sliderMainContainer > div > div > div > div {
+  word-break: break-all;
+}

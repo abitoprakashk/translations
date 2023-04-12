@@ -1,0 +1,56 @@
+.local {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.loader {
+  position: fixed;
+  top: calc(50% - 2.5rem);
+  left: calc(50% - 2.5rem);
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-left: 0.5em solid #1da1f2;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+  transition: opacity 0.1s;
+}
+.local .loader {
+  position: absolute;
+}
+
+.modalVal {
+  background: transparent;
+  background-color: transparent;
+}
+.loader--hide {
+  opacity: 0;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// grid-loader
+.gridLoaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999991;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gridLoader {
+  width: 160px;
+  height: 160px;
+}

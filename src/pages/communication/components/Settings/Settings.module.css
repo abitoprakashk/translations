@@ -1,0 +1,48 @@
+.pollSettingsCardHeading {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.settingsRadioHeading {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.settingsRadioOptionText {
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  margin-left: 12px;
+}
+
+.settingsRadioOptionCheckedText {
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.settingsRadioOptionUncheckedText {
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.settingsCheckboxLabelSec {
+  margin-left: 5px;
+}
+
+.settingsCheckboxInput {
+  margin-top: 4px;
+}
+
+.settingsCheckboxLabel {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.settingsCheckboxLabelSubInfo {
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}

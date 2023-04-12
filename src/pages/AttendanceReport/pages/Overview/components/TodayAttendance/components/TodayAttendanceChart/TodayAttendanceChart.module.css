@@ -1,0 +1,31 @@
+.wrapper {
+  background: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: var(--tm-kr-border-radius-l);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.chartWrapper {
+  position: relative;
+  max-width: 240px;
+  min-width: 200px;
+  width: 100%;
+  height: 273px;
+  position: relative;
+}
+.errorWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+}
+.notMarkedText {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--tm-kr-para-font-size-m);
+  text-align: center;
+}

@@ -1,0 +1,160 @@
+.wrapper {
+  padding: 0;
+}
+
+.header {
+  padding: var(--tm-kr-spacing-s);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-40);
+}
+
+.content {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.deliveryAddressWrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+.formWrapper {
+  display: grid;
+  gap: var(--tm-kr-spacing-2xs);
+  margin-top: var(--tm-kr-spacing-s);
+}
+.inputInput {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+.cityStateWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+/* Image Info top  */
+.imgInfoWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+  padding: var(--tm-kr-spacing-2xs);
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.imgWrapper {
+  width: 120px;
+  height: 80px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgWrapper > img {
+  width: 50px;
+}
+.infoContent div:last-child {
+  padding-top: var(--tm-kr-spacing-2xs);
+}
+
+.checkboxWrapper {
+  margin: 0;
+}
+
+/* Id card details accordion */
+.modalWrapper {
+  height: 680px;
+  max-height: 90%;
+}
+
+.accordionWrapper {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-top: var(--tm-kr-spacing-s);
+}
+.modalBody {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.detailWrapper {
+  display: grid;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.detailsItem {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  align-items: center;
+}
+.detailsItem p:first-child {
+  min-width: 105px;
+}
+.lanyardLogoButtonLabel {
+  font-size: 12px;
+}
+.lanyardColorWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-4xs);
+  align-items: center;
+}
+.lanyardColorBox {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--tm-kr-border-radius-s);
+}
+
+/* Address section */
+.addressItem {
+  display: grid;
+  gap: var(--tm-kr-spacing-3xs);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: var(--tm-kr-spacing-2xs) 0;
+}
+
+.listing {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+/* Image Info top  */
+.imgInfoWrapper {
+  display: flex;
+  height: 150px;
+  gap: var(--tm-kr-spacing-2xs);
+  padding: 0;
+  align-items: center;
+  overflow: hidden;
+}
+.imgWrapper {
+  width: 180px;
+  height: 100%;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgWrapper > img {
+  width: 90px;
+}
+
+.infoContent {
+  display: grid;
+  gap: var(--tm-kr-spacing-4xs);
+}
+.infoTextWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-m);
+}
+.infoContentPrice {
+  padding-top: var(--tm-kr-spacing-2xs);
+}
+
+.checkboxWrapper {
+  margin: 0;
+}
+
+.detailsItem a {
+  color: var(--tm-kr-color-primary-100);
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.colourBrick {
+  height: var(--tm-kr-spacing-m);
+  width: var(--tm-kr-spacing-m);
+  border-radius: var(--tm-kr-border-radius-s);
+}

@@ -1,0 +1,47 @@
+.createNewRoute {
+  width: 250px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dotSeparator {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-s);
+  padding-top: var(--tm-kr-spacing-s);
+}
+
+.routeCard {
+  width: 250px;
+  height: 234px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+}
+
+.routeCardImg {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.routeDetails {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+
+.textOverflowEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

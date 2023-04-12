@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  gap: var(--tm-kr-spacing-2xl);
+  flex-direction: column;
+  position: relative;
+  margin-top: var(--tm-kr-spacing-5xl);
+  padding-top: var(--tm-kr-spacing-l);
+}
+
+.setupVideoCard {
+  width: 330px;
+  background: var(--tm-kr-color-pastels-ash-50);
+  height: 220px;
+  border-radius: var(--tm-kr-border-radius-l);
+  border: none;
+  padding: 0px;
+}
+
+.textContent {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--tm-kr-spacing-2xs);
+  text-align: center;
+}
+
+.video {
+  border-radius: var(--tm-kr-border-radius-l);
+}

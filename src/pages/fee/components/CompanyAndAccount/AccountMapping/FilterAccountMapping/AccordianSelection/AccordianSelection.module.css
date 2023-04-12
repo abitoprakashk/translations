@@ -1,0 +1,77 @@
+.accordionWrapper {
+  margin-bottom: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-accordion-border-radius);
+}
+
+.accordionWrapper label {
+  margin-bottom: 16px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.accordionWrapper label:last-child {
+  margin-bottom: 0px;
+}
+
+.accordionWrapper .headerContent label {
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+.marginLeftWithToggle {
+  margin-left: 30px;
+}
+
+.marginLeftWithoutToggle {
+  margin-left: 28px;
+}
+
+.checkboxLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.standards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nodeSelection {
+  display: flex;
+  align-items: center;
+}
+
+.toggleIcon {
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.toggleIconDiv {
+  display: flex;
+}
+
+.hideChildren {
+  display: none;
+}
+
+.noHierarchyMsg {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

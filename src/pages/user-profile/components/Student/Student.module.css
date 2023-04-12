@@ -1,0 +1,101 @@
+.middleLastName {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sliderFormCueText {
+  color: var(--tm-color-success);
+  padding: 16px;
+  font-size: 14px;
+}
+
+.classInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.showOptional {
+  cursor: pointer;
+  color: var(--tm-color-bl-2);
+  float: right;
+  margin: 10px;
+}
+
+.hideOptional {
+  cursor: pointer;
+  color: var(--tm-color-bl-2);
+  margin: 10px;
+  width: 200px;
+}
+
+.phoneWrapper {
+  position: relative;
+}
+
+.addManually {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+.noBorder {
+  border: none;
+}
+
+.truncate {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.marginBottom {
+  margin-bottom: 150px;
+}
+
+.footerGrid {
+  grid-template-rows: calc(100% - 120px) 80px;
+}
+
+/* New styles code start */
+.dividerLine {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.cstRemainingBanner > div:first-child {
+  margin: 0 0 0.8rem 0;
+  width: 100%;
+}
+
+div.stepperDesc {
+  display: none;
+}
+
+/* New styles code end */
+@media (min-width: 1024px) {
+  .mobileEmail {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+
+  .classInfo {
+    grid-template-columns: repeat(3, 33.33%);
+  }
+
+  .name {
+    display: grid;
+    grid-template-columns: 33.33% auto;
+  }
+
+  .dob {
+    display: grid;
+    grid-template-columns: 33.33% auto;
+  }
+
+  .bloodGroup {
+    display: grid;
+    grid-template-columns: 33.33% auto;
+  }
+}

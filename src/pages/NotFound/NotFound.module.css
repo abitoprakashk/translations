@@ -1,0 +1,41 @@
+.wrapper {
+    composes: tm-color-text-primary from global;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 60vw;
+    margin-bottom: 20px;
+    margin-left: 6vw;
+}
+
+@media (min-width: 576px) {
+    .image {
+        width: 30vw;
+    }
+}
+
+
+.errorCode {
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.errorTitle {
+    /*color: var(--tm-color-bl-2);*/
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.errorMessage {
+    margin-top: 8px;
+}
+
+.homeButton {
+    margin-top: 24px;
+}

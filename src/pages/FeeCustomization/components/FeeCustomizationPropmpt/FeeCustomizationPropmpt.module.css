@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  max-height: 265px;
+}
+.desc {
+  padding: var(--tm-kr-spacing-s) 0;
+}

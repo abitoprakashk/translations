@@ -1,0 +1,15 @@
+{
+  "spreadSheetID": "1loSMPitq1UxRhACZOrpvsS4YrRTuY8YJ2SqJqg1edpU",
+  "finalSheetName": "Admin Final Master Sheet",
+  "copySheetName": "Web",
+  "languages": [
+    {"sheetName": "Terms", "code": "en"},
+    {"sheetName": "hi", "code": "hi"},
+    {"sheetName": "in", "code": "in"},
+    {"sheetName": "French", "code": "fr"},
+    {"sheetName": "Vietnamese", "code": "vn"},
+    {"sheetName": "Arabic (ar)", "code": "ar"}
+  ],
+  "translationKeyIndex": 0,
+  "emptyValuePlaceHolders": ["#N/A", "Not required"]
+}

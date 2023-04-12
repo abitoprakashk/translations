@@ -1,0 +1,109 @@
+.container,
+.accountCompanyPageContainer {
+  height: 100%;
+  position: relative;
+}
+
+.accountCompanyPageContainer {
+  background: var(--tm-kr-color-base-light-100);
+}
+
+.feeReportBtn {
+  position: absolute;
+  right: 32px;
+  top: 16px;
+}
+
+.viewReportBtn {
+  height: 44px;
+  border-radius: 8px;
+}
+
+.backgroundColor {
+  background: #fcf4e5;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.stripText {
+  display: inline-flex;
+}
+
+.extraText {
+  margin-left: 5px;
+}
+.tabMenu,
+.tabGroupMenu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0 30px;
+}
+
+.tabMenu a {
+  padding: 10px 0px 10px 0;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: var(--tm-line-height-2);
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  display: inline-block;
+}
+
+a.active {
+  color: var(--tm-color-bl-2);
+  border-bottom: 1px solid var(--tm-color-bl-2);
+}
+
+.divider {
+  margin-top: -31px;
+  margin-bottom: 23px;
+}
+
+.higherSpecificityFont.higherSpecificitySize.youtubeIcon {
+  font-size: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.tabSection {
+  display: flex;
+  align-items: center;
+}
+
+/* ======= Account and Company ====== */
+.viewActivityBtn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.headerBtnHelp {
+  border: none;
+}
+.headerBtnHelpLabel {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.headerTemplateBtnLabel {
+  text-transform: capitalize;
+}
+
+.buttonDropdownContainer {
+  position: absolute;
+  cursor: pointer;
+}
+
+.buttonDropdownButton {
+  height: 36px;
+}
+
+.breadcrumbLink {
+  cursor: pointer;
+}
+
+.buttonDropdownDropdownContainer {
+  cursor: pointer;
+}

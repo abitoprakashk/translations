@@ -1,0 +1,96 @@
+.modalSize {
+  width: 1120px;
+  height: 700px;
+}
+
+.documentWrapper {
+  display: flex;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 240px;
+  height: 535px;
+  overflow-y: auto;
+  height: 535px;
+}
+
+.outerCard {
+  height: fit-content;
+  border-radius: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-color: var(--tm-kr-color-neutrals-grey-10);
+  margin-top: -1px;
+}
+
+.inactiveCard {
+  height: 75px;
+  width: 100%;
+  border-radius: 0px;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+  cursor: pointer;
+}
+
+.activeCard {
+  height: 75px;
+  width: 100%;
+  border-radius: 0px;
+  background-color: var(--tm-kr-color-primary-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+  cursor: pointer;
+}
+
+.documentName {
+  margin-top: 4px;
+}
+
+.documentOuter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.documentInner {
+  margin-left: 8px;
+}
+
+.documentContainer {
+  /* overflow-y: scroll; */
+  width: 820px;
+  height: fit-content;
+  height: 450px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+.Image {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: 235px;
+  margin-top: 73px;
+  border: 12px solid var(--tm-kr-color-neutrals-grey-10);
+  border-radius: 12px;
+}
+
+.pdfViewer {
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  margin: 20px 0px;
+  height: 420px;
+  border: 0px;
+}
+
+.stateContainer {
+  margin-top: 150px;
+}

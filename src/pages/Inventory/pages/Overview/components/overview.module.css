@@ -1,0 +1,81 @@
+.data_card_wrapper {
+  display: flex;
+  margin: 25px;
+  gap: 20px;
+}
+
+.data_card {
+  width: 30%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.data_card_title {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+}
+
+.data_card_title + p {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.frameBlue {
+  background-color: var(--tm-color-blue-frame);
+  padding: 16px;
+}
+
+.frameOrange {
+  background-color: var(--tm-color-orange-frame);
+  padding: 16px;
+}
+
+.frameGreen {
+  background-color: var(--tm-color-green-frame);
+  padding: 16px;
+}
+
+@media (max-width: 1198.99px) {
+  .data_card_title + p {
+    font-size: 12px;
+  }
+}
+
+.navbarStyling > nav {
+  background-color: var(--tm-color-gy-3);
+  color: var(--tm-color-text-secondary);
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 4px;
+  display: inline-block;
+}
+
+.navbarStyling > nav:nth-child(2) {
+  position: relative;
+  right: 38px;
+}
+
+.navbarStyling {
+  background-color: var(--tm-color-white);
+}
+
+.tabMenu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px;
+  color: var(--tm-color-text-secondary);
+}
+
+.tabMenu a {
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.active {
+  background-color: var(--tm-color-white);
+  font-weight: 700;
+  color: var(--tm-color-blue);
+  border-radius: 4px;
+}

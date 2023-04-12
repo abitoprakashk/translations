@@ -1,0 +1,17 @@
+.alertContent {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: var(--tm-font-weight-medium);
+  display: flex;
+  column-gap: var(--tm-kr-spacing-xs);
+}
+
+.feeValidationAlert {
+  margin-bottom: var(--tm-kr-spacing-l);
+  padding: var(--tm-kr-spacing-xs);
+  width: 100%;
+}
+
+.alertActionBtn {
+  min-width: 136px;
+}

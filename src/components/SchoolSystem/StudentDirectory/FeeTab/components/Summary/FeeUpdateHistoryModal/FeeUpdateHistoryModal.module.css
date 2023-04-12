@@ -1,0 +1,58 @@
+.modalMain.feeDownloadReportModal {
+  height: 600px;
+}
+
+.borderLeft {
+  border-left: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contentSection {
+  padding-top: 20px;
+}
+
+.contentSectionBorder {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  height: 100%;
+  display: flex;
+  border-radius: 12px;
+}
+
+.height56vh {
+  height: 480px;
+  overflow-y: auto;
+}
+
+.lastChildBorderNone div:last-child {
+  border: none;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.iconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+  .modalMain.feeDownloadReportModal {
+    width: 960px;
+    min-height: 10%;
+  }
+}

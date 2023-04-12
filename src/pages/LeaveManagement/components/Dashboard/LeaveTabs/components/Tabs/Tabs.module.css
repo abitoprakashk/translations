@@ -1,0 +1,23 @@
+.tabwrapper {
+  transition: all 0.3s ease-in-out;
+  padding: 2px;
+  background: var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+  display: flex;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  flex: 1;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--tm-color-text-secondary);
+  text-align: center;
+  padding: 8px;
+}
+.active {
+  background: var(--tm-color-white);
+  color: var(--tm-color-blue);
+  border-radius: 4px;
+}

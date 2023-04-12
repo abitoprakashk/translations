@@ -1,0 +1,147 @@
+.tableContainer {
+  height: calc(100vh - 322px);
+}
+
+.tableContainer
+  input[type='checkbox']
+  + [class^='krayon__Checkbox-module__']::after {
+  box-sizing: content-box;
+}
+
+.table thead tr td:first-of-type {
+  border-top-left-radius: var(--tm-kr-border-radius-l);
+}
+.table tr td:nth-of-type(2) {
+  padding-left: var(--tm-kr-spacing-2xs);
+  width: 40%;
+}
+
+/* .table tr td:last-of-type {
+  width: 222px;
+}
+ */
+.filterRow {
+  display: flex;
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.filterRow > div {
+  flex: 1;
+}
+
+.filterRow .downloadIcon::before {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.filterRow > div:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--tm-kr-spacing-xs);
+  /* padding-right: var(--tm-kr-spacing-xs); */
+}
+
+.modal {
+  width: 540px;
+  height: 544px;
+  overflow: auto;
+}
+
+.modalContent {
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: var(--tm-kr-spacing-xs);
+}
+
+.actionButtons > span {
+  cursor: pointer;
+}
+
+.divider {
+  width: 1px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.missingFieldsWrapper {
+  position: relative;
+}
+
+.missingFieldsWrapper > p {
+  margin-bottom: var(--tm-kr-spacing-4xs);
+}
+
+.missingFieldsPopup {
+  position: absolute;
+  z-index: 2;
+  background-color: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s);
+  width: 320px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.warning {
+  background-color: var(--tm-kr-color-base-light-100);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.headerDivider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.missingFields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.missingFieldsPopup p {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.missingFields span {
+  font-size: var(--tm-kr-para-font-size-m);
+  padding: 2px var(--tm-kr-spacing-5xs) 2px 6px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.addDetailsButton {
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.tableContainer > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+/* Handle */
+.tableContainer > div > div::-webkit-scrollbar-thumb {
+  background: #cccccc !important;
+}
+/* Handle on hover */
+.tableContainer > div > div::-webkit-scrollbar-thumb:hover {
+  background: #cccccc !important;
+}
+.tableContainer > div > div::-webkit-scrollbar {
+  display: initial !important;
+}
+.tableContainer > div > div::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.tableContainer > div > div {
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.tableContainer {
+  margin-bottom: var(--tm-kr-spacing-s);
+}

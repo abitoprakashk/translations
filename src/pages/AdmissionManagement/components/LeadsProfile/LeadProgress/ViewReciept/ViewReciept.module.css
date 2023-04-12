@@ -1,0 +1,67 @@
+.modalSize {
+  width: 960px;
+  height: 588px;
+}
+
+.closeIconStyle {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.modalContentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+}
+
+.feeDataWrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.separator {
+  width: 4px;
+  height: 4px;
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.iconPosition {
+  margin-top: 2px;
+}
+
+.receiptAmount {
+  display: flex;
+}
+
+.pdfOuterWrapper {
+  margin-top: 16px;
+  width: 920px;
+  height: fit-content;
+  height: 400px;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+  justify-content: center;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.pdfInnerWrapper {
+  display: inline-block;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.textTransform {
+  text-transform: capitalize;
+}

@@ -1,0 +1,129 @@
+.formWrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.cardsWrapper {
+  margin-top: var(--tm-kr-spacing-xs);
+  width: inherit;
+  display: grid;
+  gap: var(--tm-kr-spacing-2xs);
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.documentCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  max-width: 170px;
+  height: 148px;
+  border: none;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  overflow: hidden;
+  position: relative;
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-2xs);
+}
+
+.documentFormWrapper {
+  width: 334px;
+  overflow: scroll;
+  height: 100%;
+  display: grid;
+  padding: var(--tm-kr-spacing-s) 0px;
+}
+
+.documentsViewWrapper {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.emptyState {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-m);
+  align-items: center;
+  justify-content: center;
+}
+
+.footerButton {
+  width: 100%;
+  align-self: flex-end;
+}
+
+.addNewDocument {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.checkboxWrapper {
+  margin-left: 0px;
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.selectedCardBorder {
+  border: var(--tm-kr-border-width-m) solid var(--tm-kr-color-primary-100);
+}
+
+.previewStateHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.documentDetailsCard {
+  padding: 0px;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.documentContainer {
+  position: absolute;
+  display: flex;
+  top: var(--tm-kr-spacing-2xs);
+  width: 90%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.reminderCard {
+  background-color: #f4f4f4;
+  display: flex;
+  border: none;
+  margin-top: var(--tm-kr-spacing-2xs);
+  height: 72px;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.previewStateRow {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.headerLeft {
+  display: flex;
+  align-items: end;
+  gap: var(--tm-kr-spacing-xs);
+}
+
+.fileInputWrapper p {
+  width: 231px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textOverflow {
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

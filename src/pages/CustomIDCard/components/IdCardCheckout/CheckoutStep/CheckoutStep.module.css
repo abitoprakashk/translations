@@ -1,0 +1,6 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  padding: var(--tm-kr-spacing-s);
+  gap: var(--tm-kr-spacing-2xs);
+}

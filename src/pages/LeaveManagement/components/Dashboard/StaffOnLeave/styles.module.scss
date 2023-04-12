@@ -1,0 +1,186 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+
+  flex: 1 0 280px;
+  max-width: 280px;
+  height: 92px;
+
+  background: var(--tm-color-white);
+
+  box-shadow: 0px 4px 8px rgba(157, 182, 217, 0.2);
+  border-radius: 8px;
+
+  margin: 16px 0;
+}
+
+.upcomingCard {
+  flex: 1 0 200px;
+  align-items: stretch;
+
+  & .threeDots {
+    width: initial;
+  }
+}
+
+.cardInfo,
+.upcomingCardInfo {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 100%;
+}
+.upcomingCardInfo {
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  gap: 4px;
+}
+
+.upcomingCardInfoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.staffInfo {
+  height: 40px;
+}
+
+.staffDetail {
+  width: calc(100% - 48px);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--tm-color-off-white);
+}
+
+.staffName,
+.leaveType {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: var(--tm-color-text-primary);
+}
+
+.staffRole,
+.upcomingLeaveDetails > .leavedate {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: var(--tm-color-text-secondary);
+}
+
+.textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leaveDetails,
+.upcomingLeaveDetails {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-secondary);
+  white-space: nowrap;
+}
+.upcomingLeaveDetails {
+  font-size: 14px;
+}
+
+.leaveDetails .leaveType {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.dot {
+  min-width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--tm-color-light-gray);
+}
+
+.listWrapper {
+  gap: 20px;
+}
+
+.showScrollbar:hover {
+  &::-webkit-scrollbar {
+    display: initial;
+    // show scroll bar
+    width: 8px;
+    height: 8px;
+
+    -ms-overflow-style: initial; /* IE and Edge */
+    scrollbar-width: initial; /* Firefox */
+    -webkit-tap-highlight-color: initial;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 5px;
+  }
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+  }
+}
+
+.leaveStatus {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.noWordWrap {
+  white-space: nowrap;
+}
+
+.approved {
+  color: var(--tm-color-green);
+}
+
+.requested {
+  color: var(--tm-color-orange);
+}
+
+.textSecondary {
+  color: var(--tm-color-text-secondary);
+}
+
+@media screen and (max-width: 600px) {
+  .staffName {
+    font-size: 14px;
+  }
+
+  .listWrapper {
+    gap: 16px;
+  }
+}

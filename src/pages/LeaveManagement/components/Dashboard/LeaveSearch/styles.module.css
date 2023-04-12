@@ -1,0 +1,27 @@
+.searchWrapper {
+  padding: 20px 23px;
+  background-color: var(--tm-color-white);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchWrapper > div:first-child {
+  max-width: 30%;
+  height: 40px;
+}
+
+.mobile.searchWrapper {
+  padding: 0;
+  background: none;
+  flex-grow: 1;
+}
+
+.mobile.searchWrapper > div:first-child {
+  max-width: 100%;
+}
+
+.mobile.searchWrapper > div,
+.mobile.searchWrapper > div > input {
+  background-color: var(--tm-color-white);
+}

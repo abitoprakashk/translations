@@ -1,0 +1,21 @@
+.dynamicCategoriesSection {
+  font-weight: normal;
+}
+.sliderFormCueText {
+  color: var(--tm-color-success);
+  padding: 16px 0px 16px;
+  font-size: 14px;
+}
+.categoriesAccordion {
+  font-weight: normal;
+}
+.categoriesFlatAccordion > div:first-child {
+  height: auto;
+  word-break: break-all;
+}
+.accordionDiv {
+  width: 100%;
+}
+.categoryFieldsLoadingBlock {
+  font-weight: normal;
+}

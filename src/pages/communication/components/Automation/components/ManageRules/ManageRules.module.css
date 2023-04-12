@@ -1,0 +1,65 @@
+.manageContainer {
+  display: flex;
+  align-items: center;
+  padding: var(--tm-kr-spacing-xs);
+  height: 52px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-80);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+  min-width: 380px;
+}
+
+.manageLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+  margin-left: var(--tm-kr-spacing-5xs);
+}
+
+.manageIcon {
+  margin-right: var(--tm-kr-spacing-3xs);
+}
+
+.manageModalBody {
+  padding: var(--tm-kr-spacing-s) 0 0 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.badgeGroup {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-3xs);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.rulesContainer {
+  margin: var(--tm-kr-spacing-xs) 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--tm-kr-spacing-2xs);
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .manageContainer {
+    width: 100%;
+  }
+}

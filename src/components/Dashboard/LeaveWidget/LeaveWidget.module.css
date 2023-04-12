@@ -1,0 +1,164 @@
+.iconFrame {
+  background: var(--tm-kr-color-pastels-morningGlory-100);
+}
+
+.widgetWrapper {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.onLeave {
+  border-right: var(--tm-kr-border-width-s) solid
+    var(--tm-kr-color-neutrals-grey-30);
+}
+
+.body {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  padding: unset;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  align-items: center;
+}
+
+.bodyChild {
+  width: 50%;
+  padding: 16px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.emptyBody {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.fillBody {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 12px;
+}
+
+.subHeading {
+  margin-top: 4px;
+}
+
+.label {
+  margin-top: 12px;
+}
+
+.ellipseText {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notSetupMessage {
+  margin: 12px 0px 8px 0px;
+}
+
+.vanishingDot,
+.dot {
+  min-width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--tm-kr-color-neutrals-grey-40);
+  font-family: Inter;
+}
+
+.modalBody {
+  height: 80px;
+  border-bottom: var(--tm-kr-border-width-s) solid var(--tm-border-color-gray-2);
+}
+
+.content {
+  padding: 0px;
+}
+
+.modal {
+  overflow: hidden;
+}
+
+.modalName {
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+.modalSubHeading {
+  padding-left: 20px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.remainingData {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.header {
+  height: 68px;
+  padding: 16px 20px;
+}
+
+.refresh {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wrapper > .iconFrame {
+  background-color: var(--tm-color-white);
+}
+
+.headerTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+@media screen and (max-width: 640px) {
+  .widgetWrapper {
+    width: 100%;
+  }
+
+  .vanishingDot {
+    display: none;
+  }
+  .modalSubHeading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+.bodyContainer {
+  width: 100%;
+}
+
+.contentWrapper {
+  text-align: center;
+}

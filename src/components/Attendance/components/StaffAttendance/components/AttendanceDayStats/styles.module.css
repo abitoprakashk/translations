@@ -1,0 +1,8 @@
+.fullWidth {
+  width: 100%;
+}
+
+.alertWrapper :global([class^='krayon__Para-module__']) {
+  margin: 0 var(--tm-kr-spacing-2xs) 0 var(--tm-kr-spacing-3xs);
+  align-self: center;
+}

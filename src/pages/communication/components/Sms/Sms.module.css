@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  padding: var(--tm-kr-spacing-l) var(--tm-kr-spacing-l) 0px
+    var(--tm-kr-spacing-s);
+}
+.blurryBg {
+  filter: blur(2px);
+  pointer-events: none;
+}
+.contentArea {
+  flex-grow: 1;
+  padding-left: var(--tm-kr-spacing-m);
+  overflow-y: scroll;
+  position: relative;
+}
+.smsIcon {
+  padding-right: var(--tm-kr-spacing-3xs);
+}
+
+@media screen and (max-width: 576px) {
+  .stepperUi {
+    display: block;
+  }
+  .container {
+    flex-direction: column;
+    padding: 0px var(--tm-kr-spacing-xs);
+  }
+  .contentArea {
+    padding-left: 0px;
+    max-height: 70vh;
+  }
+  .stepperWrapper {
+    display: none;
+  }
+  .altStep {
+    display: initial;
+    color: var(--tm-kr-color-neutrals-grey-60);
+    font-size: var(--tm-kr-para-font-size-m);
+  }
+}

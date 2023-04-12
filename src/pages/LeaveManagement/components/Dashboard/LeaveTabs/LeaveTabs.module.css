@@ -1,0 +1,42 @@
+.show {
+  display: unset;
+}
+.hide {
+  display: none;
+}
+
+.tabwrapper {
+  transition: all 0.3s ease-in-out;
+  padding: 2px;
+  background: var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+  display: flex;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.leaveTab .tab {
+  flex: 1;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--tm-color-text-secondary);
+  text-align: center;
+  padding: 8px;
+  margin-right: 0;
+  border-bottom: unset;
+}
+.tab.active {
+  background: var(--tm-color-white);
+  color: var(--tm-color-blue);
+  border-radius: 4px;
+}
+
+.downloadReport {
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

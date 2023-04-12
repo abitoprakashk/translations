@@ -1,0 +1,14 @@
+.loaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 400px;
+}
+.loaderWrapper > div:first-child {
+  width: 300px;
+  height: 160px;
+}
+.para {
+  margin-top: var(--tm-kr-spacing-3xs);
+}

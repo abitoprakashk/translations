@@ -1,0 +1,70 @@
+/* Filter Wrapper */
+.searchFilterWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+/* Search bar wrapper */
+.searchWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.searchWrapper > div {
+  width: 100%;
+}
+.searchDropdown {
+  width: 100%;
+  flex-shrink: 0;
+}
+.mobileDropdown {
+  height: 44px;
+  padding: var(--tm-kr-spacing-2xs);
+}
+.mobileDropdownOptionsClass {
+  z-index: 1;
+}
+.searchBar {
+  width: 100%;
+}
+
+/* Filter Wrapper */
+.filtersWrapper {
+  display: none;
+}
+.statusFilterWrapper {
+  width: 180px;
+}
+.genderFilterWrapper {
+  width: 180px;
+}
+.classFilterWrapper {
+  width: 190px;
+  text-overflow: ellipsis;
+}
+.classFilterWrapper label {
+  height: auto;
+  min-height: var(--tm-kr-spacing-3xl);
+  padding: var(--tm-kr-spacing-2xs);
+}
+@media screen and (min-width: 768px) {
+  .searchWrapper > div {
+    width: unset;
+  }
+  .filtersWrapper {
+    display: flex;
+    gap: var(--tm-kr-spacing-3xs);
+  }
+  .searchWrapper .searchDropdown {
+    width: 215px;
+  }
+  .searchBar {
+    min-width: 300px;
+  }
+
+  .mobileDropdownOptionsClass {
+    max-height: 320px;
+    height: 320px;
+  }
+}

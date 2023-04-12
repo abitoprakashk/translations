@@ -1,0 +1,35 @@
+.setupCard {
+  background-color: var(--tm-kr-color-base-dark-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-m);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--tm-kr-spacing-2xs);
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.heading {
+  color: var(--tm-kr-color-neutrals-grey-10);
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+
+.iconClass {
+  margin-right: var(--tm-kr-spacing-s);
+}
+
+@media only screen and (min-width: 768px) {
+  .setupCard {
+    padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-m);
+    margin: var(--tm-kr-spacing-s) 0;
+    align-items: flex-start;
+  }
+
+  .text {
+    color: var(--tm-kr-color-neutrals-grey-50);
+  }
+}

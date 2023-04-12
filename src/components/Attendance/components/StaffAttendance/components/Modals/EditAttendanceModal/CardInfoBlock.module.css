@@ -1,0 +1,106 @@
+.viewProfileDetails {
+  font-weight: normal;
+  padding: 0 var(--tm-kr-plaincard-spacing) var(--tm-kr-plaincard-spacing);
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.subInfoDetails {
+  font-weight: normal;
+}
+
+.viewDetailsLeft,
+.viewDetailsRight {
+  display: inline-block;
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.viewDetailsLeft {
+  font-weight: normal;
+}
+.profileImg {
+  display: inline-block;
+  vertical-align: top;
+}
+.infoWrapper {
+  display: inline-block;
+  padding-left: var(--tm-kr-spacing-3xs);
+}
+.userName {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.subInfoDetails {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-weight: 500;
+}
+.designation {
+  display: inline-block;
+  padding-right: var(--tm-kr-spacing-3xs);
+}
+.dotBox {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--tm-kr-color-neutrals-grey-70);
+  vertical-align: middle;
+}
+.shiftName {
+  padding-left: var(--tm-kr-spacing-3xs);
+}
+.viewDetailsRight {
+  text-align: left;
+}
+.statusBox {
+  display: inline-block;
+}
+.statusLabel {
+  height: auto;
+  padding: var(--tm-kr-badge-padding) var(--tm-kr-badge-padding);
+}
+
+.dateInfoBlock {
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.dateBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+  border-right: 1px solid var(--tm-border-color-gray-2);
+}
+.checkInBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+  border-right: 1px solid var(--tm-border-color-gray-2);
+}
+.checkOutBox {
+  display: inline-block;
+  width: 33.33%;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-xs);
+}
+.labelInfo {
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.labelValue {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+@media (min-width: 768px) {
+  .viewDetailsLeft,
+  .viewDetailsRight {
+    width: 50%;
+  }
+  .viewDetailsRight {
+    text-align: right;
+  }
+}

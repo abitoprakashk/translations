@@ -1,0 +1,92 @@
+.widgetShimmerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-4xs);
+  padding: var(--tm-kr-spacing-4xs) 0;
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+
+.widgetShimmerTop,
+.widgetShimmerBottom {
+  background: #f6f7f8;
+  background-image: linear-gradient(
+    90deg,
+    #eaeaea 0%,
+    rgba(217, 217, 217, 0) 45.83%,
+    #eaeaea 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 800px 104px;
+  display: inline-block;
+  position: relative;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+}
+
+.widgetShimmerTop {
+  height: 15px;
+  width: 93px;
+  border-radius: 4px;
+}
+.widgetShimmerBottom {
+  height: 15px;
+  width: 123px;
+  border-radius: 4px;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* Bar Graph Shimmer */
+.widgetBarShimmerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--tm-kr-spacing-4xs);
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-l);
+}
+
+.widgetBarShimmer {
+  background: #f6f7f8;
+  background-image: linear-gradient(
+    90deg,
+    #eaeaea 0%,
+    rgba(217, 217, 217, 0) 45.83%,
+    #eaeaea 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 800px 250px;
+  display: inline-block;
+  position: relative;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderBarShimmer;
+  animation-timing-function: linear;
+}
+
+.widgetBarShimmer {
+  height: 250px;
+  width: 40px;
+  border-radius: 4px;
+}
+
+@keyframes placeholderBarShimmer {
+  0% {
+    background-position: -268px 0;
+  }
+
+  100% {
+    background-position: 268px 0;
+  }
+}

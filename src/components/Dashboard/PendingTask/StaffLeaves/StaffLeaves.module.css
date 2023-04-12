@@ -1,0 +1,398 @@
+.staffLeavesCardsContainerWrapper,
+.staffLeavesCardsContainer,
+.staffLeavesCardsContainerMin,
+.staffLeavsCardContainer:first-child {
+  position: relative;
+}
+
+.staffLeavesCardsContainerWrapper {
+  max-height: 130px;
+  overflow: hidden;
+}
+
+.staffLeavesContainerCardsAfter {
+  content: '';
+  position: absolute;
+  top: 90px;
+  left: 4%;
+  width: 92%;
+  border-bottom-right-radius: var(--tm-kr-border-radius-l);
+  border-bottom-left-radius: var(--tm-kr-border-radius-l);
+  height: 12px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+  z-index: 11;
+  animation: visibilityShow 2s;
+}
+
+.staffLeavesCardsContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.staffLeavesCardsContainerMin {
+  height: 100%;
+  max-height: 130px;
+  animation: staffLeavesCardsContainerMinHeight 0.6s;
+  cursor: pointer;
+  overflow: hidden;
+}
+@keyframes staffLeavesCardsContainerMinHeight {
+  from {
+    max-height: 100%;
+  }
+  to {
+    max-height: 1%;
+  }
+}
+
+.staffLeavesContainerTitle,
+.staffLeavsCardContainerLeaveContainer,
+.staffLeavsCardContainerRole,
+.staffLeavesCardsContainerButton {
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  line-height: var(--tm-kr-para-line-height-m);
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.staffLeavesContainerTitle {
+  color: var(--tm-kr-color-neutrals-grey-40);
+  margin-bottom: var(--tm-kr-spacing-4xs);
+}
+
+.staffLeavsCardContainer {
+  display: flex;
+  top: 10px;
+  left: 5%;
+  gap: var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-l);
+  background-color: var(--tm-color-white);
+  padding: var(--tm-kr-spacing-2xs);
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.staffLeavsCardContainerPointer {
+  cursor: pointer;
+}
+
+.staffLeavsCardContainerMore {
+  position: unset;
+  width: 100%;
+}
+
+.staffLeavsCardContainer:first-child,
+.staffLeavsCardContainerMin:first-child {
+  visibility: visible;
+}
+.staffLeavsCardContainer:first-child {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: visible;
+  z-index: 11;
+  opacity: 1;
+}
+
+.staffLeavsCardContainerMin,
+.staffLeavsCardContainerFull,
+.staffLeavsCardContainerFull:first-child {
+  visibility: visible;
+  overflow: hidden;
+}
+
+.staffLeavsCardContainerFull {
+  height: 140px;
+  width: 100%;
+  animation: openContainer 1s, openContainerMargin 1s, openContainerPosition 1s,
+    visibilityShow 1s;
+}
+.staffLeavsCardContainerFull:first-child {
+  height: 140px;
+  min-height: 80px !important;
+  animation: openContainer 1s 1;
+}
+.staffLeavsCardContainerFull:not(:first-child) {
+  margin-top: var(--tm-kr-spacing-xs);
+  opacity: 1;
+}
+
+@keyframes openContainer {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 140px;
+  }
+}
+@keyframes openContainerMargin {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: var(--tm-kr-spacing-s);
+  }
+}
+@keyframes openContainerPosition {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px;
+  }
+}
+@keyframes visibilityShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.staffLeavsCardContainerMin {
+  height: 0px;
+  width: 100%;
+  animation: closeContainer 1s, closeContainerMargin 1s, visibilityHidden 0.5s;
+}
+.staffLeavsCardContainerMin:first-child {
+  opacity: 1;
+  height: 90px;
+  animation: closeContainerMargin 1s 1;
+}
+.staffLeavsCardContainerMin:not(:first-child) {
+  margin-top: var(--tm-kr-spacing-s);
+  opacity: 0;
+}
+
+@keyframes closeContainer {
+  from {
+    height: 220px;
+  }
+  to {
+    height: 0px;
+  }
+}
+@keyframes closeContainerMargin {
+  from {
+    margin-top: var(--tm-kr-spacing-s);
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@keyframes visibilityHidden {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.staffLeavsCardContainerCancel,
+.staffLeavsCardContainerApprove,
+.staffLeavesCardsContainerButton,
+.staffLeavsCardContainerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.staffLeavsCardContainerIcon {
+  background-color: var(--tm-color-aqua-1);
+  height: 36px;
+  width: var(--tm-kr-icon-size-xl);
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.staffLeavsCardContainerMain {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
+.staffLeavsCardContainerLeaveTypeTop {
+  display: none;
+}
+
+.staffLeavsCardContainerLeaveTypeRight {
+  display: flex;
+  height: 22px;
+  width: fit-content;
+  border-radius: var(--tm-kr-border-radius-m);
+  padding: 2px 8px 2px 6px;
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: var(--tm-color-semantic-information-10);
+  color: var(--tm-color-semantic-information-100);
+}
+
+.staffLeavsCardContainerNameContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.staffLeavsCardContainerName {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-para-line-height-xl);
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.staffLeavsCardContainerLeaveContainer,
+.staffLeavsCardContainerButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.staffLeavsCardContainerLeaveContainer {
+  gap: var(--tm-kr-spacing-3xs);
+  width: 100%;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.staffLeavsCardContainerDot {
+  background-color: var(--tm-kr-color-neutrals-grey-70);
+  height: 3px;
+  width: 3px;
+  border-radius: 100%;
+}
+
+.staffLeavsCardContainerRole {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+
+.staffLeavsCardContainerButtonContainer {
+  gap: var(--tm-kr-spacing-2xs);
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.staffLeavsCardContainerCancel,
+.staffLeavsCardContainerApprove,
+.staffLeavesCardsContainerButton {
+  cursor: pointer;
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.staffLeavsCardContainerCancel {
+  height: 36px;
+  width: 36px;
+  border: 1px solid var(--tm-kr-color-semantic-error-100);
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.staffLeavsCardContainerApprove {
+  flex: 1;
+  height: 36px;
+  background-color: var(--tm-kr-color-semantic-success-100);
+  color: var(--tm-color-white);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-para-line-height-l);
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.staffLeavesCardsContainerButton {
+  margin: var(--tm-kr-spacing-xs) auto;
+  height: 30px;
+  width: 86px;
+  border-radius: 10px;
+  background-color: var(--tm-color-bl-3);
+  color: var(--tm-color-white);
+  gap: 25px;
+  padding: 10px 10px 10px 15px;
+}
+
+@media (min-width: 1024px) {
+  .staffLeavsCardContainerCancel {
+    width: 34px;
+    height: 34px;
+  }
+  .staffLeavsCardContainerLeaveTypeRight {
+    display: none;
+  }
+  .staffLeavsCardContainerLeaveTypeTop {
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    width: fit-content;
+    border-radius: var(--tm-kr-border-radius-m);
+    padding: 2px 8px 2px 6px;
+    font-size: var(--tm-kr-para-font-size-m);
+    font-weight: var(--tm-kr-heading-font-weight-medium);
+    line-height: var(--tm-kr-para-line-height-l);
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: var(--tm-color-semantic-information-10);
+    color: var(--tm-color-semantic-information-100);
+  }
+  .staffLeavsCardContainerIcon {
+    display: none;
+  }
+
+  .staffLeavsCardContainerLeaveTypeTop {
+    margin-bottom: var(--tm-kr-spacing-2xs);
+  }
+
+  .staffLeavsCardContainer {
+    padding: var(--tm-kr-spacing-s);
+  }
+
+  .staffLeavsCardContainer:first-child {
+    height: 128px;
+  }
+  .staffLeavsCardContainerFull {
+    height: 190px;
+  }
+  .staffLeavsCardContainerFull:first-child {
+    visibility: visible;
+    overflow: hidden;
+    height: 190px;
+    min-height: 128px !important;
+    animation: openContainer 1s 1;
+  }
+  @keyframes openContainer {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 190px;
+    }
+  }
+
+  .staffLeavsCardContainerMin {
+    height: 0px;
+  }
+
+  .staffLeavesContainerCardsAfter {
+    top: 128px;
+  }
+
+  .staffLeavesCardsContainerWrapper,
+  .staffLeavesCardsContainerMin {
+    max-height: 160px;
+  }
+
+  .staffLeavsCardContainerName {
+    max-width: 170px;
+  }
+}

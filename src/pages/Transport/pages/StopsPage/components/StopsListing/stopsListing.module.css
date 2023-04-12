@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.searchBar {
+  width: 400px;
+}
+
+.kebabMenuIconFrame {
+  background-color: inherit;
+}
+
+.deletePopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+
+.emptyStateWrapper {
+  margin-top: var(--tm-kr-spacing-5xl);
+}
+
+.wrapper td[class*='krayon__Table-module'] {
+  max-width: 300px;
+}
+
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+
+.buttonWrapper {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}
+
+.addButtons {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.buttonDropdownContainer {
+  position: absolute;
+  width: 100%;
+}
+
+.buttonDropDownWrapper {
+  position: relative;
+}

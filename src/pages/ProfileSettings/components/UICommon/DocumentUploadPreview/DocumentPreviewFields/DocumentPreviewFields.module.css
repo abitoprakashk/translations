@@ -1,0 +1,77 @@
+.titleWrapper {
+  position: absolute;
+  width: inherit;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  padding: 12px 0 0 20px;
+  background-color: var(--tm-color-white);
+  border-radius: 0 0 10px 10px;
+  font-size: 14px;
+  border: 1px solid var(--tm-bg-gray-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10%;
+}
+.addFileBodyWrapper {
+  width: 100%;
+  height: 100px;
+  background-color: var(--tm-color-white);
+  border-radius: 10px 10px 0 0;
+  border: 1px dashed var(--tm-color-blue);
+  display: flex;
+}
+.bodyWrapper {
+  width: 100%;
+  height: 100px;
+  background-color: var(--tm-bg-gray-3);
+  position: relative;
+}
+.kebabMenuWrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+.kebabMenuWrapper a + [class^='__react_component_tooltip'] {
+  right: 0px !important;
+  top: 30px !important;
+  left: initial !important;
+  margin-right: 0px !important;
+  width: 142px !important;
+  opacity: 1;
+}
+.imageDesign {
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+}
+.pdfDesign > canvas {
+  border-radius: 8px;
+}
+.iconWrapper {
+  display: inline-block;
+  width: 30px;
+  margin: auto;
+}
+.iconLabel {
+  margin: 0;
+  cursor: pointer;
+}
+.uploadInput {
+  display: none;
+}
+.reuploadLabel {
+  margin: 0;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.reuploadTitle {
+  color: var(--tm-bg-color-black-font);
+}
+.deleteTitle {
+  color: var(--tm-color-red-2);
+}

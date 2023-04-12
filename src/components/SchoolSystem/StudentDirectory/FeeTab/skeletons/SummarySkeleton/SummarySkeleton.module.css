@@ -1,0 +1,36 @@
+.headingName {
+  height: 20px;
+  width: 100px;
+  border-radius: 3px;
+}
+
+.subText {
+  height: 15px;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardWrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 90px;
+}
+
+.card.paidCard {
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.card.dueCard {
+  background-color: var(--tm-kr-color-pastels-seaPink-10);
+}

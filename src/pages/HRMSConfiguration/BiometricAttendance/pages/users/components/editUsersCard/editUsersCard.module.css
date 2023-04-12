@@ -1,0 +1,14 @@
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+  margin-top: var(--tm-kr-spacing-s);
+}

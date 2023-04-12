@@ -1,0 +1,89 @@
+.main-footer {
+  width: 100%;
+  border-top: 4px solid #1da1f2;
+
+  .main-footer-inner {
+    width: 80%;
+    max-width: 1144px;
+    margin: 0 auto;
+
+    .footer-copyright {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      color: #374c59;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .footer-item-container-outer {
+      /* padding: 0 0 40px 0; */
+    }
+
+    .footer-item-container {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0;
+
+      .footer-text-item-heading {
+        color: #062030;
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+
+      .footer-text-item-normal {
+        font-size: 15px;
+        color: #374c59;
+        text-decoration: none;
+        margin: 5px 0px;
+      }
+      .footer-item-teachmint-logo {
+        width: 70%;
+        margin-bottom: 20px;
+      }
+
+      .footer-social-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px 0;
+        text-decoration: none;
+        color: #374c59;
+
+        .footer-social-btn-icon {
+          width: 30px;
+        }
+        .footer-social-btn-txt {
+          margin-left: 10px;
+          font-size: 15px;
+        }
+      }
+
+      .store-icon-con {
+        width: 100%;
+        margin: 16px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        a {
+          width: 60px;
+          text-decoration: none;
+        }
+        img {
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-footer .main-footer-inner .footer-item-container-outer {
+    display: grid;
+    grid-column-gap: 1%;
+    grid-template-columns: 24% 15% 24% 14%;
+    padding: 50px 0 10px 0;
+    justify-content: space-between;
+  }
+}

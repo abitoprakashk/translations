@@ -1,0 +1,12 @@
+.profileImformationSection {
+  display: block;
+}
+.headerSection {
+  display: block;
+}
+.categorySection {
+  display: block;
+  margin-top: 24px;
+  /* max-height: 385px;
+  overflow-y: auto; */
+}

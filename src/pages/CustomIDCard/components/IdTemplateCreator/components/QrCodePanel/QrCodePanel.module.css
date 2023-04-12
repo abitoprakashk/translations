@@ -1,0 +1,26 @@
+.fieldsWrapper {
+  padding-top: var(--tm-kr-spacing-s);
+}
+.fieldItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerFieldItem > span:first-of-type,
+.fieldItem > span:first-of-type {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.innerFieldItem span:nth-of-type(2),
+.fieldItem span:nth-of-type(2) {
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.fieldItem span.disable > span::before {
+  cursor: not-allowed;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+  color: var(--tm-kr-color-neutrals-grey-40);
+}

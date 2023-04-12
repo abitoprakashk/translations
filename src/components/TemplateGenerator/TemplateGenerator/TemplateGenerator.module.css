@@ -1,0 +1,13 @@
+.templateEditor {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+  justify-content: center;
+}
+
+.editorWrapper {
+  /* flex-grow: 1; */
+  justify-content: center;
+  display: flex;
+  min-width: 500px;
+  min-height: 500px;
+}

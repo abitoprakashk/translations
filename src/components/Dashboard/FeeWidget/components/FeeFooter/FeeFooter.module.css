@@ -1,0 +1,85 @@
+.wrapper {
+  display: flex;
+  /* min-height: 104px; */
+}
+.section {
+  display: flex;
+  flex: 1;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.wrapper .section:first-child {
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.collectionPara {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.tooltip {
+  display: flex;
+  gap: 6px;
+  color: var(--tm-kr-color-neutrals-grey-10);
+  font-weight: var(font-medium);
+}
+.toolTipWrapper[data-id='tooltip'] {
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-2xs);
+}
+.flexOne {
+  flex: 1;
+  display: flex;
+}
+.selfEnd {
+  align-self: flex-end;
+}
+.semibold {
+  font-weight: 600;
+}
+.maxWidth400 {
+  max-width: 400px;
+}
+.templateWrapper {
+  padding: var(--tm-kr-spacing-s);
+  background: var(--tm-kr-color-pastels-fringy-10);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-top: 10px;
+  position: relative;
+}
+.templateWrapper:before {
+  content: '';
+  border-right: 15px solid transparent;
+  border-left: 15px solid var(--tm-kr-color-pastels-fringy-10);
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  left: 30px;
+}
+.modal {
+  height: 472px;
+}
+.footer {
+  align-items: center;
+}
+
+.footerFont12 {
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.footerMinWidth {
+  min-width: 120px;
+  padding: var(--tm-kr-spacing-2xs);
+}
+.noWrap {
+  flex-wrap: nowrap;
+}
+
+@media (width > 640px) {
+  .modal {
+    height: 450px;
+  }
+  .wrapper {
+    height: 85px;
+  }
+}

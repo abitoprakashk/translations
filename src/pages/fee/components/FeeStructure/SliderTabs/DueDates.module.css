@@ -1,0 +1,27 @@
+.dueDatesSection {
+  margin: 10px 0px;
+}
+
+.monthRow {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monthCheckbox label {
+  color: var(--tm-color-text-primary);
+}
+
+.selectMonthText {
+  color: var(--tm-color-light-gray);
+}
+
+.inputWrapper {
+  padding: 0px;
+}
+
+.paddingBottom {
+  padding-bottom: 210px;
+}

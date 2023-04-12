@@ -1,0 +1,25 @@
+.textAreaDiv {
+  padding: 5px 4px;
+}
+
+.textArea {
+  width: 100%;
+  /* background: var(--tm-bg-color-gy-3); */
+  /* border: 1px solid var(--tm-bg-color-gy-3); */
+  border-radius: 8px;
+  margin-top: 5px;
+  outline: none;
+
+  color: var(--tm-color-text-primary);
+  border-radius: var(--tm-input-border-radius);
+  border: 1px solid var(--tm-color-dark-gray);
+}
+
+.label {
+  margin: 0px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}

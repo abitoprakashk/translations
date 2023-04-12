@@ -1,0 +1,70 @@
+.wrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  padding: 0;
+}
+.firstSetion {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.headingWrapper {
+  margin-top: var(--tm-kr-spacing-2xs);
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.trackSection {
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: var(--tm-kr-spacing-xs);
+}
+.trackAccordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.trackDetailsWrapper {
+  margin-left: var(--tm-kr-spacing-4xs);
+  margin-top: var(--tm-kr-spacing-m);
+}
+.trackItem {
+  display: flex;
+  align-items: flex-start;
+}
+.trackItem:not(:last-child) {
+  padding-bottom: var(--tm-kr-spacing-m);
+  border-left: 1px dashed var(--tm-kr-color-neutrals-grey-50);
+}
+.trackStatusCircle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--tm-kr-color-neutrals-grey-40);
+  margin-right: var(--tm-kr-spacing-2xs);
+  margin-left: -6px;
+  flex-shrink: 0;
+}
+.trackStatusCircleSuccess {
+  background-color: var(--tm-kr-color-semantic-success-100);
+}
+.trackStatusCircleProgress {
+  background-color: var(--tm-kr-color-semantic-warning-100);
+}
+.trackOrderDescWrapper {
+  display: grid;
+  gap: var(--tm-kr-spacing-4xs);
+}
+
+.trackItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+  margin-top: -2px;
+}
+
+.actionButtonWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.actionButtonLabel {
+  font-size: 12px;
+}

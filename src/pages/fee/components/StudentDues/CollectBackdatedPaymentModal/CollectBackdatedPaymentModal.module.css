@@ -1,0 +1,159 @@
+.section {
+  display: flex;
+  padding-top: var(--tm-kr-spacing-s);
+  padding-bottom: var(--tm-kr-spacing-s);
+  height: 100%;
+}
+
+.downloadCsvSection {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-4xs);
+}
+
+.clickHerelabel {
+  font-size: var(--tm-kr-heading-mobile-font-size-2xs);
+}
+
+.stepsSection {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.stepDiv {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.mt10 {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.clickHereSpan {
+  color: var(--tm-kr-button-primary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.inputWarpper {
+  width: 328px;
+}
+
+.fontWeight500 {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.downloadCsvText {
+  font-size: 16px;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+  position: relative;
+}
+
+div.positionAbsolute {
+  position: absolute;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--tm-kr-color-neutrals-grey-70);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.flexGrow1 {
+  flex-grow: 1;
+}
+
+.successCompSection,
+.successLogo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.successCompSection {
+  flex-grow: 1;
+}
+
+.scroll {
+  height: 100%;
+}
+
+.lottieDiv {
+  width: 175px;
+  height: 166px;
+}
+
+.textCapitalize {
+  text-transform: capitalize;
+}
+
+.textOverflowEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.proccessingSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.width100 {
+  width: 100%;
+}
+
+.successAlert {
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.successAlert > div {
+  gap: 10px;
+}
+
+.rightSection {
+  padding-right: 19px;
+}
+
+.fileUploadedMsgPara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paymentOptions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.radioWrapper {
+  margin-left: 0;
+  margin-right: 15px;
+}

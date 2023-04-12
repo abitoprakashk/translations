@@ -1,0 +1,31 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  color: var(--tm-color-text-secondary);
+}
+.wrapper {
+  position: relative;
+}
+.gap {
+  margin-bottom: 20px;
+}
+
+.zoomDiv {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 35%;
+  top: 25%;
+  z-index: 1;
+}
+
+.zoomDiv span {
+  background-color: rgba(255, 255, 255, 0.67);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+.page > canvas {
+  max-width: 100%;
+}

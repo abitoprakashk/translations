@@ -1,0 +1,13 @@
+.table {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.scoreWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.notEvaluatedStatus {
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}

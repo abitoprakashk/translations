@@ -1,0 +1,97 @@
+.widgetAttendanceWrapper {
+  width: 100%;
+}
+
+.widgetAttendanceBody {
+  padding: 0px;
+}
+
+.widgetAttendanceDivider {
+  color: var(--tm-kr-color-neutrals-grey-30);
+}
+.widgetAttendanceHeaderContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.widgetAttendanceHeader {
+  padding-right: var(--tm-kr-spacing-s);
+}
+.widgetAttendanceHeaderMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.widgetAttendanceIconContainer {
+  background-color: var(--tm-kr-color-palette-biloba);
+  width: var(--tm-kr-icon-size-m);
+  height: var(--tm-kr-icon-size-m);
+  border-radius: var(--tm-kr-border-radius-l);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widgetAttendanceHeaderTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-para-line-height-l);
+  text-align: left;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.AttendanceWidgetHeaderCTA {
+  color: var(--tm-kr-color-primary-100);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-para-line-height-l);
+  text-align: right;
+}
+
+.widgetShimmerAttendanceBodyContainer > div:first-child {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.errorWrapper {
+  height: 300px;
+  position: relative;
+  margin-top: var(--tm-kr-spacing-s);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.errorWrapper > div {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.iconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.errorWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.iconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.unpaidWidgetLockContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--tm-kr-spacing-4xs);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+  height: 260px;
+}
+@media (min-width: 768px) {
+  .widgetAttendanceWrapper {
+    width: 100%;
+    margin: 0;
+  }
+}

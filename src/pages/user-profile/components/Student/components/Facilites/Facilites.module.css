@@ -1,0 +1,32 @@
+.gridOfTwo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-text-primary);
+  padding: 5px 20px;
+}
+
+.divider {
+  border-top: 1px solid var(--tm-color-gy-3);
+  margin: 10px 20px;
+}
+
+.toggle {
+  float: right;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+  }
+  .gridOfTwoForDesktopOnly {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}

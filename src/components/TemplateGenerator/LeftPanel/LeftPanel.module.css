@@ -1,0 +1,61 @@
+.wrapper {
+  width: 300px;
+  border-radius: var(--tm-kr-border-radius-l);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  overflow: hidden;
+  background: var(--tm-kr-color-base-light-100);
+  height: calc(100vh - 40px);
+}
+
+.leftPanelHeaderWrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.leftPanelHeader {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.sections > p {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.leftPanelHeader > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--tm-kr-color-neutrals-grey-80);
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  cursor: pointer;
+  height: 84px;
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.leftPanelHeader > div.active {
+  background-color: var(--tm-kr-color-primary-100);
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.leftPanelHeader span.icon::before {
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.leftPanelHeader .active span.icon::before {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.content {
+  padding: var(--tm-kr-spacing-xs);
+  overflow: auto;
+  height: calc(100vh - 280px);
+}
+
+.leftPanelImage {
+  margin-bottom: 2px;
+}

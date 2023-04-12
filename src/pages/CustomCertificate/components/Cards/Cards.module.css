@@ -1,0 +1,181 @@
+.card {
+  height: 180px;
+  padding: 0;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.newCard {
+  border: 1px dashed var(--tm-kr-color-primary-80);
+  background: white;
+  cursor: pointer;
+}
+
+.newCard .cardContent {
+  gap: var(--tm-kr-spacing-xs);
+  justify-content: center;
+}
+
+.cardContent p {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-m);
+  text-align: center;
+  /* color: var(--tm-kr-color-neutrals-grey-70); */
+  border-radius: 12px;
+}
+.cardContent p b {
+  font-weight: var(--tm-kr-heading-font-weight-bold);
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.templateCardContent {
+  cursor: pointer;
+  /* pointer-events: none; */
+}
+
+.templateImageContainer {
+  background: white;
+  padding: var(--tm-kr-spacing-s);
+  padding-bottom: 0;
+  border-radius: var(--tm-kr-border-radius-l) var(--tm-kr-border-radius-l) 0px
+    0px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  position: relative;
+  width: 100%;
+  height: 120px;
+  /* overflow: hidden; */
+}
+
+.templateImageContainer img {
+  border-radius: var(--tm-kr-border-radius-l) var(--tm-kr-border-radius-l) 0px
+    0px;
+  overflow: hidden;
+  height: 118px;
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.eyeIcon {
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  background: white;
+  padding: 2px 4px;
+  border-radius: var(--tm-kr-border-radius-m);
+}
+.kabab {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  /* background-color: transparent; */
+  display: none;
+}
+
+.card :global(div[data-id='tooltip']) {
+  right: 0px !important;
+  top: 30px !important;
+  opacity: 1 !important;
+  left: initial !important;
+  min-width: 220px;
+  margin-right: 0px;
+}
+
+.templateList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+}
+
+.cardDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+  height: 100%;
+  background: var(--tm-kr-color-base-light-100);
+  justify-content: center;
+  padding: 0 var(--tm-kr-spacing-s);
+  border-bottom-left-radius: var(--tm-kr-border-radius-l);
+  border-bottom-right-radius: var(--tm-kr-border-radius-l);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.cardDetails h6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardContent button {
+  width: 100%;
+}
+
+.templateCardContent:hover .eyeIcon,
+.templateCardContent:hover .kabab {
+  display: block;
+}
+
+.templateCardContent:hover {
+  border: 1px solid var(--tm-kr-color-primary-100);
+}
+
+.templateCardContent:hover .templateImageContainer::before {
+  content: ' ';
+}
+
+.templateImageContainer::before {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background: var(--tm-kr-color-neutrals-grey-70);
+  opacity: 0.5;
+  border-top-left-radius: var(--tm-kr-border-radius-m);
+  border-top-right-radius: var(--tm-kr-border-radius-m);
+}
+
+.templateImageContainer:hover::before {
+  content: ' ';
+}
+
+.optionsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  grid-gap: var(--tm-kr-spacing-4xs);
+  gap: var(--tm-kr-spacing-4xs);
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}

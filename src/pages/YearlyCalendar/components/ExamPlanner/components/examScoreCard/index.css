@@ -1,0 +1,147 @@
+.scoreCardShadow {
+  box-shadow: 0px 18px 28px rgba(157, 182, 217, 0.15);
+}
+.sc-topbar {
+  background-color: rgba(31, 57, 101, 0.1);
+  background-blend-mode: soft-light;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tm-color-text-primary);
+}
+
+.qcont-font-14 {
+  font-size: 12px !important;
+}
+
+.qcont-font-16 {
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 24px;
+}
+.qcont-font-12 {
+  font-size: 12px !important;
+}
+
+.qcont-font-10 {
+  font-size: 10px !important;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.qcont-border-bottom {
+  border-bottom: 1px solid #dbe2ea;
+  margin: 0px 10px;
+}
+
+.qcont-border-horizontal {
+  border-right: 1px solid #dbe2ea;
+  margin: 10px 0px;
+  height: 109px;
+  display: none;
+}
+.score-card-cont {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin: 1rem;
+}
+.sc-inner-cont {
+  width: 100%;
+  height: 216px;
+  background-color: #ffffff;
+}
+.sc-inner-cont-heading {
+  height: 30px;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.sc-inner-cont-body-upper {
+  height: 97px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sc-inner-cont-body-upper-heading {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.sc-inner-cont-body-bottom {
+  height: 69px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+.sc-inner-cont-body-bottom-clock {
+  display: none;
+}
+.sc-inner-cont-body-bottom-time {
+  display: none;
+}
+.sc-inner-cont-body-bottom-time-taken {
+  margin-top: 10px;
+  width: auto;
+  text-align: center;
+}
+.sc-inner-cont-body-bottom-time-mobile {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .qcont-font-16 {
+    font-size: 16px !important;
+  }
+  .score-card-cont {
+    justify-content: center;
+  }
+  .sc-inner-cont {
+    margin-left: 0px;
+    height: 179px;
+    width: 323px;
+  }
+  .sc-inner-cont-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sc-inner-cont-body-upper-heading {
+    margin-left: 5px;
+  }
+  .qcont-border-bottom {
+    display: none;
+  }
+  .qcont-border-horizontal {
+    display: flex;
+  }
+  .sc-inner-cont-body-bottom {
+    height: 139px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .sc-inner-cont-body-bottom-clock {
+    display: flex;
+    justify-content: center;
+  }
+  .sc-inner-cont-body-bottom-time {
+    display: flex;
+  }
+  .sc-inner-cont-body-bottom-time-taken {
+    margin-top: 0px;
+  }
+  .sc-inner-cont-body-bottom-time-mobile {
+    display: none;
+  }
+}

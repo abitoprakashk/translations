@@ -1,0 +1,72 @@
+.cardWrapper {
+  padding-bottom: 10px;
+}
+.mcard {
+  display: flex;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  flex-direction: column;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.spaceAround {
+  justify-content: space-around;
+}
+.mcardClass {
+}
+.gap4 {
+  gap: var(--tm-kr-spacing-5xs);
+}
+.gap8 {
+  gap: var(--tm-kr-spacing-4xs);
+}
+.xgap4 {
+  gap: var(--tm-kr-spacing-5xs);
+  display: flex;
+  align-items: center;
+}
+.mmodal {
+  min-height: 200px;
+  padding: var(--tm-kr-spacing-2xs);
+}
+.mmodalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--tm-kr-spacing-4xs);
+}
+.bottomBorder {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.mtitle {
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.mdesc {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+.column {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.mcardWrapper {
+  padding: var(--tm-kr-spacing-2xs) 0;
+}
+.chip {
+  margin: 0;
+  height: var(--tm-kr-badge-size-small-height);
+}
+.f12 {
+  font-size: 12px;
+}
+.semibold {
+  font-weight: 600;
+}
+.marginBottom {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}

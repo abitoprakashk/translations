@@ -1,0 +1,58 @@
+.dropDownItemRowsContainer {
+  font-weight: normal;
+  display: inline-block;
+  width: 100%;
+}
+.dropDownItemBox {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.downItemRowsContainer {
+  font-weight: normal;
+}
+.dropDownItemRow {
+  margin-bottom: 16px;
+}
+.dropDownItemInput {
+  display: inline-block;
+  width: 88%;
+}
+.deleteItemDiv {
+  display: inline-block;
+  width: 10%;
+  text-align: right;
+  vertical-align: sub;
+  padding-left: 0px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.dropDownItemInput > div:first-child {
+  padding: 0px;
+}
+.inputFieldClass {
+  font-weight: normal;
+}
+.astrik {
+  color: #ff5e5e;
+  padding-left: 5px;
+}
+.dropDownBoxTitle {
+  position: relative;
+  display: inline-block;
+  width: 88%;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  margin-bottom: 12px;
+}
+.addMoreDropOptionBlock {
+  color: var(--tm-color-blue);
+  font-size: 14px;
+  cursor: pointer;
+}
+.dropDownBoxTitle .limitText {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}

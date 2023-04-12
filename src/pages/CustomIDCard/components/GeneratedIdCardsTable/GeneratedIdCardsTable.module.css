@@ -1,0 +1,56 @@
+.tableContainer {
+  margin-bottom: var(--tm-kr-spacing-m);
+}
+
+.avatarGroup {
+  margin-left: var(--tm-kr-spacing-2xs);
+}
+.tooltip {
+  padding: var(--tm-kr-spacing-3xs);
+}
+.iconFrame {
+  background: transparent;
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}
+
+.modalBody {
+  max-height: 80vh;
+  height: fit-content;
+}
+.userList {
+  margin: var(--tm-kr-spacing-m) 0;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.userList > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+  overflow: hidden;
+}
+
+.userList > div:nth-child(even) {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+}
+
+.userList > div:last-child {
+  border-radius: var(--tm-kr-border-radius-l);
+}

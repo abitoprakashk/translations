@@ -1,0 +1,25 @@
+.title {
+  font-size: var(--tm-kr-heading-mobile-line-height-xs);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+.wrapper {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.iconWrapper {
+  border-radius: var(--tm-kr-spacing-s);
+  background: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+.subTitle {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,36 @@
+.studentSection {
+  display: flex;
+  gap: 8px;
+}
+
+.avatarWrapper {
+  min-width: var(--tm-kr-avatar-m-width);
+}
+
+.tableSection {
+  overflow-x: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.tooltiptTitleText {
+  color: var(--tm-kr-color-base-light-100);
+}
+.textEllipsis {
+  white-space: nowrap;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nameAndInfoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+div.stepperDesc {
+  display: none;
+}
+.curserPointer {
+  cursor: pointer;
+}

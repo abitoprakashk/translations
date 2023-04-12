@@ -1,0 +1,113 @@
+.attendanceBox {
+  display: block;
+  min-height: 200px;
+  margin: var(--tm-kr-spacing-s) var(--tm-kr-spacing-s) 0;
+  background: var(--tm-kr-color-base-light-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  border: 1px solid var(--tm-border-color-gray-2);
+}
+.attendanceTopBlock {
+  padding: var(--tm-kr-icon-size-s) var(--tm-kr-spacing-xs);
+  border-bottom: 1px solid var(--tm-border-color-gray-2);
+}
+.selectLeaveType {
+  display: flex;
+}
+.radioInnerBlock {
+  width: 100%;
+}
+.radioWrapper {
+  margin-left: 0;
+}
+.radioBtn {
+  font-weight: normal;
+}
+.radioLabel {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.attendanceBottomBlock {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-xs);
+}
+.innerCommonWrapper {
+  display: inline-block;
+  width: 100%;
+}
+.presentBoxTitle {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-spacing-2xs);
+  font-weight: 500;
+  line-height: var(--tm-kr-spacing-s);
+}
+.wrapperCheckBox {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.wrapperCheckBox > label {
+  margin-left: 0;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-weight: 500;
+}
+.wrapperCheckBox > label:first-child {
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.graceBlock {
+  margin-top: var(--tm-kr-spacing-s);
+  display: grid;
+  grid-gap: var(--tm-kr-spacing-3xs);
+  grid-template-columns: repeat(3, 1fr);
+  --columns: 3;
+}
+.graceSubCard {
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.basicBadge {
+  background: var(--tm-kr-color-pastels-ash-10);
+  color: var(--tm-kr-color-pastels-ash-110);
+}
+.successBadge {
+  background: var(--tm-kr-color-semantic-success-10);
+  color: var(--tm-kr-color-semantic-success-100);
+}
+.errorBadge {
+  background: var(--tm-kr-color-semantic-error-10);
+  color: var(--tm-kr-color-semantic-error-100);
+}
+.titleBlock {
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.valueBlock {
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.penaltyTooltip {
+  display: inline-block;
+  vertical-align: sub;
+  margin-left: var(--tm-kr-spacing-5xs);
+}
+.toolTipText {
+  width: 200px;
+}
+
+@media (min-width: 420px) {
+  .attendanceTopBlock {
+    padding: var(--tm-kr-icon-size-s);
+  }
+  .attendanceBottomBlock {
+    padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-m);
+  }
+}
+
+@media (min-width: 768px) {
+  .radioLabel {
+    font-size: var(--tm-kr-para-font-size-xl);
+  }
+}

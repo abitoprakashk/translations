@@ -1,0 +1,130 @@
+.feeCollectionOptions {
+  font-size: 20px;
+  color: var(--tm-color-text-primary);
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+
+.downloadReportBtn {
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.subCategory {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.feeSummaryWrapper {
+  border-bottom: 1px solid #f2f4f8;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.feeSummaryWrapper::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.topBarWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBarItem {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .summaryData {
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+.headerButtons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.overviewText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputWrapper {
+  padding: 0px;
+  background: var(--tm-color-white);
+  cursor: pointer;
+  width: 220px;
+}
+
+.dropdown {
+  height: 44px;
+  padding: 12px 12px;
+  line-height: 18px;
+}
+
+.feeDetails > div:not(:last-child) {
+  border-right: 1px solid var(--tm-color-gy-1);
+  height: 60px;
+}
+
+.feeDetails > div {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.feeDetails {
+  display: flex;
+  background-color: var(--tm-bg-slider-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feeDetails p {
+  font-size: 25px;
+}
+
+.feeDetails span {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.payableAmount {
+  color: var(--tm-fee-statistics-color-applied);
+}
+
+.paidAmount {
+  color: var(--tm-fee-statistics-color-paid);
+}
+
+.dueAmount {
+  color: var(--tm-fee-statistics-color-due);
+}
+
+.discountAmount {
+  color: var(--tm-fee-statistics-color-discount);
+}
+
+.pendingAmount {
+  color: var(--tm-fee-statistics-color-pending);
+}
+
+.textCapitalize {
+  text-transform: capitalize;
+}
+.backdatedBtnWrapper {
+  height: 44px;
+  border-radius: 8px;
+  padding: 12px;
+}

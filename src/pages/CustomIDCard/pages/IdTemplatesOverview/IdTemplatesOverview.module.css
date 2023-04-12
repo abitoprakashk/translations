@@ -1,0 +1,71 @@
+.wrapper {
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-l);
+  height: 100%;
+  background-color: var(--tm-kr-color-base-light-100);
+  overflow: auto;
+}
+
+.templateList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: var(--tm-kr-spacing-s);
+}
+
+.cardWidth {
+  width: 540px;
+}
+
+.savePopContent {
+  padding: var(--tm-kr-spacing-l) 0px;
+}
+
+.wrapper .tabsWrapper {
+  width: 200px;
+}
+
+.documentHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.documentHeader > span {
+  color: var(--tm-kr-color-primary-100);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oldCertificate {
+  margin: var(--tm-kr-spacing-m) 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.oldCertificate span {
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+}
+
+.modalDownloadButton {
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.wrapper .previewModal .modalDownloadButton > span {
+  padding: 0px;
+}
+
+.modalHeader div:last-of-type {
+  display: inline-flex;
+}
+
+.sectionHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-s);
+}

@@ -1,0 +1,10 @@
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+
+.deletePopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}

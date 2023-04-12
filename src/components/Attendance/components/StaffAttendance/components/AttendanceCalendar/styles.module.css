@@ -1,0 +1,29 @@
+.calendarWrapper :global(.rdrCalendarWrapper) {
+  top: calc(100% + 5px);
+  left: 0;
+  max-width: calc(100vw - 2 * var(--tm-kr-spacing-xs));
+}
+
+.calendarWrapper :global(.rdrDayNumber) {
+  display: flex;
+  position: absolute;
+}
+
+.calendarWrapper :global(.rdrMonth) {
+  max-width: 27.667em;
+  width: auto;
+}
+
+.calendarWrapper :global(button[class^='krayon__DaySelector-module']) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile.calendarWrapper {
+  width: fit-content;
+}
+
+.mobile.calendarWrapper :global(.rdrCalendarWrapper) {
+  left: 0;
+}

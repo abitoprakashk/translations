@@ -1,0 +1,26 @@
+.searchWrapper {
+  width: 100%;
+  max-width: 378px;
+}
+
+.searchWrapper [class='krayon__TextInput-module__w34fF'] {
+  display: inline-flex;
+}
+
+.searchWrapper [class^='krayon__TextInput-module__2hxFp'] {
+  height: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .searchWrapper [class^='krayon__Input-module__iHNUs'] {
+    display: flex;
+  }
+
+  .searchWrapper [class^='krayon__Input-module__iHNUs'] > div:first-child {
+    width: 100%;
+  }
+
+  .searchWrapper [class^='krayon__TextInput-module__2hxFp'] {
+    height: var(--tm-kr-spacing-xl);
+  }
+}

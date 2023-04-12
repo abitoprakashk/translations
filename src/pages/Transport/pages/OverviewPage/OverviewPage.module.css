@@ -1,0 +1,7 @@
+.emptyStateWrapper {
+  margin-top: var(--tm-kr-spacing-5xl);
+}
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}

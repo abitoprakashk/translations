@@ -1,0 +1,22 @@
+.greyCard {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+  border-radius: 12px;
+  padding: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.label {
+  color: var(--tm-kr-color-neutrals-grey-60);
+  margin-bottom: var(--tm-kr-spacing-xs);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.noLeftMargin {
+  margin-left: 0;
+}
+
+.checkboxWrapper {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-3xl);
+}

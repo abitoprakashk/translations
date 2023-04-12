@@ -1,0 +1,49 @@
+.section {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnSection,
+.pageCountAndBtnSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagginationWrapper {
+  background-color: var(--tm-color-white);
+}
+
+.paginationSection {
+  width: 100%;
+  bottom: 0px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 5px 20px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pageButtons {
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  background-color: var(--tm-color-off-white);
+  border-radius: 8px;
+}
+
+.disabledPageButtons {
+  background-color: var(--tm-bg-light-gray);
+}
+
+.pageButtonIcons {
+  color: var(--tm-color-text-primary-60);
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,142 @@
+.contentSection {
+  padding: 20px 40px;
+  overflow-y: auto;
+  height: 76vh;
+}
+
+/* .sliderTitleSection {
+    margin-bottom: 16px;
+  } */
+
+.sliderTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.blockSection {
+  padding: 20px 0px 18px 0px;
+  margin-bottom: 18px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid var(--tm-color-gy-2);
+}
+
+.inputFieldSection {
+  margin-top: 16px;
+  width: 400px;
+}
+.inputFieldSection span {
+  color: var(--tm-color-text-secondary);
+}
+
+.inputField {
+  width: 400px;
+  height: 48px;
+  background: var(--tm-bg-modal-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  border-radius: 8px;
+}
+
+.numberLabelSection {
+  margin-bottom: 1px;
+}
+
+.footerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.isPendingChequeIncludedSection {
+  margin-top: 5px;
+}
+
+.isPendingChequeIncludedText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+  margin-right: 10px;
+}
+
+.dateSection {
+  display: flex;
+}
+
+.modalContentSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.datePicker {
+  padding: 16px;
+  width: 100%;
+}
+
+.dateField {
+  padding: 16px 16px 10px 0px;
+}
+
+.footerCheckboxSection {
+  margin-right: 20px;
+}
+
+.footerCheckbox {
+  outline: none;
+}
+
+.footerCheckbox label {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--tm-color-text-primary);
+}
+
+.downloadReportBtn {
+  min-width: 240px;
+  height: 44px;
+}
+
+.headerBigDotIcon {
+  width: 24px;
+  height: 24px;
+  background: var(--tm-kr-color-neutrals-grey-100);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.disabled span {
+  background-color: var(--tm-color-rd-1);
+}
+.enabled label span:nth-child(2) {
+  right: 0px;
+  background-color: var(--tm-color-gr-1) !important;
+}
+
+.textCapitalize {
+  text-transform: inherit;
+}
+
+.radioWarpper {
+  padding-top: 0px;
+}
+
+.rulesSelectionHeadingText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.required {
+  color: var(--tm-color-error);
+  margin-left: 2px;
+}

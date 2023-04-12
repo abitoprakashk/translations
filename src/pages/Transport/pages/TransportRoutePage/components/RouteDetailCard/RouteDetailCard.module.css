@@ -1,0 +1,75 @@
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  padding: var(--tm-kr-spacing-m);
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.passengersCountButton {
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+.passengersCountLabel {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+.kebabMenuIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+/* Route details  */
+.subCard {
+  width: 100%;
+  border: none;
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+.scheduleButton {
+  margin-top: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-4xs);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xl);
+  padding-top: var(--tm-kr-spacing-4xs);
+}
+
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+
+.staffDetailShowMorePara {
+  display: inline-block;
+}
+.staffDetailsTooltipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.deletePopupDescription {
+  padding-top: var(--tm-kr-spacing-s);
+  padding-bottom: var(--tm-kr-spacing-2xs);
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}

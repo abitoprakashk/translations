@@ -1,0 +1,145 @@
+.paymentDate {
+  margin-top: 5px;
+}
+
+.tooltipStyle {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.cstTxnIdCopyIcon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.toolTipipBody {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.searchData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableStyle {
+  margin-top: 20px;
+}
+
+.paraMargin {
+  margin-top: 2px;
+}
+
+.searchbarwidth {
+  width: 60%;
+  max-width: 600px;
+}
+
+.btnClick {
+  display: flex;
+  gap: 10px;
+}
+
+.downloadPointer {
+  cursor: pointer;
+}
+
+.detailContainer {
+  display: flex;
+}
+
+.detailSubContainerDeleted {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.detailSubContainer {
+  margin-left: 8px;
+}
+
+.studentName {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-primary-100);
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+
+.badgesStyle {
+  width: 120px;
+}
+
+.tooltipEllipsis {
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.studentPhoneNmber {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.filteredChips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.filteredChips > div {
+  padding-right: 16px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.filterItem > div {
+  margin-left: 8px;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+.chipUnsetMargin {
+  margin-top: unset;
+}
+
+.filterSpanStyle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 7px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.btnClass {
+  margin-top: 10px;
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+}
+
+.emptystateStyle {
+  margin: 150px;
+}
+/* Desktop devices */
+@media (width > 1194px) {
+}

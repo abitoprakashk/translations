@@ -1,0 +1,128 @@
+.dashboardContentArea {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-color-white);
+  padding: 2.5%;
+}
+.emptyStateWrapper {
+  text-align: center;
+  top: 40%;
+  transform: translate(0, -40%);
+}
+
+.fullDashboard {
+  padding-top: 0px;
+}
+
+.sideContainer {
+  width: 100%;
+  background-color: var(--tm-dark-blue-3);
+  padding: var(--tm-kr-spacing-s);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pendingTasksContainerMaxWidth,
+.pendingTasksContainerMinWidth {
+  display: none;
+}
+
+.widgetContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--tm-color-white);
+  width: 100%;
+  transition: 'left 0.3s ease,top 0.3s ease';
+}
+.widgetContainer > * {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .dashboardContentArea {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    padding-top: 1%;
+    box-sizing: border-box;
+  }
+  .widgetContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .widgetCommunicationWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .widgetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--tm-kr-spacing-s);
+    max-width: 50%;
+  }
+
+  .widgetCommunicationWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--tm-kr-spacing-s);
+    width: 100%;
+  }
+
+  .fullDashboard {
+    background-color: var(--tm-color-wh-1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-m)
+      var(--tm-kr-spacing-m);
+    width: 100%;
+  }
+  .sideContainer {
+    position: sticky;
+    top: var(--tm-kr-spacing-m);
+    min-width: 242px;
+    width: 100%;
+    height: calc(100vh - 114px);
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-right: 0;
+    background-color: var(--tm-dark-blue-3);
+    border-radius: var(--tm-kr-border-radius-l);
+    padding: var(--tm-kr-spacing-s);
+    padding-right: 9px;
+    margin-top: 10px;
+  }
+
+  .fullDashboardContentAreaMaxWidth {
+    width: 100%;
+  }
+  .fullDashboardContentAreaMinWidth {
+    width: 100%;
+    margin-right: var(--tm-kr-spacing-s);
+    padding-top: 0px;
+  }
+
+  .pendingTasksContainerMaxWidth {
+    display: flex;
+  }
+  .pendingTasksContainerMinWidth {
+    width: 0%;
+  }
+  .pendingTasksContainerMaxWidth {
+    width: 242px;
+  }
+}

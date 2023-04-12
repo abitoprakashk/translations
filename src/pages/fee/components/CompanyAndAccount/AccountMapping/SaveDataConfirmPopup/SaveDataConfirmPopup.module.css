@@ -1,0 +1,9 @@
+.contentSection {
+  padding-top: 20px;
+}
+
+.buttonLoadingSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

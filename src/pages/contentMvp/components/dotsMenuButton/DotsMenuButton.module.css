@@ -1,0 +1,45 @@
+.tmDashboardNotificationDropdown .msgBox {
+  position: absolute;
+  right: 21px;
+  top: -3px;
+  margin-top: 2px;
+  background: white;
+  max-height: 350px;
+  overflow-y: auto;
+  z-index: 8;
+  min-width: max-content;
+  border-radius: 8px;
+  border: 1px solid var(--tm-color-gy-3);
+  box-shadow: 0px 3px 18px rgb(192 201 253 / 16%);
+}
+
+.dropdownListItem {
+  padding: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  border-bottom: 1px solid var(--tm-color-gy-2);
+}
+
+.dropdownListItemIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.75rem;
+}
+
+.dropdownListItemText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.reportIcon {
+  cursor: pointer;
+}

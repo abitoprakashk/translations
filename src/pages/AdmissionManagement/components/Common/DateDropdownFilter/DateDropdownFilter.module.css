@@ -1,0 +1,18 @@
+.dropdownWrapper {
+  position: relative;
+}
+
+.dropdownContainer {
+  width: max-content;
+  position: absolute;
+}
+
+.wrapper {
+  min-width: 170px;
+  width: max-content;
+  padding: 0 20px;
+}
+
+.wrapper > div {
+  margin-left: 4px;
+}

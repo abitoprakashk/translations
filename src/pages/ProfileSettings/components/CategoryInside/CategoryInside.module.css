@@ -1,0 +1,30 @@
+.centerTitle {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bolder;
+}
+.subTitle {
+  font-size: 16px;
+}
+.categoryInsideContainer {
+  font-weight: normal;
+}
+.categoryFieldsBlock {
+  font-weight: normal;
+  position: relative;
+}
+.categoryInsideBreadCrumb,
+.headerTopSection,
+.categoryFieldsSection {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.categoryInsideBreadCrumb {
+  margin-top: 20px;
+}
+.headerTopSection {
+  margin: 20px auto 24px;
+}
+.categoryFieldsSection {
+  font-weight: normal;
+}

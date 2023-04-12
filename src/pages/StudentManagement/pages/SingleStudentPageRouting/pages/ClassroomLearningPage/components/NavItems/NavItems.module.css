@@ -1,0 +1,14 @@
+.wrapper {
+  width: 200px;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: var(--tm-kr-spacing-s) 0;
+}
+
+.navItem {
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-m);
+  cursor: pointer;
+}
+
+.navItemSelected {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}

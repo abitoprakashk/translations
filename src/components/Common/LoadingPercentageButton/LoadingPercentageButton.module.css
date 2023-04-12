@@ -1,0 +1,124 @@
+.loader {
+}
+
+.loader::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '';
+  width: 180px;
+  height: 48px;
+  animation: backgroundAnimatePercentage 20s linear forwards;
+  border-radius: 8px;
+  -webkit-animation: backgroundAnimatePercentage 20s linear forwards;
+}
+
+.smallLoader::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '';
+  width: 150px;
+  height: 40px;
+  border: 1px solid var(--tm-kr-color-primary-110);
+  background-color: var(--tm-kr-color-primary-110);
+  animation: backgroundAnimate 20s linear forwards;
+  border-radius: var(--tm-kr-border-radius-l);
+  -webkit-animation: backgroundAnimate 20s linear forwards;
+}
+
+@keyframes backgroundAnimatePercentage {
+  0% {
+    background: linear-gradient(
+      to right,
+      var(--tm-color-blue) 0 20%,
+      var(--tm-color-light-gray) 20% 100%
+    );
+    content: '10%';
+  }
+
+  20% {
+    background: linear-gradient(
+      to right,
+      var(--tm-color-blue) 0 40%,
+      var(--tm-color-light-gray) 40% 100%
+    );
+    content: '30%';
+  }
+
+  50% {
+    background: linear-gradient(
+      to right,
+      var(--tm-color-blue) 0 50%,
+      var(--tm-color-light-gray) 50% 100%
+    );
+    content: '50%';
+  }
+
+  70% {
+    background: linear-gradient(
+      to right,
+      var(--tm-color-blue) 0 70%,
+      var(--tm-color-light-gray) 70% 100%
+    );
+    content: '75%';
+  }
+
+  100% {
+    background: linear-gradient(
+      to right,
+      var(--tm-color-blue) 0 90%,
+      var(--tm-color-light-gray) 90% 100%
+    );
+    content: '90%';
+  }
+}
+
+@keyframes backgroundAnimate {
+  0% {
+    background: linear-gradient(
+      to right,
+      var(--tm-kr-color-primary-110) 0 20%,
+      var(--tm-kr-color-neutrals-grey-30) 20% 100%
+    );
+    content: 'Downloading...';
+  }
+
+  20% {
+    background: linear-gradient(
+      to right,
+      var(--tm-kr-color-primary-110) 0 40%,
+      var(--tm-kr-color-neutrals-grey-30) 40% 100%
+    );
+    content: 'Downloading...';
+  }
+
+  50% {
+    background: linear-gradient(
+      to right,
+      var(--tm-kr-color-primary-110) 0 50%,
+      var(--tm-kr-color-neutrals-grey-30) 50% 100%
+    );
+    content: 'Downloading...';
+  }
+
+  70% {
+    background: linear-gradient(
+      to right,
+      var(--tm-kr-color-primary-110) 0 70%,
+      var(--tm-kr-color-neutrals-grey-30) 70% 100%
+    );
+    content: 'Downloading...';
+  }
+
+  100% {
+    background: linear-gradient(
+      to right,
+      var(--tm-kr-color-primary-110) 0 90%,
+      var(--tm-kr-color-neutrals-grey-30) 90% 100%
+    );
+    content: 'Downloading...';
+  }
+}

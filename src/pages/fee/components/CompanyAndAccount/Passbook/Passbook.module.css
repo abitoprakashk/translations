@@ -1,0 +1,82 @@
+.parentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.searchActionRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.searchBarWidth {
+  width: 475px;
+}
+
+.amountColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+}
+
+.amountInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 3.5px;
+  align-items: center;
+}
+
+.amountDate {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.feeTypeColumnMore {
+  color: var(--tm-kr-color-primary-100);
+}
+
+.studentDetails {
+  width: 100%;
+}
+
+.table {
+  table-layout: inherit;
+}
+
+.transactionId {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.actionButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.infoIconWrapper {
+  display: flex;
+}
+
+.buttonDropdownContainer {
+  position: absolute;
+}
+
+.statusBadges {
+  text-transform: capitalize;
+}
+
+.emptyStateWrapper {
+  margin: 50px 0;
+}

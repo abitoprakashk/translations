@@ -1,0 +1,67 @@
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.inputWrapper {
+  background: var(--tm-kr-color-neutrals-grey-10);
+  height: 44px;
+  width: 350px;
+}
+.input {
+  background: var(--tm-kr-color-neutrals-grey-10);
+}
+.searchIcon {
+  margin-top: 4px;
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.title {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.desc {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+.tableWrapper {
+  height: calc(100vh - 360px);
+}
+
+.noStudents {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-heading-mobile-line-height-xs);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+.table thead tr th:first-child {
+  min-width: 268px;
+}
+.rowsWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-right: var(--tm-kr-spacing-3xs);
+}
+
+@media (max-width: 768px) {
+  .thead {
+    top: 0;
+  }
+  .tableWrapper {
+    height: calc(100vh - 360px);
+  }
+}

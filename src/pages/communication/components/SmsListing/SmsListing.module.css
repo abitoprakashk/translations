@@ -1,0 +1,90 @@
+.contentContainer {
+  display: flex;
+  gap: var(--tm-kr-spacing-l);
+}
+
+.listsContainer {
+  margin-top: var(--tm-kr-spacing-s);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--tm-kr-spacing-s);
+  padding: 0px var(--tm-kr-spacing-5xs);
+}
+.heading {
+  font-size: var(--tm-kr-para-font-size-xl);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-weight: 600;
+}
+.virtualisedWrapper {
+  height: auto;
+  min-height: 500px;
+}
+.virtualisedWrapper > div > div {
+  will-change: unset !important;
+}
+.rechargeWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-m);
+  height: 100%;
+  width: 290px;
+  margin-top: var(--tm-kr-spacing-s);
+}
+.rechargeContainer {
+  margin: var(--tm-kr-spacing-xs);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+.rechargeText {
+  padding: var(--tm-kr-spacing-xs);
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.button {
+  padding: var(--tm-kr-spacing-s);
+}
+.rechargeModal {
+  width: 520px;
+  height: 300px;
+}
+.creditIcon {
+  padding: var(--tm-kr-spacing-xs) 0px;
+}
+.smsCount {
+  font-size: var(--tm-kr-heading-laptop-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-weight: 600;
+}
+.smsPriceText {
+  padding-top: var(--tm-kr-spacing-2xs);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+}
+.emptyStateContainer {
+  padding-top: 80px;
+}
+@media screen and (max-width: 640px) {
+  .contentContainer {
+    flex-direction: column-reverse;
+  }
+  .rechargeWrapper {
+    width: 100%;
+  }
+  .rechargeContainer {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: var(--tm-kr-spacing-xs) 0px;
+  }
+  .divider {
+    display: none;
+  }
+  .button {
+    padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-3xs);
+  }
+}

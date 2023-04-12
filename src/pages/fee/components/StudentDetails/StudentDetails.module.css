@@ -1,0 +1,77 @@
+.studentDetails {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.studentDetails > header {
+  padding: 20px 20px 0 20px;
+  background-color: #f2f4f8;
+}
+
+.studentDetails header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.studentDetails content {
+  padding: 0px 20px;
+}
+
+.stuDetails {
+  margin: 10px;
+  border-right: black 2px solid;
+}
+
+.feeData {
+  margin: 10px;
+}
+
+.stuProfile {
+  margin-left: 20px;
+  border: black 2px solid;
+  border-radius: 50px;
+}
+
+.stuName {
+  margin-left: 10px;
+}
+
+.status {
+  background-color: #e5ffdc;
+  color: #36b37e;
+}
+
+.feeStatus {
+  color: #ff5e5e;
+}
+
+.success {
+  margin-right: 5px;
+}
+
+.sel {
+  background-color: #f2f4f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 175px;
+  border: 1px solid #f2f4f8;
+  height: 35px;
+}
+
+.paymentStructure {
+  margin-right: 10px;
+}
+
+.optionalData {
+  background: #fafbff;
+  border: 1px solid #f2f4f8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.students {
+  margin-left: 15px;
+  margin-right: 15px;
+}

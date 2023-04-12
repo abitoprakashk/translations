@@ -1,0 +1,54 @@
+.csvCardsWrapper {
+  margin: var(--tm-kr-spacing-s) 0px;
+}
+
+.wrapper {
+  border: 0px black solid;
+}
+
+.modal {
+  height: 82%;
+  width: 60%;
+}
+
+.bulkUploadRectangle {
+  height: 180px;
+  background-color: var(--tm-kr-color-pastels-morningGlory-10);
+  border: 1px solid var(--tm-kr-color-pastels-morningGlory-10);
+}
+
+.inputWarpper {
+  margin-top: 10px;
+}
+
+.placeholder {
+  display: none;
+}
+
+.action {
+  border: 1px black solid;
+  display: none;
+}
+
+.clickHereSpan {
+  color: var(--tm-kr-button-primary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.stepsSection {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.downloadCSVWrapper {
+  position: relative;
+  top: -12px;
+}

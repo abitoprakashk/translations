@@ -1,0 +1,55 @@
+.importConfigHeader {
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreActions {
+  margin-top: var(--tm-kr-spacing-s);
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.importContainer {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: 12px;
+}
+
+.paddedBox {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.importFromLabel {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-weight: var(--tm-font-weight-medium);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.selectSession {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--tm-kr-spacing-xs);
+  margin-top: var(--tm-kr-spacing-4xs);
+  column-gap: var(--tm-kr-spacing-s);
+}
+
+.dropdownWrapper {
+  min-width: 320px;
+}
+
+.dropdown {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.infoContainer {
+  padding: var(--tm-kr-spacing-xs);
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  column-gap: var(--tm-kr-spacing-4xs);
+}

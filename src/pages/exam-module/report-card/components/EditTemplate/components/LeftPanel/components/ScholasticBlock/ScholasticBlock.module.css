@@ -1,0 +1,148 @@
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.marginTopHalf {
+  margin-top: 10px;
+}
+
+.negativeMarginTop {
+  margin-top: -5px;
+}
+
+.gradeToggleContainer {
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  align-items: center;
+}
+
+.greenDiv {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--tm-kr-color-semantic-success-10);
+  color: var(--tm-kr-color-semantic-success-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  letter-spacing: 0.08em;
+}
+
+.redDiv {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--tm-kr-color-semantic-error-10);
+  color: var(--tm-kr-color-semantic-error-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  letter-spacing: 0.08em;
+}
+
+.greenDiv,
+.redDiv,
+.gradeRow {
+  width: calc(100% + 2 * var(--tm-kr-spacing-s));
+  margin-left: calc(-1 * var(--tm-kr-spacing-s));
+}
+
+.gradeRow {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  text-align: center;
+}
+
+.gradeMarksColumn {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  align-items: center;
+  padding: 10px 0px;
+  justify-items: center;
+}
+
+.gradesMarks {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+}
+
+.gradesSubtext {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  /*   margin-left: 2px; */
+}
+
+.gradesNameText {
+  display: grid;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.gradesSuccessColor {
+  color: var(--tm-kr-color-semantic-success-100);
+}
+
+.gradesFailColor {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.radioButtonsBlock {
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: 20px 0px;
+}
+
+.radioGroupWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.radioGroupWrapper > label {
+  margin-left: 0;
+}
+
+.radioGroupWrapper input[type='radio'] {
+  position: relative;
+  width: 0;
+}
+
+.gradesInput {
+  width: 110px;
+}
+
+.headerBackground {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.termWeightage {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+  flex-wrap: wrap;
+}
+
+.termWeightage > div {
+  max-width: calc(50% - var(--tm-kr-spacing-s) / 2);
+}
+
+.scoreSummary {
+  padding-left: 0px;
+}
+
+.placeholder {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  padding-top: var(--tm-kr-spacing-s);
+}
+
+.cautionPara {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}

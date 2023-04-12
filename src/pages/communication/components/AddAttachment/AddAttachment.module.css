@@ -1,0 +1,222 @@
+.uploadFileContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: var(--tm-kr-spacing-3xs);
+  row-gap: var(--tm-kr-spacing-3xs);
+}
+.uploadFileSection {
+  display: flex;
+  background: var(--tm-color-wh-1);
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  height: 80px;
+}
+.uploadedFileInfoSec {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--tm-kr-spacing-2xs);
+  width: 150px;
+}
+.uploadedFileInfoSec > a {
+  width: 100%;
+}
+.uploadFileImageSection {
+  height: 100%;
+  width: 100px;
+}
+.uploadFileImageSection img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px 0px 0px 6px;
+}
+.uploadFileError {
+  width: 100%;
+}
+
+.uploadFileIconAndText,
+.uploadFileIconAndTextForFail {
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 16px;
+}
+.uploadFileIconAndTextCursor {
+  cursor: pointer;
+}
+.uploadFileIconAndTextForFail {
+  margin-bottom: 0px;
+}
+
+.imagePreviewExpanded {
+  width: 100%;
+  height: 100%;
+}
+.previewText {
+  padding-top: var(--tm-kr-spacing-2xs);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--tm-color-light-gray);
+}
+.uploadFileIcon {
+  padding-right: 10px;
+}
+.uploadFileIconAndTextForFail > img {
+  margin-right: 10px;
+}
+
+span.uploadFileUploadingHeading {
+  font-weight: 600;
+  font-size: 14.2747px;
+  color: var(--tm-color-text-primary);
+}
+
+.uploadFileIconAndButtonSec {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.uploadFileCloseBtn {
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-2xs) 0px 0px;
+  cursor: pointer;
+  width: 40px;
+}
+
+span.uploadFileErrMsgHeding {
+  font-weight: 600;
+  font-size: 14.2747px;
+  color: var(--tm-color-error);
+}
+
+.uploadFileErrMsg {
+  font-size: 14.2747px;
+  color: var(--tm-color-text-secondary);
+  margin-right: 3px;
+}
+
+button.uploadFileRetryBtn {
+  font-size: 14.2747px;
+  color: var(--tm-input-focused-border-color);
+  text-decoration: underline;
+}
+
+.retry {
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.uploadedFileName {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  color: var(--tm-input-focused-border-color);
+  width: 100%;
+}
+
+.uploadedFileInfo {
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--tm-color-text-secondary);
+}
+
+.messageMediaBtnAndCountSec {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--tm-kr-spacing-m) 0px var(--tm-kr-spacing-2xs) 0px;
+  background-color: var(--tm-color-wh-1);
+  position: sticky;
+  top: -25px;
+}
+
+.messageMediaBtnAndInfoSec {
+  display: flex;
+  align-items: center;
+}
+
+.messageMediaInfo {
+  color: var(--tm-color-light-gray);
+  font-size: 12px;
+}
+.messageMediaInfoMweb {
+  display: none;
+}
+.messageMediaBtn {
+  display: flex;
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 600;
+  color: var(--tm-input-focused-border-color);
+  align-items: center;
+  margin-right: var(--tm-kr-spacing-5xs);
+  cursor: pointer;
+  margin-left: 0;
+  border-radius: 6px;
+  border: 1px solid var(--tm-input-focused-border-color);
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-xs);
+}
+.messageMediaBtn img {
+  padding: 0px 8px;
+}
+.progressBarSection {
+  width: 100%;
+  background-color: var(--tm-color-dark-gray);
+  border-radius: 40;
+}
+
+.progressBarStatus {
+  height: 100%;
+  border-radius: 40;
+  text-align: right;
+}
+
+.disableAttachment {
+  color: var(--tm-color-light-gray);
+  cursor: not-allowed;
+}
+
+input.uploadButton {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+  display: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 100%;
+}
+.errorText {
+  color: var(--tm-color-dark-red);
+  padding-bottom: var(--tm-kr-spacing-m);
+}
+@media screen and (max-width: 536px) {
+  .content {
+    flex-flow: row wrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  .uploadFileNormal {
+    width: 100%;
+    max-width: 100%;
+  }
+  .uploadFileContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .messageMediaBtnAndInfoSec {
+    width: 100%;
+  }
+  .content {
+    justify-content: space-between;
+  }
+  .messageMediaInfo {
+    display: none;
+  }
+  .messageMediaInfoMweb {
+    display: inline-block;
+  }
+}

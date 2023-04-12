@@ -1,0 +1,31 @@
+.nameAndBtnSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyAccountSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.headJsxSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headJsxSectionLabel {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.tableSection {
+  padding-bottom: 90px;
+}

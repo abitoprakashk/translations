@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+  padding-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.form {
+  display: grid;
+  gap: var(--tm-kr-spacing-xs);
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.deleteIconFrame {
+  cursor: pointer;
+}
+
+.vehicleBadge {
+  background: var(--tm-kr-color-pastels-biloba-100);
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.vehicleDocumentsButton {
+  width: fit-content;
+}

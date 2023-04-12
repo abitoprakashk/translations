@@ -1,0 +1,25 @@
+.section {
+  padding: 20px;
+  overflow-y: auto;
+  height: 82vh;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.radius12 {
+  border-radius: 12px;
+}

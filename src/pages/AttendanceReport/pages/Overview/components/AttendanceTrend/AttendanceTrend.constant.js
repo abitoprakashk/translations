@@ -1,0 +1,5 @@
+export const TREND_FILTER = {
+  DAILY: 'DAILY',
+  SESSION: 'SESSION',
+  MONTHLY: 'MONTHLY',
+}

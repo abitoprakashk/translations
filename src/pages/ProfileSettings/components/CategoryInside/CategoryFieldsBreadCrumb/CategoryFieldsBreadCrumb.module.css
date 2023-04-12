@@ -1,0 +1,10 @@
+.categoryFieldBreadCrumbBlock {
+  display: flex;
+  word-break: break-all;
+}
+.categoryFieldBreadCrumbBlock span:first-child {
+  margin-right: 10px;
+}
+.categoryFieldBreadCrumbBlock a {
+  color: var(--tm-color-text-secondary);
+}

@@ -1,0 +1,56 @@
+.tableHeader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputWrapperClass {
+  width: 60%;
+}
+
+.moreVerticalClass {
+  line-height: 48px;
+  vertical-align: middle;
+}
+
+.rightButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  width: 36px;
+  border-radius: 12px;
+}
+
+.flex {
+  display: flex;
+  gap: 8px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  gap: 40px;
+}
+
+.deleteOptionText {
+  color: var(--tm-kr-color-semantic-error-110);
+}
+
+.actionLabel {
+  cursor: pointer;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+
+.emptyState {
+  padding: 40px;
+}

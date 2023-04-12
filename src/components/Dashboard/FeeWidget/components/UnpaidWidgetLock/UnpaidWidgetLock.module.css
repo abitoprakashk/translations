@@ -1,0 +1,8 @@
+.iconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.unpaidWidgetLockContainer {
+  padding-top: var(--tm-kr-spacing-4xs);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+}

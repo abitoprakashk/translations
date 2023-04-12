@@ -1,0 +1,31 @@
+.attendanceMainBlock {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.mwebGap {
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.bottomPadding {
+  padding-bottom: 84px;
+}
+
+@media screen and (max-width: 768px) {
+  .attendanceMainBlock {
+    gap: var(--tm-kr-spacing-xs);
+  }
+}

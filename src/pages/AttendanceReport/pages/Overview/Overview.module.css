@@ -1,0 +1,25 @@
+.attendanceReportWrapper {
+  width: 100%;
+  background: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-m);
+}
+
+.hstack {
+  display: flex;
+  gap: 20px;
+}
+.hstack > div {
+  flex: 1;
+  display: flex;
+}
+.vstack {
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .hstack {
+    flex-direction: column;
+  }
+  .attendanceReportWrapper {
+    padding: var(--tm-kr-spacing-s);
+  }
+}

@@ -1,0 +1,251 @@
+@import '../../../index.scss';
+
+.tm-dashboard-onboarding-card {
+  width: 11rem;
+  min-width: 11rem;
+}
+
+.tm-dashboard-attendance-card {
+  width: 11rem;
+  min-width: 11rem;
+}
+
+.tm-dashboard-automatedinsight-card {
+  width: 9rem;
+  min-width: 9rem;
+}
+
+.tm-dashboard-benefits-card:not(:last-child) {
+  @extend .tm-border1-bottom !optional;
+}
+
+.tm-dashboard-statistics-card:nth-child(odd) {
+  @extend .tm-border1-right !optional;
+}
+
+.tm-attendance-head-item:not(:last-child) {
+  @extend .tm-border1-right !optional;
+}
+
+.tm-dashboard-statistics-dropdown {
+  .arrow {
+    width: 65px;
+    position: absolute;
+    height: 24px;
+    overflow: hidden;
+    right: 0px;
+    bottom: -16px;
+  }
+  .arrow:before {
+    @extend .tm-border1 !optional;
+    content: '';
+    width: 40px;
+    position: absolute;
+    height: 70px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 12px;
+    z-index: 10;
+    background: white;
+  }
+  .msg-box {
+    @extend .tm-border1 !optional;
+    @extend .tm-border-radius1 !optional;
+    position: absolute;
+    right: 0px;
+    margin-top: 32px;
+    background: white;
+    width: max-content;
+  }
+}
+.tm-dashboard-header {
+  background-color: #fff;
+}
+
+.tm-dashboard-notification-dropdown {
+  .arrow {
+    width: 44px;
+    position: absolute;
+    height: 24px;
+    overflow: hidden;
+    right: -7px;
+    bottom: -22px;
+  }
+  .arrow:before {
+    @extend .tm-border1 !optional;
+    content: '';
+    width: 40px;
+    position: absolute;
+    height: 70px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 12px;
+    z-index: 10;
+    background: white;
+  }
+  .msg-box {
+    @extend .tm-border1 !optional;
+    @extend .tm-border-radius1 !optional;
+    position: absolute;
+    right: -20px;
+    margin-top: 20px;
+    background: white;
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 8;
+  }
+}
+
+.tm-peanding-request-teacher-card {
+  width: calc(100% - 76px);
+}
+
+// .tm-sidebar-con::-webkit-scrollbar {
+//     display: none;
+// }
+// .tm-sidebar-con {
+//     -ms-overflow-style: none; /* IE and Edge */
+//     scrollbar-width: none; /* Firefox */
+// }
+
+.tm-sidebar-top-text-con {
+  width: calc(100% - 68px);
+}
+
+.tm-contact-page {
+  min-height: calc(100vh - 60px);
+}
+
+.tm-edit-profile-page {
+  height: calc(100vh - 60px);
+}
+
+.tm-dashboard-header-text {
+  @extend .tm-color-text-secondary;
+  :hover {
+    @extend .tm-color-text-primary;
+  }
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.tm-profile-card {
+  @extend .tm-border1-dark !optional;
+}
+
+.tm-profile-card:hover {
+  @extend .tm-border1-blue !optional;
+}
+
+.tm-sidebar-contentarea-parent {
+  height: calc(100% - 47px);
+}
+
+.w-min-56 {
+  min-width: 14rem;
+}
+
+.popup-content,
+.popup-overlay {
+  z-index: 30 !important;
+}
+
+.tm-dashboard-institute-list-dropdown {
+  .arrow {
+    width: 44px;
+    position: absolute;
+    height: 24px;
+    overflow: hidden;
+    right: -7px;
+    bottom: -22px;
+  }
+  .arrow:before {
+    @extend .tm-border1 !optional;
+    content: '';
+    width: 40px;
+    position: absolute;
+    height: 70px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 12px;
+    z-index: 10;
+    background: white;
+  }
+  .msg-box {
+    @extend .tm-border1 !optional;
+    @extend .tm-border-radius1 !optional;
+    position: absolute;
+    left: -100px;
+    top: 30px;
+    margin-top: 20px;
+    background: white;
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 13;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .tm-dashboard-institute-list-dropdown {
+    .msg-box {
+      left: -55px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .tm-dashboard-onboarding-con {
+    width: 58% !important;
+  }
+  .tm-dashboard-attendance-card {
+    width: 24%;
+    min-width: 24%;
+  }
+  .tm-dashboard-onboarding-card {
+    width: 48%;
+    min-width: 48%;
+  }
+  .tm-dashboard-onboarding-card:nth-child(1),
+  .tm-dashboard-onboarding-card:nth-child(2) {
+    margin-bottom: 1rem;
+  }
+  .tm-dashboard-benefits-card:not(:last-child) {
+    border-bottom: none !important;
+    border-right: 2px solid $tm-color-light-gray;
+  }
+  .tm-dashboard-statistics-card:not(:last-child) {
+    border-right: 2px solid $tm-color-light-gray;
+  }
+  .tm-dashboard-automatedinsight-card {
+    width: 100%;
+  }
+  .tm-dashboard-header {
+    background-color: $tm-color-light-blue;
+  }
+
+  .tm-pending-request-card-img {
+    background-color: $tm-color-blue;
+    border-radius: 8px 0 0 8px;
+  }
+  .tm-contact-page {
+    min-height: auto;
+  }
+
+  .tm-login-card {
+    min-width: 800px;
+  }
+
+  .tm-sidebar-contentarea-parent {
+    height: calc(100% - var(--tm-header-height));
+  }
+
+  .tm-copy-input-width {
+    width: calc(100% - 12rem) !important;
+  }
+  .tm-dashboard-institute-list-dropdown {
+    .msg-box {
+      left: -30px;
+    }
+  }
+}

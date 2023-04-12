@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: var(--tm-kr-spacing-s) 0px;
+  gap: var(--tm-kr-spacing-xs);
+  max-width: 500px;
+  min-width: 500px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.rowItem:first-child {
+  flex: 0 0 150px;
+}
+
+.rowItem:last-child {
+  word-break: break-word;
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    min-width: auto;
+  }
+
+  .rowItem:first-child {
+    flex: 0 0 120px;
+  }
+}

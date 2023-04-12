@@ -1,0 +1,30 @@
+.navContainer {
+  margin-top: var(--tm-kr-spacing-m);
+  align-items: flex-end;
+  display: flex;
+  gap: var(--tm-kr-spacing-l);
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
+}
+.contentContainer {
+  display: flex;
+  margin-top: var(--tm-kr-spacing-s);
+  column-gap: var(--tm-kr-spacing-l);
+}
+.tabGroupWrapper {
+  flex-grow: 1;
+}
+
+.vListWrapper {
+  height: auto;
+  min-height: 1000px;
+  width: 100%;
+}
+
+.vListWrapper > div > div {
+  will-change: unset !important;
+}
+
+.emptyStateWrapper {
+  padding-top: 80px;
+}

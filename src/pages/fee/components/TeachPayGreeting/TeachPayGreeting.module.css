@@ -1,0 +1,27 @@
+.container {
+  margin-top: 250px;
+  position: relative;
+}
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgStyles {
+  margin-bottom: 20px;
+}
+
+.flexCenter p {
+  text-align: center;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.margin {
+  margin-bottom: var(--tm-kr-spacing-xl);
+}

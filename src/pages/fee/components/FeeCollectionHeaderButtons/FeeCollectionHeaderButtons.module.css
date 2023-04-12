@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  gap: 14px;
+}
+
+.headerButtons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.headerButton {
+  height: 44px;
+  font-size: 16px;
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.sendReminderButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.reminderTooltip.reminderTooltipHigherSpecificity {
+  opacity: 1;
+}
+
+.reminderTooltipText {
+  color: var(--tm-color-text-primary);
+  display: inline-block;
+  width: 15em;
+}
+
+.sendReminderIconWrapper {
+  display: flex;
+}

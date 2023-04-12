@@ -1,0 +1,109 @@
+.leadCardWrapper {
+  /* Used to hide the corners (show rounded corners) around the card */
+  transform: translate(0, 0);
+}
+
+.leadCard {
+  height: 132px;
+  padding: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.mobileVarifiedStatus {
+  align-items: center;
+  display: flex;
+  gap: 2px;
+}
+
+.draggingLeadCard {
+  min-height: 132px;
+  background: var(--tm-kr-color-neutrals-grey-30);
+  border: none;
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.admissionFeeBadgeColor {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.formFeeBadgeColor {
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.unpaidFeeBadgeColor {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.leadStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.kebabWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--tm-kr-color-primary-100);
+  border-radius: 12px;
+  padding: 10px 8px;
+}
+
+.kebabWrapper > div {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px 12px;
+}
+
+.kebabOptionWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kebabWrapper > div:hover {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: 12px;
+}
+
+.leadData > div,
+.leadData > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leadName {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  text-transform: capitalize;
+}
+
+.leadNumber {
+  margin-top: 2px;
+}
+
+.leadDetails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.leadDetailsDivider {
+  margin: 4px 0px;
+}
+
+.dots {
+  width: 4px;
+  height: 4px;
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+  border-radius: 50%;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

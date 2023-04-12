@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 16px;
+}
+.settingsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.settingsSidebar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.settingsContiner {
+  width: 75%;
+  padding-left: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .settingsWrapper {
+    display: inline;
+    justify-content: center;
+  }
+  .settingsSidebar {
+    width: 100%;
+  }
+  .settingsContiner {
+    display: inline;
+    width: 100%;
+  }
+}

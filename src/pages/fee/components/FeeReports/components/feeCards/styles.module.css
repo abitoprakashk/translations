@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex: 1;
+}
+.mtopMedium {
+  margin-top: var(--tm-kr-spacing-m);
+}
+
+.twoxstopMedium {
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+.customCardWrapper {
+  gap: var(--tm-kr-spacing-s);
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.frame {
+  background: var(--tm-kr-color-pastels-biloba-100);
+}
+.addFrame {
+  background: var(--tm-kr-color-neutrals-grey-50);
+}
+.title {
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+  line-height: var(--tm-kr-heading-mobile-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+.xxmodal {
+  height: 280px;
+}
+.customCardWrapper .customCard {
+  width: 235px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  height: 36px;
+  font-size: 14px;
+}
+.customCard .tooltipWrapper {
+  opacity: 1;
+}

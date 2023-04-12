@@ -1,0 +1,134 @@
+.img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.link {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+.filtersAndSearchBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnBorder {
+  border: 1px solid #1da1f1;
+  padding: 5px;
+  border-radius: 5px;
+  color: #1da1f1;
+}
+
+.btnFill {
+  border: 1px solid #1da1f1;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1da1f1;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.filters {
+  display: flex;
+  padding: 5px;
+}
+
+.filters > div {
+  padding: 10px;
+}
+
+.filters > div:nth-child(1) {
+  border-right: 1px solid #dbe2ea;
+}
+
+.filters header {
+  color: #1da1f1;
+  border-bottom: 1px solid #999;
+}
+
+.filters section {
+  padding: 5px;
+  color: var(--tm-color-text-secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.filters section div {
+  cursor: pointer;
+  padding: 10px 20px 10px 10px;
+  border-bottom: 1px solid #f2f4f8;
+}
+
+.filters section div.active {
+  background: #ebebeb;
+}
+
+.filters label {
+  padding-left: 5px;
+}
+
+.input,
+.select {
+  background-color: #f2f4f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 50px;
+  width: 90%;
+  color: var(--tm-color-text-primary);
+  outline: none;
+}
+
+.saveBtn {
+  text-align: right;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .inputGroup {
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    color: #dbe2ea;
+    display: block;
+  }
+
+  .formGroup {
+    display: block;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .input,
+  .select {
+    background-color: #f2f4f8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    color: var(--tm-color-text-primary);
+    outline: none;
+  }
+}

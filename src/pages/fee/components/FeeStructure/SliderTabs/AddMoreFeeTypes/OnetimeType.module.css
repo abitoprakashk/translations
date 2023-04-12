@@ -1,0 +1,22 @@
+.amount {
+  margin-left: 8px;
+}
+
+.taxPrefix {
+  margin-left: 12px;
+}
+
+.inputWrapper {
+  padding: 0px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.deleteIcon {
+  align-items: center;
+  height: 40px;
+  width: 20px;
+  cursor: pointer;
+  margin: 20px;
+  margin-left: 0;
+}

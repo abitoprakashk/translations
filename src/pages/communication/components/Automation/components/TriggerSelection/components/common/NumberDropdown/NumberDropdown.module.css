@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px var(--tm-kr-color-neutrals-grey-60) solid;
+  padding: var(--tm-kr-spacing-2xs) 0 0 var(--tm-kr-spacing-5xs);
+  margin-left: var(--tm-kr-spacing-3xs);
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.suffixText {
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,45 @@
+.map {
+  width: 100%;
+  height: 320px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 2%;
+}
+
+.recenter {
+  position: absolute;
+  right: 10px;
+  top: 42%;
+  background: var(--tm-kr-color-neutrals-grey-10);
+  z-index: 3;
+  width: 40px;
+  height: 25px;
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.distanceInput {
+  width: 125px;
+}
+
+.distanceInput input:disabled {
+  cursor: not-allowed;
+}
+
+.mapWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.distanceInputTitle {
+  display: flex;
+}
+
+.distanceTitleIconWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: var(--tm-kr-spacing-4xs);
+}

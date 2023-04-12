@@ -1,0 +1,195 @@
+.pendingTasksContainer {
+  height: 100%;
+  overflow: auto;
+}
+
+.PendingTasksMainContainer {
+  padding-top: var(--tm-kr-spacing-xs);
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+.PendingTasksMainContainerTitle {
+  font-size: var(--tm-kr-para-font-size-xl);
+  font-weight: var(--tm-kr-heading-font-weight-bold);
+  line-height: var(--tm-kr-heading-mobile-font-size-l);
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-color-white);
+  margin-bottom: 10px;
+}
+
+.sideContainerDivider {
+  display: none;
+}
+
+.sideContainerDividerFee {
+  display: flex;
+  opacity: 0.1;
+}
+
+.PendingTasksEmptyContainer,
+.PendingTasksEmptyBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PendingTasksEmptyContainer {
+  gap: var(--tm-kr-spacing-m);
+  margin: var(--tm-kr-spacing-m) auto;
+}
+
+.PendingTasksEmptyBox {
+  height: 64px;
+  width: 64px;
+  border-radius: 20px;
+  padding: var(--tm-kr-spacing-xs);
+  background-color: var(--tm-color-bl-3);
+}
+
+.PendingTasksEmptyText {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-regular);
+  line-height: var(--tm-kr-heading-mobile-font-size-m);
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--tm-kr-color-neutrals-grey-40);
+}
+
+.StaffAttendanceShimmner,
+.StaffLeaveShimmnerLeaveType,
+.StaffLeaveShimmnerName,
+.StaffLeaveShimmnerDays,
+.StaffLeaveShimmnerRole {
+  width: 100%;
+  border-radius: var(--tm-kr-border-radius-l);
+  background-repeat: no-repeat;
+  background-size: 800px 204px;
+  display: inline-block;
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+  background: var(--tm-color-shimmer-light-gray-1);
+  background-image: linear-gradient(
+    to right,
+    var(--tm-color-shimmer-light-gray-1) 10%,
+    var(--tm-color-light-gray-3) 20%,
+    var(--tm-color-shimmer-light-gray-1) 30%,
+    var(--tm-color-shimmer-light-gray-1) 100%
+  );
+}
+
+.StaffAttendanceShimmner {
+  height: 42px;
+}
+
+.staffAttendanceContainerTitle,
+.staffLeavesContainerTitle {
+  margin-top: var(--tm-kr-spacing-3xs);
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  line-height: var(--tm-kr-heading-mobile-font-size-xs);
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-kr-color-neutrals-grey-40);
+  margin-bottom: var(--tm-kr-spacing-4xs);
+}
+
+.StaffLeaveShimmner {
+  height: 200px;
+  width: 100%;
+  border-radius: var(--tm-kr-border-radius-l);
+  background: var(--tm-color-white);
+  padding: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.StaffLeaveShimmnerLeaveType,
+.StaffLeaveShimmnerName,
+.StaffLeaveShimmnerDays,
+.StaffLeaveShimmnerRole {
+  width: 100%;
+  color: var(--tm-kr-color-neutrals-grey-40);
+  margin-top: var(--tm-kr-spacing-5xs);
+  height: 22px;
+}
+
+.StaffLeaveShimmnerName {
+  margin-top: 14px;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.pendingTasksContainer::-webkit-scrollbar {
+  width: 0px;
+}
+
+.quickActionsTodayCollections {
+  font-size: var(--tm-kr-para-font-size-xl);
+  font-weight: var(--tm-kr-heading-font-weight-bold);
+  line-height: var(--tm-kr-heading-mobile-line-height-xs);
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-color-white);
+  padding-top: var(--tm-kr-spacing-s);
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.quickActionsTodayCollectionsNumberContainer > div {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  font-size: var(--tm-kr-heading-mobile-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-bold);
+  line-height: var(--tm-kr-heading-laptop-line-height-m);
+}
+
+@media (min-width: 1024px) {
+  .pendingTasksContainer {
+    height: 100%;
+    overflow: auto;
+    padding-right: 7px;
+  }
+  .sideContainerDivider {
+    display: flex;
+    opacity: 0.1;
+  }
+
+  /* width */
+  .pendingTasksContainer::-webkit-scrollbar {
+    display: block;
+    width: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  /* Track */
+  .pendingTasksContainer::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  .pendingTasksContainer::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+  }
+
+  .pendingTasksContainer::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+  }
+  /* Handle */
+  .pendingTasksContainer::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    box-shadow: inset 0 0 6px var(--tm-color-light-gray-4);
+  }
+}

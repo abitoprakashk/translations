@@ -1,0 +1,416 @@
+/* SHARE POPUP MOBILE */
+.NPSFeatureContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: Inter;
+  padding: 0;
+}
+
+.NPSFormPopupBackground,
+.NPSWideFormPopupBackground {
+  background-color: var(--tm-color-white);
+  border-top-left-radius: var(--tm-kr-modal-border-radius);
+  border-top-right-radius: var(--tm-kr-modal-border-radius);
+  width: 100%;
+}
+
+.PopupCross {
+  display: flex;
+  cursor: pointer;
+}
+
+.PopupButtonText,
+.submitButtonText {
+  display: flex;
+  justify-content: center;
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-spacing-m);
+  width: 100%;
+  color: var(--tm-color-white);
+}
+
+.PopupRemindText {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-spacing-m);
+  margin-top: var(--tm-kr-spacing-s);
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+
+/* NPS SCORE POPUP MOBILE */
+
+.NPSScorePopup,
+.scorePopupMainContent,
+.NPSSubmit,
+.scorePopupButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.scorePopupMainContent {
+  width: 100%;
+  padding: 0 var(--tm-kr-spacing-xs) var(--tm-kr-spacing-m);
+}
+
+.scorePopupHeaderBorder {
+  width: 100%;
+}
+.scorePopupHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-xs);
+}
+.scorePopupHeaderText {
+  font-size: var(--tm-kr-heading-mobile-font-size-xs);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-spacing-m);
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.scoreQuestionText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-heading-mobile-line-height-s);
+  text-align: center;
+  color: var(--tm-primary-2);
+  margin-top: var(--tm-kr-spacing-m);
+}
+
+.scorePopupScoreContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  margin-top: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-2xl);
+}
+.scorePopupScoreBad,
+.scorePopupScoreAvg,
+.scorePopupScoreGood {
+  display: flex;
+  align-items: center;
+  padding-bottom: var(--tm-kr-spacing-5xs);
+}
+.scorePopupScoreGood > :first-child,
+.scorePopupScoreAvg > :first-child,
+.scorePopupScoreBad > :first-child {
+  margin-left: 0px;
+}
+
+.scorePopupNotBad {
+  display: flex;
+  width: 100%;
+  margin-top: var(--tm-kr-spacing-2xl);
+  position: relative;
+}
+
+.goodPills,
+.badPills,
+.avgPills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--tm-kr-icon-size-s);
+  height: var(--tm-kr-icon-size-s);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-left: var(--tm-kr-border-width-l);
+  cursor: pointer;
+}
+
+.goodPills:hover {
+  background-color: var(--tm-color-green);
+  color: var(--tm-color-white);
+}
+.goodPills {
+  background-color: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+}
+.badPills:hover {
+  background-color: var(--tm-color-red);
+  color: var(--tm-color-white);
+}
+
+.badPills {
+  color: var(--tm-color-red);
+  background-color: var(--tm-color-light-red);
+}
+.avgPills:hover {
+  background-color: var(--tm-color-orange);
+  color: var(--tm-color-white);
+}
+.avgPills {
+  background-color: var(--tm-color-light-orange);
+  color: var(--tm-color-orange);
+}
+
+.scorePopupScoreBad::after,
+.scorePopupScoreAvg::after,
+.scorePopupScoreGood::after {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.scorePopupScoreBad::after {
+  top: 100%;
+  left: 0%;
+  font-size: var(--tm-kr-para-font-size-m);
+}
+
+.scorePopupScoreGood::after {
+  top: 100%;
+  right: 0%;
+  font-size: var(--tm-kr-para-font-size-m);
+}
+
+.scorePopupScoreAvg::after {
+  top: 100%;
+  left: 63%;
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.scorePopupScoreBad::after {
+  content: 'Never';
+  color: var(--tm-color-red);
+}
+.scorePopupScoreAvg::after {
+  content: 'Maybe';
+  color: var(--tm-color-orange);
+}
+.scorePopupScoreGood::after {
+  content: 'Always';
+  color: var(--tm-color-green);
+}
+
+.scorePopupScoreAvg {
+  margin-left: var(--tm-kr-border-width-l);
+}
+
+.scorePopupScoreGood {
+  margin-left: var(--tm-kr-border-width-l);
+}
+
+.activeBadPills,
+.activeAvgPills,
+.activeGoodPills {
+  color: var(--tm-color-white);
+}
+
+.activeBadPills {
+  background-color: var(--tm-color-red);
+}
+.activeAvgPills {
+  background-color: var(--tm-color-orange);
+}
+.activeGoodPills {
+  background-color: var(--tm-color-green);
+}
+
+.scorePopupButtonContainer,
+.submitPopupButtonContainer,
+.PopupButtonText {
+  width: 100%;
+}
+
+/* NPS FEATURE CONTAINER */
+
+.NPSSubmit {
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-xs);
+  height: 70vh;
+  justify-content: flex-end;
+}
+.submitCheckCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: inherit;
+}
+
+.submitHeader {
+  font-family: 'Inter';
+  font-size: var(--tm-kr-heading-mobile-font-size-xs);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  line-height: var(--tm-kr-heading-mobile-line-height-s);
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: var(--tm-kr-spacing-m);
+}
+
+.submitText {
+  font-family: Inter;
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  line-height: var(--tm-kr-para-line-height-l);
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: var(--tm-kr-spacing-2xs);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+/* CURSOR POINTER */
+.submitPopupButtonContainer,
+.scorePopupButtonContainer {
+  cursor: pointer;
+}
+
+@media (min-width: 540px) {
+  .scorePopupScoreBad {
+    border-bottom: var(--tm-kr-border-width-m) solid var(--tm-color-light-red);
+  }
+  .scorePopupScoreGood {
+    border-bottom: var(--tm-kr-border-width-m) solid var(--tm-color-light-green);
+  }
+  .scorePopupScoreAvg {
+    border-bottom: var(--tm-kr-border-width-m) solid
+      var(--tm-color-light-orange);
+  }
+  .scoreQuestionText {
+    font-size: var(--tm-kr-heading-mobile-font-size-s);
+  }
+  .NPSFeatureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .NPSFormPopupBackground {
+    width: var(--tm-kr-modal-size-m-width);
+    border-radius: var(--tm-kr-modal-border-radius);
+  }
+  .NPSWideFormPopupBackground {
+    width: var(--tm-kr-modal-size-xl-width);
+    border-radius: var(--tm-kr-modal-border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .PopupRemindText {
+    margin-top: var(--tm-kr-badge-size-small-height);
+  }
+  .PopupButtonText,
+  .submitButtonText {
+    width: 240px;
+  }
+  /* NPS SCORE POPUP DESKTOP */
+  .scorePopupScoreContainer {
+    width: 508px;
+    margin-top: var(--tm-kr-spacing-m);
+    margin-bottom: var(--tm-kr-text-input-laptop-height);
+  }
+  .activeBadBorder {
+    border-bottom: var(--tm-kr-border-width-m) solid var(--tm-color-red);
+  }
+  .activeAvgBorder {
+    border-bottom: var(--tm-kr-border-width-m) solid var(--tm-color-orange);
+  }
+  .activeGoodBorder {
+    border-bottom: var(--tm-kr-border-width-m) solid var(--tm-color-green);
+  }
+  .goodPills,
+  .badPills,
+  .avgPills {
+    width: var(--tm-kr-spacing-2xl);
+    height: var(--tm-kr-spacing-2xl);
+    margin-left: var(--tm-kr-spacing-2xs);
+  }
+
+  .scorePopupNotBad {
+    /* border: 1px solid green; */
+    display: flex;
+    margin-top: 0px;
+    position: relative;
+    width: 38%;
+  }
+  .scorePopupScoreGood {
+    margin-left: var(--tm-kr-spacing-2xs);
+  }
+
+  .scorePopupScoreAvg {
+    margin-left: var(--tm-kr-spacing-2xs);
+  }
+
+  .scorePopupScoreBad::after {
+    top: 100%;
+    left: 144px;
+    font-size: var(--tm-kr-para-font-size-m);
+    font-weight: var(--tm-kr-heading-font-weight-medium);
+  }
+  .scorePopupScoreGood::after {
+    top: 100%;
+    left: 420px;
+    font-size: var(--tm-kr-para-font-size-m);
+    font-weight: var(--tm-kr-heading-font-weight-medium);
+  }
+
+  .scorePopupScoreAvg::after {
+    top: 100%;
+    left: 340px;
+    font-size: var(--tm-kr-para-font-size-m);
+    font-weight: var(--tm-kr-heading-font-weight-medium);
+  }
+
+  /* NPS FEATURE CONTAINER */
+  .icon {
+    height: var(--tm-kr-icon-frame-size-2xl);
+    width: var(--tm-kr-icon-frame-size-2xl);
+    border-radius: var(--tm-kr-border-radius-l);
+    padding: var(--tm-kr-modal-margin);
+  }
+
+  .scorePopupButtonContainer,
+  .submitPopupButtonContainer {
+    width: 240px;
+  }
+
+  .PopupButtonText {
+    width: 100%;
+  }
+  .scorePopupScoreAvg,
+  .scorePopupScoreBad,
+  .scorePopupScoreGood {
+    padding-bottom: var(--tm-kr-spacing-2xs);
+  }
+  .NPSSubmit {
+    justify-content: center;
+  }
+  .submitHeader {
+    font-size: var(--tm-kr-heading-laptop-font-size-xs);
+  }
+  .submitText {
+    font-size: var(--tm-kr-heading-mobile-font-size-xs);
+  }
+  .submitCheckCircle {
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .NPSSubmit {
+    align-items: center;
+    height: 70vh;
+    max-height: var(--tm-kr-modal-size-xl-height);
+    justify-content: center;
+  }
+}

@@ -1,0 +1,18 @@
+.noWrap {
+  white-space: nowrap;
+}
+
+.marginLeftAuto {
+  margin-left: auto;
+}
+
+.mobileBtn {
+  padding: var(--tm-kr-spacing-3xs);
+  flex-grow: 1;
+  min-width: 52px;
+  max-width: 52px;
+}
+
+.mobileBtn > [class^='krayon__Button-module__'] {
+  display: inline-flex;
+}

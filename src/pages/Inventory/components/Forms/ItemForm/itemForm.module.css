@@ -1,0 +1,25 @@
+.itemForm {
+  padding: 12px 0px;
+  width: 100%;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addItemButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addItemButton {
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.deleteItemPopup {
+  z-index: 999999;
+  position: absolute;
+  left: 0;
+}

@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wrapper {
+  padding: var(--tm-kr-spacing-s) 0 0 0;
+  gap: var(--tm-kr-spacing-xs);
+}
+
+.mobile.wrapper {
+  gap: var(--tm-kr-spacing-xs);
+  flex-wrap: wrap;
+}
+
+.standard {
+  max-width: 300px;
+}
+
+.standardName {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

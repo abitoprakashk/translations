@@ -1,0 +1,12 @@
+.viewWrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  gap: var(--tm-kr-spacing-s);
+}
+@media (min-width: 768px) {
+  .viewWrapper {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

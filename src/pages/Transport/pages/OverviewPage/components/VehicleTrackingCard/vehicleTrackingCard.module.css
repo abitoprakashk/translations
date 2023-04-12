@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-2xs);
+  border: none;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-2xs);
+  cursor: pointer;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+.card .busIcon::before {
+  color: var(--tm-kr-color-pastels-biloba-100);
+}
+
+.busDesc {
+  margin-top: var(--tm-kr-spacing-5xs);
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.badge {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+}

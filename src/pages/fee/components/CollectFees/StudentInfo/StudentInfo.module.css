@@ -1,0 +1,51 @@
+.mainSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section,
+.toggleSwitchSection {
+  display: flex;
+  align-items: center;
+}
+
+.avatarAndName {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: #212427;
+  border-radius: 50%;
+}
+
+.numberAndJoinSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.classText,
+.dueFee,
+.fontWeight600 {
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+}
+
+.classText {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toggleSwitchSection {
+  gap: 8px;
+}
+
+.toggleSwitch {
+  margin: 0px;
+}

@@ -1,0 +1,25 @@
+.toggleBlock {
+  font-weight: normal;
+}
+.commonToggleInputGroup {
+  margin-bottom: 24px;
+}
+.toggleSwitchInput {
+  margin-right: 6px;
+}
+.toggleSwitchTitle {
+  font-size: 14px;
+  color: var(--tm-color-bl-1);
+}
+.toggleTooltips {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.commonToggleInputGroup div.toolTipBlock {
+  background: var(--tm-color-text-primary);
+}
+.toggleBlock div.commonToggleInputGroup div.toolTipBlock::after {
+  right: -7px;
+}

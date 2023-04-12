@@ -1,0 +1,48 @@
+.noBottomPadding {
+  padding-bottom: 0;
+}
+
+.setupCardWrapper {
+  margin: 0;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.attendanceRequest {
+  color: var(--tm-kr-color-base-light-100);
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+
+.attendanceRequest span {
+  border-radius: var(--tm-kr-border-radius-m);
+  background-color: var(--tm-kr-color-semantic-error-100);
+  padding: var(--tm-kr-spacing-5xs) var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-color-base-light-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 500;
+}
+
+.setupHeading {
+  display: flex;
+  align-items: center;
+}
+
+.whiteBgWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.headerText {
+  margin-left: var(--tm-kr-spacing-4xs);
+  font-weight: 700;
+}
+
+.headerTemplateRightElement {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-m);
+}
+
+@media only screen and (min-width: 768px) {
+  .setupCardWrapper {
+    margin-bottom: var(--tm-kr-spacing-xs);
+  }
+}

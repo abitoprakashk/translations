@@ -1,0 +1,71 @@
+.searchBarWrapper {
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.listRow {
+  display: flex;
+  align-items: center;
+}
+
+.listRow p {
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+
+.staffName {
+  flex-grow: 1;
+}
+
+.disabledRow {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.colHeader {
+  position: absolute;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-xs);
+  border-top-left-radius: var(--tm-kr-border-radius-l);
+  border-top-right-radius: var(--tm-kr-border-radius-l);
+  z-index: 1;
+}
+
+.checkboxLabel {
+  font-size: var(--tm-kr-para-font-size-xl);
+  line-height: var(--tm-kr-para-line-height-xl);
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.tableStyle {
+  margin: 0px;
+}
+
+.tableContainer {
+  position: relative;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: var(--tm-kr-border-width-l);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.staffBadge {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  height: initial;
+  padding: var(--tm-kr-spacing-5xs) var(--tm-kr-badge-padding);
+}
+
+.onlyTableRows .tableStyle tbody,
+.onlyTableRows .tableStyle tbody > tr:first-child,
+.onlyTableRows .tableStyle tbody > tr:first-child > td:first-child {
+  border-top-left-radius: var(--tm-kr-border-radius-l);
+  border-top-right-radius: var(--tm-kr-border-radius-l);
+}

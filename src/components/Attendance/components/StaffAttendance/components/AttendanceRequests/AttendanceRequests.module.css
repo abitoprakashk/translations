@@ -1,0 +1,82 @@
+.searchBar {
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.tabBarWrapper {
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.filterWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownContainer {
+  width: max-content;
+  position: absolute;
+}
+
+.wrapper {
+  min-width: 170px;
+  width: max-content;
+  padding: 0 20px;
+}
+
+.iconStyle {
+  margin-right: var(--tm-kr-spacing-3xs);
+}
+
+.breadcrumbWrapper {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.buttonDropdownWrapper {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.iconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+}
+
+.emptyState {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.emptyState p {
+  width: 180px;
+  text-align: center;
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonDropdownWrapper {
+    margin-bottom: 0;
+  }
+
+  .filterWrapper {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tabBarWrapper {
+    width: fit-content;
+  }
+
+  .searchBar {
+    width: 400px;
+  }
+}

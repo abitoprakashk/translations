@@ -1,0 +1,128 @@
+.tabHead {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.wrapper {
+  overflow: auto;
+}
+
+.accordionHeader {
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+}
+
+.accordionWrapper {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.accordionHeaderText {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+.accordionBody {
+  padding: var(--tm-kr-spacing-xs);
+  padding-bottom: 0px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.fieldItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+  padding-bottom: var(--tm-kr-spacing-xs);
+  max-height: 235px;
+  overflow: auto;
+}
+.innerFieldItem > span:first-of-type,
+.fieldItem > span:first-of-type {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.innerFieldItem span:nth-of-type(2),
+.fieldItem span:nth-of-type(2) {
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.fieldItem span.disable > span::before {
+  cursor: not-allowed;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+  color: var(--tm-kr-color-neutrals-grey-40);
+}
+
+.addCustomButton {
+  display: flex;
+  justify-content: center;
+}
+
+.customFieldInputContainer {
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.customFieldInputContainer > p {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.innerAccordionHeader {
+  background: var(--tm-kr-color-base-light-100);
+  padding: 0px;
+  padding-bottom: var(--tm-kr-spacing-3xs);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+.innerAccordionHeaderText {
+  text-transform: capitalize;
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+.innerAccordionContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-3xs);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+  overflow: auto;
+}
+.innerAccordionBody {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.innerAccordionWrapper {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.innerFieldItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.fieldContent {
+  overflow: auto;
+}
+.emptyFieldState {
+  color: var(--tm-kr-color-neutrals-grey-80);
+  font-size: var(--tm-kr-para-font-size-l);
+  text-align: center;
+}
+.searchFieldContainer {
+  border: 1px solid var(--tm-kr-searchbar-dropdown-border-color);
+  padding: var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.searchFieldContainer .innerSearchFieldItem {
+  padding-top: var(--tm-kr-spacing-4xs);
+  padding-bottom: var(--tm-kr-spacing-4xs);
+}
+.searchCloseButton {
+  cursor: pointer;
+}

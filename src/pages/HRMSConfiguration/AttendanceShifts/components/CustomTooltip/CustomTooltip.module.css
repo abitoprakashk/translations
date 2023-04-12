@@ -1,0 +1,30 @@
+.tooltipBody {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: var(--tm-kr-spacing-xs);
+  width: 450px;
+}
+
+.tooltipHeader {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.tooltipText {
+  color: var(--tm-kr-color-neutrals-grey-50);
+  display: flex;
+  font-weight: 600;
+  margin: var(--tm-kr-spacing-5xs) 0;
+}
+
+.tooltipText span {
+  margin-right: var(--tm-kr-spacing-3xs);
+  height: 100%;
+}
+
+.geofence {
+  height: 240px;
+}
+
+.biometric {
+  height: 134px;
+}

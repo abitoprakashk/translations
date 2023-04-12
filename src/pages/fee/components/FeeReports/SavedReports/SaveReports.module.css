@@ -1,0 +1,107 @@
+.headingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.headingSectionIcon {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1px;
+}
+.headingSectionIconRight {
+  transform: rotate(270deg);
+}
+
+.headingText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.verticalDivader {
+  margin-right: 22px;
+  margin-left: 24px;
+  height: 30px;
+  border-left: 1px solid var(--tm-color-gy-2);
+}
+
+.actionSection {
+  display: flex;
+  align-items: center;
+}
+
+.iconsButtonSection {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.downloadReportText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-bl-2);
+}
+.downloadReportBtnSection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reportNameText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.adminDetailsAndDateSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.adminNameText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.detailsText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.viewAllBtnSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewAllBtn {
+  cursor: pointer;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-bl-2);
+  padding: 4px;
+  text-transform: capitalize;
+}
+
+.SavedReportsTableSection {
+  height: 44vh;
+  overflow: hidden;
+}

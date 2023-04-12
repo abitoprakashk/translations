@@ -1,0 +1,40 @@
+.contentWrapper {
+  color: var(--tm-color-android-gray);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1.2rem;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.helpText {
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 4px;
+  position: relative;
+  top: -2px;
+}
+
+.messageText {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.descriptionText {
+  max-width: 300px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+
+.startButton {
+  background-color: var(--tm-color-bl-2);
+  color: var(--tm-color-white);
+  font-weight: 100;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 7px;
+}

@@ -1,0 +1,7 @@
+.gMapWrapper :global(.gm-ui-hover-effect) {
+  display: none !important;
+}
+
+.gMapWrapper :global(.gm-style iframe + div) {
+  border: none !important;
+}

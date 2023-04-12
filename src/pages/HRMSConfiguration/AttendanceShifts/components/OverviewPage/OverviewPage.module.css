@@ -1,0 +1,27 @@
+.alertMsg {
+  margin-top: var(--tm-kr-spacing-s);
+  width: 100%;
+}
+
+.shiftHeaderBtnWrapper {
+  display: flex;
+}
+
+.shiftHeaderBtnWrapper button {
+  margin-left: var(--tm-kr-spacing-2xs);
+}
+
+@media (min-width: 1024px) {
+  .shiftCardContainer {
+    margin: var(--tm-kr-spacing-xs) 0;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    gap: var(--tm-kr-spacing-s) var(--tm-kr-spacing-s);
+  }
+}
+
+@media (min-width: 1296px) {
+  .shiftCardContainer {
+    grid-template-columns: repeat(4, 320px);
+  }
+}

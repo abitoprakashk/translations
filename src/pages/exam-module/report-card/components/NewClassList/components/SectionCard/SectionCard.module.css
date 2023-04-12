@@ -1,0 +1,55 @@
+.card {
+  width: 225px;
+  height: 116px;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.sectionName {
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.top {
+  padding: var(--tm-kr-spacing-s);
+  padding-right: var(--tm-kr-spacing-2xs);
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.bottom {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s);
+}
+
+.noTeacher {
+  line-height: 24px;
+  color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: calc((100% - var(--tm-kr-spacing-s)) / 2);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+}

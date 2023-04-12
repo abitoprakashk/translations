@@ -1,0 +1,34 @@
+.section {
+  display: flex;
+}
+
+.border {
+  border-left: 3px solid var(--tm-bg-gray-4);
+  border-radius: 2px;
+  margin-right: 12px;
+  height: auto;
+  width: 2px;
+}
+
+.subText {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-bg-gray-3);
+}
+
+.text {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-black-2);
+}
+
+.smallerText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.additionalInfo {
+  font-style: italic;
+}

@@ -1,0 +1,569 @@
+/* common  */
+.contentAreaWrapper {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--tm-kr-color-base-light-100);
+  min-height: 100%;
+}
+.h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  margin-top: 10px;
+}
+.p2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: 4px;
+}
+
+/* common for all page Header  */
+.pageHeaderBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.pageHeading {
+  order: 1;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  overflow-wrap: break-word;
+}
+.pageDesc {
+  order: 3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+  margin-top: 6px;
+  overflow-wrap: break-word;
+}
+.pageButtonBox {
+  order: 2;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* height: 36px; */
+  margin-left: auto;
+}
+
+.icon {
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+/* RoleListPage */
+.rolesCardBox {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+.card {
+  display: block;
+  width: calc((100% - 60px) / 4);
+  min-width: 200px;
+  height: 106px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.cardHeaderDiv {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  line-height: 26px;
+  height: 26px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.cardHeading {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.avatarDiv {
+  display: flex;
+  height: 24px;
+}
+
+.avatarWrapper {
+  padding-left: 12px;
+  height: 24px;
+}
+.cardFooter {
+  font-size: 12px;
+  padding-top: 3px;
+}
+.cardFooterText {
+  font-size: 12px;
+  padding-top: 3px;
+}
+/* Modal common design:
+ 1. ViewRolePage : AssignUserModal
+ 2. ViewRolePage : UserListModal
+ 3. CreateRolePage : ImportRoleModal */
+.popupContent {
+  padding: 20px 20px 12px 20px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+.popUpHeader {
+  padding: 20px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+.popUpHeader * {
+  font-size: 18px;
+}
+.popUpWrapper {
+  width: 540px;
+}
+
+.modalAssignUser {
+  height: 600px;
+}
+.modalUserList {
+  height: 460px;
+}
+.modalImportRole {
+  height: 620px;
+}
+.userListBox {
+  margin-top: 12px;
+  padding-bottom: 20px;
+}
+.staffListBox {
+  margin-top: 12px;
+}
+
+.modalContent {
+  padding: 20px 30px 0 30px;
+}
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  overflow-wrap: break-word;
+}
+.modalDesc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.modalCross {
+  font-weight: bold;
+  cursor: pointer;
+}
+.modalFooter {
+  padding: 20px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.modalAlert {
+  padding: 12px;
+  width: 100%;
+  height: 44px;
+  margin-bottom: 16px;
+}
+.modalRow {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 10px 12px;
+  height: 60px;
+}
+.evenRow {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+}
+.modalC3 {
+  margin-left: 8px;
+  margin-right: 12px;
+  max-width: 250px;
+}
+.modalC4 {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 2px 8px;
+  text-align: right;
+  border-radius: 8px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  background-color: var(--tm-kr-color-pastels-fringy-10);
+}
+.modalCheckbox {
+  margin: 0 4px 0 0;
+}
+.modalAvatar {
+  border: none;
+}
+.modalH1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.modalP1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+/* PermissionTable in ViewRolePage & CreateRolePage  */
+.permissionTable {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.sidebar {
+  width: 220px;
+}
+.sidebarItem {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.sidebarItem:first-child {
+  border-top: none;
+  border-top-left-radius: 12px;
+}
+.sidebarItem:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 12px;
+}
+
+.sidebarActive {
+  background-color: var(--tm-kr-color-primary-100);
+  color: var(--tm-kr-color-base-light-100);
+}
+.permissionBox {
+  flex-grow: 1;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: 30px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.subModuleWrapper {
+  border-radius: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  background-color: var(--tm-kr-color-base-light-100);
+}
+.subModuleDiv {
+  padding: 20px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.subModuleDiv:last-child {
+  border: none;
+}
+.subModuleHeading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.subModulePara {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+.toggleDiv {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.toggleTitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+  margin-left: 12px;
+}
+.toggle {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* CreateRolePage  form*/
+.stepperWrapper {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.stepperStep {
+  max-width: 240px;
+}
+.formWrapper {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+  padding-bottom: 15px;
+}
+.stepperDiv {
+  border: none;
+  padding: 30px 30px 15px 30px;
+  height: 140px;
+}
+.formDiv {
+  padding: 30px;
+}
+.formInputDiv {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.formTable {
+  margin-bottom: 30px;
+}
+.formDesc {
+  margin-bottom: 30px;
+}
+.textInput {
+  max-width: 660px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.checkbox span {
+  padding-left: 2px;
+  padding-top: 3.5px;
+}
+
+.importIcon {
+  margin-right: 8px;
+}
+
+/* common */
+.fixedFooter {
+  display: block;
+  position: fixed;
+  width: calc(100vw - var(--tm-sidebar-collapsed-width));
+  background-color: var(--tm-kr-color-base-light-100);
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: 20px 30px;
+}
+
+.menuTooltip {
+  width: 130px;
+  background-color: var(--tm-kr-color-base-light-100);
+  opacity: 1;
+}
+.menuOption {
+  opacity: 1;
+  background-color: var(--tm-kr-color-base-light-100);
+  width: 130px;
+}
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 8px;
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.flexLeftRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+}
+.floatRight {
+  float: right;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*  for Mweb */
+.rolesTab {
+  margin-right: 24px;
+  line-height: 40px;
+  margin-top: -10px;
+}
+.rolesActive {
+  color: var(--tm-kr-color-primary-100);
+  border-bottom: 2px solid var(--tm-kr-color-primary-100);
+}
+
+.permissionBoxMWeb {
+  margin-top: 16px;
+}
+.accordionWrapper {
+  margin-bottom: 16px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+}
+.accordionHeader {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 56px;
+}
+.accordionBody {
+  padding: 0;
+}
+
+.hideInMobile {
+  display: block;
+}
+.hideInWeb {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .fixedFooter {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .card {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* common */
+  .hideInMobile {
+    display: none;
+  }
+  .hideInWeb {
+    display: block;
+  }
+  .contentAreaWrapper {
+    width: 100%;
+    padding: 20px 16px;
+  }
+  .h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+  }
+  .p2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+
+  .pageHeaderBox {
+    display: block;
+    margin-top: 20px;
+  }
+  .pageHeading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .pageDesc {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .pageButtonBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* permission table mweb */
+  .subModuleDiv {
+    padding: 20px 16px;
+  }
+  .toggleTitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* card */
+  .card {
+    width: 100%;
+    height: 100px;
+    padding: 16px;
+  }
+  .cardHeaderDiv {
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 20px;
+  }
+  .cardFooterText {
+    font-size: 14px;
+  }
+
+  .cardWrapper {
+    margin-top: 20px;
+    gap: 16px;
+  }
+  .rolesCardBox {
+    margin-bottom: 20px;
+  }
+}

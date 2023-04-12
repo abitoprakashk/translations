@@ -1,0 +1,9 @@
+.noDataSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  text-transform: capitalize;
+}

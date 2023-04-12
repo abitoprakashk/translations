@@ -1,0 +1,42 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.slotCon {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.slotItem {
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color: var(--tm-color-gy-3);
+  color: var(--tm-color-text-secondary);
+  margin-right: 16px;
+  cursor: pointer;
+}
+.slotItemSelected {
+  background-color: var(--tm-color-bl-2);
+  color: var(--tm-color-wh-1);
+}
+
+.dateField input {
+  border-color: var(--tm-color-bl-2);
+  padding: 7px 12px;
+}
+
+.notMarkedSection {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tm-color-og-2);
+  border-radius: 8px;
+}
+.notMarkedSectionImg {
+  margin-right: 10px;
+}

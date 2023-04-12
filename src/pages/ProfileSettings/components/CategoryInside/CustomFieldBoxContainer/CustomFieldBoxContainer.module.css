@@ -1,0 +1,63 @@
+/* Card box container and their fields css  */
+.fieldNameTextBoxDiv {
+  margin-bottom: 20px;
+}
+.fieldNameTextBoxDiv > div:first-child {
+  padding: 0px;
+}
+.inputFieldTitleClass {
+  font-weight: normal;
+}
+.customFieldBoxCardClass {
+  font-weight: normal;
+}
+.inputGroup {
+  font-weight: normal;
+}
+
+.inputGroup > div > div:first-child {
+  color: var(--tm-color-text-primary);
+}
+
+/* Char Limit Input Group */
+.charLimitInputGroup {
+  position: relative;
+}
+.charLimitInputGroup > div {
+  padding: 0px;
+}
+.visibleInputFieldsBlock {
+  margin-bottom: 20px;
+}
+.showHideInputFieldsBlock {
+  font-weight: normal;
+}
+.charLimitInputGroup .limitText {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+/* Select input type radio buttons part css */
+.selectFieldTypeInput > div {
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.selectFieldTypeInput > div:last-child div input {
+  cursor: pointer;
+}
+.selectFieldTypeInput > div:last-child div label {
+  font-size: 14px;
+  cursor: pointer;
+}
+.selectFieldTypeInput > div:last-child div input:checked ~ label {
+  color: var(--tm-color-text-primary);
+}
+.inputFieldClass {
+  font-weight: normal;
+}
+/* Date range part css */
+.dateRangeCheckboxGroup {
+  font-weight: normal;
+}

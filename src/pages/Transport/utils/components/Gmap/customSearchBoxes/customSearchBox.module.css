@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  height: var(--tm-kr-searchbar-height);
+  background-color: var(--tm-kr-searchbar-background-color);
+  border-radius: var(--tm-kr-border-radius-l);
+  border: 1px solid none;
+  padding: var(--tm-kr-searchbar-padding-y) var(--tm-kr-searchbar-padding-x);
+}
+
+.input {
+  width: 95%;
+  height: var(--tm-kr-searchbar-height);
+  background-color: var(--tm-kr-color-base-light-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  border-color: var(--tm-kr-searchbar-background-color);
+  border-style: solid;
+  padding: var(--tm-kr-searchbar-padding-y) var(--tm-kr-searchbar-padding-x);
+  margin: var(--tm-kr-searchbar-padding-y) var(--tm-kr-searchbar-padding-x);
+}
+.input::placeholder {
+  color: var(--tm-kr-searchbar-placeholder-color);
+  font-size: var(--tm-kr-searchbar-fontsize);
+}
+
+.searchIcon {
+  margin: auto;
+}
+
+.removeIcon {
+  margin: auto;
+  margin-right: -4px;
+  cursor: pointer;
+  width: var(--tm-kr-searchbar-remove-icon-wrapper-size);
+  height: var(--tm-kr-searchbar-remove-icon-wrapper-size);
+  background-color: var(--tm-kr-searchbar-remove-icon-wrapper-color);
+  border-radius: var(
+    --tm-kr-searchbar-remove-icon-wrapper-border-radiusborder-radius
+  );
+}
+
+.active {
+  border: 1px solid var(--tm-kr-searchbar-dropdown-border-color);
+}
+
+.input:focus-visible {
+  outline: none;
+}

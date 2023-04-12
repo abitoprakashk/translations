@@ -1,0 +1,242 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  margin-top: 10px;
+}
+
+.classesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  height: calc(100vh - (320px));
+}
+
+.sectionTile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  cursor: pointer;
+}
+
+.selectedSectionTile {
+  background: var(--tm-kr-color-primary-60);
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionCalloutCards {
+  display: flex;
+  flex-direction: row;
+}
+
+.calloutCard {
+  padding-right: 30px;
+}
+
+.borderGreen.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-success-100);
+}
+
+.borderRed.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-error-100);
+}
+
+.studentList {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 80%;
+  height: auto;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.studentTile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 100%;
+  height: 72px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.sectionName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.studentDetailsShimmerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.studentProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 40%;
+  height: 48px;
+  cursor: pointer;
+}
+
+.studentAvatar {
+  height: 48px;
+  width: 480x;
+  padding: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.studentNameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.studentName {
+  font-weight: 900;
+}
+
+.studentPaidFee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 15%;
+  height: 48px;
+}
+
+.studentPaidFeeAmount {
+  color: var(--tm-kr-color-semantic-success-110);
+  font-weight: 900;
+}
+
+.studentDueFeeAmount {
+  color: var(--tm-kr-color-semantic-info-110);
+  font-weight: 900;
+}
+
+.studentDueFee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 15%;
+  height: 48px;
+}
+
+.studentActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 30%;
+  height: 48px;
+  align-items: center;
+}
+
+.studentMoreActionWrapper {
+  position: relative;
+  top: 12px;
+}
+
+.studentMoreActionIcon {
+  padding: 12px;
+  position: relative;
+  left: 0px;
+  cursor: pointer;
+}
+
+.dropdownContainer {
+  right: 0px;
+  top: 40px;
+  width: max-content;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--tm-kr-dropdown-options-padding);
+  background: var(--tm-kr-dropdown-options-background-color);
+  border: 1px solid var(--tm-kr-dropdown-options-border-color);
+  border-radius: var(--tm-kr-border-radius-m);
+  margin-top: var(--tm-kr-filter-button-margin-top);
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdownOption {
+  padding: var(--tm-kr-avatar-group-s-tooltip-padding);
+  width: 100%;
+  cursor: pointer;
+}
+.dropdownOption:hover {
+  background: var(--tm-kr-searchbar-dropdown-onhover-color);
+  color: var(--tm-kr-searchbar-dropdown-border-color);
+  border-radius: var(--tm-kr-tabgroup-secondary-border-radius);
+  font-weight: var(--tm-kr-filter-button-font-weight);
+}
+
+.studentListEmptyState {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+.studentslistWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sectionSearchBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .studentList {
+    display: none;
+  }
+}

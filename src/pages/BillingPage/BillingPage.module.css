@@ -1,0 +1,10 @@
+.billingPageWrapper {
+  padding: var(--tm-kr-spacing-m);
+  background-color: white;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: var(--tm-font-weight-bold);
+  color: var(--tm-kr-color-neutrals-grey-100);
+}

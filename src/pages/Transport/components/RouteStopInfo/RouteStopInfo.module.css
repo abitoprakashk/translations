@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100%;
+}
+
+/* Bar */
+.barWithCircularEnds {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.circle {
+  background: var(--tm-kr-color-pastels-biloba-100);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.straightBar {
+  background: var(--tm-kr-color-pastels-biloba-100);
+  width: calc(100% - 24px);
+  height: 4px;
+}
+
+/* Stops */
+.stopsInfoWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+.routeStartStop {
+  width: 40%;
+}
+.routeEndStop {
+  width: 40%;
+  text-align: right;
+}
+.stopsNumWrapper {
+  text-align: center;
+}

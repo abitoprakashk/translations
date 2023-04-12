@@ -1,0 +1,76 @@
+.fieldsInsideSection {
+  margin-bottom: 30px;
+}
+.noCategoryFieldsFound img {
+  width: 24rem;
+}
+.noCategoryFieldsFound div:first-child div:nth-child(3) {
+  display: inline-block;
+  width: 100%;
+}
+
+.fieldsSectionWrapper {
+  height: calc(100vh - 230px);
+  overflow: scroll;
+  border-top: 1px solid var(--tm-border-color-gray-2);
+}
+.fieldsTableSection {
+  border: 1px solid var(--tm-border-color-gray-2);
+  border-top: none;
+}
+.fieldsTableBlock {
+  background: var(--tm-color-wh-1);
+  margin: 0px;
+  box-shadow: 0px 10px 18px rgb(157 182 217 / 15%);
+}
+.fieldsTableBlock thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.fieldsTableBlock thead tr td {
+  font-size: 14px;
+}
+.fieldsTableBlock tbody tr:nth-child(even) {
+  background: var(--tm-color-off-white);
+}
+.fieldTitle {
+  font-weight: normal;
+}
+.greenText {
+  color: var(--tm-color-dark-green);
+}
+.redText {
+  color: var(--tm-color-red-2);
+}
+.editCategoryFieldSliderSection {
+  font-weight: normal;
+}
+
+.fieldTitle div.toolTipBlock {
+  background: var(--tm-color-text-primary);
+}
+.fieldsTableSection div.fieldTitle div.toolTipBlock::before {
+  display: none;
+}
+.fieldsTableSection div.fieldTitle div.toolTipBlock::after {
+  border-top-color: var(--tm-color-text-primary);
+}
+
+@media (min-width: 1024px) {
+  .noCategoryFieldsFound div:first-child div:nth-child(3) {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .noCategoryFieldsFound div:first-child div:nth-child(3) {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .noCategoryFieldsFound div:first-child div:nth-child(3) {
+    width: 35%;
+  }
+}

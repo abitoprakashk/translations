@@ -1,0 +1,57 @@
+.formWrapper {
+  margin: var(--tm-kr-spacing-s) 0px;
+}
+
+.modal {
+  height: 80%;
+}
+
+.biometricQuestion {
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.biometricOption {
+  font-size: var(--tm-kr-avatar-s-font-size);
+}
+
+.biometricOptionWrapper {
+  margin: var(--tm-kr-spacing-2xs) 0px;
+}
+
+.biometricOptionWrapper > div {
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+
+.lineBreak {
+  padding: 0px 0px var(--tm-kr-spacing-s) 0px;
+}
+
+.description {
+  height: 20vh;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+  color: var(--tm-color-text-primary);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-input-border-radius);
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+}
+
+.descriptionWrapper {
+  position: relative;
+}
+
+.inputWrapper {
+  margin-top: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.dropdownWrapper {
+  margin-top: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.textSize {
+  font-size: var(--tm-kr-para-font-size-l);
+}

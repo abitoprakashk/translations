@@ -1,0 +1,24 @@
+.dashboardFooterMsg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.dashboardFooterMsgLink,
+.dashboardFooterMsgText {
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  line-height: var(--tm-kr-para-line-height-l);
+}
+
+.dashboardFooterMsgText {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-color-neutrals-grey-50);
+}
+
+.dashboardFooterMsgLink {
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}

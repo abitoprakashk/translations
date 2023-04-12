@@ -1,0 +1,68 @@
+.pollQuestionHeading {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.pollOptionSelectHeading {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pollQuestionOptionLabel {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.pollQuestionInput {
+  border: 1px solid var(--tm-color-gy-3);
+  background: var(--tm-bg-light-blue);
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px;
+}
+
+.pollQuestionLabelStart {
+  color: var(--tm-color-rd-1);
+}
+
+.pollOptionsAddMoreBtn {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-bl-2);
+}
+
+.pollQuestionOptionRemoveBtn {
+  font-size: 14px;
+  color: var(--tm-color-rd-1);
+}
+
+.pollMessageTextareaCount {
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  color: var(--tm-color-text-secondary);
+}
+
+.letterLimit {
+  color: var(--tm-color-rd-1);
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  .pollQuestionHeading {
+    font-size: 16px;
+  }
+
+  .pollOptionSelectHeading {
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .pollQuestionOptionLabel {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+.flexHorizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid white; */
+  border-radius: 12px;
+}
+
+.name {
+  font-weight: 500;
+  size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.phoneNumber {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}

@@ -1,0 +1,36 @@
+.plainCardWrapper {
+  padding: 12px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.timestamp {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.studentAvatar {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  color: white;
+}

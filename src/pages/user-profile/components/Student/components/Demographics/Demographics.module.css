@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}

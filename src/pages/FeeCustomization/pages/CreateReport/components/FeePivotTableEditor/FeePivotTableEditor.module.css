@@ -1,0 +1,20 @@
+.divider {
+  padding: var(--tm-kr-spacing-s) 0;
+}
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  padding-top: var(--tm-kr-spacing-s);
+}
+.btn {
+  width: 150px;
+}
+.btn:first-child {
+  margin-right: var(--tm-kr-spacing-2xs);
+}
+.stickyFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

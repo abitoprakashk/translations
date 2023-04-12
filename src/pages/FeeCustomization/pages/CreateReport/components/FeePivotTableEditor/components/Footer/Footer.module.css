@@ -1,0 +1,17 @@
+.wrapper {
+  width: var(--editor-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--tm-kr-spacing-xs);
+  position: fixed;
+  height: var(--footer-height);
+  bottom: 0;
+  right: 0;
+  background: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: 0 0px 0px var(--tm-kr-border-radius-l);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.btnWrapper {
+  width: 100%;
+}

@@ -1,0 +1,204 @@
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+}
+.container table {
+  margin-top: 0px;
+}
+
+.searchWrapper {
+  padding: 16px;
+}
+
+.generateButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.generateLoading {
+  padding: 0px;
+  box-shadow: none;
+}
+
+.printAllButton {
+  border: 1px solid var(--tm-color-bl-2);
+  border-radius: 8px;
+  float: right;
+  padding: 8px 8px 0px;
+  margin-top: -45px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tableContainer {
+  overflow: scroll;
+  height: 30vh;
+}
+
+.tableContainer tbody {
+  background: var(--tm-kr-color-base-light-100);
+}
+
+.tableContainer td {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.tableContainer .cell {
+  padding: 10px 10px;
+}
+
+.tableContainer thead td {
+  font-size: 12px;
+  min-width: 200px;
+}
+
+.desktopButtonView {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.desktopButtonView button {
+  white-space: nowrap;
+}
+
+.generateButtonWrapper {
+  width: inherit;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.emptyWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .table .th:first-child, */
+.table .th:last-child {
+  width: 50px;
+  min-width: inherit;
+}
+
+.table label {
+  margin-left: 0;
+}
+
+.previewBtn {
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-xs);
+}
+
+.iconBtn {
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.iconBtn > div {
+  display: inline-flex;
+}
+
+.infoAlert > div > span::before {
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.studentListWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+}
+
+.studentCard {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.studentCard .upperPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.studentCard .lowerPart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.studentCard .lowerPart > p {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  justify-content: space-between;
+}
+
+.studentCardDivider {
+  width: calc(100% + 2 * var(--tm-kr-spacing-xs));
+  margin-left: calc(-1 * var(--tm-kr-spacing-xs));
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffffff 0deg,
+    rgba(196, 196, 196, 0) 360deg
+  );
+  border-radius: 24px;
+  position: relative;
+}
+
+.spinner::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 21px;
+  background: var(--tm-kr-button-disable-color);
+}
+
+@media (min-width: 1024px) {
+  .printAllButton {
+    margin-bottom: 22px;
+  }
+
+  .tableContainer {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    padding: 1px;
+  }
+
+  .desktopButtonView {
+    display: flex;
+    gap: var(--tm-kr-spacing-xs);
+  }
+}
+
+.infoAlert {
+  display: inline-flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .table > tbody > tr:nth-child(even) > td:first-child {
+    background-color: var(--tm-kr-table-row-color-dark);
+  }
+
+  .table > tbody > tr:nth-child(odd) > td:first-child {
+    background-color: var(--tm-kr-color-base-light-100);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .desktopButtonView button:not(.downloadIcon) {
+    padding-left: 0;
+    padding-right: 0;
+    flex-grow: 1;
+  }
+}

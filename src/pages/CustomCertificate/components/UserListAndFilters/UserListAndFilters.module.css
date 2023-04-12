@@ -1,0 +1,52 @@
+.tableContainer {
+  height: calc(100vh - 245px);
+  margin-bottom: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.tableContainer
+  input[type='checkbox']
+  + [class^='krayon__Checkbox-module__']::after {
+  box-sizing: content-box;
+}
+
+.table thead tr td:first-of-type {
+  border-top-left-radius: var(--tm-kr-border-radius-l);
+}
+.table tr td:nth-of-type(2) {
+  padding-left: var(--tm-kr-spacing-2xs);
+  width: 40%;
+}
+
+.table tr td:last-of-type {
+  width: 150px;
+}
+
+.filterRow {
+  display: flex;
+  width: 100%;
+}
+.filterRow > div {
+  flex: 1;
+}
+
+.filterRow .downloadIcon::before {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.filterRow > div:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--tm-kr-spacing-xs);
+  /* padding-right: var(--tm-kr-spacing-xs); */
+}
+
+.modal {
+  overflow: hidden;
+}
+.modalContent {
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+.modalFooter {
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-xs);
+}

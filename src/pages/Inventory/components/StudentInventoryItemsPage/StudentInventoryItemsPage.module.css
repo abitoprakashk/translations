@@ -1,0 +1,78 @@
+.itemName {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+.conditionPara {
+  text-transform: capitalize;
+}
+.emptyStateWrapperOuter {
+  height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.returnButtonWrapper {
+  width: fit-content;
+}
+
+/* Table */
+.tableWrapper {
+  height: calc(100vh - 250px);
+}
+.tableWrapper > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+/* Handle */
+.tableWrapper > div > div::-webkit-scrollbar-thumb {
+  background: #cccccc !important;
+}
+/* Handle on hover */
+.tableWrapper > div > div::-webkit-scrollbar-thumb:hover {
+  background: #cccccc !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  display: initial !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.tableWrapper > div > div {
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.tableWrapper table {
+  margin: 0;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.tableWrapper table thead {
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+}
+
+.table tbody tr td,
+.table thead tr td {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.table tbody tr td:nth-child(2),
+.table thead tr td:nth-child(2) {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+@media (min-width: 768px) {
+  .tableWrapper table {
+    table-layout: fixed;
+  }
+
+  .table tbody tr td,
+  .table thead tr td,
+  .table tbody tr td:nth-child(3),
+  .table thead tr td:nth-child(3) {
+    min-width: 150px;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,37 @@
+.content {
+  height: 600px;
+  width: 600px;
+  margin-right: var(--tm-kr-spacing-5xs);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--tm-kr-border-radius-m);
+  border: var(--tm-kr-border-width-m) solid var(--tm-kr-color-neutrals-grey-30);
+  margin: var(--tm-kr-spacing-s) 0;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.insLogo {
+  height: 60px;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.qrCodeContainer {
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  border: var(--tm-kr-border-width-m) solid var(--tm-kr-color-neutrals-grey-30);
+  margin: var(--tm-kr-spacing-3xl) 0 var(--tm-kr-spacing-s) 0;
+}
+
+.teachmintLogo {
+  height: 30px;
+}
+
+.heading {
+  margin-bottom: var(--tm-kr-spacing-3xl);
+}

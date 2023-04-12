@@ -1,0 +1,72 @@
+.headerSection {
+  margin-bottom: 20px;
+}
+
+.cardSection {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.cardSubText {
+  display: flex;
+}
+
+.cardBgDefault {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+}
+
+.cardBgPaid {
+  background: var(--tm-kr-color-pastels-feijoa-10);
+  border: none;
+}
+.cardBgDue {
+  background: var(--tm-kr-color-pastels-seaPink-10);
+  border: none;
+}
+
+.viewBtn.higerSpecificity {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  background: transparent;
+  background-color: transparent;
+  margin-left: 4px;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.mr8px {
+  margin-right: 8px;
+}
+
+.lastUpdatedOnDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lastUpdatedOnText {
+  font-size: 14px;
+  margin-top: 8px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.additionalInfo {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.plainCard {
+  height: 100%;
+  border: none;
+}

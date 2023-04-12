@@ -1,0 +1,43 @@
+.categorySliderIcon {
+  margin-right: 10px;
+}
+.sliderBody {
+  padding: 20px 40px;
+  text-align: left;
+  position: relative;
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+.sliderFooter .addSectionNote {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  bottom: 85px;
+  left: 0;
+  z-index: 13;
+  color: var(--tm-color-text-secondary);
+  text-align: left;
+  padding-left: 40px;
+  border-bottom-left-radius: 0px;
+}
+.sliderFooter > div {
+  border-bottom-left-radius: 1.5rem;
+}
+.inputGroup {
+  position: relative;
+}
+.inputGroup > div {
+  padding: 0;
+}
+.inputGroup > div > div:first-child {
+  color: var(--tm-color-text-primary);
+}
+.inputGroup .limitText {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+.addSaveButton {
+  width: 240px;
+}

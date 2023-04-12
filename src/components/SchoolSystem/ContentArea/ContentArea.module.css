@@ -1,0 +1,7 @@
+.contentAreaWrapper {
+    height: 100%;
+}
+
+.selectedItemWrapper {
+    height: calc(100% - 43px);
+}

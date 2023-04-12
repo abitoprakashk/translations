@@ -1,0 +1,15 @@
+.filterWrapper {
+  display: flex;
+  gap: 12px;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+.filterWrapper .badge {
+  padding: 6px 12px;
+  color: var(--tm-kr-color-neutrals-grey-90);
+  background: var(--tm-kr-color-neutrals-grey-20);
+  cursor: pointer;
+}
+.filterWrapper .badge.selected {
+  background: var(--tm-kr-color-primary-100);
+  color: var(--tm-kr-color-base-light-100);
+}

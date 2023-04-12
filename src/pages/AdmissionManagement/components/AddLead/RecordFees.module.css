@@ -1,0 +1,116 @@
+.mainContainer {
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-s);
+  width: 480px;
+  margin-top: var(--tm-kr-spacing-s);
+  padding-left: unset;
+  padding-right: unset;
+}
+
+.datePickerZindex {
+  z-index: 5;
+  position: relative;
+}
+
+.required {
+  display: flex;
+}
+
+.dividerWidth {
+  background-color: var(--tm-kr-color-neutrals-grey-40);
+}
+
+.subContent {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  padding-left: var(--tm-kr-spacing-s);
+  padding-right: var(--tm-kr-spacing-s);
+}
+
+.subContent2 {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--tm-kr-heading-laptop-font-size-xs);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  padding-left: var(--tm-kr-spacing-s);
+  padding-right: var(--tm-kr-spacing-s);
+}
+
+.paymentMethods {
+  margin-top: var(--tm-kr-spacing-s);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.paymentDate {
+  margin-top: var(--tm-kr-spacing-s);
+  width: 100%;
+}
+
+.dropdownStyles {
+  width: 200px;
+}
+
+.datePicketStyling {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--tm-kr-spacing-s);
+  height: 65px;
+}
+
+.dropdownZindex1.dropdownZindex2 {
+  z-index: 10;
+}
+
+.inputwrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.headerStyle {
+  color: var(--tm-kr-color-neutrals-grey-90);
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+}
+
+.subHeader {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+}
+
+.itemStyle {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: var(--tm-kr-para-font-size-l);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+
+.marginBotton {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+}
+
+.displayColumnFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.paymentModeWrapper {
+  width: unset;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+}

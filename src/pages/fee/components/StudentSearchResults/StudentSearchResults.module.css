@@ -1,0 +1,103 @@
+.img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.flex,
+.displayData {
+  margin-top: 10px;
+  display: flex;
+  color: var(--tm-color-text-secondary);
+}
+
+.link {
+  color: #1da1f2;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mobileView {
+  display: none;
+}
+
+.searchresultData td {
+  padding: 15px 8px;
+  font-size: 14px;
+}
+
+.btnfill {
+  border: 1px solid #1da1f1;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1da1f1;
+}
+
+.paid {
+  color: #36b37e;
+}
+
+.due {
+  color: #ff5e5e;
+}
+
+.spanSettings {
+  color: #d1d1d1;
+}
+.desktopView {
+  color: var(--tm-color-text-primary);
+}
+
+.inputGrp {
+  color: var(--tm-color-text-secondary);
+}
+
+.searchResults {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  /* margin: auto; */
+  width: 100%;
+  max-height: 500px;
+  overflow: auto;
+  z-index: 9;
+}
+/* .searchResults {
+  width: 75%;
+} */
+.searchresultData {
+  text-align: -webkit-center;
+}
+@media only screen and (max-width: 1024px) {
+  .searchresultData > table tbody tr td:nth-child(1),
+  .searchresultData > table tbody tr td:nth-child(4),
+  .searchresultData > table tbody tr td:nth-child(5),
+  .searchresultData > table tbody tr td:nth-child(6),
+  .studentStatus {
+    display: none;
+  }
+  .desktopView {
+    display: none;
+  }
+  .mobileView {
+    display: table-cell;
+  }
+  .btnfill {
+    border: 1px solid #1da1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1da1f1;
+  }
+  tr {
+    border-bottom: 1px #cfcfcf solid;
+  }
+  .searchResults {
+    width: 100%;
+    left: unset;
+  }
+}

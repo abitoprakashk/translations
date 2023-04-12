@@ -1,0 +1,83 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-base-light-100);
+}
+.wrapper [class^='krayon__Checkbox-module'] {
+  margin-left: 0;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.headerButtonWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.headerButton {
+  padding: 0px var(--tm-kr-spacing-xs);
+}
+
+/* Chips Wrapper */
+.chipsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--tm-kr-spacing-2xs);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+.filterChipItem {
+  display: flex;
+  align-items: baseline;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.filterChip {
+  min-height: var(--tm-kr-chips-size-small-height);
+  height: auto;
+}
+.chipsDividerWrapper {
+  height: 16px;
+}
+.chipsDivider {
+  height: 26px;
+}
+
+/* Actions Wrapper */
+.selectionWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-s);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+.actionsWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+/* Empty states */
+.emptyStateWrapper {
+  margin-top: 15%;
+}
+.emptyButtonWrapper {
+  margin: auto;
+  margin-top: var(--tm-kr-spacing-s);
+}
+.textCenter {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: var(--tm-kr-spacing-m);
+  }
+  .headerWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .headerButtonWrapper {
+    flex-direction: row-reverse;
+  }
+}

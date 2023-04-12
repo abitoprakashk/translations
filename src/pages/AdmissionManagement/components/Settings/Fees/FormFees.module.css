@@ -1,0 +1,19 @@
+.formContent {
+  width: 100%;
+  margin-left: var(--tm-kr-spacing-s);
+}
+
+.applyFeeSection {
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+
+.feeOptions {
+  display: flex;
+  margin-left: var(--tm-kr-spacing-2xl);
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

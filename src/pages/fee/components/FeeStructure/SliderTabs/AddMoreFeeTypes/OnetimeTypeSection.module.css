@@ -1,0 +1,101 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  color: var(--tm-color-text-primary);
+}
+
+.section:not(:first-child) {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.dueDate {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.formGroup {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}
+
+.inputWrapper {
+  padding: 0px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.onetimeTable {
+  width: 90%;
+  display: table;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.feeTypeCol {
+  width: 35%;
+}
+
+.amountCol {
+  width: 25%;
+}
+
+.taxCol {
+  width: 25%;
+}
+
+.totalCol {
+  width: 20%;
+}
+
+.label {
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.onetimeTable tr {
+  border: none;
+}
+
+.onetimeTable td:nth-child(-n + 4) {
+  vertical-align: top;
+}
+
+.rowTotalDiv {
+  margin-top: 0.5rem;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--tm-color-gr-1);
+  font-weight: 400;
+}
+
+.annualFeeIncludingTaxText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+}
+
+.totalAnnual > div {
+  font-size: 16px;
+}
+
+.addMoreType {
+  color: var(--tm-sk-bl-2);
+  cursor: pointer;
+}
+
+.higherSpecificityFont.higherSpecificityColor.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.higherSpecificityFont.higherSpecificitySize.removeIcon {
+  font-size: 80px;
+}

@@ -1,0 +1,153 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--tm-kr-spacing-s) 0px;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.inputWrapperClass {
+  width: 350px;
+}
+
+label[class*='krayon__Checkbox-module__aV9qz'] {
+  margin-left: 0px;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+}
+
+.datePickerClassWrapper {
+  width: 250px;
+}
+
+.instructionWrapper {
+  width: 50%;
+}
+
+.datePickerWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.rdrCalendarWrapper {
+  right: 0;
+}
+
+.inputTitle {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--tm-kr-input-title-color);
+  font-weight: var(--tm-kr-input-title-font-weight);
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.instruction {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.higherSpecificity.instructionLabel {
+  background: var(--tm-kr-color-semantic-success-100);
+  color: var(--tm-kr-color-base-light-100);
+  width: 20px;
+  height: 20px;
+}
+
+.higherSpecificity.labelClassName {
+  margin: 0;
+}
+
+.instructionTitle {
+  margin-bottom: 10px;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 15px;
+}
+
+.downloadCSVSection {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontalDivider {
+  width: 100%;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.verticalDivider {
+  border-left: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.downloadCSVText {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.downloadCSVLink {
+  cursor: pointer;
+  color: var(--tm-kr-color-primary-100);
+}
+
+.errorBox {
+  display: flex;
+  flex-direction: column;
+  background: var(--tm-kr-color-semantic-error-10);
+  padding: 13px;
+  border-radius: 12px;
+  margin: 10px 0px;
+}
+
+.errorBoxTitle {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.errorBoxText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.errorTextContainer {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.buttonLoadingSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.buttonLoading {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.2em solid rgba(0, 0, 0, 0.2);
+  border-left: 0.2em solid var(--tm-kr-color-base-light-100);
+  border-radius: 50%;
+  position: initial;
+}
+
+.modal {
+  height: auto;
+}
