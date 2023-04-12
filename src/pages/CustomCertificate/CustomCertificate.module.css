@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  padding-left: var(--tm-kr-spacing-l);
+  height: 100%;
+  overflow: scroll;
+  padding-right: var(--tm-kr-spacing-l);
+}
+
+.mobileContainer {
+  display: none;
+}
+
+.desktopContainer {
+  display: inherit;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileContainer {
+    display: block;
+  }
+  .desktopContainer {
+    display: none;
+  }
+}

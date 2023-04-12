@@ -1,0 +1,16 @@
+.gridOfTwo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media (min-width: 1024px) {
+  .empDetails {
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+  }
+
+  .moreDetails {
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+  }
+}

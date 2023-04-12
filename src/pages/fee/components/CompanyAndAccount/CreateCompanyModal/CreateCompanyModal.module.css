@@ -1,0 +1,17 @@
+.fieldsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contentSection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal {
+  height: fit-content;
+}
+.footerMessage {
+  color: var(--tm-kr-color-semantic-error-110);
+}

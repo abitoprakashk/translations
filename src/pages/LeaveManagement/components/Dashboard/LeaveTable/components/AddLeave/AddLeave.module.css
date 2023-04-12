@@ -1,0 +1,318 @@
+.scroller {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  height: 100%;
+}
+.header {
+  background-color: var(--tm-bg-textarea-grey);
+  display: flex;
+  padding: 30px 40px;
+  color: var(--tm-color-text-primary);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  align-items: center;
+}
+.header span {
+  margin-right: 8px;
+}
+.bodywrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+  padding: 20px 20px 40px 20px;
+  overflow-y: auto;
+}
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+  /* margin-bottom: 20px; */
+  display: flex;
+}
+.subtext {
+  color: var(--tm-color-text-secondary);
+}
+.flex {
+  display: flex;
+}
+.flexGrowEqual {
+  flex: 1;
+}
+/* .datewrapper {
+  display: flex;
+  flex-direction: column;
+} */
+
+.dateFieldWrap,
+.dateTextWrap {
+  gap: 8px;
+}
+
+.dateFieldWrap > div:first-child {
+  margin-right: 0;
+}
+
+.dateFieldWrap > div {
+  flex: 1;
+}
+
+.dateFieldWrap > div > div > input {
+  background-color: transparent;
+}
+
+.dateFieldWrap [class^='TextInput-module_suffix'] {
+  position: absolute;
+  right: 10px;
+  padding: 0;
+  top: 9px;
+  pointer-events: none;
+}
+
+/* targeting to date dropdown calendar */
+.dateFieldWrap
+  [class^='DatePicker-module_wrapper']:last-child
+  > div:last-child {
+  right: 0px;
+}
+
+/* .datewrapper > .subtext {
+  margin-bottom: 8px;
+} */
+/* .searchbarWrapper > div {
+  position: relative;
+}
+.searchbarWrapper > div > div:nth-child(2) {
+  width: 100%;
+  z-index: 1;
+} */
+
+.textPrimary {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--tm-color-text-primary);
+  margin-top: 5px;
+}
+.textSecondary {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tm-color-text-secondary);
+}
+.rowWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+}
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.searchbarWrapper {
+  position: relative;
+}
+.searchbarContainer {
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  background-color: var(--tm-bg-light-blue);
+  padding: 14px 12px;
+}
+
+.searchbarDropdown {
+  z-index: 1;
+  width: 100%;
+  max-height: 200px;
+  overflow: auto;
+  padding: 10px;
+}
+.nopadding {
+  padding: 0;
+}
+/* .field {
+  margin-top: 1.5rem;
+} */
+.field .subtext {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: flex-start;
+}
+.leaveCount > .subtext {
+  justify-content: space-between;
+}
+.field > .subtext > div {
+  padding: 0;
+  margin-left: 0.5rem;
+  flex-basis: 80px;
+}
+.selectWrapper > div {
+  padding: 0;
+}
+.selectWrapper [class^='Dropdown-module_selectedItem'] .leaveTypeCount {
+  display: none;
+}
+.inputGray {
+  background-color: var(--tm-bg-light-blue);
+}
+.inputGray > input,
+.inputGray > textarea {
+  background-color: transparent;
+}
+/* .field input[type='text'] {
+  width: 130px;
+} */
+.field .searchbarContainer input[type='text'] {
+  width: 100%;
+  font-size: 16px;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  font-size: 14px;
+}
+
+.errormsg {
+  font-size: 14px;
+  color: var(--tm-color-red);
+  /* margin-top: 20px; */
+}
+.errortext {
+  color: var(--tm-color-red);
+}
+.addleaveRow {
+  padding: 7px 5px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}
+
+.toText {
+  margin-left: 130px;
+}
+.rollName {
+  text-align: end;
+}
+
+.leaveSlotWrapper {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.leaveSlotWrapper > .categoryName {
+  min-width: 80px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.leaveSlotWrapper > .slotBtn {
+  flex: 1;
+}
+
+.requestLeave > .dateWrapper,
+.requestLeave > .leaveCount,
+.requestLeave > .leaveType,
+.requestLeave > .leaveSlotWrapper {
+  order: 0;
+}
+
+.requestLeave > .leaveType,
+.requestLeave > .errormsg,
+.requestLeave > .reason {
+  order: 1;
+}
+
+.footer {
+  box-shadow: 0px -1px 12px rgba(157, 182, 217, 0.1);
+  border-radius: 0px 0px 0px 24px;
+  padding: 16px 40px;
+}
+
+.submitBtn {
+  width: 100%;
+}
+
+.reason textarea {
+  resize: none;
+}
+
+.pointerNone {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider [class^='Slider-module_slider'] {
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slider [class^='Slider-module_slider'] {
+    min-width: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* .btnWrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  } */
+  /* .field input[type='text'] {
+    width: 160px;
+  } */
+  .toText {
+    margin-left: 158px;
+  }
+  .bodywrapper {
+    padding: 20px 40px;
+  }
+
+  .dateFieldWrap [class^='TextInput-module_suffix'] {
+    top: 13px;
+  }
+}
+
+.asterisk {
+  color: var(--tm-color-error);
+  margin-left: 3px;
+}
+
+.leaveType [class^='Dropdown-module_placeholder'] {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 24px 16px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .bodywrapper {
+    padding: 16px;
+  }
+
+  .footer {
+    padding: 16px;
+  }
+}

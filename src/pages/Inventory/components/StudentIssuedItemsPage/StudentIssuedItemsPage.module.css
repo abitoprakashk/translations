@@ -1,0 +1,21 @@
+.tabGroupWrapper {
+  width: 280px;
+}
+.componentWrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.opacity {
+  opacity: 0.5;
+}
+.tooltipBody {
+  color: white;
+  display: flex;
+  align-content: center;
+  gap: 5px;
+  line-height: 24px;
+  width: 100%;
+}
+.tooltipWrapper {
+  background-color: #1f3965;
+}

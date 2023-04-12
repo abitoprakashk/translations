@@ -1,0 +1,37 @@
+.modal > div:nth-child(2) {
+  padding: 0px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.loader {
+  padding: 0px;
+  box-shadow: none;
+  margin-top: 3px;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

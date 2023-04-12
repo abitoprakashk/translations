@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.inputForm {
+  display: grid;
+  gap: var(--tm-kr-spacing-s);
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteIconFrame {
+  cursor: pointer;
+}
+
+.staffBadge {
+  background: var(--tm-kr-color-pastels-poloBlue-100);
+  color: var(--tm-color-white);
+}
+
+.checkboxWrapper {
+  margin-left: 0px;
+}
+
+div[class*='krayon__Checkbox-module'] span::after {
+  box-sizing: content-box;
+}

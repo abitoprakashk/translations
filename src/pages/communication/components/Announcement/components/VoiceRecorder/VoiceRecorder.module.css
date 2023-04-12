@@ -1,0 +1,124 @@
+.wrapper {
+  display: flex;
+  position: absolute;
+  width: 60%;
+  height: 48px;
+  background: var(--tm-bg-light-white);
+  border-radius: 16px;
+  padding: 8px;
+  left: 0%;
+  top: 57%;
+  justify-content: space-between;
+}
+.leftArea {
+  position: relative;
+  display: flex;
+  min-width: 48px;
+  height: 32px;
+  width: 92px;
+  background: var(--tm-color-white);
+  border-radius: 12px;
+  color: var(--tm-color-blue);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+.playbackArea {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 8px;
+  width: 50%;
+  align-items: center;
+  justify-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.playbackArea p {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: flex-start;
+}
+.disabled,
+.disabled .icon::before {
+  cursor: not-allowed;
+  color: var(--tm-kr-color-neutrals-grey-40);
+}
+.toolTipBody {
+  color: white;
+}
+.rightArea {
+  position: relative;
+  display: flex;
+  min-width: 48px;
+  height: 32px;
+  width: max-content;
+  background: var(--tm-color-white);
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  cursor: pointer;
+}
+.newLabel {
+  background: var(--tm-color-blue);
+  color: var(--tm-color-white);
+  border-radius: 6px;
+  padding: 4px;
+  margin-right: 8px;
+  font-size: 10px;
+  width: 34px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+}
+.durationDisplay {
+  position: relative;
+  font-size: 12px;
+  width: max-content;
+  padding-right: 8px;
+  top: 7px;
+  color: var(--tm-color-text-primary);
+}
+.pulse {
+  box-shadow: 0 0 0 rgba(256, 0, 0, 0.4);
+  animation: pulse 2s infinite;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 3px rgba(255, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.4);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+  .playbackArea {
+    width: 40%;
+    line-height: 15px;
+  }
+}

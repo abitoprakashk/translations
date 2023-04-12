@@ -1,0 +1,56 @@
+.map {
+  height: 100%;
+  width: 330px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.badgeLike {
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+.warning {
+  color: var(--tm-kr-badges-warning-background);
+  background: var(--tm-kr-badges-warning-text);
+}
+.success {
+  background: var(--tm-kr-badges-success-background);
+  color: var(--tm-kr-badges-success-text);
+}
+.on {
+  background: var(--tm-kr-badges-success-text);
+  color: var(--tm-kr-badges-success-background);
+}
+.stopInfo {
+  background: var(--tm-kr-color-neutrals-grey-80);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+.bold {
+  font-weight: 600;
+}
+.tabGroup {
+  position: absolute;
+  transform: translateX(30%);
+  margin-top: var(--tm-kr-spacing-s);
+}
+.tabGroupWrapper {
+  position: relative;
+  z-index: 2;
+}
+.recenter {
+  position: absolute;
+  left: 85%;
+  background: var(--tm-kr-color-neutrals-grey-10);
+  z-index: 3;
+  width: 40px;
+  height: 25px;
+  border-radius: var(--tm-kr-border-radius-m);
+  top: 390px;
+}
+.recenterWrapper {
+  position: relative;
+}
+
+.tabGroupWrapper a[class*='krayon__TabGroup-module'] {
+  width: 100px;
+}

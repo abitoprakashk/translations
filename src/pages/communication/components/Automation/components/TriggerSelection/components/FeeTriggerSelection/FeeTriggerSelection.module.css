@@ -1,0 +1,132 @@
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-15);
+  border-radius: 12px;
+}
+
+.paddedBox {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.triggerItems {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--tm-kr-spacing-2xs);
+}
+
+.reminders {
+  padding: var(--tm-kr-spacing-xs);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.feeTriggerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: var(--tm-kr-spacing-2xs);
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.repeatCheckBoxWrapper {
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.para {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.radioGroup {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-3xl);
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.additionalParams {
+  margin-top: var(--tm-kr-spacing-s);
+  font-size: 14px;
+}
+
+.stopDateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.stopAfterReminders {
+  display: flex;
+  align-items: center;
+}
+
+.nextReminder {
+  width: 100%;
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.spaceBottom {
+  margin-bottom: var(--tm-kr-spacing-m);
+}
+
+/* Radio Card */
+.cardHeader {
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.cardFooter {
+  padding: var(--tm-kr-spacing-xs);
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  column-gap: var(--tm-kr-spacing-5xs);
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.seeScheduleBtn {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cardBody {
+  padding: var(--tm-kr-spacing-s);
+  padding-top: var(--tm-kr-spacing-4xs);
+}
+
+.disabled {
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+
+.calendarBelow {
+  bottom: var(--tm-kr-spacing-m);
+  top: unset;
+}
+
+.selectedDate {
+  padding: 0 var(--tm-kr-spacing-xs);
+  border-radius: 12px;
+  background-color: var(--tm-kr-color-primary-100);
+}
+
+.selectedDay {
+  color: var(--tm-kr-color-base-light-100) !important;
+}
+
+.calendar :global(.rdrDayPassive) {
+  visibility: hidden;
+}
+
+.calendar :global(.rdrDayNumber:after),
+.calendar :global(.rdrDayEndPreview) {
+  border: none !important;
+}

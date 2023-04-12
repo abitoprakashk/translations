@@ -1,0 +1,37 @@
+.checkbox {
+  outline: none;
+  border: none;
+  color: var(--tm-color-light-gray);
+  /* margin-top: 6px; */
+}
+
+.label {
+  margin-left: 10px;
+  outline: none;
+  /* color: var(--tm-color-light-gray); */
+  color: var(--tm-color-text-primary);
+}
+
+.label.active {
+  color: var(--tm-color-text-primary);
+}
+
+.toggle {
+  display: inline-block;
+  width: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.nodeCol {
+  overflow: scroll;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px; */
+  justify-content: space-between;
+}
+
+.nodeCol > div:not(:first-child) {
+  border-left-width: 2px;
+}

@@ -1,0 +1,29 @@
+.actionButton {
+  cursor: pointer;
+  transform: scale(1);
+  transform: rotate(45deg);
+  display: inline-flex;
+}
+.actionButton:hover {
+  transform: scale(1.2);
+  transition: transform 100ms ease 0s;
+  transform: rotate(45deg);
+}
+
+.labelAndAddButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.popover {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+}
+
+.labelAndAddButton input {
+  display: none;
+}

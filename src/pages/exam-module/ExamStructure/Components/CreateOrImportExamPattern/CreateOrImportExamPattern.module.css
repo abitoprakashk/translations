@@ -1,0 +1,51 @@
+.container {
+  background-color: var(--tm-bg-modal-light-gray);
+  padding: 0.25rem;
+  width: 100%;
+  margin: 0;
+}
+.ctaContainer {
+  background-color: var(--tm-bg-modal-light-gray);
+  padding: 0.5rem;
+}
+.whiteBg {
+  border-radius: 0.5rem;
+  background-color: var(--tm-color-white);
+  padding: 0.5rem;
+}
+.createStructure {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+.createOrImport {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  grid-gap: 5px;
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+}
+
+@media screen and (min-width: 765px) {
+  .btn {
+    width: 40%;
+  }
+
+  .createOrImport {
+    padding: 1rem;
+  }
+}

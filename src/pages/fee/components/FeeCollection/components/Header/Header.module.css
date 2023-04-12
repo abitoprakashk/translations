@@ -1,0 +1,60 @@
+/* Header CSS */
+.headerTitle {
+  margin-top: 6px;
+}
+
+.headerDivider {
+  padding: var(--tm-kr-spacing-s) 0;
+}
+.headerBtnWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--tm-kr-spacing-4xs);
+}
+.headerTextBtnWrapper {
+  height: 48px;
+  color: var(--tm-kr-color-semantic-basic-110);
+}
+
+.studentMoreActionIcon {
+  padding: 12px;
+  position: relative;
+  left: 0px;
+  cursor: pointer;
+}
+
+.dropdownContainer {
+  right: 20px;
+  top: 70px;
+  width: max-content;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--tm-kr-dropdown-options-padding);
+  background: var(--tm-kr-dropdown-options-background-color);
+  border: 1px solid var(--tm-kr-dropdown-options-border-color);
+  border-radius: var(--tm-kr-border-radius-m);
+  margin-top: var(--tm-kr-filter-button-margin-top);
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdownOption {
+  padding: var(--tm-kr-avatar-group-s-tooltip-padding);
+  width: 100%;
+  cursor: pointer;
+}
+.dropdownOption:hover {
+  background: var(--tm-kr-searchbar-dropdown-onhover-color);
+  color: var(--tm-kr-searchbar-dropdown-border-color);
+  border-radius: var(--tm-kr-tabgroup-secondary-border-radius);
+  font-weight: var(--tm-kr-filter-button-font-weight);
+}
+
+@media (max-width: 768px) {
+  .headerTitle {
+    margin-top: 8px;
+  }
+}

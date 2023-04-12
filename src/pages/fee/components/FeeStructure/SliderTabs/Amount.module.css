@@ -1,0 +1,47 @@
+.scroll {
+  overflow: scroll;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.table thead td {
+  text-transform: none;
+  width: 150px;
+}
+
+.table td {
+  border: 1px solid var(--tm-bg-light-white);
+}
+
+.inputWrapper {
+  padding-left: 7px;
+}
+
+.feeCategoryName {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.totalAmountHeading {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.totalAmount {
+  font-size: 16px;
+  color: var(--tm-color-green);
+}
+
+.noAmount {
+  margin-top: 20px;
+}

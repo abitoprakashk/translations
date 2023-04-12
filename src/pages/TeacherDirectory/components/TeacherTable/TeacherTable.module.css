@@ -1,0 +1,125 @@
+/* Table items */
+.nameAvatarWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nameWrapper {
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.mailIcon {
+  cursor: pointer;
+}
+.textWhite {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+.classSubjectWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.classSubjectPara,
+.classTeacherPara {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.classSubjectTooltipBadge {
+  cursor: pointer;
+  flex-shrink: 0;
+  min-width: 36px;
+}
+.statusInActiveBadge {
+  background-color: var(--tm-kr-color-neutrals-grey-60) !important;
+}
+
+.phoneIcon {
+  margin-left: var(--tm-kr-spacing-4xs);
+}
+
+@media screen and (min-width: 768px) {
+  .phoneIcon {
+    display: none;
+  }
+}
+
+/* Table */
+.tableWrapper {
+  height: calc(100vh - 250px);
+}
+.tableWrapper > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+/* Handle */
+.tableWrapper > div > div::-webkit-scrollbar-thumb {
+  background: #cccccc !important;
+}
+/* Handle on hover */
+.tableWrapper > div > div::-webkit-scrollbar-thumb:hover {
+  background: #cccccc !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  display: initial !important;
+}
+.tableWrapper > div > div::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.tableWrapper > div > div {
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.tableWrapper table {
+  margin: 0;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.tableWrapper table thead {
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+}
+
+.table tbody tr td,
+.table thead tr td {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.table tbody tr td:nth-child(2),
+.table thead tr td:nth-child(2) {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+@media (min-width: 768px) {
+  .tableWrapper table {
+    table-layout: fixed;
+  }
+
+  .table tbody tr td,
+  .table thead tr td,
+  .table tbody tr td:nth-child(3),
+  .table thead tr td:nth-child(3) {
+    min-width: 150px;
+    max-width: 300px;
+  }
+}
+
+.tooltipBadgeWrapper {
+  position: relative;
+}
+
+.tooltipBadgeWrapper div[id*='tooltip-class-subject'] {
+  position: absolute !important;
+  top: 25px !important;
+  right: -135px !important;
+  left: unset !important;
+  bottom: unset !important;
+  width: 300px !important;
+}

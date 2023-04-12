@@ -1,0 +1,16 @@
+.headerTitleText {
+  display: block;
+  color: var(--tm-color-text-primary);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.headerSubTitleText {
+  display: block;
+  color: var(--tm-color-text-secondary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,92 @@
+.container {
+  background-color: var(--tm-bg-modal-light-gray);
+}
+
+.titleClass {
+  border-radius: 8px;
+  background-color: var(--tm-color-white);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.accordionClass {
+  padding: 0.25rem;
+  border-radius: 8px;
+  background-color: var(--tm-color-white);
+  box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+}
+
+.termName {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textInputClass {
+  width: 68%;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+.numberInputClass {
+  width: 30%;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+.examListContainer {
+  padding: 0.25rem;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.deleteTermContainer {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.deleteTerm {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-dark-red);
+  padding-right: 1rem;
+}
+
+.termFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addExam {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-blue);
+  padding-left: 1rem;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.DragHolder {
+  margin-right: 0.25rem;
+}
+
+@media screen and (max-width: 640px) {
+  .textInputClass {
+    width: 50%;
+  }
+  .numberInputClass {
+    width: 50%;
+  }
+}

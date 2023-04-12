@@ -1,0 +1,112 @@
+.wrapper {
+  height: 100px;
+  margin: var(--tm-kr-spacing-l) var(--tm-kr-spacing-s);
+}
+
+.shiftDuration {
+  height: 40px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  display: flex;
+}
+
+.inAndOutTime {
+  width: 10px;
+  background-color: var(--tm-kr-color-semantic-success-10);
+}
+
+.inAndOutAnchor {
+  width: 2px;
+  height: 50px;
+  background-color: var(--tm-kr-color-semantic-success-100);
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  top: calc(100% + 15px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--tm-kr-color-semantic-success-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: 700;
+}
+
+.graceTime {
+  width: 110px;
+  background-color: var(--tm-kr-color-pastels-melaine-10);
+  color: var(--tm-kr-color-pastels-melaine-110);
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graceAnchor {
+  border-left: 1px dashed var(--tm-kr-color-pastels-melaine-110);
+  position: relative;
+}
+
+.anchor {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid var(--tm-kr-color-pastels-melaine-110);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textWrapper {
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+  display: flex;
+}
+
+.dashedLine {
+  border-bottom: 1px dashed var(--tm-kr-color-neutrals-grey-40);
+  flex-grow: 1;
+}
+
+.dashedLineWrapper {
+  margin: 0 var(--tm-kr-spacing-xs);
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.text {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: 700;
+  margin: 0 var(--tm-kr-spacing-xs);
+}
+
+.graceTimeValue {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  top: calc(100% + 25px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.duration {
+  flex-grow: 1;
+}
+
+.isDisabled {
+  opacity: 0.4;
+}
+
+.shiftText {
+  margin: 0px;
+}

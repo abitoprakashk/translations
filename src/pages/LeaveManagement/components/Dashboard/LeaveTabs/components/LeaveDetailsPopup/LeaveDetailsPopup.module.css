@@ -1,0 +1,196 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 1rem 1rem 1.5rem 1rem;
+  min-height: unset;
+}
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+.staffType {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tm-color-text-secondary);
+}
+.requestedOn {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tm-color-text-secondary);
+}
+.leavedate {
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.leaveCount {
+  color: var(--tm-color-text-primary);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.headerwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hr {
+  color: var(--tm-bg-light-white);
+}
+.infowrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.info {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.icon {
+  display: inline-flex;
+}
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+/* .footer {
+  margin-top: 1rem;
+} */
+/* .column {
+  flex-direction: column;
+}
+.mbottom {
+  margin-bottom: 10px;
+} */
+.btnWrapper {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.btnWrapper button {
+  flex-grow: 1;
+  flex-basis: calc(50% - 8px);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  border-radius: 6px;
+}
+.approvebtn {
+  background: var(--tm-color-green);
+  color: var(--tm-color-white);
+}
+.rejectbtn {
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-color-red);
+  color: var(--tm-color-red);
+}
+.cancelbtn {
+  background: var(--tm-color-red);
+  border: 1px solid var(--tm-color-red);
+  color: var(--tm-color-white);
+  width: 100%;
+}
+.editbtn {
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+}
+.closebtn {
+  display: flex;
+  align-self: flex-end;
+  padding: 4px;
+}
+.canceled {
+  color: var(--tm-color-text-secondary);
+}
+.approved {
+  color: var(--tm-color-green);
+}
+
+.rejected {
+  color: var(--tm-color-red);
+}
+.leaveDetailWrapper {
+  display: flex;
+}
+.subtext {
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0 5px;
+}
+/* .countWrapper {
+  display: flex;
+  align-items: center;
+} */
+/* .dot {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  background: var(--tm-color-text-secondary);
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 0 8px;
+} */
+
+.reason {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-secondary);
+  word-break: break-word;
+}
+
+.leaveStatusInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.byUser {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.viewDetails {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 4px;
+}

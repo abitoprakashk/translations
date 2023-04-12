@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.machinesIconFrame {
+  background-color: var(--tm-kr-color-pastels-seaPink-100);
+}
+
+.usersIconFrame {
+  background-color: var(--tm-kr-color-palette-biloba);
+}
+
+.isDisabled {
+  cursor: not-allowed;
+}

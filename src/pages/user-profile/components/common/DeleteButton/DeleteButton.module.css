@@ -1,0 +1,138 @@
+.deleteBtn {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  cursor: pointer;
+}
+.deleteBtn img {
+  float: left;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.deleteBtn div {
+  float: left;
+}
+
+.deleteBtn a {
+  display: block;
+  color: var(--tm-color-text-primary);
+  font-size: 14px;
+}
+
+.deleteBtn span {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.deactivateStudent {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  cursor: pointer;
+  background-color: var(--tm-color-light-red);
+  height: 110px;
+}
+.deactivateStudent img {
+  float: left;
+  width: 28px;
+  margin-right: 10px;
+}
+
+.deactivateStudent div {
+  float: left;
+}
+
+.deactivateStudent a {
+  display: block;
+  color: var(--tm-color-red);
+  font-size: 20px;
+}
+
+.deactivateStudent span {
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.deactivateStudent ul {
+  list-style: initial;
+  padding-left: 22px;
+}
+
+.deactivateTeacher {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  cursor: pointer;
+  height: 105px;
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.deactivateTeacher img {
+  width: 28px;
+}
+.deactivateTeacher > div {
+  margin-top: 2px;
+}
+.deactivateTeacher a {
+  font-size: 14px;
+  color: var(--tm-color-orange);
+}
+
+.deactivateTeacher span {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.deactivateTeacher ul {
+  list-style: initial;
+  padding-left: 22px;
+}
+
+.deactivateStudentDesc {
+  box-sizing: content-box;
+  width: 75%;
+  max-width: 650px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  cursor: default;
+  background-color: var(--tm-color-light-red);
+  text-align: start;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.deactivateStudentDesc ul {
+  list-style: initial;
+  padding-left: 30px;
+}
+
+.deactivateStudentDescText {
+  color: var(--tm-color-red);
+}
+
+.deactivateTeacherDesc {
+  box-sizing: content-box;
+  width: 85%;
+  max-width: 650px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  cursor: default;
+  background-color: var(--tm-color-light-orange);
+  text-align: start;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.deactivateTeacherDesc ul {
+  list-style: initial;
+  padding-left: 30px;
+}
+
+.deactivateTeacherDesc li {
+  color: var(--tm-color-orange);
+}

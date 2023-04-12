@@ -1,0 +1,60 @@
+.map {
+  height: 550px;
+  width: 540px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.baseInfoCard {
+  width: 340px;
+  background: var(--tm-kr-color-base-light-100);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  line-height: 26px;
+}
+
+.infoCardHeader {
+  background: var(--tm-kr-color-base-dark-100);
+  color: var(--tm-kr-color-base-light-100);
+  font-size: 18px;
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-s);
+}
+
+.infoCardRow {
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-s);
+  font-size: 12px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.badgeLike {
+  padding: 2px var(--tm-kr-spacing-3xs);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+.warning {
+  color: var(--tm-kr-badges-warning-background);
+  background: var(--tm-kr-badges-warning-text);
+}
+.success {
+  background: var(--tm-kr-badges-success-background);
+  color: var(--tm-kr-badges-success-text);
+}
+.on {
+  background: var(--tm-kr-badges-success-text);
+  color: var(--tm-kr-badges-success-background);
+}
+.bold {
+  font-weight: 600;
+}

@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: 'space-between';
+  gap: 10px;
+  width: 70%;
+}
+
+.title {
+  width: 100%;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-kr-color-semantic-basic-110);
+}
+
+.cardSection {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.plainCard {
+  height: 100%;
+  border: none;
+}
+
+.cardBgTotalApplied {
+  background: var(--tm-kr-color-pastels-morningGlory-10);
+}
+
+.cardBgDiscount {
+  background: var(--tm-kr-color-pastels-calico-10);
+}
+
+.cardBgPaid {
+  background: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.cardBgDue {
+  background: var(--tm-kr-color-pastels-seaPink-10);
+}
+
+.amount {
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.subText {
+  width: 100%;
+  height: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .cardSection {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.additionalInfo {
+  font-style: italic;
+}

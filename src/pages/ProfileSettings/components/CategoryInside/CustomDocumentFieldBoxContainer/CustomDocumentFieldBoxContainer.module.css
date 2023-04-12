@@ -1,0 +1,71 @@
+/* Card box container and their fields css */
+.fieldNameTextBoxDiv {
+  margin-bottom: 20px;
+}
+.fieldNameTextBoxDiv > div:first-child {
+  padding: 0px;
+}
+.inputFieldTitleClass {
+  font-weight: normal;
+}
+.customFieldBoxCardClass {
+  font-weight: normal;
+}
+.inputGroup {
+  font-weight: normal;
+}
+.inputGroup > div > div:first-child {
+  color: var(--tm-color-text-primary);
+}
+
+/* Format Selected Input */
+.formatSelectedInput {
+  font-weight: normal;
+}
+.formatTitle {
+  margin-bottom: 8px;
+}
+.astrik {
+  color: var(--tm-color-red);
+  padding-left: 5px;
+}
+.formatSelectedInput > div {
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+.formatSelectedInput > div:last-child > div:first-child {
+  cursor: pointer;
+}
+.formatSelectedInput > div div:last-child > div > div input {
+  cursor: pointer;
+  display: inline-block;
+}
+.formatSelectedInput > div div:last-child > div > div label {
+  cursor: pointer;
+  vertical-align: text-bottom;
+  display: inline-block;
+}
+/* Doctypes Checkbox */
+.doctypesCheckbox {
+  display: flex;
+  justify-content: flex-start;
+}
+.doctypesCheckbox .checkBoxInputGroup div:first-child {
+  padding: 0;
+}
+.inputComponent {
+  padding: 0;
+  padding-right: 6px;
+  cursor: pointer;
+}
+.inputComponent > label {
+  color: var(--tm-color-text-secondary);
+  cursor: pointer;
+  font-size: 14px;
+}
+.inputComponent input {
+  cursor: pointer;
+}
+.inputComponent input:checked ~ label {
+  color: var(--tm-color-text-primary);
+}

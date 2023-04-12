@@ -1,0 +1,53 @@
+.input_container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.input_container > div {
+  padding: 10px 0px;
+}
+.input_width {
+  width: 100%;
+}
+
+.inputContainerTwoDivs {
+  display: flex;
+  gap: 20px;
+}
+.inputContainerTwoDivs > div {
+  flex: 1;
+}
+
+.inputContainerTwoDivs > div {
+  padding: 10px 0px;
+}
+
+.input_error_class {
+  display: none;
+}
+
+@media only screen and (max-device-width: 700px) {
+  .inputContainerTwoDivs {
+    flex: 1 !important;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: flex-end;
+  }
+  .input_container {
+    flex-wrap: wrap;
+  }
+  .input_container div:not(:last-child) {
+    flex-wrap: wrap;
+    flex: 50%;
+  }
+  .input_container > div:last-child {
+    width: 100%;
+  }
+  .input_container > div {
+    padding: 10px;
+  }
+  .inputContainerTwoDivs > div {
+    padding: 10px;
+  }
+}

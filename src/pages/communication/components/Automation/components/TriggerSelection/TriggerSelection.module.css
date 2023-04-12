@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  padding: var(--tm-kr-spacing-s);
+  width: 100%;
+  gap: var(--tm-kr-spacing-2xs);
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+.birthdayMsg {
+  color: var(--tm-kr-color-neutrals-grey-90);
+  font-size: 14px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.holidayTriggerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.holidayTriggerInfo {
+  display: flex;
+  align-items: center;
+  column-gap: var(--tm-kr-spacing-5xs);
+  padding: var(--tm-kr-spacing-s);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.holidayTrigger {
+  padding: var(--tm-kr-spacing-s);
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}

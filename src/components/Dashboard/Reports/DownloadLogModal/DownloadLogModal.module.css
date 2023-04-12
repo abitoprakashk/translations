@@ -1,0 +1,39 @@
+.downloadReportLogModal.modalMain {
+  width: 100%;
+}
+
+.loaderSection {
+  height: 200px;
+}
+
+.tableDataSection {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tm-color-black-1);
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.tagPrimary {
+  background: var(--tm-tag-light-blue-1);
+}
+
+.tagWarning {
+  background: var(--tm-tag-warning-1);
+}
+
+@media only screen and (min-width: 720px) {
+  .downloadReportLogModal.modalMain {
+    width: 50%;
+  }
+}

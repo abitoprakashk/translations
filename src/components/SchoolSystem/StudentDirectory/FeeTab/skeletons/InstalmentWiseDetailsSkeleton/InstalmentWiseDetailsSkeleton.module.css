@@ -1,0 +1,36 @@
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerSection > .heading {
+  height: 26px;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.buttonSection {
+  display: flex;
+  gap: 20px;
+}
+
+.button.button1 {
+  height: 36px;
+  width: 180px;
+  border-radius: 12px;
+}
+.button.button2 {
+  height: 36px;
+  width: 107px;
+  background-color: var(--tm-kr-color-primary-80);
+  border-radius: 12px;
+}
+
+.instalmentInfo {
+  width: 100%;
+  height: 174px;
+  padding: 20px;
+  margin-bottom: 20px;
+}

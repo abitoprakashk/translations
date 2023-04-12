@@ -1,0 +1,30 @@
+.wrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+.iconFrame {
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+.bodyWrapper {
+  min-height: unset;
+}
+.body {
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-m);
+  display: none;
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-s);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.body > div[class*='DocumentFields_cardDesign'] {
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .bodyWrapper {
+    min-height: 196px;
+  }
+  .body {
+    display: grid;
+  }
+}

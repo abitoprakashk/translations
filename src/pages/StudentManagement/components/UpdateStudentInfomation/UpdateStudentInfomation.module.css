@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 0;
+}
+.header {
+  padding: var(--tm-kr-spacing-xs);
+  display: flex;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-40);
+  gap: var(--tm-kr-spacing-xs);
+  justify-content: space-between;
+}
+.body {
+  margin: var(--tm-kr-spacing-xs);
+}
+
+.errorPopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}

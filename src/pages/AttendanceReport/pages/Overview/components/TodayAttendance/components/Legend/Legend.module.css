@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-l);
+  margin-top: var(--tm-kr-spacing-m);
+}
+.legend {
+  display: flex;
+  gap: 8px;
+}
+.color {
+  height: 13px;
+  width: 13px;
+  border-radius: var(--tm-kr-border-radius-s);
+}
+.label {
+  color: var(--tm-kr-color-neutrals-grey-80);
+  font-size: var(--tm-kr-para-font-size-m);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    gap: var(--tm-kr-spacing-xs);
+  }
+  .label {
+  }
+}

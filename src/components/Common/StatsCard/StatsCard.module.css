@@ -1,0 +1,39 @@
+.card {
+  width: 100%;
+  border: none;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.value {
+  font-weight: var(--tm-kr-heading-font-weight-bold);
+}
+
+.titleWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.titleWrapper p {
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: var(--tm-kr-spacing-2xs);
+}

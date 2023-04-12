@@ -1,0 +1,117 @@
+.modalBodyWrapper {
+  display: flex;
+  max-height: 440px;
+  min-height: 100%;
+}
+.modalBodyWrapper > div {
+  overflow: auto;
+}
+.configDiv {
+  padding: var(--tm-kr-spacing-s) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  flex: 0.8;
+  height: 400px;
+}
+.layoutConfig {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.layoutOptions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--tm-kr-spacing-s);
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.layoutOptions label {
+  margin: 0;
+}
+.inputWrapper {
+  text-transform: capitalize;
+}
+.pageConfig {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.pageConfig > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.pageConfig > div > div {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.previewDiv {
+  width: 100%;
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  margin-left: var(--tm-kr-spacing-l);
+  overflow: hidden;
+  flex: 1;
+  padding-left: 100px;
+  box-shadow: 0px 2.11268px 4.22535px rgba(157, 182, 217, 0.2);
+}
+
+.imageContainer {
+  display: grid;
+  background: white;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imageContainer > img {
+  display: block;
+  box-shadow: 1px 1px #888888;
+  border-radius: 5px;
+}
+
+.individual {
+  width: 100%;
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  margin-left: var(--tm-kr-spacing-l);
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--tm-kr-spacing-s);
+  padding: var(--tm-kr-spacing-s);
+  transform-origin: center 0;
+}
+
+.individual img {
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 0px 2.11268px 4.22535px rgba(157, 182, 217, 0.2);
+}
+
+.scale {
+  transform-origin: top left;
+  overflow: scroll;
+}
+
+.modalBody {
+  padding-right: 0px;
+}
+.customLayoutButton {
+  align-self: baseline;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img:nth-of-type(2) {
+  transform: rotate(180deg);
+}

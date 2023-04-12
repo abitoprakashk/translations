@@ -1,0 +1,122 @@
+.styles {
+  padding: var(--tm-kr-spacing-xs) 0;
+}
+.optionsClass {
+}
+.divider {
+  padding: var(--tm-kr-spacing-xs) 0;
+}
+.wrapper {
+  max-width: 120px;
+  cursor: pointer;
+}
+.wrapper label {
+  margin: 0;
+}
+.optionsClass {
+  width: fit-content;
+  transform: translateX(-100%) translateX(120px);
+  white-space: nowrap;
+  max-height: 350px;
+  min-width: 250px;
+  z-index: 1;
+  height: 250px;
+}
+.optionsClass.sm {
+  /* transform: translateX(-100%) translateX(120px); */
+}
+.optionsClass > div {
+  max-height: calc(100% - 20px);
+}
+.optionsClass p {
+  text-transform: lowercase;
+}
+.optionsClass p:first-letter {
+  text-transform: uppercase;
+}
+.select {
+  color: var(--tm-kr-color-primary-100);
+}
+.dropdownClass {
+  border: 1px solid var(--tm-kr-color-primary-100);
+  background: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-3xs);
+  height: 36px;
+}
+.dropdownClass span:before {
+  color: var(--tm-kr-color-primary-100);
+}
+.chip {
+  display: flex;
+  flex: 1;
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  justify-content: space-between;
+  cursor: grab;
+}
+.chip span {
+  text-transform: lowercase;
+}
+.chip span:first-letter {
+  text-transform: uppercase;
+}
+.chipWrapper > div {
+  display: flex;
+  flex-direction: column;
+  cursor: grab;
+}
+
+.chipWrapper > div > div {
+  display: flex;
+  flex: 1;
+}
+.chipLabel {
+  gap: var(--tm-kr-spacing-3xs);
+}
+.placeHolder {
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px dashed #a2b1c6;
+  margin: 5px 0;
+}
+
+.placeHolder > div {
+  margin: 0;
+}
+.heading {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.icon {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.btn {
+  width: 120px;
+}
+.dropdownWidth {
+  width: 120px;
+}
+.dropdownWidth p {
+  color: var(--tm-kr-color-primary-100);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: lowercase;
+}
+.dropdownWidth p:first-letter {
+  text-transform: uppercase;
+}
+.optionDropDown p {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  text-transform: lowercase;
+}
+.optionDropDown p:first-letter {
+  text-transform: uppercase;
+}
+.mtopm {
+  margin-top: var(--tm-kr-para-font-size-m);
+}
+.filterTitle {
+  margin-right: var(--tm-kr-spacing-3xs);
+  margin-top: var(--tm-kr-chips-margin-padding);
+}

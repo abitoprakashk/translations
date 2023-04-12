@@ -1,0 +1,68 @@
+.gradesSubtext {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.cautionPara {
+  margin: 20px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.greenDiv {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--tm-kr-color-semantic-success-10);
+  color: var(--tm-kr-color-semantic-success-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  letter-spacing: 0.08em;
+}
+
+.redDiv {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--tm-kr-color-semantic-error-10);
+  color: var(--tm-kr-color-semantic-error-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  letter-spacing: 0.08em;
+}
+
+.greenDiv,
+.redDiv,
+.gradeRow {
+  width: calc(100% + 2 * var(--tm-kr-spacing-s));
+  margin-left: calc(-1 * var(--tm-kr-spacing-s));
+}
+
+.gradeRow {
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  text-align: center;
+  padding: 0 var(--tm-kr-spacing-s);
+  gap: var(--tm-kr-spacing-s);
+  align-items: center;
+}
+
+.gradeMarksColumn {
+  display: flex;
+  justify-content: space-between;
+  border-right: 0;
+  padding: 10px 0px;
+}
+
+.gradeMarksColumn > span:nth-child(odd) {
+  flex-basis: 110px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.gradesInput {
+  width: 110px;
+}

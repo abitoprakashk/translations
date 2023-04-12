@@ -1,0 +1,64 @@
+.subSection {
+  padding: 32px 20px;
+  width: 70%;
+  height: 400px;
+  border: 1px solid var(--tm-border-color-gray-2);
+  border-radius: 12px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.previousSessionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 20px;
+  height: 100px;
+  width: 90%;
+  margin: auto;
+}
+
+.previousSession {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+  gap: 20px;
+}
+
+.sessionDropdownWrapperClass {
+  width: 250px;
+}
+
+.sessionDropdownClass {
+  height: 40px;
+  padding: 10px 12px;
+}
+
+.dividerContainer {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  width: 85%;
+}
+
+.dividerContainer > svg {
+  margin-top: 10px;
+  width: 46%;
+}
+
+.alertClass {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 70%;
+}

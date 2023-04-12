@@ -1,0 +1,561 @@
+.navbar {
+  padding: 20px;
+}
+.instituteName {
+  width: 96px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.schoolImg {
+  margin-right: 10px;
+}
+.dropdown {
+  margin-right: 14px;
+}
+.chevron {
+  height: 6px;
+  width: 12px;
+  border-radius: 0px;
+  color: var(--tm-color-light-gray-2);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.chevronDown {
+  margin-top: 4px;
+  color: var(--tm-color-light-gray-2);
+}
+
+.chevronDownInstituteName {
+  margin-top: -2px;
+  color: var(--tm-color-light-gray-2);
+}
+
+.copyIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.instituteId {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--tm-color-semi-dark-gray);
+}
+
+.imgUrl {
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.mainText {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--tm-color-gy-1);
+}
+
+.helpContainer,
+.requestCallbackContainer {
+  display: flex;
+  background-color: var(--tm-bg-gray-3);
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.requestCallbackContainer {
+  border-radius: var(--tm-kr-border-radius-l);
+  cursor: pointer;
+}
+
+.helpText,
+.requestCallbackText {
+  display: none;
+  padding-right: 0px;
+}
+
+.blinker {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dropdown {
+  margin-left: auto;
+  margin-right: 24px;
+  position: relative;
+}
+
+.notificationContainer {
+  margin-right: 0;
+}
+
+.dropdownContent {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-color-blue);
+  border-radius: 12px;
+  top: 48px;
+  right: 0px;
+  padding: 0px;
+  color: var(--tm-color-primary-2);
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdownContent div {
+  color: var(--tm-color-primary-2);
+  text-decoration: none;
+  font-size: 14px;
+  width: 90%;
+  text-align: left;
+}
+
+.dropdownContent div:hover {
+  background-color: var(--tm-bg-gray-3);
+}
+
+.dropdownUnit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--tm-color-primary-2);
+  padding: 10px;
+  margin: 0px auto;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdownUnit > * {
+  color: var(--tm-color-primary-2);
+}
+
+.dropdownUnit > button {
+  margin-left: 10px;
+}
+.dropdownUnit button {
+  margin-left: 10px;
+}
+
+img.icon {
+  width: 30px;
+  height: 100%;
+}
+
+.mobileHelpIcon,
+.helpContainer {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -10px;
+}
+
+.mobileHelpIcon {
+  margin-top: 6px;
+}
+
+.notification {
+  height: 40px;
+  padding: 10px 0px 5px;
+  cursor: pointer;
+}
+
+.academicSessionContainer {
+  padding: 0px 14px 0px 5px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  background-color: var(--tm-bg-gray-3);
+  cursor: pointer;
+}
+
+.sessionCalendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.activeSession {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-primary-2);
+  overflow: hidden;
+  white-space: nowrap;
+  width: max-content;
+  max-width: 120px;
+  text-overflow: ellipsis;
+  padding-right: 8px;
+}
+
+.activeBatch {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+
+.sessionName {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 170px;
+  text-overflow: ellipsis;
+}
+
+.academicSessionDropdownItem {
+  background-color: var(--tm-bg-gray-3);
+  width: 100%;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.editText {
+  color: var(--tm-color-blue);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.activeBackground,
+.inActiveBackground {
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-top: 4px;
+  width: fit-content;
+}
+
+.activeBackground {
+  background-color: var(--tm-color-light-green-2);
+  color: var(--tm-color-dark-green);
+}
+
+.inActiveBackground {
+  background-color: var(--tm-bg-gray-4);
+  color: var(--tm-secondary-text-1);
+}
+
+.academicSessionDropdownItemContainer {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 30;
+  background-color: var(--tm-color-wh-1);
+  width: 295px;
+  max-height: 400px;
+  overflow: auto;
+  border: 1px solid var(--tm-color-blue);
+  padding: 0px 20px 20px;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+.cursorDefault {
+  cursor: default;
+}
+.profileDropdownContainer {
+  display: block;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.profileDropdown {
+  border: 1px solid var(--tm-color-blue) !important;
+  margin-left: 5px;
+  background-color: var(--tm-color-wh-1);
+  width: 300px;
+  margin-top: 16px !important;
+}
+
+.instituteInfoContainerActive,
+.instituteInfoContainerInactive {
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.instituteInfoContainerActive {
+  border: 1px solid var(--tm-color-light-green-2);
+  background-color: var(--tm-color-light-green-2);
+  justify-content: space-between;
+}
+
+.instituteInfoContainerInactive {
+  border: 1px solid var(--tm-bg-gray-3);
+  background-color: var(--tm-bg-gray-3);
+  margin-top: 16px;
+}
+
+.instituteInfoName {
+  color: var(--tm-primary-2);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.instituteInfoCheckIcon {
+  position: absolute;
+  left: 65px;
+  top: 40px;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1px;
+  background-color: var(--tm-color-wh-1);
+}
+
+.instituteInfoIcon {
+  margin-right: 14px;
+  width: 36px;
+  height: 36px;
+}
+
+.instituteInfoGearIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instituteInfoNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.roundedBorder {
+  border-radius: 50%;
+}
+
+.activeOrgItem {
+  border: 1px solid var(--tm-color-light-green-2);
+  background-color: var(--tm-color-light-green-2);
+  margin-bottom: 16px;
+}
+.inactiveOrgItem {
+  margin-bottom: 0;
+}
+.requestCallbackContainer {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .dropdown {
+    margin-right: 1rem;
+    margin-right: 24px;
+  }
+  .notificationContainer {
+    margin-right: 24px;
+  }
+
+  .mainText {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .overflow {
+    text-overflow: ellipsis;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 700px) {
+  .navbar {
+    height: 64px;
+    padding: 4px 16px;
+  }
+  .schoolName {
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 10px;
+    color: var(--tm-primary-2);
+  }
+  .instituteName {
+    width: unset;
+    max-width: 200px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .mobileHelpIcon,
+  .helpContainer {
+    padding: 12px;
+    padding-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--tm-bg-gray-3);
+    border-radius: 12px;
+    color: var(--tm-primary-2) !important;
+  }
+
+  .helpContainer {
+    margin-right: 0px;
+  }
+  .notification {
+    height: 40px;
+    padding: 10px 14px;
+    background-color: var(--tm-bg-gray-3);
+    border-radius: 12px;
+    cursor: pointer;
+    color: var(--tm-primary-2);
+  }
+  .imgUrl {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+
+  .mobileHelpIcon {
+    margin-top: 0px;
+    padding: 10px 4px 10px 12px;
+    color: var(--tm-primary-2);
+  }
+  .activeSession {
+    max-width: 200px;
+    padding-right: 15px;
+  }
+
+  .requestCallbackContainer {
+    display: flex;
+    background-color: var(--tm-kr-color-primary-60);
+  }
+
+  .requestCallbackText {
+    display: none;
+  }
+}
+
+.session {
+  width: max-content;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    padding-left: 0px;
+    padding-right: 20px;
+    height: var(--tm-header-height);
+  }
+  .instituteInfoWrapper {
+    flex: 1;
+  }
+  .instituteName {
+    width: unset;
+    max-width: unset;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .helpText,
+  .requestCallbackText {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .dropdown {
+    margin-top: 0px;
+  }
+
+  .mobileHelpIcon,
+  .helpContainer {
+    justify-content: space-between;
+    padding: 10px 12px;
+  }
+  .schoolName {
+    height: 70px;
+    padding: 10px 14px 10px 20px;
+  }
+  .profileDropdown {
+    width: 400px;
+    margin-left: 35px;
+  }
+
+  .requestCallbackText {
+    display: flex;
+  }
+
+  .toolTipCustom,
+  .toolTipCustom::after,
+  .toolTipCustom::before {
+    background: var(--tm-color-bl-3) !important;
+    opacity: 1 !important;
+  }
+  .toolTipCustom {
+    border-radius: var(--tm-kr-border-radius-m) !important;
+  }
+}
+
+/* Organisation */
+.orgProfileDropdown {
+  z-index: 13;
+  position: absolute;
+  left: -74px;
+  top: 32px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+.orgInfoSubTitle {
+  margin-top: 4px;
+}

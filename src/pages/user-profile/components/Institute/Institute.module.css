@@ -1,0 +1,42 @@
+.instiAffiliation {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.textLength {
+  font-size: 10px;
+  color: var(--tm-color-text-primary);
+  float: right;
+  margin: -10px;
+  margin-right: 20px;
+}
+
+@media (min-width: 1024px) {
+  .instiNameNumber {
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+
+  .container {
+    height: calc(100vh - 110px);
+  }
+
+  .instiAffiliation {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+  }
+
+  .instiEmail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .contactNumberContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    color: var(--tm-color-text-secondary);
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

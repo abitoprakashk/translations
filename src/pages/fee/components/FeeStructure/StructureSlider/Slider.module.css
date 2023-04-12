@@ -1,0 +1,22 @@
+.title {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.academicYearTitle {
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.academicYearData {
+  color: var(--tm-color-text-primary);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.higherSpecificityFontSize.higherSpecificityIcon.infoIcon {
+  font-size: 80px;
+}

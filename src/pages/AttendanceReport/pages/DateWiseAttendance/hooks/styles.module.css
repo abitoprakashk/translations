@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.inputWrapper {
+  background: var(--tm-kr-color-neutrals-grey-10);
+  height: 44px;
+  width: 350px;
+}
+.input {
+  background: var(--tm-kr-color-neutrals-grey-10);
+}
+.searchIcon {
+  margin-top: 4px;
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.title {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.desc {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+.headerWrapper {
+  position: sticky;
+  top: -25px;
+  z-index: 1;
+  background: var(--tm-kr-color-neutrals-grey-10);
+  padding: var(--tm-kr-spacing-xs) 0;
+}
+.teacherNotAssigned {
+  color: var(--tm-kr-color-semantic-error-100);
+}

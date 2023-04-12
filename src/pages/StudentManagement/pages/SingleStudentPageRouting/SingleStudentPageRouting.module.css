@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.breadcrumb {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.tabGroupWrapper {
+  width: 300px;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: var(--tm-kr-spacing-m);
+  }
+}

@@ -1,0 +1,43 @@
+/* Add Filters CSS */
+.dropdown {
+  position: absolute;
+  padding: 5px;
+  background-color: var(--tm-color-white);
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 235px;
+  z-index: 999;
+}
+
+.filters {
+  display: flex;
+  padding: 5px;
+}
+
+.filters > div {
+  padding: 10px 10px 5px 10px;
+}
+
+.filters header {
+  color: var(--tm-sk-bl-2);
+  border-bottom: 1px solid var(--tm-color-light-gray);
+  margin-bottom: 10px;
+}
+
+.filters section {
+  padding: 5px 5px 5px 2px;
+}
+
+.filters label {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+button.fill img {
+  color: var(--tm-color-white);
+}
+.applyFiltersBlock {
+  padding: 5px 5px 5px 15px;
+}
+.applyFilterButton {
+  height: auto;
+  width: auto;
+}

@@ -1,0 +1,107 @@
+.pageSection {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subjectNameSection {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.subjectNameText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  word-break: break-all;
+}
+
+.chaptersCount {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--tm-color-text-secondary);
+  margin-top: 5px;
+}
+
+.subjectNameColorSection {
+  max-width: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.subjectShortFom {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 130%;
+  font-family: var(--tm-font-family);
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.lightBlue {
+  background: rgba(37, 166, 185, 0.15);
+  color: var(--tm-sk-bl-1);
+}
+
+.green {
+  background: rgba(0, 218, 37, 0.15);
+  color: var(--tm-color-green-2);
+}
+
+.purple {
+  background: rgba(165, 129, 205, 0.15);
+  color: var(--tm-purple-color);
+}
+
+.orange {
+  background: rgba(244, 147, 0, 0.15);
+  color: var(--tm-orange-2);
+}
+
+.darkBlue {
+  background: rgba(0, 41, 255, 0.15);
+  color: var(--tm-dark-blue-2);
+}
+
+.skyBlue {
+  background: rgba(35, 199, 240, 0.15);
+  color: var(--tm-sk-bl-1);
+}
+
+.brown {
+  background: rgba(157, 78, 68, 0.15);
+  color: var(--tm-dark-brown-1);
+}
+
+.darkPink {
+  background: rgba(157, 68, 116, 0.15);
+  color: var(--tm-dark-pink-1);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .subjectShortFom {
+    font-size: 14px;
+  }
+
+  .pageSection {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .cardHover:hover {
+    border: 1px solid var(--tm-color-bl-2);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 18px rgba(157, 182, 217, 0.15);
+  }
+}

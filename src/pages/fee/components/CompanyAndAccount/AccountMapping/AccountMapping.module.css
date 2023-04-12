@@ -1,0 +1,57 @@
+.basisSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.nameAndBtnSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyAccountSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.filtersAndSaveBtnSection,
+.saveAndDotBtnSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.filtersAndSaveBtnSection {
+  margin-bottom: 17px;
+}
+
+.accountMappingDotBtnOptionLabel {
+  color: var(--tm-kr-color-semantic-error-110);
+}
+
+.saveCancelBtnSection {
+  position: fixed;
+  bottom: 0px;
+  left: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 0px;
+  grid-gap: 20px;
+  gap: 20px;
+  width: calc(100% - 69px);
+}
+
+.tooltipWrapper {
+  left: 700px;
+  top: 179px;
+}
+
+.resetCancelBtn {
+  border: 1px solid var(--tm-kr-color-semantic-basic-10);
+}
+button.resetCancelBtn.higher > div {
+  color: var(--tm-kr-color-semantic-basic-100);
+}

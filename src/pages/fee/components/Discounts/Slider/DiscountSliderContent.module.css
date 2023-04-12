@@ -1,0 +1,26 @@
+.mainContent {
+  height: 80%;
+  overflow: scroll;
+  padding-bottom: 30px;
+}
+
+.footerContent {
+  color: var(--tm-color-green);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalStudents {
+  justify-content: flex-end;
+}
+
+.totalStudents > div {
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.footerBtn {
+  height: 44px;
+}

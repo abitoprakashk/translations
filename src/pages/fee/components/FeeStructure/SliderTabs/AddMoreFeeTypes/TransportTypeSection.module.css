@@ -1,0 +1,191 @@
+.section:not(:first-child) {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.taxPrefix {
+  margin-left: 12px;
+}
+
+.transportTax {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 20% 40% 40%;
+}
+
+.formGroup {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}
+
+.taxPercent {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: var(--tm-color-text-secondary);
+}
+
+.sectionNo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 50%;
+  background: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+}
+
+.sectionLabel {
+  margin-left: 10px;
+}
+
+.transportDetails {
+  margin-top: 20px;
+}
+
+.table {
+  margin-bottom: 10px;
+  display: table;
+  width: 90%;
+}
+
+.transportCol {
+  width: 35%;
+}
+
+.transportAmount {
+  width: 35%;
+}
+
+.transportlabel {
+  margin-left: 0px;
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.label {
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.table tr {
+  border: none;
+}
+
+.table td:nth-child(-n + 3) {
+  vertical-align: top;
+}
+
+.totalAnnual > div {
+  font-size: 16px;
+}
+
+.rowTotalDiv {
+  margin-top: 0.5rem;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--tm-color-gr-1);
+  font-weight: 400;
+}
+
+.annualFeeIncludingTaxText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+}
+
+.addMoreType {
+  color: var(--tm-sk-bl-2);
+  cursor: pointer;
+}
+
+.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.modalWarningActionBtn {
+  background-color: var(--tm-color-og-1) !important;
+  border: none !important;
+}
+
+.sectionHeadingTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionHeadingTitleText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.sectionHeadingSubTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  margin-top: 10px;
+}
+
+.headingSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.radioLable {
+  margin: 0px;
+  margin-right: 28px;
+}
+
+.radioLableText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  margin-left: 4px;
+}
+
+.width200Px {
+  width: 200px;
+}
+
+.width15rem {
+  width: 15rem;
+}
+
+.pt5 {
+  padding-top: 0.25rem;
+}
+
+.sectionHeadingSubTitleTopMargin {
+  color: var(--tm-color-text-secondary);
+  text-align: left;
+  font-size: 14px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.higherSpecificityFont.higherSpecificityColor.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.higherSpecificityFont.higherSpecificitySize.removeIcon {
+  font-size: 80px;
+}
+
+.higherSpecificityFontSize.higherSpecificityIcon.infoIcon {
+  font-size: 80px;
+}

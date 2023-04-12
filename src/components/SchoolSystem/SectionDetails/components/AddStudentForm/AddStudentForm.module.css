@@ -1,0 +1,36 @@
+.phoneWrapper {
+  position: relative;
+}
+
+.wrapper {
+  display: block;
+}
+
+.middleLast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.classSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: block;
+  }
+  .firstRow {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 34% 33% auto;
+  }
+  .nameRow {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .classSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,21 @@
+.kanbanStage {
+  min-width: 280px;
+  max-width: 280px;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardSection {
+  height: 90vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

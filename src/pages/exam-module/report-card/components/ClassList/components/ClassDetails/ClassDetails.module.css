@@ -1,0 +1,78 @@
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.templateSection {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.buttonSection {
+  margin-left: 20px;
+}
+
+.subHeading {
+  margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--tm-color-gy-2);
+}
+
+.linkButton {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--tm-color-bl-2);
+  cursor: pointer;
+}
+
+.sectionCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.sections {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-text-secondary);
+}
+
+.sectionsTitle {
+  margin-bottom: 10px;
+}
+
+.divider {
+  display: none;
+}
+
+.newBadge {
+  display: inline-flex;
+  top: 2px;
+  position: relative;
+  left: 2px;
+}
+
+@media (min-width: 1024px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .divider {
+    display: inline-block;
+  }
+}

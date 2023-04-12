@@ -1,0 +1,43 @@
+.heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: var(--tm-color-bl-1);
+}
+
+.disabled {
+  color: var(--tm-color-gy-1);
+}
+
+.disabledBackground {
+  background-color: var(--tm-bg-diabled);
+}
+
+.rangeContainer {
+  color: var(--tm-color-gy-1);
+}
+
+.rangeHeading {
+  display: grid;
+  grid-template-columns: 27% 5% 27% 5% 27%;
+}
+
+.rangeBody {
+  display: grid;
+  max-height: calc(90vh - 350px);
+  overflow-y: scroll;
+  grid-template-columns: 27% 5% 27% 5% 27% 9%;
+}
+
+.input {
+  padding-left: 0px;
+}
+
+.dividers {
+  margin-top: 25px;
+}
+
+.pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--tm-kr-spacing-s);
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.chartWrapper {
+  padding: var(--tm-kr-spacing-s);
+}
+.legendWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-m);
+}
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.legendItemColor {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--tm-kr-border-radius-s);
+}
+.bar1 {
+  background-color: var(--tm-kr-color-pastels-biloba-110);
+}
+.bar2 {
+  background-color: var(--tm-kr-color-pastels-biloba-50);
+}

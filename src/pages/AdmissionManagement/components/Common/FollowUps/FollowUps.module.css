@@ -1,0 +1,72 @@
+.modal {
+  width: 600px;
+  height: 464px;
+}
+
+.modalContent {
+  padding: 20px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--tm-kr-modal-header-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalTitle {
+  display: flex;
+  align-items: center;
+}
+
+.modalClickable {
+  cursor: pointer;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.followupDateTime {
+  display: flex;
+  z-index: 1;
+  position: relative;
+}
+
+.followupDateTime > div {
+  flex-grow: 1;
+}
+
+.timepicker {
+  width: 230px;
+}
+
+.formLabel {
+  display: flex;
+}
+
+.followupNote {
+  margin-top: 20px;
+  position: relative;
+}
+
+.footer {
+  z-index: 0;
+  position: relative;
+}

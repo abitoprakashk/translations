@@ -1,0 +1,78 @@
+.accordionWrapper {
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  margin-top: var(--tm-kr-spacing-s);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.accordionWrapper:first-child > div {
+  margin-top: 0;
+}
+.accordionWrapper .accordionBody {
+  margin: 0;
+}
+.accordionBody {
+  padding: 0 0 0 var(--tm-kr-spacing-xs);
+}
+.accordionBody label {
+  margin-left: 0;
+}
+
+.accordionBody .sectionAccordionWrapper:last-child {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.sectionAccordionWrapper > div {
+  background: white;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  padding-bottom: 0;
+}
+.sectionBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--tm-kr-spacing-xs);
+}
+.sectionBodyWrapper label {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.sectionAccordionHeader {
+  padding-bottom: 0;
+}
+.sectionAccordionHeader h6 {
+  text-transform: capitalize;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper h6 {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+.accordionHeader label {
+  margin: 0;
+}
+
+.standard {
+  text-transform: capitalize;
+}
+
+.customClassWrapper {
+  padding: var(--tm-kr-spacing-xs);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--tm-kr-spacing-xs);
+}
+
+.unassignedSelectWrapper {
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  margin-top: var(--tm-kr-spacing-s);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-xs);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.noMargin {
+  margin: 0;
+}

@@ -1,0 +1,154 @@
+.topTitleFiltersbar {
+  display: inline-block;
+  width: 100%;
+}
+.todaysAttendanceTitle {
+  display: block;
+  font-size: 16px;
+  line-height: var(--tm-line-height-1);
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+  line-height: 40px;
+}
+.topfilterRightBar {
+  display: block;
+}
+.inputCon {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.slotCon {
+  display: flex;
+}
+.slotItem {
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color: var(--tm-color-gy-3);
+  color: var(--tm-color-text-secondary);
+  margin-right: 15px;
+  cursor: pointer;
+}
+.slotItemSelected {
+  background-color: var(--tm-color-bl-2);
+  color: var(--tm-color-wh-1);
+}
+.dateField input {
+  border-color: var(--tm-color-bl-2);
+  padding: 7px 12px;
+  height: 36px;
+}
+
+/* Add Filters Custom CSS */
+.staffAttendanceFiltersBlock {
+  display: none;
+  position: relative;
+  margin-left: 15px;
+}
+.cstAddFiltersButton {
+  margin-left: 0;
+  height: 40px;
+  padding: 5px 15px;
+  width: auto;
+}
+.cstAddFiltersButton .cstFilterIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  vertical-align: sub;
+}
+button.border {
+  border: 1px solid var(--tm-color-blue);
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: var(--tm-color-blue);
+}
+button.fill {
+  border: 1px solid var(--tm-color-blue);
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: var(--tm-color-white);
+  background-color: var(--tm-color-blue);
+}
+button.fill img {
+  color: var(--tm-color-white);
+}
+
+/* Download Block */
+.downloadBlock {
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: sub;
+  margin-left: 15px;
+  position: relative;
+}
+.downloadIcon {
+  vertical-align: bottom;
+}
+.dropdown {
+  margin-left: auto;
+}
+.dropdownIconDiv {
+  height: 39px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--tm-sk-bl-2);
+  border-radius: 5px;
+  color: var(--tm-sk-bl-2);
+}
+.dropdownContent {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  padding: 0px 8px;
+  right: 0px;
+  z-index: 2;
+  width: 200px;
+  height: auto;
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-gy-2);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 14px 28px rgba(31, 57, 101, 0.14); */
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.dropdownContentItem {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--tm-color-text-primary);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  padding-right: 1rem;
+}
+.dropdownContentItem:hover {
+  background: var(--tm-bg-tag-light-gray);
+}
+.dropdownContentItem:last-child {
+  border: none;
+}
+@media (min-width: 1024px) {
+  .dropdownIconDiv {
+    padding: 4px 5px 3px;
+  }
+  .dateField input {
+    height: 39px;
+  }
+}
+@media (min-width: 769px) {
+  .todaysAttendanceTitle {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .topfilterRightBar {
+    float: right;
+  }
+}

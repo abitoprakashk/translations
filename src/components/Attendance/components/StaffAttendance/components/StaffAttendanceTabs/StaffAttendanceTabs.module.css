@@ -1,0 +1,21 @@
+.staffAttendanceTabs {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.staffAttendanceTabs .tab {
+  font-size: var(--tm-kr-para-font-size-l);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-right: var(--tm-kr-spacing-s);
+  padding: var(--tm-kr-spacing-4xs) 0;
+}
+
+.staffAttendanceTabs .active {
+  color: var(--tm-kr-color-primary-100);
+  border-bottom: 2px solid var(--tm-kr-color-primary-100);
+}
+
+@media only screen and (min-width: 768px) {
+  .staffAttendanceTabs {
+    width: fit-content;
+  }
+}

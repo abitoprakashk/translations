@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstCard {
+  width: 470px;
+  height: 70px;
+  z-index: 2;
+  box-shadow: 3.516px 4.688px 4.688px rgba(74, 74, 74, 0.2);
+}
+
+.secondCard {
+  width: 500px;
+  height: 60px;
+}
+
+.firstCardSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.secondCardSection {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 75%;
+}
+
+.emptyText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+  margin-top: 20px;
+}

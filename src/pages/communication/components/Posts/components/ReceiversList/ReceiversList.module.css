@@ -1,0 +1,98 @@
+.outsideWrapper {
+  padding: 40px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tableWrapper {
+  background-color: var(--tm-bg-light-blue);
+  width: 100%;
+}
+.tabGroup {
+  padding-top: 30px;
+}
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.userInfo {
+  display: flex;
+}
+.searchBox > div {
+  background-color: var(--tm-color-white);
+  border: 1px solid var(--tm-bg-light-white);
+}
+.searchBox > div > input {
+  background-color: var(--tm-color-white);
+}
+
+.infoText {
+  padding-top: 30px;
+  padding-bottom: 14px;
+  color: var(--tm-color-light-gray);
+  font-size: 14px;
+  font-weight: 600;
+}
+.table > thead > tr > td {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tm-color-text-secondary);
+}
+.table > tbody td {
+  overflow-x: scroll;
+  max-width: 200px;
+  min-width: 200px;
+  background-color: var(--tm-bg-light-blue);
+}
+.actions {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+.actionText {
+  padding-left: 10px;
+}
+.table {
+  margin-top: 0px;
+}
+.table tr {
+  border-bottom: none;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  justify-items: center;
+}
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+  padding: 4px 8px;
+}
+
+.phone {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--tm-color-text-secondary);
+  padding: 0px 8px;
+}
+.role {
+  color: var(--tm-color-text-secondary);
+}
+.headerIcon {
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .tableWrapper {
+    overflow-x: scroll;
+  }
+}

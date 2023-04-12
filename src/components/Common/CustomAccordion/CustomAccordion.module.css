@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--tm-color-white);
+  padding: 0.2rem;
+}
+
+.icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}

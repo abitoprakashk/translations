@@ -1,0 +1,46 @@
+/* Fee Transaction Filters CSS */
+.dropdown {
+  position: absolute;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: max-content;
+}
+
+.filters {
+  display: flex;
+  padding: 5px;
+}
+
+.filters > div {
+  padding: 10px;
+}
+
+.filters > div:nth-child(1) {
+  border-right: 1px solid #dbe2ea;
+}
+
+.filters header {
+  color: #1da1f1;
+  border-bottom: 1px solid #999;
+}
+
+.filters section {
+  padding: 5px;
+}
+
+.filters label {
+  padding-left: 5px;
+  margin-left: 0px;
+}
+
+.revokedStatus {
+  margin-top: 10px;
+}
+
+.filterHeader {
+  font-size: initial;
+  min-height: initial;
+  padding: initial;
+  background-color: initial;
+}

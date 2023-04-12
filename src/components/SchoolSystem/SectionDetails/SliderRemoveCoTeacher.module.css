@@ -1,0 +1,25 @@
+.coTeacherListContainer {
+  margin: 1rem;
+}
+
+.teacherContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  width: 100%;
+}
+
+.removeCoTeacher {
+  color: var(--tm-color-red);
+  cursor: pointer;
+}
+
+.removeAll {
+  margin: 1rem;
+  margin-bottom: 0rem;
+  float: right;
+  color: var(--tm-color-red);
+  cursor: pointer;
+}

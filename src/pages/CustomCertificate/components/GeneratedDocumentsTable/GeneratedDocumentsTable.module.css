@@ -1,0 +1,30 @@
+.tableContainer {
+  margin-bottom: var(--tm-kr-spacing-m);
+}
+
+.avatarGroup {
+  margin-left: var(--tm-kr-spacing-2xs);
+}
+.tooltip {
+  padding: var(--tm-kr-spacing-3xs);
+}
+.iconFrame {
+  background: transparent;
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}

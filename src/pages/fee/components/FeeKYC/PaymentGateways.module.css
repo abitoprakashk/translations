@@ -1,0 +1,378 @@
+.emptystateStyle {
+  margin: 300px 0px;
+}
+
+.subclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.mainClass {
+  height: 70vh;
+  box-shadow: 0px 3px 18px rgba(192, 201, 253, 0.16);
+  border-radius: 8px;
+  padding: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  margin-bottom: 1rem;
+}
+
+.tableData {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+.maintext {
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+}
+
+.secondaryTxt {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.displayData {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.textData {
+  margin-right: 12px;
+  color: var(--tm-color-blue);
+}
+
+.failData {
+  list-style-type: disc;
+  color: var(--tm-color-text-primary);
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.subtext {
+  margin-top: 10px;
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  line-height: 18.2px;
+  font-weight: 600;
+}
+
+.dispData {
+  margin-top: 15px;
+}
+
+.headText {
+  margin-top: 15px;
+}
+
+.secStepfirst {
+  width: 40%;
+}
+
+.secStep {
+  width: 60%;
+  height: 57vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.seprator {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.overlayText {
+  position: absolute;
+}
+
+.container {
+  height: 55vh;
+  display: flex;
+  position: relative;
+}
+
+.backToPage {
+  border: 1px solid var(--tm-bg-light-white);
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.imgClass {
+  margin-left: 10px;
+}
+
+.spanDesign {
+  border: 1px solid var(--tm-bg-light-white);
+  border-radius: 5px;
+  margin: 10px;
+  height: 100px;
+}
+
+.paymentGatewaySettings {
+  width: 50%;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.tablepaymentGatewaySettings {
+  height: 55vh;
+  width: 100%;
+  background-color: var(--tm-bg-slider-light-gray);
+  box-shadow: 0px 3px 18px rgba(192, 201, 253, 0.16);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1.25rem;
+  border-left: 6px solid var(--tm-color-blue);
+}
+
+.settingData {
+  height: 55vh;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.hrStyling {
+  border-left: 1px solid var(--tm-bg-light-white);
+  left: 45%;
+  margin-left: 20px;
+  top: 6%;
+  border-radius: 10px;
+  height: 55vh;
+  position: absolute;
+}
+
+.kycBtn {
+  margin-top: 50px;
+  text-align: center;
+  /* border-left: 1px solid var(--tm-bg-light-white); */
+}
+
+.teachPayButton {
+  width: 252px;
+}
+
+.normalButtonText {
+  width: 240px;
+}
+
+.btnText {
+  height: 48px;
+  border-width: 1px;
+}
+
+.btsetting {
+  margin-top: 30px;
+}
+
+.verifyButtonStyle {
+  padding: 16px;
+}
+
+.vertical {
+  display: none;
+  border-left: 6px solid var(--tm-color-blue);
+  height: 600px;
+  position: absolute;
+  left: 60%;
+  margin-top: 12px;
+  margin-left: 20px;
+  border-top-left-radius: 4px;
+}
+
+.displayCard {
+  height: 500px;
+  display: flex;
+}
+
+.img {
+  height: 50px;
+  width: 140px;
+  margin: 30px;
+}
+
+.img1 {
+  height: 60px;
+  width: 140px;
+}
+
+.pricing {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: var(--tm-color-text-secondary);
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.paymentGateway {
+  width: 200px;
+  height: 120px;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.activeClass {
+  background: var(--tm-bg-tag-light-gray);
+  border: 1px solid var(--tm-color-blue);
+}
+
+.tableWidth {
+  width: 100%;
+}
+
+.tableWidth td {
+  background-color: var(--tm-color-white);
+}
+
+.logoStyling {
+  justify-content: center;
+}
+
+.test {
+  width: 60%;
+  height: 15px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 20%;
+}
+
+.test2 {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  background-color: var(--tm-color-light-grayish-blue);
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 24px;
+}
+
+.noteText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.formData {
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 150px;
+  width: 60%;
+}
+
+.keyData {
+  width: 100%;
+}
+
+.lblTxt {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.txtdata {
+  width: 50%;
+  /* margin-left: 45%; */
+  background: var(--tm-color-light-grayish-blue);
+  border-radius: 8px;
+  height: 48px;
+  padding: 5px 10px;
+}
+
+.newStyle {
+  width: 100%;
+  text-align: left;
+  margin-left: 25%;
+}
+
+.mendatoryField {
+  text-align: center;
+  margin: 15px 200px;
+  width: 50%;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.lblTxt2 {
+  margin-left: 200px;
+}
+
+.selectedPg {
+  float: right;
+  padding: 5px;
+}
+
+.gatewaySelection {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--tm-color-text-primary);
+  line-height: 20px;
+}
+
+.testBtn {
+  width: 80px;
+}
+
+.disData {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textNewData {
+  font-size: 14px;
+  line-height: 18.9px;
+  font-weight: 500;
+  color: var(--tm-color-text-primary);
+}
+
+.listData {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+  padding-top: 12px;
+}
+
+.btnsize {
+  width: 240px;
+}
+
+.errData {
+  width: 50%;
+  background: var(--tm-color-light-grayish-blue);
+  border: 1px solid var(--tm-color-dark-red);
+  border-radius: 8px;
+  height: 48px;
+  padding: 5px 10px;
+}
+
+.errText {
+  color: var(--tm-color-dark-red);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 25%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

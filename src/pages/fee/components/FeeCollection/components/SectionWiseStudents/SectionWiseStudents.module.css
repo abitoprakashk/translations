@@ -1,0 +1,290 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.classesContainer {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  height: calc(100vh - (330px));
+  position: sticky;
+  top: 0px;
+}
+
+.sectionTile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  width: 100%;
+  height: 52px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  cursor: pointer;
+}
+
+.selectedSectionTile {
+  background: var(--tm-kr-color-primary-60);
+}
+
+.studentList {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  height: calc(100vh - (330px));
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.classSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.classHeader,
+.sectionHeader {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  height: 64px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  border-top-right-radius: 12px;
+}
+
+.sectionHeader {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 0px;
+}
+
+.classHeaderSectionName {
+  height: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--tm-kr-color-semantic-basic-110);
+}
+
+.classHeaderCalloutSection {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.classHeaderCalloutCard {
+  padding-right: 40px;
+}
+
+.borderBlue.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-info-100);
+}
+
+.borderYellow.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-warning-100);
+}
+
+.borderGreen.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-success-100);
+}
+
+.borderRed.higerSpeficity {
+  border-left: 3px solid var(--tm-kr-color-semantic-error-100);
+}
+
+.studentTile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 100%;
+  height: 72px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.sectionName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.studentDetailsShimmerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  overflow: hidden;
+}
+
+.studentProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 40%;
+  height: 48px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.studentAvatar {
+  height: 48px;
+  width: 480x;
+  padding: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.studentNameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.studentName {
+  font-weight: 900;
+}
+
+.studentPaidFee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 15%;
+  height: 48px;
+}
+
+.studentPaidFeeAmount {
+  color: var(--tm-kr-color-semantic-success-110);
+  font-weight: 900;
+}
+
+.studentDueFeeAmount {
+  color: var(--tm-kr-color-semantic-error-110);
+  font-weight: 900;
+}
+
+.studentDueFee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 15%;
+  height: 48px;
+}
+
+.studentActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  height: 48px;
+  align-items: center;
+}
+
+.studentMoreActionWrapper {
+  position: relative;
+  top: 12px;
+}
+
+.studentMoreActionIcon {
+  padding: 12px;
+  position: relative;
+  left: 0px;
+  cursor: pointer;
+}
+
+.dropdownContainer {
+  right: 0px;
+  top: 40px;
+  width: max-content;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--tm-kr-dropdown-options-padding);
+  background: var(--tm-kr-dropdown-options-background-color);
+  border: 1px solid var(--tm-kr-dropdown-options-border-color);
+  border-radius: var(--tm-kr-border-radius-m);
+  margin-top: var(--tm-kr-filter-button-margin-top);
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdownOption {
+  padding: var(--tm-kr-avatar-group-s-tooltip-padding);
+  width: 100%;
+  cursor: pointer;
+}
+.dropdownOption:hover {
+  background: var(--tm-kr-searchbar-dropdown-onhover-color);
+  color: var(--tm-kr-searchbar-dropdown-border-color);
+  border-radius: var(--tm-kr-tabgroup-secondary-border-radius);
+  font-weight: var(--tm-kr-filter-button-font-weight);
+}
+
+.studentListEmptyState {
+  width: 80%;
+  height: auto;
+  padding: 40px;
+}
+
+.studentListFilterEmptyState {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+.paidText,
+.dueText {
+  color: var(--tm-kr-color-semantic-basic-110);
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.additionalInfo {
+  font-style: italic;
+}
+
+.calloutContentWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+}
+.sectionInfo {
+  display: flex;
+}
+.dropdownClass {
+  width: 220px;
+}

@@ -1,0 +1,34 @@
+.wrapper {
+  margin-top: 20px;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerWrapper .reportButton .prefixIcon {
+  margin-right: var(--tm-kr-spacing-3xs);
+  font-size: var(--tm-kr-icon-size-4xs);
+  background: var(--tm-kr-color-primary-100);
+  padding: var(--tm-kr-spacing-5xs);
+  border-radius: var(--tm-kr-border-radius-s);
+}
+.headerWrapper .reportButton:hover .prefixIcon:before {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.headerWrapper .reportButton .prefixIcon:before {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+@media only screen and (min-width: 1024px) {
+  .headingCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reportButton {
+    padding: 0 var(--tm-kr-spacing-s);
+  }
+}

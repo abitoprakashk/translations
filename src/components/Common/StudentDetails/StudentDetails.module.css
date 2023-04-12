@@ -1,0 +1,209 @@
+.studentNameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.studentName {
+  font-weight: 900;
+}
+
+.studentInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  gap: 8px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.phoneNumber {
+  height: 20px;
+  display: flex;
+  gap: 4px;
+}
+
+.searchResultRow {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  width: 100%;
+  height: 72px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.studentProfile {
+  color: var(--tm-kr-color-semantic-basic-110);
+  cursor: pointer;
+}
+
+.studentProfileTh {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 30%;
+  height: 48px;
+  justify-content: center;
+}
+
+.parentDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 25%;
+  height: 48px;
+  justify-content: center;
+}
+
+.studentAvatar {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.studentPaidFee {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 10%;
+  height: 48px;
+  justify-content: center;
+}
+
+.studentPaidFeeAmount {
+  color: var(--tm-kr-color-semantic-success-110);
+  font-weight: 900;
+}
+
+.studentDueFeeAmount {
+  color: var(--tm-kr-color-semantic-info-110);
+  font-weight: 900;
+}
+
+.studentDueFee {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 10%;
+  height: 48px;
+  justify-content: center;
+}
+
+.studentClass {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 10%;
+  height: 48px;
+  justify-content: center;
+}
+
+.studentActions {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.sectionName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.studentMoreActionIcon {
+  padding: 12px;
+  position: relative;
+  left: 0px;
+  cursor: pointer;
+  line-height: 48px;
+}
+
+.searchResultsContainerMobile {
+  width: 100%;
+  padding: 12px 8px;
+  gap: 16px;
+  display: flex;
+  font-size: 14px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.searchResultsContainerProfileDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.searchResultsContainerPersonalDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchResultsContainerName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchResultsContainerStudentName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.searchResultsContainerDetails {
+  display: flex;
+  gap: 8px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.searchResultsContainerStats {
+  display: flex;
+  gap: 16px;
+}
+
+.searchResultsContainerStatInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchResultsContainerParentDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.searchResultsContainerParentDetailsTitle {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.searchResultsContainerParentDetailsName {
+  font-size: 12px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.resultTableSectionBorder {
+  box-shadow: 0 0 0 1px var(--tm-kr-table-border-color);
+  border-radius: var(--tm-kr-table-border-radius);
+}
+
+@media (max-width: 768px) {
+  .studentAvatar {
+    height: 48px;
+    width: 48px;
+    padding: 9px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    color: var(--tm-kr-color-base-light-100);
+    font-size: 20px;
+  }
+}

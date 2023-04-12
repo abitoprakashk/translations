@@ -1,0 +1,5 @@
+export const ONBOARDING_CARD_STATE = {
+  DISABLED: -1,
+  TODO: 0,
+  COMPLETED: 1,
+}

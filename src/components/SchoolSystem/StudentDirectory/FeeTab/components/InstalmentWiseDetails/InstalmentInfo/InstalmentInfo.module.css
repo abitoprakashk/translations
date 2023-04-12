@@ -1,0 +1,53 @@
+.headingSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headingTextSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fullyPaidParaSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.calloutSection {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.calloutSection > div {
+  flex: 1;
+}
+
+.borderGreen.higerSpeficity {
+  border-left: 3px solid var(--tm-color-green-3);
+}
+
+.borderRed.higerSpeficity {
+  border-left: 3px solid var(--tm-color-red-2);
+}
+
+.detailBtnSection {
+  margin-top: 20px;
+}
+
+.showHideText::first-letter {
+  text-transform: uppercase;
+}
+
+.badgeLabel {
+  text-transform: capitalize;
+}
+
+.borderColor {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}

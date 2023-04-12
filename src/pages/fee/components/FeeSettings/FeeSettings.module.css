@@ -1,0 +1,133 @@
+.mainClass {
+  box-shadow: 0px 3px 18px rgba(192, 201, 253, 0.16);
+  border-radius: 8px;
+  padding: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  margin-bottom: 1rem;
+}
+.communicationSettingHorizontalLine {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.settingsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.settingsSidebar {
+  width: 25%;
+}
+.settingsContiner {
+  width: 75%;
+}
+.settingsCategoryWrapper {
+  margin-top: 0.75rem;
+}
+.settingsHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+}
+.communicationSettingWrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.settingsHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+}
+
+.settingsHeaderImage {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.settingsHeaderImageContainer {
+  display: table;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--tm-color-light-green);
+  border-radius: 8px;
+}
+
+.settingsHeaderTitleWrapper {
+  padding-bottom: 1rem;
+}
+
+.settingsHeaderTitle {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.settingsHeaderDesc {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}
+
+@media only screen and (max-width: 640px) {
+  .settingsWrapper {
+    display: inline;
+    justify-content: center;
+  }
+  .settingsSidebar {
+    width: 100%;
+    padding: 1rem;
+    margin-left: 0;
+  }
+  .settingsContiner {
+    display: inline;
+    width: 100%;
+  }
+}
+
+.setup_card {
+  width: 100%;
+  background: var(--tm-color-white);
+  padding: 1rem;
+  position: relative;
+  display: flex;
+}
+
+.selected_card {
+  border: 1.5px solid var(--tm-color-blue);
+}
+
+.setup_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  padding: 1rem 1rem 0.5rem 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .setup_container {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+  }
+}
+
+.launchIcon {
+  margin-top: 2px;
+}
+
+.viewSampleWrapper {
+  min-width: max-content;
+}
+
+.toogleAccordionContainer {
+  border-radius: 0.5rem 0.5rem 0 0;
+}

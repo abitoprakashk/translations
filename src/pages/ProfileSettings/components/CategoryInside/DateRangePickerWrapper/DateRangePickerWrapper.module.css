@@ -1,0 +1,28 @@
+/* Date range part css */
+.dateRangePickerBlock {
+  margin-top: 20px;
+}
+.dateRangePickerBlock > div {
+  padding: 0px;
+}
+.dateRangePickerBlock > div > div input {
+  cursor: pointer;
+}
+.dateRangePickerBlock > div > div label {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  cursor: pointer;
+}
+.dateRangePickerBlock > div > div input:checked ~ label {
+  color: var(--tm-color-text-primary);
+}
+.dateRangeBlock {
+  margin-top: 20px;
+}
+.dateRangeLabel .labelText {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+.dateRangeLabel .endLimitTitle {
+  margin-left: 140px;
+}

@@ -1,0 +1,54 @@
+.label {
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.labelFrom {
+  width: 12rem;
+}
+.labelTo {
+  width: 15rem;
+}
+.labelAmount {
+  width: 9rem;
+}
+
+.marginX {
+  margin: 0px 25px;
+}
+
+.dashCell {
+  text-align: center;
+}
+
+.commonInputWrapper {
+  padding: 0px;
+}
+
+.deleteIcon {
+  align-items: center;
+  height: 40px;
+  width: 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.addMoreType {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: var(--tm-color-bl-2);
+  cursor: pointer;
+  width: 10%;
+}
+
+.slotWiseTable {
+  margin-bottom: 10px;
+}
+
+.slotWiseTable > tbody > tr {
+  border: none;
+}

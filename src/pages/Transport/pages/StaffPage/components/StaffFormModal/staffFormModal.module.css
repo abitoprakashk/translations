@@ -1,0 +1,16 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-m);
+  padding: var(--tm-kr-spacing-s) 0px;
+}
+
+.staffCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.addStaffButton {
+  align-self: flex-start;
+}

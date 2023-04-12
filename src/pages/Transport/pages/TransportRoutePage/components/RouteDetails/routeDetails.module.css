@@ -1,0 +1,42 @@
+.card {
+  border: none;
+  padding: 0px;
+  padding-top: var(--tm-kr-spacing-xs);
+}
+
+.alertWrapper {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.form {
+  display: grid;
+  gap: var(--tm-kr-spacing-xs);
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteIconFrame {
+  cursor: pointer;
+}
+
+.routeBadge {
+  background: var(--tm-kr-color-pastels-biloba-100);
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.wrapperClass,
+.dropdownClass,
+.optionsClass {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+
+.optionsClass > div {
+  top: 0;
+  overflow: scroll;
+}

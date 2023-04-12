@@ -1,0 +1,86 @@
+.sliderBody {
+  padding-bottom: 2.5rem;
+  padding-top: 1.25rem;
+  height: 80%;
+  overflow-y: auto;
+  margin-bottom: 1.5rem;
+}
+.sliderBodyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.standardNameContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  height: 6rem;
+  border: 1px solid var(--tm-color-light-gray);
+}
+
+.standardName {
+  font-size: 24px;
+  line-height: var(--tm-line-height-1);
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+}
+
+.classTitle {
+  font-size: 14px;
+  line-height: var(--tm-line-height-2);
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+
+.tabContainer {
+  margin-top: 1.5rem;
+}
+
+.sectionContainer {
+  margin-top: 1rem;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+}
+.icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.25rem;
+}
+.statsContainer {
+  font-size: 14px;
+  line-height: var(--tm-line-height-2);
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+}
+
+.progressBarContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tableContainer {
+  margin-top: 1.5rem;
+}
+.emptyScreenContainer {
+  margin-top: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .sliderBody {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

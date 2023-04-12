@@ -1,0 +1,106 @@
+.bodyContent {
+  display: flex;
+  height: 100%;
+}
+
+.formContent {
+  width: 542px;
+  padding: var(--tm-kr-spacing-s);
+  height: fit-content;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.titleContainer {
+  display: flex;
+  margin-bottom: var(--tm-kr-input-title-margin-bottom);
+  color: var(--tm-kr-input-title-color);
+  font-size: var(--tm-kr-input-title-mobile-font-size);
+  line-height: var(--tm-kr-input-title-mobile-font-height);
+  font-weight: var(--tm-kr-input-title-font-weight);
+}
+
+.sessionAlert.widthFitContent {
+  width: 100%;
+  padding: 12px;
+}
+
+.sessionAlert > div {
+  align-items: center;
+}
+
+.sessionAlert p {
+  margin-left: 5px;
+}
+
+.leadStages {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.leadStage {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.defaultStage {
+  height: 44px;
+  display: flex;
+  padding-left: 14px;
+  align-items: center;
+  border-radius: var(--tm-kr-spacing-2xs);
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.addStageDivision {
+  display: flex;
+  flex-direction: row;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+
+.noDivision {
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.editableSection {
+  display: flex;
+}
+
+.editableSection > div:nth-child(odd) {
+  flex-grow: 1;
+}
+
+.editableSection > div:nth-child(even) {
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  height: fit-content;
+  margin-left: var(--tm-kr-spacing-xs);
+  margin-top: 30px;
+}
+
+.addStageDivision:before,
+.addStageDivision:after {
+  content: '';
+  flex: 1 1;
+  border-bottom: 1px dashed var(--tm-kr-color-neutrals-grey-40);
+  margin: auto;
+}
+
+.addStageDivision > button {
+  width: 110px;
+}
+
+.addStageDivision > button:before {
+  margin-right: 5px;
+}
+
+.addStageDivision > button:after {
+  margin-left: 5px;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+  .titleContainer {
+    font-size: var(--tm-kr-input-title-laptop-font-size);
+  }
+}

@@ -1,0 +1,12 @@
+.popupTextContainer {
+  padding: 12px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.popupTextContainer {
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,6 @@
+.mainTitleText {
+  color: var(--tm-color-text-primary);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 36px;
+}

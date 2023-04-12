@@ -1,0 +1,85 @@
+.dropbox {
+  background-color: var(--tm-kr-color-pastels-morningGlory-10);
+  border: 1px dashed var(--tm-kr-color-pastels-morningGlory-100);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--tm-kr-spacing-5xs);
+}
+
+.uploadedFile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-3xs);
+  border: 1px dashed var(--tm-kr-color-pastels-morningGlory-100);
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputLabel {
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.iconHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: var(--tm-kr-border-radius-l);
+  background-color: var(--tm-kr-color-pastels-morningGlory-50);
+}
+
+.description {
+  display: flex;
+  gap: var(--tm-kr-spacing-5xs);
+  align-items: baseline;
+}
+
+.downloadSampleCSVButtonLabel {
+  font-size: var(--tm-kr-spacing-xs);
+}
+
+.sampleCSV {
+  margin-top: var(--tm-kr-spacing-xs);
+  display: flex;
+  gap: var(--tm-kr-spacing-5xs);
+}
+
+.hidden {
+  display: None;
+}
+
+.helperTextHeading {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.helperTextRowsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.helperTextrow {
+  display: flex;
+  gap: var(--tm-kr-spacing-5xs);
+  align-items: center;
+}
+
+.hideInMobile {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hideInMobile {
+    display: unset;
+  }
+  .hideInLaptop {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.iconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.marginBottom {
+  margin-bottom: 8px;
+}
+
+.modalSection {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.margin6px {
+  margin: 6px;
+}
+
+.feeTypeRow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.feeTypeRowDeleteIcon {
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  max-height: 500px;
+  height: 100%;
+}
+
+.alertMarginTop {
+  margin-top: 38px;
+}
+
+.footerMessage {
+  color: var(--tm-kr-color-semantic-error-110);
+}

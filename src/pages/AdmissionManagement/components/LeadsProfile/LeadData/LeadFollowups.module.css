@@ -1,0 +1,54 @@
+.content {
+  padding: 0;
+}
+
+.modalTable {
+  width: 960px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.modalTable > div > div:nth-child(2) {
+  display: none;
+}
+
+.content > table {
+  margin-top: 0px;
+}
+
+.headers {
+  z-index: 100;
+}
+
+.tableDateColumn {
+  margin-left: 30px;
+  width: 156px;
+}
+
+.tableTimeColumn {
+  width: 156px;
+}
+
+.tableCreatorColumn {
+  width: 174px;
+  text-transform: capitalize;
+}
+
+.dateColumnStyle {
+  margin-left: 30px;
+}
+
+.tableNoteColumn {
+  line-height: 20px;
+  width: 320px;
+}
+
+.DateTimeColumn {
+  margin-top: 4px;
+}
+
+.badgeStyling {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+}

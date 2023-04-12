@@ -1,0 +1,39 @@
+.messageTextarea,
+.pollQuestionTextarea {
+  background: var(--tm-bg-light-blue);
+  border: 1px solid var(--tm-color-gy-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  position: relative;
+}
+.messageTextarea {
+  height: 180px;
+}
+.messageBody {
+  width: 100%;
+  background: var(--tm-bg-light-blue);
+}
+.messageTextareaSection {
+  width: 100%;
+}
+.messageTextarea textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+.messageLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-secondary);
+  margin-bottom: 12px;
+}
+.voiceRecorder {
+  position: relative;
+}

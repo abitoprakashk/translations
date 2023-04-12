@@ -1,0 +1,9 @@
+.closeIcon {
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sliderCard {
+    width: 100% !important;
+  }
+}

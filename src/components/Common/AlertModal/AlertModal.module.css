@@ -1,0 +1,37 @@
+.modal {
+  height: fit-content;
+  border-radius: var(--tm-kr-border-radius-l);
+  z-index: 120;
+}
+
+.modalHeader {
+  padding: 0 20px;
+  height: var(--tm-kr-popup-header-height);
+}
+
+.modalHeader > div > h4 {
+  font-size: var(--tm-kr-heading-laptop-font-size-xs); /*18px*/
+}
+
+.textWrapper {
+  padding-top: var(--tm-kr-spacing-s); /*20px*/
+  padding-bottom: var(--tm-kr-spacing-s); /*20px*/
+}
+
+.footerSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px var(--tm-kr-spacing-s) var(--tm-kr-spacing-s)
+    var(--tm-kr-spacing-s); /*20px*/
+  gap: 12px;
+}
+
+.button {
+  width: 140px;
+}
+
+.textPara {
+  color: var(--tm-kr-color-neutrals-grey-100);
+}

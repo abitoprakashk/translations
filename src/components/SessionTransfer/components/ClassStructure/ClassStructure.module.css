@@ -1,0 +1,81 @@
+.accordionHeader {
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: 20px;
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--tm-kr-spacing-4xs);
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.deptAccordionBody {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-xs);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.emptyAccordion {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  padding: var(--tm-kr-spacing-xs);
+  border-radius: var(--tm-border-radius-card-2);
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: 20px;
+}
+
+.classContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--tm-kr-spacing-xs);
+}
+
+.classDetails {
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: 20px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: var(--tm-kr-spacing-2xs);
+  align-items: baseline;
+}
+
+.textEllipses {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.section {
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-2xs);
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.sessionLabel {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: var(--tm-font-weight-semi-bold);
+  display: flex;
+  column-gap: var(--tm-kr-spacing-5xs);
+}
+
+.contentTitle {
+  font-weight: var(--tm-font-weight-semi-bold);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,83 @@
+.sliderFormCueText {
+  color: var(--tm-color-success);
+  padding: 16px;
+  font-size: 14px;
+}
+
+.middleLastName {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.classInfo {
+  display: grid;
+}
+
+.showOptional {
+  cursor: pointer;
+  color: var(--tm-color-bl-2);
+  float: left;
+  margin: 10px;
+}
+
+.hideOptional {
+  cursor: pointer;
+  color: var(--tm-color-bl-2);
+  margin: 10px;
+  width: 200px;
+}
+
+.phoneWrapper {
+  position: relative;
+}
+.userRole {
+  width: 500px;
+  max-width: 100%;
+}
+
+.userRoleInput {
+  width: 500px;
+  max-width: 100%;
+}
+
+.addManually {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+.noBorder {
+  border: none;
+}
+
+.enrollmentIdWrapper {
+  padding-right: 30px;
+}
+
+@media (min-width: 1024px) {
+  .mobileEmail {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+
+  .classInfo {
+    grid-template-columns: repeat(3, 33.33%);
+  }
+
+  .name {
+    display: grid;
+    grid-template-columns: 33.33% auto;
+  }
+
+  .dob {
+    display: grid;
+    grid-template-columns: 33.33% auto;
+  }
+
+  .bloodGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+}

@@ -1,0 +1,190 @@
+.container {
+  margin: 10px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.buttonClass1 {
+  border-radius: 5px;
+}
+
+.buttonClass2 {
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.testClass {
+  border-top: var(--tm-border-width-1) solid var(--tm-color-gy-3);
+}
+
+.headData {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subData {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}
+
+.inProcess {
+  display: flex;
+}
+
+.displaytext {
+  margin-left: 10px;
+}
+
+.progress {
+  font-size: 16px;
+  color: var(--tm-color-green);
+}
+
+.subText {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+}
+
+.moreInfo {
+  font-size: 16px;
+  color: var(--tm-color-mid-orenge);
+}
+
+.addInfo {
+  background-color: var(--tm-color-light-orange);
+  justify-content: space-between;
+  border-radius: 8px;
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.uploadData {
+  list-style-type: decimal;
+  color: var(--tm-color-orange);
+  font-size: 16px;
+}
+
+.sucessStatus {
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+}
+
+.failStatus {
+  background-color: var(--tm-color-light-red);
+  border-radius: 8px;
+}
+
+.failData {
+  list-style-type: decimal;
+  color: var(--tm-color-dark-red);
+  font-size: 16px;
+}
+
+.failText {
+  color: var(--tm-color-red);
+  font-size: 16px;
+}
+
+.portalLinkData {
+  color: var(--tm-color-blue);
+  font-weight: 600;
+}
+
+.emailLinkData {
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+}
+
+.easeBuzzData {
+  background-color: var(--tm-color-light-green);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoSetting {
+  display: flex;
+}
+
+.diplayData {
+  margin-right: 20px;
+}
+
+.apiKey {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--tm-color-text-primary);
+}
+
+.apiKeyText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.vl {
+  border-left: 1px solid var(--tm-color-text-secondary);
+  height: 50px;
+  width: 1px;
+}
+
+.editClass {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+}
+
+.mainClass {
+  box-shadow: 0px 3px 18px rgba(192, 201, 253, 0.16);
+  border-radius: 8px;
+  padding: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  margin-bottom: 1rem;
+}
+
+.subclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.mt5 {
+  margin-top: 1.25rem;
+}
+
+.gatewayName {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pgClass {
+  margin-top: 5px;
+}
+
+.img {
+  width: 140px;
+  max-height: 50px;
+}
+
+.addNewBtn {
+  height: 44px;
+}
+
+.teachPayButton {
+  width: 252px;
+  height: 44px;
+}

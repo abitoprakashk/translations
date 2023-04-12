@@ -1,0 +1,67 @@
+.flex {
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.flex .btn {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-color: var(--tm-kr-color-neutrals-grey-20);
+  white-space: nowrap;
+}
+
+.btn > div {
+  color: var(--tm-kr-color-neutrals-grey-70) !important;
+}
+
+.btn:not(:disabled):hover > div {
+  color: var(--tm-kr-color-neutrals-grey-10) !important;
+}
+
+.btn:disabled:hover > div {
+  color: var(--tm-kr-button-label-icon-filled-color) !important;
+}
+
+.flex .mobileBtn {
+  padding: var(--tm-kr-spacing-3xs);
+  flex-grow: 1;
+}
+
+.markAllCheckbox {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  font-size: 14px;
+  line-height: 44px;
+
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.marginLeftAuto {
+  margin-left: auto;
+}
+
+.checkbox > span::after {
+  box-sizing: content-box;
+}
+
+.viewTypeFilterBlock .btn:hover,
+.viewTypeFilterBlock .btn:active {
+  background-color: var(--tm-kr-button-primary-hover-color);
+  border-color: var(--tm-kr-button-primary-hover-color);
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    gap: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-3xs);
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .markAllCheckboxWrapper {
+    width: 100%;
+  }
+}

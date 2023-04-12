@@ -1,0 +1,5 @@
+.flexGrow {
+  flex-grow: 1;
+  position: relative;
+  min-height: calc(100vh - 97px - 30px - var(--tm-header-height));
+}

@@ -1,0 +1,116 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--tm-kr-spacing-s); /*20px*/
+}
+
+.paymentAlreadyDoneInfo {
+  margin-top: var(--tm-kr-spacing-l); /*32px*/
+  color: var(--tm-kr-color-semantic-basic-110);
+}
+
+.deleteHeadingAndDownloadCsvSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--tm-kr-spacing-l);
+}
+
+.deleteHeadingSec {
+  max-width: 65%;
+}
+
+.downloadCsvBtnTxtAndIconSec {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.calloutCardSection {
+  display: flex;
+  gap: 20px;
+}
+
+.calloutInfoSection {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.calloutHeadingText {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.alertModalSection {
+  z-index: 101;
+  position: fixed;
+}
+.positionRelativeForToast {
+  position: relative;
+}
+
+.toastSection {
+  position: absolute;
+  right: 20px;
+}
+.secondSection {
+  margin-top: 28px;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.secondContentSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 43px;
+}
+.secondSectionIcon {
+  margin-bottom: 23px;
+}
+.secondSectionHeadingDiv {
+  margin-bottom: 23px;
+}
+.footerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+  position: relative;
+}
+
+div.positionAbsolute {
+  position: absolute;
+}
+.buttonLoadingSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+div.buttonLoading {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.2em solid rgba(0, 0, 0, 0.2);
+  border-left: 0.2em solid var(--tm-kr-color-base-light-100);
+  border-radius: 50%;
+  position: initial;
+}
+
+.downloadCsvAfterTable {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 13px;
+  margin-bottom: 8px;
+}
+
+div.stepperDesc {
+  display: none;
+}
+
+div.summaryInfoDefaultBorder {
+  border-color: var(--tm-kr-color-neutrals-grey-40);
+}

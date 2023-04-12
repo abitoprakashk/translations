@@ -1,0 +1,52 @@
+.languageSettingHorizontalLine {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.preferrence_settings_container {
+  display: grid;
+  width: 100%;
+  padding: 1rem 1rem 0.5rem 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.preferrence_settings_card {
+  width: 100%;
+  background: var(--tm-color-white);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 230px;
+  padding-right: 80px;
+  box-shadow: none;
+}
+.divider_line {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .preferrence_settings_container {
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .preferrence_settings_card {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    padding: 1rem;
+  }
+
+  .divider_line {
+    display: block;
+  }
+}
+
+.label {
+  font-weight: normal;
+}

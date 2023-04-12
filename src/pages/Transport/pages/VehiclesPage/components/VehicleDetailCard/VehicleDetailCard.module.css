@@ -1,0 +1,125 @@
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  padding: var(--tm-kr-spacing-s);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+  max-width: 51%;
+}
+
+/* Badge */
+.badge {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+.green {
+  background-color: var(--tm-kr-color-semantic-success-100);
+}
+.grey {
+  background-color: var(--tm-kr-color-neutrals-grey-60);
+}
+
+/* Kebab Menu */
+.kebabMenuIconFrame {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+/* Route Details */
+.routeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 100%;
+  height: 222px;
+  padding: 0px;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+/* Route not assigned  */
+.notAssignedText {
+  margin-top: var(--tm-kr-spacing-4xs);
+}
+
+/* Route assigned */
+.routeDetail {
+  width: 100%;
+  height: 142px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-m);
+}
+.routeNameBadge {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.staffDetail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-2xs);
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-l);
+}
+.staffDetailShowMorePara {
+  display: inline-block;
+}
+.dotSeparator {
+  min-width: 20px;
+  text-align: center;
+  color: var(--tm-kr-color-neutrals-grey-50);
+  font-weight: 900;
+  position: relative;
+  top: -6px;
+}
+.vehicleNameWrapper {
+  display: flex;
+}
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+.staffDetailsTooltipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.deletePopupDescription {
+  padding-top: var(--tm-kr-spacing-s);
+  padding-bottom: var(--tm-kr-spacing-2xs);
+}
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+@media only screen and (min-width: 1170px) {
+  .headerContent {
+    max-width: 61%;
+  }
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}

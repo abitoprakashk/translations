@@ -1,0 +1,5 @@
+.notMarked {
+  background: var(--tm-kr-color-neutrals-grey-50) !important;
+  color: var(--tm-kr-color-neutrals-grey-10);
+  font-size: var(--tm-kr-para-font-size-m);
+}

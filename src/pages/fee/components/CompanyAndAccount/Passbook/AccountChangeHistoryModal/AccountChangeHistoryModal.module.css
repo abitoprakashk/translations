@@ -1,0 +1,31 @@
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.historyCard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentText {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.boldText {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.emptyStateWrapperCenter {
+  height: 100%;
+  justify-content: center;
+  margin-top: 0px;
+}

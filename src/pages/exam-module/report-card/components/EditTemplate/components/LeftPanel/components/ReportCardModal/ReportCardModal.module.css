@@ -1,0 +1,10 @@
+.content {
+  padding: 0 var(--tm-kr-spacing-s);
+  overflow-x: hidden;
+}
+
+.infoPara {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

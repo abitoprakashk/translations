@@ -1,0 +1,77 @@
+.dropDownWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  border-radius: 12px;
+}
+.heirarchyWrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  margin: var(--tm-kr-spacing-2xs) 0;
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+}
+.userTypeBox {
+  width: 100%;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  font-size: 12px;
+  color: var(--tm-kr-color-neutrals-grey-70);
+  border-radius: 12px;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.selectUserType {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+  padding: var(--tm-kr-spacing-s);
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.birthdayInfo {
+  display: flex;
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-s);
+}
+
+.infoIcon {
+  margin-right: var(--tm-kr-spacing-4xs);
+}
+
+.checkboxWrapper {
+  display: flex;
+  flex-grow: 1;
+  gap: 48px;
+}
+
+.chipsContainer {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  row-gap: var(--tm-kr-spacing-4xs);
+}
+
+.para {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.recipientsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.alert {
+  width: 100%;
+  font-weight: 500;
+  margin: var(--tm-kr-spacing-2xs) 0;
+}

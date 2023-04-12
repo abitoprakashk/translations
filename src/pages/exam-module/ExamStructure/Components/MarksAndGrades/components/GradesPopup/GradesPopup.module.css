@@ -1,0 +1,63 @@
+.modalWrapper {
+  width: 1086px;
+  height: 90vh;
+  position: relative;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 24px;
+  height: 80px;
+  color: var(--tm-color-bl-1);
+  padding: var(--tm-kr-spacing-s);
+  border-bottom: 1px solid var(--tm-color-gy-2);
+}
+
+.closeIcon {
+  float: right;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  height: calc(90vh - 250px);
+  grid-template-columns: 55% 45%;
+  overflow-y: hidden;
+}
+
+.gradeInputs {
+  padding: var(--tm-kr-spacing-s);
+  border-right: 1px solid var(--tm-color-gy-2);
+}
+
+.options {
+  padding: 20px 48px;
+  overflow-y: scroll;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  background-color: var(--tm-color-wh-1);
+  border-top: 1px solid var(--tm-color-gy-2);
+}
+
+.saveButton {
+  position: absolute;
+  width: 134px;
+  height: 40px;
+  right: 20px;
+  bottom: 10px;
+
+  border-radius: 6px;
+}
+
+.errorMsg {
+  float: right;
+  font-size: 12px;
+  margin-right: 170px;
+  margin-top: 20px;
+  color: var(--tm-color-rd-1);
+}

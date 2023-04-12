@@ -1,0 +1,45 @@
+.phoneNumber {
+  margin-bottom: 6px;
+}
+
+.divider {
+  padding: var(--tm-kr-spacing-s) 0px;
+}
+
+.subHeading {
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.hideDivider {
+  padding: var(--tm-kr-spacing-s) 0px;
+  display: none;
+}
+
+.marginForCalendar {
+  margin-top: var(--tm-kr-spacing-l);
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.downloadCSVButton {
+  margin-top: var(--tm-kr-spacing-s);
+  margin-right: var(--tm-kr-spacing-s);
+  width: fit-content;
+  padding: var(--tm-kr-spacing-3xs) var(--tm-kr-spacing-s);
+}
+
+.mainWrapper {
+  position: relative;
+  /* bottom: var(--tm-kr-spacing-2xs); */
+}
+
+.marginLeft {
+  padding: 0px var(--tm-kr-spacing-4xs);
+  position: relative;
+  bottom: 1px;
+}

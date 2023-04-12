@@ -1,0 +1,16 @@
+.wrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+.heading {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.rowsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.row {
+  display: flex;
+  gap: var(--tm-kr-spacing-5xs);
+  align-items: center;
+}

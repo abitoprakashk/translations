@@ -1,0 +1,37 @@
+.outerCard {
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.contentWrapper {
+  width: calc(100% - 200px);
+  padding: var(--tm-kr-spacing-s);
+}
+
+.statsWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+}
+
+.statsItem {
+  border: unset;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-4xs);
+}
+.statsItem1 {
+  background-color: var(--tm-kr-color-semantic-info-10);
+}
+.statsItem2 {
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+}
+.statsItem3 {
+  background-color: var(--tm-kr-color-pastels-calico-10);
+}
+.statsItem4 {
+  background-color: var(--tm-kr-color-pastels-seaPink-10);
+}

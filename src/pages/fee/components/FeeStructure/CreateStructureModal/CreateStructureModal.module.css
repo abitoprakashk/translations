@@ -1,0 +1,82 @@
+.specificity.modalWidth {
+  width: 40%;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 0rem;
+}
+
+.modalTitle,
+.structureTitle {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: var(--tm-font-weight-medium);
+  color: var(--tm-color-text-primary);
+}
+
+.modalBody {
+  padding-bottom: 1rem;
+}
+
+.structureSection {
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.structureContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.structureDescription {
+  color: var(--tm-color-text-secondary);
+}
+
+.roundedIcon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--tm-color-white);
+}
+
+.closeModal {
+  cursor: pointer;
+}
+
+.feeCategoryAddFeeType {
+  background-color: var(--tm-bg-textarea-grey);
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+  max-height: fit-content;
+  height: auto;
+  padding: 10px;
+}
+
+.feeCategoryAddFeeTypeIcon {
+  width: 100px;
+  background: var(--tm-bg-textarea-grey);
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.imgData {
+  max-width: unset;
+  height: unset;
+  width: 50px;
+}

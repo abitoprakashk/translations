@@ -1,0 +1,55 @@
+.container {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.paddingBottom {
+  padding-bottom: 150px;
+}
+
+.section {
+  display: flex;
+  color: var(--tm-color-text-primary);
+}
+
+.section:not(:first-child) {
+  padding-top: 30px;
+}
+
+.sectionNo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 50%;
+  background: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+}
+
+.sectionLabel {
+  margin-left: 10px;
+}
+
+.basicDetails {
+  margin-top: 30px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.formGroup {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}
+
+.inputWrapper {
+  padding: 0px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

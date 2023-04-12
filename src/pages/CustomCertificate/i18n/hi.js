@@ -1,0 +1,67 @@
+export const CustomCertificateHi = {
+  //use as customCertificate.key
+  saveTemplate: 'टेम्पलेट सेव करें',
+  updateTemplate: 'टेम्पलेट अपडेट करें',
+  previewTemplate: 'टेम्पलेट को प्रीव्यू करें',
+  createTemplateHeading: '{{type}} टेम्पलेट बनाएं',
+  editTemplateHeading: '{{type}} टेम्पलेट में बदलाव करें',
+  templateSavedHeader: 'नया टेम्पलेट सफलतापूर्वक बना दिया गया है',
+  templateSavedContent:
+    'इस टेम्पलेट के साथ सर्टिफिकेट/डॉक्यूमेंट जारी करने के लिए, स्टूडेंट(स्टूडेंट्स) चुनें और तैयार करें पर क्लिक करें',
+  docsAndCertificatesHeading: 'सर्टिफिकेट और डॉक्यूमेंट',
+  docsAndCertificatesSubHeading:
+    'अपने स्टूडेंट और स्टाफ के लिए सर्टिफिकेट और डॉक्यूमेंट बनाएं, कस्टमाइज़ करें और तैयार करें',
+  createNew: 'नया टेम्पलेट बनाएं',
+  documentsTemplate: 'मेरा टेम्पलेट',
+  certificateTemplate: 'सर्टिफिकेट टेम्पलेट',
+  documentsTemplates: 'मेरे टेम्पलेट',
+  certificateTemplates: 'डिफ़ॉल्ट टेम्पलेट',
+  certificateTemplatePageSubHeading:
+    'उस सर्टिफिकेट के लिए टेम्प्लेट चुनें जिसे आप तैयार करना चाहते हैं',
+  documentTemplatePageSubHeading:
+    'उस डॉक्यूमेंट के लिए टेम्प्लेट चुनें जिसे आप तैयार करना चाहते हैं ',
+  documentArchive: 'टेम्पलेट आर्काइव',
+  certificateArchive: 'सर्टिफिकेट आर्काइव',
+  editTemplate: 'टेम्पलेट में बदलाव करें',
+  downloadTemplate: 'टेम्पलेट डाउनलोड करें',
+  archiveTemplate: 'टेम्पलेट को आर्काइव करें',
+  unarchiveTemplate: 'टेम्पलेट को अनआर्काइव करें',
+  startCreating: 'बनाना शुरू करें',
+  archiveSuccess: 'टेम्पलेट सफलतापूर्वक आर्काइव कर दिया गया है',
+  unArchiveSuccess: 'टेम्पलेट सफलतापूर्वक अनआर्काइव कर दिया गया है',
+  confirmChanges: 'बदलाव कन्फर्म करें',
+  confirmDeleteDesc: 'किए गए सभी बदलाव हटा दिए जाएंगे',
+  addMoreImages: 'और फोटो नहीं डाल सकते हैं',
+  imageLimitExceeded:
+    'आप केवल {{count}} तक फोटो डाल सकते हैं। एक नई फोटो डालने के लिए पहले पिछली फोटो को हटा दें',
+  userListSubHead:
+    '{{userType}} चुनें जिसके लिए आप सर्टिफिकेट तैयार करना चाहते हैं',
+  bulkDownload: 'बल्क डाउनलोड',
+  fillDetails: '{{type}} पूरा करने के लिए विवरण डालें',
+  fillDetailsAlert: 'कृपया चेक करें और खाली फील्ड भरें',
+  generate: 'तैयार करें',
+  generatedSuccess: 'सफलतापूर्वक तैयार कर दिया गया है',
+  generatedSuccessBody:
+    'इस सर्टिफिकेट को जारी करने के लिए आप डाउनलोड और प्रिंट कर सकते हैं',
+  certificateDocument: 'सर्टिफिकेट/डॉक्यूमेंट का नाम',
+  generatedBy: 'के द्वारा तैयार किया गया',
+  recentlyGenerated: 'हाल ही में तैयार किए गए सर्टिफिकेट और डॉक्यूमेंट ',
+  regenerate: 'दोबारा तैयार करें',
+  recenteCertificate: 'हाल ही में तैयार किए गए',
+  backToEditing: 'बदलाव करने पर वापस जाएं',
+  issueCertificate: 'सर्टिफिकेट जारी करें',
+  oldCertificate: 'पुराने सर्टिफिकेट देखने के लिए',
+  previewAndSave: 'प्रीव्यू करें और सेव करें',
+  previewAndUpdate: 'प्रीव्यू करें और अपडेट करें',
+  saveAsNew: 'नए के तौर पर सेव करें',
+  exitWithoutSaving: 'टेम्पलेट सेव किए बिना एग्जिट करें?',
+  exitSubText:
+    'ऐसा करने से आप टेम्प्लेट में विवरण सेव किए बिना चुने गए पेज पर चले जाएंगे।',
+  savedSuccessHeader: 'टेम्पलेट सफलतापूर्वक सेव कर दिया गया है',
+  savedSuccessSub:
+    'इस टेम्पलेट के साथ सर्टिफिकेट/डॉक्यूमेंट जारी करने के लिए, स्टूडेंट चुनें और तैयार करें पर क्लिक करें',
+  selectStudents: 'स्टूडेंट चुनें',
+  selectStaff: 'स्टाफ चुनें',
+  goBack: 'वापस लिस्टिंग पेज पर जाएं',
+  inactiveFields: 'कुछ फील्ड इनेक्टिव हैं, कृपया टेम्पलेट में बदलाव करें',
+}

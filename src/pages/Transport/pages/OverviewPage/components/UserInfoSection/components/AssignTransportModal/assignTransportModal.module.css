@@ -1,0 +1,37 @@
+.addressCard {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  display: flex;
+  gap: var(--tm-kr-spacing-xs);
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.bottomWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.inputsWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.inputsWrapper > div {
+  width: 240px;
+}
+
+.optionsClass > div {
+  top: 0;
+  overflow: scroll;
+}
+
+.imgCard {
+  border: none;
+  height: 76px;
+  width: 76px;
+}
+
+.addressCard {
+  display: flex;
+}

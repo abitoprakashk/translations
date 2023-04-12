@@ -1,0 +1,27 @@
+.stepsSection {
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+.stepDiv {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--tm-kr-color-neutrals-grey-70);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: var(--tm-kr-spacing-4xs);
+}
+
+.fontWeight500 {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+
+.font14 {
+  font-size: var(--tm-kr-para-font-size-l);
+}

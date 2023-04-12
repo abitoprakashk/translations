@@ -1,0 +1,46 @@
+.section {
+  padding: 20px;
+  overflow-y: auto;
+  height: 82vh;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.radius12 {
+  border-radius: 12px;
+}
+
+.headingIconSection {
+  gap: 10px;
+}
+
+.iconFrameBg {
+  background-color: var(--tm-kr-color-pastels-fringy-100);
+}
+
+.alertBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textRed {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.textGreen {
+  color: var(--tm-kr-color-semantic-success-100);
+}

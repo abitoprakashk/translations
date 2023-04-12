@@ -1,0 +1,86 @@
+.categoryList {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 0px 24px;
+  gap: 24px;
+  padding-top: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.addNewCategoryButton {
+  width: 100%;
+  background-color: var(--tm-color-white);
+  color: var(--tm-color-blue);
+}
+
+.formHeading {
+  min-width: 213px;
+  height: 26px;
+  position: relative;
+  left: 40px;
+  top: 27px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-primary);
+}
+
+.formTop {
+  height: 80px;
+  top: 0px;
+  background: var(--tm-bg-textarea-grey);
+  border-top-left-radius: 24px;
+}
+
+.doneButtonWrapper {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  bottom: 0px;
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-color-off-white);
+  box-shadow: 0px -1px 12px rgba(157, 182, 217, 0.1);
+  border-radius: 0px 0px 0px 24px;
+  padding: 16px 40px;
+}
+
+.doneButton {
+  width: 100%;
+}
+
+.addCategoryFormWrapper {
+  overflow: scroll;
+  height: calc(100vh - 165px);
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirmBoxWrapper > div {
+  position: absolute;
+  left: -60vw;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 1024px) {
+  .addCategoryFormWrapper {
+    height: calc(60vh - 165px);
+  }
+
+  .confirmBoxWrapper > div {
+    position: absolute;
+    top: -40vh;
+    left: 0;
+    z-index: 1000;
+  }
+}

@@ -1,0 +1,15 @@
+.headerColumn {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  padding: 14px 20px;
+}
+
+.headerRowWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: var(--tm-color-white);
+}

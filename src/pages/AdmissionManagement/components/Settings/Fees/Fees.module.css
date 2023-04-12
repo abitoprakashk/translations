@@ -1,0 +1,52 @@
+.pgCardLoader {
+  margin: var(--tm-kr-spacing-s);
+  padding: var(--tm-kr-spacing-s);
+  margin-bottom: 0px;
+}
+
+.cardWrapper .pgCard {
+  margin: var(--tm-kr-spacing-s);
+  width: auto;
+  height: 80px;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.cardWrapper .configuredCard {
+  background: var(--tm-kr-color-semantic-success-10);
+}
+
+.cardWrapper .notConfiguredCard {
+  background: var(--tm-kr-color-semantic-warning-10);
+}
+
+.pgCardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pgCardDetails {
+  display: flex;
+}
+
+.pgCardDetails > div:nth-child(2) {
+  margin-left: 12px;
+}
+
+.formContent {
+  display: flex;
+  margin: var(--tm-kr-spacing-s);
+  margin-top: 0px;
+}
+
+.formContent > div:first-child {
+  height: fit-content;
+}
+
+.stepperContent {
+  margin-left: var(--tm-kr-spacing-s);
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

@@ -1,0 +1,48 @@
+.modal {
+  height: 534px;
+}
+
+.content {
+  padding: var(--tm-kr-spacing-m);
+}
+
+.smsBodyContainer {
+  background-color: var(--tm-kr-color-base-dark-100);
+  border-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-l) var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-l);
+  white-space: pre-line;
+}
+.smsBodyContainer p {
+  color: white;
+}
+
+.invoiceCard {
+  padding: 0;
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.balanceDisplayContainer {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-m);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.accordionHeader {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--tm-kr-border-radius-l);
+  border-bottom-right-radius: var(--tm-kr-border-radius-l);
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-s);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-40);
+}
+
+.accordionBody {
+  padding: 0 var(--tm-kr-spacing-s) var(--tm-kr-spacing-2xs)
+    var(--tm-kr-spacing-s);
+}

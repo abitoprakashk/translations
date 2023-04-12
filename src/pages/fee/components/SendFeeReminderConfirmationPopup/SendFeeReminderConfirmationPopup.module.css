@@ -1,0 +1,70 @@
+.reminderIconClass.reminderIconClassHigherSpecificity {
+  width: 100px;
+  height: 100px;
+}
+
+.confirmationPopupIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: var(--tm-color-light-green);
+  border-radius: 50%;
+}
+
+.sendReminderPopupSubtitleStudentCount {
+  display: inline-block;
+  font-weight: bold;
+  color: var(--tm-color-text-primary);
+}
+
+.styleBgData {
+  background-color: var(--tm-bg-diabled);
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: initial;
+  align-items: center;
+  gap: 10px;
+}
+
+.styleBgData > p {
+  color: var(--tm-color-text-primary);
+  white-space: wrap;
+}
+
+.sendReminderPopupBodyText {
+  display: inline;
+}
+
+.noDueData {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.loader {
+  position: relative;
+  top: initial;
+  left: initial;
+  margin: auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-left: 0.5em solid #1da1f2;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+  transition: opacity 0.1s;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

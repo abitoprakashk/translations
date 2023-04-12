@@ -1,0 +1,106 @@
+.mainContainer {
+  height: 100%;
+  background-color: var(--tm-color-white);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.addNew {
+  width: 200px;
+  height: 44px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.accordian {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 80px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.error {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.higherSpecificityFont.higherSpecificityColor.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.noFeeStructure {
+  margin: auto;
+  position: relative;
+  width: 60%;
+  height: calc(100% - 80px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.noFeeStructure > span {
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.createNew {
+  width: 240px;
+  height: 44px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.multiViewFlex {
+  display: flex;
+  height: fit-content;
+}
+
+.downloadCsvBtn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 10px;
+  margin-left: 20px;
+  border-radius: 3px;
+  border: 1px solid var(--tm-color-blue);
+}
+
+.higherSpecificityFont.higherSpecificitySize.downloadIcon {
+  font-size: 24px;
+}
+
+.higherSpecificityFont.higherSpecificitySize.removeIcon {
+  font-size: 80px;
+}
+
+div.stepperDesc {
+  display: none;
+}
+
+.alertModalSection {
+  z-index: 101;
+  position: fixed;
+}
+
+.emptyStateButtons {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-xs);
+}

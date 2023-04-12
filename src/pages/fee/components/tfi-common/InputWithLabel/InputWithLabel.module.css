@@ -1,0 +1,42 @@
+.section {
+  border-radius: 5px;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  font-weight: 400;
+  color: var(--tm-color-text-primary);
+  border-radius: var(--tm-input-border-radius);
+  border: 1px solid var(--tm-color-dark-gray);
+}
+
+.inputPrefix {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 8px;
+  color: var(--tm-color-text-secondary);
+  outline: none;
+}
+
+.inputPostfix {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  color: var(--tm-color-text-secondary);
+  outline: none;
+}
+
+.inputDiv {
+  width: 100%;
+}
+
+.input {
+  border: none;
+  color: var(--tm-color-text-primary);
+  outline: none;
+  padding: 0px;
+}
+
+.commonInputWrapper {
+  padding: 0px;
+}

@@ -1,0 +1,71 @@
+.wrapper {
+  --editor-width: 320px;
+  --footer-height: 72px;
+  padding: var(--tm-kr-spacing-l);
+  background: var(--tm-kr-color-base-light-100);
+  height: 100%;
+  overflow-x: hidden;
+  padding-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  transition: all 0.3s ease-in;
+}
+.bodyWrapper {
+  display: flex;
+  /* height: 100%; */
+}
+.editorWrapper {
+  width: var(--editor-width);
+  transform: translateX(100%);
+  transition: all 0.3s ease-in;
+  position: fixed;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-bottom: none;
+  border-radius: var(--tm-kr-border-radius-l) 0px 0px 0;
+  right: 0;
+  top: var(--tm-header-height);
+  height: calc(100vh - (var(--tm-header-height) + var(--footer-height)));
+  padding: var(--tm-kr-spacing-s);
+  padding-top: 0;
+  padding-bottom: 100px;
+  /* overflow-y: auto; */
+}
+.tableWrapper {
+  flex: 1;
+  max-width: calc(100%);
+  padding-bottom: var(--tm-kr-spacing-5xs);
+}
+.tableCollapse {
+  max-width: calc(100% - var(--editor-width));
+}
+
+.open {
+  transform: unset;
+}
+
+.btn {
+  min-width: 150px;
+}
+.btn:first-child {
+  margin-right: var(--tm-kr-spacing-2xs);
+}
+
+.closeBtn {
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-color: var(--tm-kr-color-neutrals-grey-10);
+  position: fixed;
+  top: var(--tm-kr-spacing-xs);
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  top: calc(var(--tm-header-height) + 15px);
+  right: calc(var(--editor-width) - 20px);
+  box-shadow: -3px 0px 3px rgba(33, 36, 39, 0.08);
+}
+
+.downloadBtn {
+  display: flex;
+  align-self: center;
+  padding: 0 var(--tm-kr-spacing-3xs);
+}

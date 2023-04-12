@@ -1,0 +1,15 @@
+.breadcrumbLink {
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.gt {
+  color: var(--tm-color-text-primary);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.label {
+  color: var(--tm-color-text-primary);
+  font-size: 14px;
+}

@@ -1,0 +1,13 @@
+.userSliderInnerContainer {
+  height: 83.333333%;
+  overflow-y: auto;
+}
+.sliderHeaderIcon {
+  margin-right: 8px;
+}
+
+@media (min-width: 1024px) {
+  .userSliderInnerContainer {
+    height: 100%;
+  }
+}

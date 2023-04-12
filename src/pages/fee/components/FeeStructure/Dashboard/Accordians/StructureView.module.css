@@ -1,0 +1,175 @@
+.accordian {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.structureAccordian {
+  background-color: var(--tm-bg-light-blue);
+}
+
+.classAccordian {
+  background-color: var(--tm-color-white);
+}
+
+.accordian.active > .content {
+  height: 100%;
+}
+
+.label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  height: 0;
+  text-align: justify;
+  width: auto;
+  overflow: hidden;
+}
+
+.name {
+  margin-right: 3%;
+  font-size: 20px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.categoryOptions {
+  display: flex;
+  color: var(--tm-bg-light-white);
+}
+
+.categoryOption {
+  color: var(--tm-color-blue);
+  font-size: 16px;
+  border-right: 1px solid var(--tm-bg-light-white);
+  padding: 0px 10px;
+  width: 50%;
+}
+
+.structureOption {
+  width: 25px;
+  cursor: pointer;
+}
+
+.basicDetails {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.feeType {
+  padding-right: 20px;
+  border-right: solid 1px var(--tm-bg-light-white);
+}
+
+.feeType:nth-last-child(1) {
+  border: none;
+}
+
+.feeType > div:nth-child(odd) {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+}
+
+.feeType > div:nth-child(even) > span {
+  color: var(--tm-color-text-secondary);
+}
+
+.assignClasses {
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+
+.table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.table > tbody {
+  background-color: var(--tm-color-white);
+}
+
+.recurringStructure > tbody > tr:nth-last-child(1) {
+  background-color: var(--tm-color-grayish-white);
+}
+
+.tableSublabel {
+  font-size: 12px;
+  margin-left: 0.5rem;
+  color: var(--tm-color-text-secondary);
+}
+
+.tableRow {
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.flexAlignItems {
+  display: flex;
+  align-items: center;
+}
+
+.annualFee {
+  font-size: 16px;
+  color: var(--tm-color-green);
+}
+
+.modifyStructure {
+  color: var(--tm-color-blue);
+  cursor: pointer;
+  text-align: right;
+}
+
+.tmDashboard > .msgBox {
+  position: absolute;
+  right: 0px;
+  background: var(--tm-color-white);
+  margin-right: 20px;
+  margin-top: -5px;
+  width: max-content;
+}
+
+.toggleIcon {
+  margin: 4px 2px 2px 8px;
+  cursor: pointer;
+}
+
+.headingSectionIconRight {
+  transform: rotate(270deg);
+}
+
+.ellipsisIconStyle {
+  display: flex;
+  cursor: pointer;
+  border-right: 1px solid var(--tm-bg-light-white);
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.ellipsisIcon {
+  display: flex;
+  align-items: center;
+}
+
+.editStructureText {
+  padding: 0.75rem 1rem;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+  border-bottom: 1px solid var(--tm-color-off-white);
+}
+
+.deleteStructureText {
+  padding: 0.75rem 1rem;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--tm-color-red);
+  border-bottom: 1px solid var(--tm-color-off-white);
+}

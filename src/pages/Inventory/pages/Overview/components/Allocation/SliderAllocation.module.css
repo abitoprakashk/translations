@@ -1,0 +1,339 @@
+.mainContainer {
+  width: 86%;
+  margin-top: 15px;
+  max-height: 80%;
+  overflow-x: scroll;
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+
+.dropdownContainer {
+  margin-left: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  width: 103%;
+}
+
+.storeDropdown {
+  position: relative;
+  right: 15px;
+}
+
+.storeDropdown4 > div:nth-child(2) {
+  position: relative;
+  bottom: 265px;
+}
+
+.storeDropdown3 > div:nth-child(2) {
+  position: relative;
+  bottom: 225px;
+}
+
+.storeDropdown2 > div:nth-child(2) {
+  position: relative;
+  bottom: 175px;
+}
+
+.storeDropdown1 > div:nth-child(2) {
+  position: relative;
+  bottom: 125px;
+}
+
+.dropDownInput > div:nth-child(2) > div {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.descContainer {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 30px 30px;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  margin-left: 10%;
+}
+
+.descContainer2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25px 40px 25px 40px;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  margin-left: 10%;
+}
+
+.bottomBorder {
+  width: 90%;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+}
+
+.typeText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.valueText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.valueTextSubtle {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.valueTextLabel {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--tm-color-text-primary);
+  position: relative;
+  bottom: 5px;
+}
+
+.red {
+  color: var(--tm-color-red);
+}
+
+.blue {
+  color: var(--tm-color-blue);
+}
+
+.ml {
+  margin-left: 10%;
+}
+.mb {
+  margin-bottom: 5px;
+}
+
+.mt {
+  margin-top: 12px;
+}
+
+.unitContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.unitTextContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.unitInput {
+  width: 96%;
+  margin-left: 7%;
+  background: var(--tm-bg-modal-light-gray);
+}
+
+.unitInputErrorClassName {
+  margin-left: 7%;
+}
+
+.unitInput > input {
+  background-color: var(--tm-bg-modal-light-gray);
+}
+
+.methodInput {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  border-radius: 10px;
+}
+
+.typeInput {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.inputOption {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.input {
+  margin-top: -16px;
+}
+
+.searchBar {
+  margin-left: 0px;
+  background: var(--tm-bg-modal-light-gray);
+}
+
+.searchBar > input {
+  background-color: var(--tm-bg-modal-light-gray);
+}
+
+.optionTextContainer {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.allocateToContainer {
+  margin-top: 24px;
+}
+
+.unitSelectContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  border-radius: 10px;
+  margin-left: 10%;
+  max-height: 271px;
+  overflow-y: scroll;
+}
+
+.unitDescContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.allocateButton {
+  width: 79%;
+  margin-top: 15px;
+  margin-left: 8%;
+}
+
+.searchResultsDiv {
+  display: flex;
+  border: 1px solid var(--tm-bg-light-white);
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 4%;
+  background: var(--tm-color-white);
+  box-shadow: 0px 6px 12px var(--tm-color-light-gray);
+  z-index: 3;
+}
+
+.searchResultsPosition {
+  position: absolute;
+  top: 8.6rem;
+  width: 100%;
+}
+
+.searchResultsPosition2 {
+  position: absolute;
+  bottom: 4.2rem;
+  width: 100%;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--tm-color-light-grayish-blue);
+  height: 65px;
+  justify-content: center;
+}
+
+.primaryText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.secondaryText {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--tm-color-text-secondary);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+
+.reallocateButton {
+  border: 1px solid var(--tm-color-orange);
+  color: var(--tm-color-orange);
+  width: 45%;
+}
+
+.removeCnfButton {
+  border: 1px var(--tm-color-red) solid !important ;
+  background-color: var(--tm-color-white) !important ;
+  color: var(--tm-color-red) !important ;
+}
+
+.removeButton {
+  border: 1px solid var(--tm-color-text-secondary);
+  color: var(--tm-color-text-secondary);
+  width: 45%;
+}
+
+.Popup > div {
+  position: absolute;
+  z-index: 1000;
+}
+
+.storePrompt {
+  display: flex;
+  width: 90%;
+  height: 36px;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  grid-gap: 8px;
+  background: var(--tm-color-light-orange);
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  justify-content: center;
+}
+
+.storePrompt > button {
+  background: transparent;
+}
+
+.doneButtonWrapper {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  bottom: 0px;
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-color-off-white);
+  box-shadow: 0px -1px 12px rgba(157, 182, 217, 0.1);
+  border-radius: 0px 0px 0px 24px;
+  padding: 16px 40px;
+}
+
+.doneButton {
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+/* Search part */
+.searchContainer {
+  display: block;
+}
+.searchIcon {
+  vertical-align: bottom;
+}
+.markAttendanceButtonBlock {
+  display: block;
+  margin-top: 15px;
+  text-align: right;
+}
+.markAttendanceButtonBlock .markAttendanceButton {
+  width: auto;
+  padding: 0px 1.2rem;
+  margin-left: 10px;
+  line-height: 28px;
+  height: 40px;
+  font-size: 14px;
+}
+.markAttendanceIcon {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 8px;
+}
+
+@media (min-width: 769px) {
+  .searchContainer {
+    display: inline-block;
+    width: 49%;
+  }
+  .markAttendanceButtonBlock {
+    float: right;
+    margin-top: 0px;
+  }
+  .markAttendanceButtonBlock .markAttendanceButton {
+    height: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .markAttendanceButtonBlock .markAttendanceButton {
+    font-size: 16px;
+  }
+}

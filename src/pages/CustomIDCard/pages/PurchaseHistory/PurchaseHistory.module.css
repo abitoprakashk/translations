@@ -1,0 +1,12 @@
+.wrapper {
+  padding: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-base-light-100);
+  height: 100%;
+  overflow: auto;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-xs);
+}

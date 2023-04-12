@@ -1,0 +1,136 @@
+.staffEmptyscreen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.staffEmptyscreen img {
+  width: 6rem;
+}
+div.todayAttendanceCard {
+  padding: 16px;
+  background: var(--tm-color-gy-3);
+  box-shadow: none;
+}
+.cardAttendanceTitle {
+  font-size: 14px;
+  line-height: var(--tm-line-height-2);
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+}
+.cardAttendanceCount {
+  font-size: 24px;
+  line-height: var(--tm-line-height-1);
+  color: var(--tm-color-text-primary);
+  font-weight: 600;
+}
+.statsContainer {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.statsItem {
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statsItemValue {
+  margin-top: 6px;
+}
+.togglePresentGreen {
+  color: var(--tm-color-gr-1);
+}
+.togglePresentRed {
+  color: var(--tm-color-rd-1);
+}
+
+/* Staff user list toggle part */
+.attendanceUserProfile {
+  display: inline-block;
+  width: 75%;
+}
+.attendanceTogglePart {
+  vertical-align: top;
+  float: right;
+}
+.atteToggleText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.attendancePresentAbsentTagBl {
+  float: right;
+  margin-top: 10px;
+}
+.attendancePresentAbsentTagBl span {
+  display: inline-block;
+  padding: 8px 12px;
+}
+.attendanceTogglePart div.cstToggleSwitch {
+  transform: scale(0.9);
+  margin-top: 5px;
+  margin-right: 0px;
+}
+.attendanceTogglePart
+  div.cstToggleSwitch
+  input[type='checkbox']
+  + label
+  span:nth-child(1)::after {
+  border: 0.5px solid var(--tm-border-color-gray-1);
+  border-radius: 20px;
+}
+.attendanceTogglePart
+  div.cstToggleSwitch
+  input[type='checkbox']
+  + label
+  span:nth-child(2) {
+  background-color: var(--tm-color-error);
+}
+.attendanceTogglePart
+  div.cstToggleSwitch
+  input[type='checkbox']:checked
+  + label
+  span:nth-child(2) {
+  background-color: var(--tm-color-green);
+}
+
+@media (min-width: 769px) {
+  .statsContainer {
+    grid-template-columns: auto 50%;
+  }
+  .attendanceUserProfile {
+    width: 68%;
+  }
+  .attendanceTogglePart div.cstToggleSwitch {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 1280px) {
+  .attendanceUserProfile {
+    width: 75%;
+  }
+  .attendancePresentAbsentTagBl span {
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .attendanceUserProfile {
+    width: 78%;
+  }
+}
+
+@media (max-width: 528px) {
+  .attendanceUserProfile {
+    width: 68%;
+  }
+}
+
+@media (max-width: 420px) {
+  .attendanceUserProfile {
+    width: 60%;
+  }
+}

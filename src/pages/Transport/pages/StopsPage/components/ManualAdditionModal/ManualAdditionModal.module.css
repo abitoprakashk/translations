@@ -1,0 +1,26 @@
+.modal {
+  height: 80%;
+}
+
+.wrapper {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-s);
+  margin: var(--tm-kr-spacing-s) 0;
+}
+
+.stepperWrapper {
+  width: fit-content;
+  height: fit-content;
+  position: sticky;
+  top: var(--tm-kr-spacing-s);
+}
+
+.formsWrapper {
+  width: 100%;
+}
+
+.nStopsFooter {
+  display: flex;
+  gap: var(--tm-kr-spacing-4xs);
+  align-items: center;
+}

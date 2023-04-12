@@ -1,0 +1,26 @@
+.managementSettingWrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.managementSettingHorizontalLine {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.managementSettingTeacher {
+  padding: 0.5rem;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}
+
+.managementSettingStudent {
+  margin-top: 1.25rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+}

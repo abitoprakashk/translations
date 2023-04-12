@@ -1,0 +1,32 @@
+/* .section {
+  background: var(--tm-bg-color-gy-3);
+  border: 1px solid var(--tm-color-dark-gray);
+  border-radius: 8px;
+  padding: 0px 16px;
+} */
+
+.higherSpecificity.zIndex {
+  z-index: 110;
+}
+
+.input {
+  border-radius: 8px;
+
+  font-weight: 400;
+  color: var(--tm-color-text-primary);
+  border-radius: var(--tm-input-border-radius);
+  border: 1px solid var(--tm-color-dark-gray);
+  outline: none;
+  padding: 10px 12px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.label {
+  margin: 0px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}

@@ -1,0 +1,14 @@
+.titleAndButtonSection {
+  margin-bottom: 7px;
+}
+.section {
+  width: 100%;
+  cursor: pointer;
+}
+.companiesContainer {
+  height: 400px;
+  overflow: scroll;
+}
+.listItemSection {
+  height: 52px;
+}

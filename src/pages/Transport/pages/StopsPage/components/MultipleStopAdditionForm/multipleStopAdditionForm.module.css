@@ -1,0 +1,39 @@
+.addNewStop {
+  height: 200px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-xs);
+  padding-top: var(--tm-kr-spacing-s);
+}
+
+.stopCard {
+  height: 200px;
+  width: 236px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+}
+
+.stopCardImg {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.stopCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+}
+
+.textOverflowEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

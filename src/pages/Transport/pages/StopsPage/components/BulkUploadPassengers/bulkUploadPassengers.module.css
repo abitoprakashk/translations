@@ -1,0 +1,76 @@
+.modalContent {
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-icon-size-s);
+}
+
+.uploadSummary {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.duplicatesCard {
+  padding: 0px;
+  border: none;
+  margin-top: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-semantic-warning-10);
+  padding-bottom: var(--tm-kr-spacing-s);
+}
+
+.duplicatesCardDivider {
+  background-color: var(--tm-kr-color-pastels-calico-50);
+}
+
+.duplicateErrorCard {
+  padding: var(--tm-kr-spacing-xs) 0px;
+  border: none;
+}
+
+.duplicateCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  margin: var(--tm-kr-spacing-s);
+  margin-bottom: 0px;
+}
+
+.duplicateSummary {
+  display: flex;
+  gap: var(--tm-kr-spacing-3xs);
+  padding: var(--tm-kr-spacing-s);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+
+.duplicateCardPadding {
+  padding-left: var(--tm-kr-spacing-xs);
+}
+
+.notFoundStops {
+  border: none;
+  padding: 0px;
+  padding-bottom: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-s);
+  background-color: var(--tm-kr-color-semantic-error-10);
+}
+
+.notFoundStopsTable {
+  width: 100%;
+  padding: 0px var(--tm-kr-spacing-3xl);
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.dotSeparator {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--tm-kr-color-neutrals-grey-50);
+}

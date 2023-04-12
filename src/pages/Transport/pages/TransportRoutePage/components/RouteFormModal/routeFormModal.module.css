@@ -1,0 +1,62 @@
+.modalContent {
+  padding-right: 0px;
+}
+
+.wrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-m);
+}
+
+.formWrapper {
+  width: 67%;
+  overflow: visible;
+  height: 535px;
+}
+
+.routeStops {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.routeStopCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.addStopsButton {
+  align-self: flex-start;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.map {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div[class*='krayon__Checkbox-module'] span::after {
+  box-sizing: content-box;
+}
+
+.alertWrapper {
+  width: unset;
+  border-radius: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  margin-left: -30px;
+  margin-right: -35px;
+}
+
+.alertWrapper > div {
+  gap: var(--tm-kr-spacing-3xs);
+}
+
+.routeSeatingFractionInfoWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-4xs);
+  align-items: center;
+}

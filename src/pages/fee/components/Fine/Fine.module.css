@@ -1,0 +1,50 @@
+.rulesSection {
+  background: var(--tm-color-wh-1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.headingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.headingTitleSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.createNewRulesBtn {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--tm-color-bl-2);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.statesCardSection {
+  width: 100%;
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+  gap: 0.75rem;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.rulesCardSection {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.addNew {
+  width: 200px;
+  height: 44px;
+}

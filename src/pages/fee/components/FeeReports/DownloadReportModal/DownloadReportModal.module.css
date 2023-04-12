@@ -1,0 +1,38 @@
+.mainModal.mainModalTag {
+  min-height: 25%;
+  width: 100%;
+}
+
+.modalSection {
+  padding: 12px;
+}
+
+.modalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalIconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modalHeadingText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+@media only screen and (min-width: 720px) {
+  .modalSection {
+    padding: 40px;
+  }
+
+  .mainModal.mainModalTag {
+    min-height: 25%;
+    width: 50vw;
+  }
+}

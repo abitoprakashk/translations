@@ -1,0 +1,5 @@
+.customFieldCardInnerBlock {
+  background: var(--tm-bg-light-blue);
+  padding: 20px;
+  border-radius: 8px;
+}

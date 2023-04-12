@@ -1,0 +1,61 @@
+.profileTabContent {
+  padding: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.label {
+  font-size: 16px;
+  color: var(--tm-color-text-primary);
+}
+
+.feeTypes {
+  margin: 20px 0px;
+  padding: 20px;
+  font-size: 14px;
+  color: #25a555;
+  background: #ebf7f2;
+  border-radius: 8px;
+}
+
+.studentProfileSection {
+  margin: 20px 0px;
+  padding: 20px;
+  background: #f7f9fc;
+  border-radius: 8px;
+}
+
+.studentProfileSection tbody {
+  background-color: #fff;
+}
+
+.link {
+  color: #1da1f2;
+}
+
+.studentDetails {
+  display: flex;
+  color: var(--tm-color-text-secondary);
+}
+
+.name {
+  font-size: 16px;
+  color: #1da1f2;
+  margin-top: 3px;
+}
+
+.phoneNumber {
+  margin-top: 5px;
+}
+
+.studentDetails img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+td > span.desc {
+  color: var(--tm-color-text-secondary);
+}

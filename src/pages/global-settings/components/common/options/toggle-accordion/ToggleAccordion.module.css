@@ -1,0 +1,13 @@
+.toogleAccordionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--tm-color-white);
+  padding: 1rem;
+}
+.toggleAccordionIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}

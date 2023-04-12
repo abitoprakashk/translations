@@ -1,0 +1,27 @@
+.wrapper {
+  width: calc(100% + 60px);
+  height: 84px;
+  margin-left: -30px;
+  padding: 0px 30px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+
+.sortableChosen {
+  opacity: 0.6;
+}
+
+.sortableDrag {
+  display: none;
+}
+
+.wrapper input[type='checkbox'] {
+  width: 0px;
+  height: 0px;
+}

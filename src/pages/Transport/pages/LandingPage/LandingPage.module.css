@@ -1,0 +1,37 @@
+.wrapper {
+  padding: var(--tm-kr-spacing-m);
+  background-color: var(--tm-kr-color-base-light-100);
+  min-height: 100%;
+}
+
+.userSelectionWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.emptyScreen {
+  display: none;
+}
+
+.subHeading {
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+
+.divider {
+  padding: var(--tm-kr-spacing-s) 0px;
+}
+
+.tabGroupWrapper {
+  width: 425px;
+  height: fit-content;
+}
+
+@media (max-width: 600px) {
+  .transport {
+    display: none;
+  }
+
+  .emptyScreen {
+    display: block;
+  }
+}

@@ -1,0 +1,40 @@
+.title {
+  color: var(--tm-color-text-primary);
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+.subText {
+  font-size: 12px;
+  color: var(--tm-color-light-gray);
+  margin-bottom: 10px;
+}
+
+.contentSubTitle {
+  font-size: 16px;
+  color: var(--tm-color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.messageTextareaSection {
+  width: 100%;
+}
+
+.messageTextarea {
+  background: var(--tm-bg-textarea-grey);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+
+.messageTextareaCount {
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  color: var(--tm-color-text-secondary);
+}
+
+.lightFont {
+  font-weight: 400;
+}

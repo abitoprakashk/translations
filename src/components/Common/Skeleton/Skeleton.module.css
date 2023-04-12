@@ -1,0 +1,50 @@
+.skeletonWrapper {
+  -webkit-animation: fadeinout 1.5s infinite forwards;
+  animation: fadeinout 1.5s infinite forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.skeletonBlock {
+  padding: 1px;
+  background: linear-gradient(
+        -75deg,
+        transparent 40%,
+        hsl(0 0% 100% / 40%),
+        transparent 60%
+      )
+      0 0 / 200% 100%,
+    hsl(0 0% 0% / 9%);
+  border-radius: calc(1rem * 0.5);
+  animation: load 1.5s infinite linear;
+  background-attachment: fixed;
+}
+
+.skeletonBlock:after {
+  content: '';
+  display: block;
+}
+
+@keyframes load {
+  to {
+    background-position: 200% 0;
+  }
+}

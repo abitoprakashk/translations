@@ -1,0 +1,32 @@
+.bodyContent {
+  display: flex;
+  height: 100%;
+}
+
+.formContent {
+  width: 542px;
+  padding: var(--tm-kr-spacing-s);
+  min-height: 600px;
+  height: fit-content;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.table {
+  margin: 0px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: var(--tm-kr-table-row-color-dark);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.tableThead.tableTh {
+  background: var(--tm-kr-color-base-light-100);
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

@@ -1,0 +1,6 @@
+.wrapper {
+  min-height: 154px;
+}
+.iconFrame {
+  background: var(--tm-kr-color-neutrals-grey-10);
+}

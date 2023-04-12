@@ -1,0 +1,9 @@
+.container {
+  margin: 16px 0;
+}
+
+.accordionContainer {
+  background-color: var(--tm-color-white);
+  padding: 16px;
+  border-radius: 8px;
+}

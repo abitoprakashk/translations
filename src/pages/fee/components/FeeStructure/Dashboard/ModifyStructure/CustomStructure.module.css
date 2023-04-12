@@ -1,0 +1,23 @@
+.title {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.categories {
+  height: 80%;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.category {
+  margin-top: 10px;
+  display: flex;
+}
+
+.higherSpecificityFontSize.higherSpecificityIcon.infoIcon {
+  font-size: 80px;
+}
+.img {
+  width: 36px;
+  border-radius: 12px;
+}

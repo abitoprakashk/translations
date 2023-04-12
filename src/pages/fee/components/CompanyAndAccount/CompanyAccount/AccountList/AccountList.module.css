@@ -1,0 +1,54 @@
+.section {
+  width: 100%;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.emptySection {
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.emptyList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  padding: 8px;
+  border-end-end-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 400px;
+}
+
+.emptyStateCompanyHelperText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+.accountsContainer {
+  border-radius: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-20);
+  max-height: 380px;
+  overflow: scroll;
+}
+
+.higherspecifisity.titleAndButtonWrapper {
+  padding: 16px 0px;
+}
+
+.listItemSection.higherspecifisity:hover {
+  background: var(--tm-kr-color-base-light-100);
+}
+
+.buttonClass {
+  width: max-content;
+}

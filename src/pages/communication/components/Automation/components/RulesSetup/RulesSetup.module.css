@@ -1,0 +1,18 @@
+.rulesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+  flex-grow: 1;
+}
+.emptyStateContainer {
+  padding-top: 80px;
+}
+.wishIconFrame {
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+.attendanceIconFrame {
+  background-color: var(--tm-kr-color-pastels-calico-100);
+}
+.feeReminderIconFrame {
+  background-color: var(--tm-kr-color-pastels-feijoa-100);
+}

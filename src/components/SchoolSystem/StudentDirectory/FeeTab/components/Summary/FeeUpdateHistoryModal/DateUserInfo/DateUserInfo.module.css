@@ -1,0 +1,14 @@
+.section {
+  padding: 20px;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.dateAndIconSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

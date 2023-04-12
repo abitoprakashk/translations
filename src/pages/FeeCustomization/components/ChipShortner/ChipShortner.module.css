@@ -1,0 +1,6 @@
+.highlight {
+  color: var(--tm-kr-color-primary-100);
+  font-size: var(--tm-kr-para-font-size-m);
+  cursor: pointer;
+  margin-top: var(--tm-kr-chips-margin-padding);
+}

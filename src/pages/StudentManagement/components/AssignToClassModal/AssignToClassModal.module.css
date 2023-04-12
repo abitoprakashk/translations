@@ -1,0 +1,30 @@
+.modal {
+  height: 500px;
+}
+
+.inputCard {
+  margin: var(--tm-kr-spacing-s) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.optionsClass > div {
+  overflow: scroll;
+}
+
+.dropdownClassDisabled {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .optionsClass > div {
+    top: 0;
+    height: fit-content;
+  }
+
+  .dropdownClassDisabled {
+    opacity: 0.7;
+  }
+}

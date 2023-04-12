@@ -1,0 +1,85 @@
+.stepCards {
+  display: flex;
+}
+
+.stepIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stepCardWrapper .session {
+  background-color: var(--tm-kr-color-pastels-fringy-100);
+}
+
+.stepCardWrapper .leadStage {
+  background-color: var(--tm-kr-color-pastels-melaine-100);
+}
+
+.stepCardWrapper .webpage {
+  background-color: var(--tm-kr-color-pastels-ash-100);
+}
+
+.stepCardWrapper .enquiryForm {
+  background-color: var(--tm-kr-color-pastels-calico-100);
+}
+
+.stepCardWrapper .admissionForm {
+  background-color: var(--tm-kr-color-pastels-morningGlory-100);
+}
+
+.stepCardWrapper .documents {
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+
+.stepCardWrapper .fees {
+  background-color: var(--tm-kr-color-pastels-poloBlue-100);
+}
+
+.disabled {
+  background-color: var(--tm-kr-color-neutrals-grey-40);
+}
+
+.stepTitle {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.stepTitle span {
+  margin-left: 10px;
+}
+
+.stepCard .stepDescription {
+  margin-top: 4px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.stepCardWrapper .stepCard {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.stepCardWrapper .isDisabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.stepCardWrapper .isCompleted {
+  background-color: var(--tm-kr-color-semantic-success-10);
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+  .row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

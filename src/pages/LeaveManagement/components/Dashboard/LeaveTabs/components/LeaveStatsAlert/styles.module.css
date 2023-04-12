@@ -1,0 +1,26 @@
+.alert {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  padding: 8px;
+  border-radius: 8px;
+
+  width: 100%;
+  min-height: 36px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.requested {
+  background: var(--tm-color-light-orange);
+  color: var(--tm-color-orange);
+}
+
+.approved {
+  background: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+}

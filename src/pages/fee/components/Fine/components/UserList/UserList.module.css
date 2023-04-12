@@ -1,0 +1,104 @@
+.section {
+  background: var(--tm-color-wh-1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0px 20px;
+}
+
+.addFilterBtn {
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-bl-2);
+  color: var(--tm-color-bl-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appliedAmountText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.paidAmountText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-gr-1);
+}
+
+.dueAmountText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-rd-1);
+}
+
+.fineDetails > div:not(:last-child) {
+  border-right: 1px solid var(--tm-color-gy-1);
+  height: 60px;
+}
+
+.fineDetails > div {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.fineDetails {
+  display: flex;
+  background: var(--tm-color-wh-1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fineDetails p {
+  font-size: 25px;
+}
+
+.fineDetails span {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.payableAmount {
+  color: var(--tm-fee-statistics-color-applied);
+}
+
+.paidAmount {
+  color: var(--tm-fee-statistics-color-paid);
+}
+
+.dueAmount {
+  color: var(--tm-fee-statistics-color-due);
+}
+
+.discountAmount {
+  color: var(--tm-fee-statistics-color-discount);
+}
+
+.pendingAmount {
+  color: var(--tm-fee-statistics-color-pending);
+}
+
+.searchBarWrapper {
+  width: 100%;
+}
+
+.searchBarWrapper {
+  min-width: 430px;
+  padding: 8px 16px;
+}

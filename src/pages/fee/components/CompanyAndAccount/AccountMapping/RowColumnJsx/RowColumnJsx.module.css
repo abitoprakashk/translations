@@ -1,0 +1,98 @@
+table.rowColumnJsx {
+  table-layout: fixed;
+}
+
+table.rowColumnJsx > tbody > tr {
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+table.rowColumnJsx > tbody > tr:has(.selectionAppiled.higher) {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+table.rowColumnJsx > tbody > tr:has(.selectionNotAppiled.higher) {
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+table.rowColumnJsx td {
+  border: 1px solid var(--tm-border-color-gray-2);
+}
+
+table.rowColumnJsx > tbody > tr:has(.selectionAppiledLastChild.higher) {
+  border-bottom: 8px solid var(--tm-kr-color-neutrals-grey-20);
+}
+
+.nameAndBtnSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.companyAccountSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.filtersAndSaveBtnSection,
+.saveAndDotBtnSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropDownWrapper {
+  max-width: 250px;
+}
+
+.dropdown.zIndex {
+  z-index: 4;
+}
+
+.dropdownField {
+  font-size: var(--tm-kr-text-input-font-size);
+}
+.dropdownOptionWidth > p {
+  width: 100%;
+}
+
+.dropdownOptionWidthFitContent {
+  height: 64px;
+}
+.dropdownOptionEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdownClass {
+  height: auto;
+}
+
+.rotatePrefixIcon {
+  rotate: 90deg;
+  margin-right: var(--tm-kr-button-icon-padding);
+}

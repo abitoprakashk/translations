@@ -1,0 +1,36 @@
+.simpleOptionWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+}
+.simpleOptionBGBlue {
+  background-color: var(--tm-color-blue);
+}
+
+.simpleOptionBGWhite {
+  background-color: var(--tm-color-white);
+}
+
+.simpleOptionTitle {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.simpleOptionTextWhite {
+  color: var(--tm-color-white);
+  font-size: 14px;
+}
+
+.simpleOptionPrimaryText {
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+}
+.simpleOptionIcon {
+  width: 1.5rem;
+}

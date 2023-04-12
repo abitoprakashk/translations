@@ -1,0 +1,76 @@
+.card {
+  height: 80px;
+  padding: 0px;
+  background-color: var(--tm-kr-color-base-dark-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.infoWrapper {
+  padding: var(--tm-kr-spacing-l);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.button {
+  width: 180px;
+  margin-right: var(--tm-kr-spacing-s);
+}
+
+.requestSent {
+  background-color: transparent !important;
+  border: 0px !important;
+  width: 180px;
+}
+
+.infoSection {
+  display: flex;
+  align-items: center;
+  margin-left: var(--tm-kr-spacing-s);
+}
+
+/* Live Tracking Integration Modal */
+.formWrapper {
+  margin: var(--tm-kr-spacing-s) 0px;
+}
+
+.modal {
+  height: 80%;
+}
+
+.question {
+  font-weight: var(--tm-kr-heading-font-weight-semibold);
+  padding-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.option {
+  font-size: var(--tm-kr-avatar-s-font-size);
+}
+
+.optionWrapper {
+  margin: var(--tm-kr-spacing-2xs) 0px;
+}
+
+.optionWrapper > div {
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+
+.lineBreak {
+  padding: 0px 0px var(--tm-kr-spacing-s) 0px;
+}
+
+.inputWrapper {
+  margin-top: var(--tm-kr-spacing-3xs);
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.textSize {
+  font-size: var(--tm-kr-para-font-size-l);
+}

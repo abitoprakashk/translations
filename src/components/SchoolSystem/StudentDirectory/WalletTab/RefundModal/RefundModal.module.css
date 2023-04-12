@@ -1,0 +1,66 @@
+.modalMain.feeDownloadReportModal {
+  max-width: 560px;
+}
+
+.contentSection {
+  padding: 23px 40px 40px 40px;
+}
+
+.feeModalHeadingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px 20px 40px;
+  background: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.iconAndHeadingSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.amountInfoSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 23px;
+}
+
+.inputWrapper {
+  width: 278px;
+}
+
+.buttonSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 46px;
+}
+
+.loadingSection {
+  position: unset;
+}
+
+.buttonSectionLoding {
+  display: flex;
+  justify-content: center;
+}
+
+/* .inputWrapper div:nth-of-type(2) {
+  border: none;
+  border-radius: 12px;
+} */
+
+/* .inputWrapper div:nth-of-type(2),
+.inputWrapper input {
+  background: #f4f4f4;
+} */
+
+@media only screen and (min-width: 720px) {
+  .modalMain.feeDownloadReportModal {
+    width: 60%;
+    min-height: 10%;
+  }
+}

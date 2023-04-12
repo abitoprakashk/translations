@@ -1,0 +1,76 @@
+.teacher {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-end;
+}
+.sub_teacher {
+  width: 80%;
+}
+.assign_co_teacher {
+  cursor: pointer;
+}
+.co_teacher {
+  white-space: nowrap;
+}
+
+.inactiveTag {
+  position: relative;
+  width: 60px;
+  top: -30px;
+}
+
+.manageCardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addStudentDiv {
+  display: flex;
+  padding: 4px 0 12px;
+}
+.addStudentButton {
+  padding: 8px 16px 8px 12px;
+}
+.importButton {
+  padding: 8px 8px 8px 16px;
+}
+.buttonDropdown {
+  position: relative;
+}
+.dropdownContainer {
+  position: absolute;
+  width: max-content;
+}
+.right {
+  bottom: 0;
+  left: 96px;
+}
+.bottom {
+  top: 40px;
+  right: 0;
+}
+.optionStyle {
+  font-size: 14px;
+}
+
+.manageCardText {
+  cursor: pointer;
+  color: var(--tm-color-blue);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.subjectName {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

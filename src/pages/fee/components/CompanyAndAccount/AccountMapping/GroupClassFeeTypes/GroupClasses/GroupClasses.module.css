@@ -1,0 +1,41 @@
+.section,
+.classSelectionSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.checkboxGroupWrapperClass {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow-wrap: anywhere;
+}
+
+.checkboxGroupWrapperClass > label {
+  align-items: inherit;
+}
+
+.groupCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.groupedCardSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.groupBtnSection {
+  display: flex;
+  justify-content: flex-end;
+}

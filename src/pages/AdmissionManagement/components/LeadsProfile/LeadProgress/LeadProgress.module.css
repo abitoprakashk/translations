@@ -1,0 +1,37 @@
+.para {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.stepper {
+  margin-top: 36px;
+  margin-left: -100px;
+}
+
+.syncStyle {
+  color: var(--tm-kr-color-semantic-warning-100);
+}
+
+.syncWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.progressTrackerHeading {
+  margin-top: 16px;
+}
+
+.syncNowStyle {
+  color: var(--tm-kr-color-primary-100);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.alert {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+}

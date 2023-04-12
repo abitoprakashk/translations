@@ -1,0 +1,116 @@
+.table {
+  width: calc(100% + 2 * var(--padding-x));
+  margin: var(--tm-kr-spacing-xs) calc(-1 * var(--padding-x));
+  text-align: left;
+}
+
+.table > thead > tr {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+/* override for interference from Dashboard.module.css */
+.table > tbody > tr {
+  height: auto;
+  border-bottom: none;
+}
+
+.table > thead > tr > th {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+
+  color: var(--tm-kr-color-neutrals-grey-70);
+
+  padding: var(--tm-kr-spacing-2xs) 0;
+}
+
+.table > thead > tr > th:first-child,
+.table > tbody > tr > td:first-child {
+  padding-left: var(--padding-x);
+}
+
+.table > thead > tr > th:last-child,
+.table > tbody > tr > td:last-child {
+  padding-right: var(--padding-x);
+  white-space: nowrap;
+}
+
+.table > tbody {
+  font-size: var(--tm-kr-para-font-size-l);
+  line-height: var(--tm-kr-para-line-height-l);
+}
+
+.table > tbody > tr > td {
+  padding-top: var(--tm-kr-spacing-2xs);
+  padding-right: var(--tm-kr-spacing-3xs);
+}
+
+.bordered.table > tbody > tr {
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.bordered.table > tbody > tr > td:nth-child(2) {
+  padding: var(--tm-kr-spacing-xs) var(--tm-kr-spacing-2xs);
+}
+
+.table > tbody > tr > td:first-child {
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.table > tbody > tr > td:nth-child(2),
+.table > thead > tr > th:nth-child(2) {
+  padding-left: var(--tm-kr-spacing-xs);
+}
+
+.emptyWrapper {
+  margin-top: 90px;
+}
+
+.absentText {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.table [data-qa='kebab-content-item'] {
+  width: 135px;
+}
+
+.marksHeading {
+  text-align: right;
+  padding-right: calc(var(--padding-x) + 10px) !important;
+}
+
+.colRollNo {
+  width: 85px;
+}
+
+.mobile .colRollNo {
+  width: 60px;
+}
+
+.colInput {
+  width: 145px;
+}
+
+.colRemark {
+  width: 100px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.editRemark {
+  cursor: pointer;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.remarks {
+  margin-top: var(--tm-kr-spacing-3xs);
+  word-break: break-all;
+}
+
+.fullWidth {
+  width: 100%;
+}

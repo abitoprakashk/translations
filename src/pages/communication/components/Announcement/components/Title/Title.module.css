@@ -1,0 +1,24 @@
+.titleSection {
+  padding: 12px 0px;
+}
+
+.titleLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.titleInput {
+  background: var(--tm-bg-light-blue);
+  border: 1px solid var(--tm-color-gy-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+}

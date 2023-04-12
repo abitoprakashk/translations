@@ -1,0 +1,5 @@
+.simpleTitleContainer {
+  padding: 1rem;
+  background-color: var(--tm-color-white);
+  cursor: pointer;
+}

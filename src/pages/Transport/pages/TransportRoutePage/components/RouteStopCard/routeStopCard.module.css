@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-xs);
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.form {
+  display: grid;
+  gap: var(--tm-kr-spacing-xs);
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteIconFrame {
+  cursor: pointer;
+}
+
+.stopBadge {
+  background: var(--tm-kr-color-pastels-seaPink-100);
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.wrapperClass,
+.dropdownClass,
+.optionsClass {
+  font-size: var(--tm-kr-para-font-size-l);
+  width: 310px;
+}
+
+.optionsClass > div {
+  top: 0;
+  overflow: scroll;
+}

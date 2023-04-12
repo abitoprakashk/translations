@@ -1,0 +1,60 @@
+/* Filter Wrapper */
+.searchFilterWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+/* Search bar wrapper */
+.searchWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.searchWrapper > div {
+  width: 100%;
+}
+.searchDropdown {
+  width: 120px;
+  flex-shrink: 0;
+}
+.searchBar {
+  width: 100%;
+}
+.mobileDropdown {
+  height: 44px;
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+/* Filter Wrapper */
+.filtersWrapper {
+  display: none;
+}
+.statusFilterWrapper {
+  width: 180px;
+}
+.classFilterWrapper {
+  width: 190px;
+}
+
+.classFilterWrapper label[class^='krayon__Checkbox-module'] {
+  padding: 14px 5px;
+  height: auto;
+  min-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .searchWrapper > div {
+    width: unset;
+  }
+  .filtersWrapper {
+    display: flex;
+    gap: var(--tm-kr-spacing-3xs);
+  }
+  .searchWrapper .searchDropdown {
+    width: 215px;
+  }
+  .searchBar {
+    min-width: 300px;
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.iframeContainer {
+  padding: var(--tm-kr-spacing-2xs);
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 22px;
+}
+
+.heading {
+  margin: var(--tm-kr-spacing-m) 0 var(--tm-kr-spacing-3xs) 0;
+}
+
+.video {
+  width: 300px;
+  height: 190px;
+  border-radius: var(--tm-kr-border-radius-l);
+}

@@ -1,0 +1,210 @@
+.card {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border: none;
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+/* Profile Pic Wrapper */
+.profilePicWrapperMobile {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+.nameContactStatusWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-4xs);
+}
+.profilePicWrapper {
+  display: none;
+  cursor: pointer;
+}
+.profilePic {
+  width: 98px;
+  height: 98px;
+  border: 6px solid var(--tm-kr-color-neutrals-grey-10);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+.statusBadge {
+  width: max-content;
+}
+.statusInActiveBadge {
+  background-color: var(--tm-kr-color-neutrals-grey-60) !important;
+}
+.smsIconWrapper {
+  display: none;
+}
+
+/* Content wrapper */
+.contentWrapper {
+  width: 100%;
+}
+
+/* For Kanban Menu */
+.tooltipWrapper {
+  top: 158px !important;
+  left: auto !important;
+  right: 55px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  opacity: 1 !important;
+}
+.optionWrapper {
+  width: auto;
+}
+
+/* Heading wrapper */
+.profileInfoWrapper {
+  display: none;
+}
+
+/* Contact Enroll Wrapper */
+.contactEnrollWrapper {
+  display: none;
+  align-items: center;
+}
+
+/* Academic and family details wrapper class => detailsFullProfileButtonWrapper */
+.detailsOuterWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-m);
+  flex-direction: column;
+}
+.detailsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.detailsItem {
+  display: flex;
+}
+.academicDetailsItemLabel {
+  width: 95px;
+}
+.familyDetailsItemLabel {
+  width: 95px;
+  flex-shrink: 0;
+}
+.classDetailItemWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+/* Change / assign classroom button */
+.classAssignChangeButton {
+  display: none;
+}
+
+/* View profile button */
+.viewProfielButton {
+  width: 100%;
+  margin-top: var(--tm-kr-spacing-xs);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    gap: var(--tm-kr-spacing-m);
+  }
+
+  /* Profile Pic Wrapper */
+  .profilePicWrapperMobile {
+    display: none;
+  }
+  .profilePicWrapper {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--tm-kr-spacing-3xs);
+  }
+  .smsIconWrapper {
+    border: 1px solid var(--tm-kr-color-primary-100);
+    background-color: var(--tm-kr-color-neutrals-grey-10);
+    border-radius: var(--tm-kr-border-radius-l);
+    width: 44px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .profilePic {
+    width: 100px;
+    height: 100px;
+  }
+  .mobileDivider {
+    display: none;
+  }
+
+  /* Heading wrapper */
+  .profileInfoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .kebabMenuOptionsWrapper {
+    width: 170px;
+  }
+  .kebabMenuIconFrame {
+    background-color: var(--tm-kr-color-neutrals-grey-20);
+  }
+
+  /* Contact Enroll Wrapper */
+  .contactEnrollWrapper {
+    display: flex;
+    gap: var(--tm-kr-spacing-2xs);
+    margin: var(--tm-kr-spacing-2xs) 0;
+  }
+
+  /* Academic and family details wrapper */
+  .detailsFullProfileButtonWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .detailsOuterWrapper {
+    flex-direction: row;
+    gap: var(--tm-kr-spacing-5xl);
+  }
+  .detailsWrapper {
+    gap: var(--tm-kr-spacing-2xs);
+  }
+  .academicDetailsItemLabel {
+    width: 95px;
+  }
+  .familyDetailsItemLabel {
+    width: 60px;
+  }
+
+  /* Change / assign classroom button */
+  .classAssignChangeButton {
+    display: flex;
+  }
+  .classAssignChangeButtonLabel {
+    font-size: 12px;
+  }
+
+  /* View profile button */
+  .viewProfielButton {
+    width: fit-content;
+    margin-top: 0;
+  }
+}
+
+.dot {
+  position: relative;
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.detailItemValueDotMargin {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}

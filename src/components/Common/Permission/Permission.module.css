@@ -1,0 +1,26 @@
+.opacity {
+  opacity: 0.5;
+}
+
+/* .disabled:active {
+  pointer-events: none;
+  cursor: not-allowed;
+} */
+
+.userInput {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.tooltipBody {
+  color: white;
+  display: flex;
+  align-content: center;
+  gap: 5px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.tooltipWrapper {
+  background-color: #1f3965;
+}

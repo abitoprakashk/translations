@@ -1,0 +1,123 @@
+.contentWrapper {
+  justify-content: center;
+  padding-top: var(--tm-kr-spacing-s);
+}
+
+@media (max-width: 600px) {
+  .modalWrapper {
+    display: none;
+  }
+}
+
+.content {
+  padding-top: var(--tm-kr-spacing-s);
+  font-size: 14px;
+  font-weight: var(--tm-font-weight-medium);
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: var(--tm-kr-spacing-xs);
+}
+
+.content > span {
+  margin-bottom: var(--tm-kr-spacing-m);
+  display: block;
+}
+
+.contentBold {
+  font-weight: var(--tm-font-weight-bold);
+}
+
+.contentWrapper img {
+  display: block;
+  margin: auto;
+}
+
+.modal {
+  width: 540px;
+  height: fit-content;
+}
+
+.gif {
+  height: 6rem;
+  width: 6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-header-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.headerTitle {
+  font-size: 18px;
+  font-weight: var(--tm-font-weight-medium);
+}
+
+.headerTitle > span {
+  font-weight: var(--tm-font-weight-semi-bold);
+  color: var(--tm-color-semantic-error-100);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.blockingPopupWrapper {
+  display: flex;
+}
+
+.blockingPopupLeft {
+  width: 566px;
+  padding: 50px;
+}
+
+.blockingPopupRight {
+  width: 40%;
+  background-color: #f8f8f8;
+}
+
+.blockingPopupHeader {
+  font-size: 32px;
+  font-weight: var(--tm-font-weight-semi-bold);
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.blockingPopupContent > span {
+  display: block;
+  margin-bottom: var(--tm-kr-spacing-xs);
+  color: #7d7d7d;
+}
+
+.blockingModal {
+  width: 945px;
+}
+
+.blockingModal > div {
+  padding: 0;
+}
+
+.button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 420px;
+}
+
+.blockedIcon {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blockedNotice {
+  background-color: var(--tm-color-semantic-error-110);
+  margin-top: var(--tm-kr-spacing-l);
+  margin-left: var(--tm-kr-spacing-m);
+  margin-right: var(--tm-kr-spacing-m);
+  color: white;
+  padding: var(--tm-kr-spacing-xs);
+  border: 1px dashed white;
+  border-radius: var(--tm-kr-border-radius-m);
+}

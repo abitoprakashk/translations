@@ -1,0 +1,19 @@
+:root {
+  --tm-sidebar-opened-width: 250px;
+  --tm-sidebar-collapsed-width: 70px;
+  --tm-sidebar-width: var(--tm-sidebar-collapsed-width);
+}
+
+.contentAreaDiv {
+  position: relative;
+  margin-left: var(--tm-sidebar-collapsed-width);
+  width: calc(100vw - var(--tm-sidebar-collapsed-width));
+  height: 100%;
+}
+
+@media (max-width: 1023px) {
+  .contentAreaDiv {
+    margin-left: 0;
+    width: 100vw;
+  }
+}

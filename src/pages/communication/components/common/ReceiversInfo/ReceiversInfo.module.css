@@ -1,0 +1,97 @@
+.smsInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balanceInfo {
+  display: flex;
+  align-items: center;
+}
+
+.smsUserCount {
+  font-size: var(--tm-kr-para-font-size-m);
+  font-weight: 700;
+  color: var(--tm-color-gy-1);
+  padding: 0px var(--tm-kr-spacing-5xs);
+}
+
+.postFooterUserSegmentInfo {
+  font-size: 12px;
+  color: var(--tm-color-text-secondary);
+  text-transform: capitalize;
+}
+
+.smsBalanceIcon {
+  display: none;
+}
+
+.postFooterUserSegment {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.dotSec {
+  display: flex;
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--tm-color-text-secondary);
+  font-size: 12px;
+}
+
+.postFooterCalendarIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.postFooterCalendarIcon img {
+  height: 14px;
+  max-width: min-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .smsInfoContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--tm-bg-light-blue);
+    border-radius: var(--tm-kr-border-radius-m);
+    padding: var(--tm-kr-spacing-xs);
+    gap: var(--tm-kr-spacing-xs);
+  }
+
+  .balanceInfo {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .smsUserCount {
+    order: 3;
+    align-self: flex-end;
+    padding: 0;
+  }
+
+  .smsUserSegment {
+    flex-grow: 1;
+  }
+
+  .balanceCount {
+    border-top: 1px solid var(--tm-bg-light-white);
+    padding-top: var(--tm-kr-spacing-xs);
+  }
+
+  .smsBalanceIcon {
+    display: inline;
+    margin-right: 2px;
+  }
+
+  .dotSec {
+    display: none;
+  }
+
+  .postFooterCalendarIcon img {
+    padding-left: 12px;
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 250px;
+}
+.iconWrapper {
+  background: var(--tm-kr-color-neutrals-grey-20);
+}
+.iconWrapper .icon:before {
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+.para {
+  padding-top: var(--tm-kr-spacing-xs);
+}

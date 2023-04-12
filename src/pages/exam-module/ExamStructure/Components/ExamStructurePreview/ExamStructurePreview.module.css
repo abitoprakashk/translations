@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: var(--tm-bg-modal-light-gray);
+}
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.25rem;
+  background-color: var(--tm-bg-modal-light-gray);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+.marksAndPassingCriteria {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--tm-color-text-primary);
+}
+.marksToGrade {
+  margin-right: 0.5rem;
+}
+.verticalLine {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border: 10px solid #dbe2ea;
+  width: 1px;
+  /* height: 100px; */
+}
+.ctaOptions {
+  display: flex;
+  flex-direction: row;
+  width: 27%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-blue);
+  float: right;
+  align-items: center;
+}
+.verticalLine {
+  border-left: 6px solid var(--tm-bg-light-white);
+  height: 100%;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.pdfPreview {
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
+.editPattern {
+  padding: 5px;
+  width: 100%;
+  background-color: var(--tm-bg-modal-light-gray);
+}
+
+.ctaIconImport {
+  display: none;
+}
+
+.ctaIcon {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .ctaOptions {
+    width: 20%;
+  }
+
+  .ctaIconImport {
+    display: flex;
+  }
+
+  .pdfPreview {
+    height: 450px;
+  }
+}

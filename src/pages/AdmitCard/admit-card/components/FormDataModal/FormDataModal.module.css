@@ -1,0 +1,108 @@
+.modal {
+  height: 650px;
+  width: 540px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--tm-kr-modal-header-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalTitle {
+  display: flex;
+  align-items: center;
+}
+
+.modalClickable {
+  cursor: pointer;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.modalContent {
+  margin: 20px 0px;
+}
+
+.currentLeadStage {
+  display: flex;
+  align-items: center;
+}
+
+.changeLeadStageButton {
+  width: 134px;
+  height: 44px;
+}
+
+.leadStageBadge {
+  margin-left: 8px;
+}
+
+.selectLeadStagePara {
+  display: flex;
+  margin-top: 16px;
+}
+
+.dropDownSize {
+  width: 250px;
+  height: 44px;
+}
+
+.dropDownOptions {
+  border-radius: 12px;
+}
+
+.examName {
+  margin-top: 20px;
+}
+
+.datePickerLabel {
+  display: flex;
+}
+
+.required {
+  margin-top: -3px;
+}
+.examDate {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar {
+  right: 0px;
+}
+
+.alert {
+  width: 100%;
+  margin-top: 20px;
+}
+.signature {
+  margin-top: 20px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+  margin-left: -12px;
+}

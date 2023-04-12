@@ -1,0 +1,20 @@
+.modalMain.performanceReportModal {
+  width: 100%;
+  min-height: 20%;
+}
+
+.fileDownloadedText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--tm-color-text-secondary);
+  margin-top: 28px;
+}
+
+@media only screen and (min-width: 720px) {
+  .modalMain.performanceReportModal {
+    width: 40%;
+    min-height: 20%;
+  }
+}

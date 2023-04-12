@@ -1,0 +1,190 @@
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.section1 {
+  display: grid;
+}
+
+.contentLibrarySection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.headingTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tm-color-text-primary);
+  margin: 10px;
+}
+
+.section1HeadingTitle {
+  /* display: none; */
+  font-size: 16px;
+}
+
+.section2HeadingTitle {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.section2 {
+  display: grid;
+  margin-bottom: 100px;
+}
+
+.whyContentSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.diplayFlexData {
+  display: flex;
+  justify-content: center;
+}
+.contactInfo {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--tm-mainly-blue);
+}
+.contactDetail {
+  color: var(--tm-color-text-primary);
+}
+.buttonSection {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: var(--tm-color-wh-1);
+  box-shadow: 0px -1px 12px rgba(157, 182, 217, 0.1);
+  gap: 10px;
+  padding: 16px;
+}
+
+.buyBtn {
+  color: var(--tm-color-wh-1);
+  background: var(--tm-color-bl-2);
+  box-shadow: 0px 14px 28px rgba(31, 57, 101, 0.14);
+}
+
+.contacSalestBtn {
+  color: var(--tm-color-bl-2);
+}
+
+.button {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  width: 100%;
+  max-width: 240px;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.whyContentItemSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 16px;
+  /* width: 800px; */
+  row-gap: 40px;
+  column-gap: 28px;
+}
+
+.whyContentItemIcon {
+  background-color: var(--tm-color-og-2);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.whyContentItemIconColor {
+  color: var(--tm-color-og-2);
+}
+
+.whyContentItemText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--tm-color-text-primary);
+}
+
+.whyContentItemSubtext {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+@media screen and (min-width: 765px) {
+  .headingTitle {
+    display: flex;
+    font-size: 24px;
+  }
+
+  .contentLibrarySection {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .section1HeadingTitle {
+    font-size: 24px;
+  }
+
+  .videoCard {
+    width: 264px;
+  }
+
+  .section2 {
+    margin-bottom: 110px;
+  }
+
+  .whyContentItemSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    row-gap: 40px;
+    column-gap: 80px;
+  }
+
+  .whyContentItem {
+    width: 300px;
+  }
+
+  .section2HeadingTitle {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .buttonSection {
+    width: calc(100% - 70px);
+    height: 100px;
+  }
+}

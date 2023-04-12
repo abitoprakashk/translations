@@ -1,0 +1,185 @@
+.headerOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feeDetails > div:not(:last-child) {
+  border-right: 1px solid var(--tm-color-gy-1);
+  height: 60px;
+}
+
+.feeDetails > div {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.feeDetails {
+  display: flex;
+  background-color: var(--tm-bg-slider-light-gray);
+  border: 1px solid var(--tm-color-gy-3);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feeDetails p {
+  font-size: 25px;
+}
+
+.feeDetails span {
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.payableAmount {
+  color: var(--tm-fee-statistics-color-applied);
+}
+
+.paidAmount {
+  color: var(--tm-fee-statistics-color-paid);
+}
+
+.dueAmount {
+  color: var(--tm-fee-statistics-color-due);
+}
+
+.discountAmount {
+  color: var(--tm-fee-statistics-color-discount);
+}
+
+.pendingAmount {
+  color: var(--tm-fee-statistics-color-pending);
+}
+
+.img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.paid {
+  color: var(--tm-color-green);
+}
+
+.due {
+  color: var(--tm-color-red);
+}
+
+.spanSettings {
+  color: #d1d1d1;
+}
+
+.inputGrp {
+  color: var(--tm-color-text-secondary);
+}
+.flex,
+.displayData {
+  display: flex;
+  color: var(--tm-color-text-secondary);
+  margin-top: 10px;
+}
+
+.link {
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+
+.filtersAndSearchBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100%;
+  background: #f2f4f8;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.footerText {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.classLabel {
+  font-size: 18px;
+  color: var(--tm-color-text-primary);
+  margin-left: 15px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+
+/* .filters span {
+  background-color: var(--tm-color-off-white);
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.filters span a {
+  margin-left: 10px;
+  cursor: pointer;
+} */
+.searchContainer {
+  border: 1px solid var(--tm-color-gy-3);
+  padding: 4px 8px;
+  border-radius: 9999px;
+  display: flex;
+  width: 100%;
+  height: 44px;
+  background: #f2f4f8;
+}
+.searchIcon {
+  width: 15px;
+}
+
+.headerOptionItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.inputWrapper {
+  padding: 0px;
+  background: var(--tm-color-white);
+  cursor: pointer;
+  width: 220px;
+}
+
+.dropdown {
+  height: 44px;
+  padding: 12px 12px;
+  line-height: 18px;
+}
+
+.addFilter .cstFilterIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.addFilter {
+  height: 44px;
+}
+
+.dFlexCenterAlign {
+  display: flex;
+  align-items: center;
+}

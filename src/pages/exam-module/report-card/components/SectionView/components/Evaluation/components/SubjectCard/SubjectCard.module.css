@@ -1,0 +1,55 @@
+.card {
+  min-width: 220px;
+  height: 126px;
+  box-shadow: none;
+  border: none;
+  padding-bottom: var(--tm-kr-spacing-2xs);
+  cursor: pointer;
+}
+
+[name='subjectcard']:checked + .card {
+  outline: 2px solid #015fcc;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.subject {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.arrowIcon {
+  transform: translateX(var(--tm-kr-spacing-2xs));
+}
+
+.divider {
+  width: calc(100% + 2 * var(--tm-kr-plaincard-spacing));
+  margin-left: calc(-1 * var(--tm-kr-plaincard-spacing));
+}
+
+.coteacher {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: var(--tm-kr-spacing-3xs);
+
+  color: var(--tm-kr-color-neutrals-grey-70);
+}
+
+.avatarGroup {
+  margin-left: calc(-1 * var(--tm-kr-avatar-group-m-margin-left));
+}
+
+.semiBold {
+  font-weight: 600;
+}

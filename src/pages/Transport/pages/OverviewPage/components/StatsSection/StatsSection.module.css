@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.stopsIconFrame {
+  background-color: var(--tm-kr-color-pastels-seaPink-100);
+}
+.vehiclesIconFrame {
+  background-color: var(--tm-kr-color-palette-biloba);
+}
+.staffIconFrame {
+  background-color: var(--tm-kr-color-palette-poloBlue);
+}
+.routesIconFrame {
+  background-color: var(--tm-kr-color-pastels-calico-100);
+}

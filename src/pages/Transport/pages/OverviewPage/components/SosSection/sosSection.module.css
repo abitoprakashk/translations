@@ -1,0 +1,19 @@
+.alertWrapper {
+  margin-top: var(--tm-kr-spacing-xs);
+  width: 100%;
+}
+
+.alertWrapper > div:nth-child(1) {
+  width: 100%;
+}
+
+.displayFlex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}

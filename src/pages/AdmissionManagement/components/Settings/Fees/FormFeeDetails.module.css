@@ -1,0 +1,48 @@
+.collectFeeSection {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.inputText.amountWrapper {
+  width: 120px;
+}
+
+.inputText.taxWrapper {
+  width: 80px;
+}
+
+.inputText.displayNone {
+  display: none;
+}
+
+.formGroup {
+  display: flex;
+  width: 100%;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.formGroup > div {
+  flex-grow: 1;
+}
+
+.tableContainer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.table {
+  margin: 0px;
+}
+
+.table > tbody > tr:last-child {
+  border-bottom: none;
+}
+
+.thead > tr > td:first-child {
+  width: 40%;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

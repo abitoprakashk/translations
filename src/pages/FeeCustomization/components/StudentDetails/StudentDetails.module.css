@@ -1,0 +1,16 @@
+.title {
+  font-weight: var(--tm-kr-heading-font-weight-regular);
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: var(--tm-kr-para-font-size-l);
+  white-space: break-spaces;
+  max-width: var(--student-details-title-width, 150px);
+  text-align: left;
+}
+.desc {
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-neutrals-grey-70);
+  margin-top: var(--tm-kr-spacing-5xs);
+  white-space: break-spaces;
+  max-width: var(--student-details-desc-width, 150px);
+  text-align: left;
+}

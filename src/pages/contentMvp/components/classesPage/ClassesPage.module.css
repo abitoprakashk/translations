@@ -1,0 +1,40 @@
+.pageSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.classInfoTitle {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--tm-color-text-primary);
+}
+
+.classText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 20px; */
+  line-height: 100%;
+  color: var(--tm-color-text-secondary);
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.classroomNameSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .classroomNameSection {
+    gap: 15px;
+  }
+}

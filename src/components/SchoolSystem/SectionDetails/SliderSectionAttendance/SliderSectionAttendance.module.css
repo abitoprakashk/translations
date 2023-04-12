@@ -1,0 +1,126 @@
+.heading {
+  margin-bottom: 5px;
+}
+
+.inputCon {
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--tm-bg-textarea-grey);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.slotCon {
+  display: flex;
+}
+.slotItem {
+  padding: 6px 15px;
+  border-radius: 4px;
+  background-color: var(--tm-color-gy-3);
+  color: var(--tm-color-text-secondary);
+  margin-right: 15px;
+  cursor: pointer;
+}
+.slotItemSelected {
+  background-color: var(--tm-color-bl-2);
+  color: var(--tm-color-wh-1);
+}
+
+.downloadBtn {
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.dateRangeCon {
+  display: flex;
+  align-items: center;
+}
+.dateField:first-child {
+  margin-right: 10px;
+}
+.dateField input {
+  border-color: var(--tm-color-bl-2);
+  padding: 7px 12px;
+}
+
+.notMarkedSection {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tm-color-og-2);
+  border-radius: 8px;
+}
+.notMarkedSectionImg {
+  margin-right: 10px;
+}
+
+.studentTable {
+  padding-bottom: 50px;
+  width: 100%;
+  overflow: scroll;
+  margin-top: -20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.attendanceBtns {
+  gap: 16px;
+}
+
+.toggleMargin {
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .inputCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slotCon {
+    margin: 20px 0;
+  }
+
+  .headingCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .studentTable > table td:first-child > div {
+    max-width: 45vw;
+    overflow: hidden;
+  }
+
+  .attendanceBtns {
+    gap: 8px;
+  }
+
+  .slotCon {
+    margin: 16px 0;
+  }
+
+  .attendanceBtns button {
+    height: 40px;
+    width: auto;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,113 @@
+.mainModal.mainModalTag {
+  min-height: 25%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.alertIconDiv {
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.alertDivOrange {
+  background-color: var(--tm-color-og-2);
+}
+
+.alertIcon {
+  color: var(--tm-color-og-1);
+}
+
+.alertDivGreen {
+  background-color: var(--tm-color-gr-2);
+}
+
+.checkedIcon {
+  color: var(--tm-color-gr-3);
+}
+
+.reportContentText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--tm-color-text-primary);
+  text-transform: capitalize;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.reportContentsubTitleText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--tm-color-text-secondary);
+  text-align: center;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.cancleBtn {
+  width: 140px;
+  height: 40px;
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-bl-2);
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--tm-color-bl-2);
+  text-transform: capitalize;
+}
+
+.reportBtn {
+  width: 140px;
+  height: 40px;
+  background-color: var(--tm-color-bl-2);
+  border-radius: 6px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--tm-color-wh-1);
+  text-transform: capitalize;
+}
+
+.reportedSuccesBtn {
+  width: 100%;
+}
+
+@media screen and (min-width: 765px) {
+  .mainModal.mainModalTag {
+    width: 35%;
+    min-height: 30%;
+  }
+
+  .reportContentsubTitleText {
+    font-size: 16px;
+  }
+
+  .cancleBtn,
+  .reportBtn {
+    width: 220px;
+  }
+}

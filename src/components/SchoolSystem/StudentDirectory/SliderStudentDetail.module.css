@@ -1,0 +1,13 @@
+.sliderHeaderIcon {
+  margin-right: 8px;
+}
+
+.feeTabWrapper {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .feeTabWrapper {
+    display: block;
+  }
+}

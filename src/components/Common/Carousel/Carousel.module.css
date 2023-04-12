@@ -1,0 +1,18 @@
+.carouselDiv :global(.carousel) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselDiv :global(.thumb) {
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.carouselDiv :global(.thumb):hover {
+    border: 1px solid var(--tm-kr-color-neutrals-grey-50);
+    border-radius: var(--tm-kr-border-radius-m);
+}
+
+.carouselDiv :global(.thumb.selected) {
+  border: 1px solid var(--tm-kr-color-primary-100);
+}

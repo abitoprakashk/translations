@@ -1,0 +1,170 @@
+section.modalModuleMain {
+  width: 62%;
+}
+
+.custTimelineMainBl {
+  max-height: 300px;
+}
+
+.submitButtonBl {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.sumButton {
+  width: 90%;
+}
+.updateStatusButton {
+  width: auto%;
+}
+.feeCategoryAddFeeType {
+  background-color: var(--tm-bg-modal-light-gray);
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+  max-height: fit-content;
+  height: auto;
+  padding: 10px;
+}
+.feeCategoryAddFeeTypeIcon {
+  background: var(--tm-bg-modal-light-gray);
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.imgData {
+  max-width: unset;
+  height: unset;
+  width: 50px;
+}
+.displayData {
+  display: flex;
+  color: var(--tm-color-text-secondary);
+}
+
+.student_trans_details_bl {
+  display: block;
+}
+.trans_details_children {
+  padding-right: 1rem;
+  display: inline-block;
+  padding-left: 1rem;
+  border-right: 1px solid var(--tm-color-gy-1);
+}
+.trans_details_children span {
+  display: flex;
+}
+.trans_details_children:first-child {
+  padding-left: 1rem;
+}
+.trans_details_children:last-child {
+  border: 0px;
+}
+
+/* Timeline CSS start */
+.wrapper .milestone {
+  height: 24px;
+  width: 24px;
+  margin-left: 1px;
+  background-color: var(--tm-color-gy-3);
+  border: 6px solid var(--tm-color-gy-2);
+}
+.wrapper .completedMilestone {
+  border: 6px solid var(--tm-color-gr-3);
+}
+.wrapper .path {
+  height: 52px;
+  top: 24px;
+  border-left: 1.5px dashed var(--tm-color-gy-2);
+}
+
+.wrapper .body {
+  margin-top: 12px;
+}
+
+.wrapper .title {
+  font-size: 16px;
+}
+.wrapper .body span {
+  display: flex;
+}
+.wrapper .body span li {
+  padding-left: 12px;
+}
+.wrapper .body span li:first-child {
+  display: inline-block;
+  padding-left: 0px;
+}
+/* Timeline CSS end */
+
+.updateStatusBl {
+  display: inline-block;
+  width: 55%;
+}
+
+/* Select box dropdown CSS start */
+.transFormGroup {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.transLabel {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+  padding: 8px 0px;
+  margin-left: 0px;
+}
+
+.input,
+.transSelect {
+  background-color: var(--tm-color-gy-3);
+  padding: 5px 18px 5px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 50px;
+  width: 100%;
+  color: var(--tm-color-text-primary);
+  outline: none;
+}
+/* Select box dropdown CSS end */
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .inputGroup {
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    color: var(--tm-color-gy-2);
+    display: block;
+  }
+
+  .transFormGroup {
+    display: block;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .input,
+  .select {
+    background-color: var(--tm-color-gy-3);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    color: var(--tm-color-text-primary);
+    outline: none;
+  }
+}

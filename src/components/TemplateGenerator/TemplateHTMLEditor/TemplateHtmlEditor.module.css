@@ -1,0 +1,9 @@
+.alert {
+  margin-bottom: var(--tm-kr-spacing-5xs);
+  margin-top: var(--tm-kr-spacing-5xs);
+}
+
+.alert p {
+  -webkit-line-clamp: initial;
+  overflow: auto;
+}

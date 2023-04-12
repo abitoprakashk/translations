@@ -1,0 +1,15 @@
+.draft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+  font-size: 12px;
+  width: 44px;
+  height: 32px;
+  background: #fff2e9;
+  border-radius: 8px;
+  margin-right: 32px;
+  color: var(--tm-color-og-1);
+}

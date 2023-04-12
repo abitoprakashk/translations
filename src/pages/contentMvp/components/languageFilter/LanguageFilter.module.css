@@ -1,0 +1,191 @@
+.selectFilterSection {
+  background: var(--tm-color-wh-1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 5px rgba(157, 182, 217, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 72px;
+  cursor: pointer;
+}
+
+.selectTag {
+  width: 4ch;
+}
+
+.languageText {
+  /* width: 2ch; */
+  overflow: hidden;
+  overflow-wrap: normal;
+  letter-spacing: 1px;
+  margin-left: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tmDashboardNotificationDropdownDiv {
+  display: none;
+}
+
+.tmDashboardNotificationDropdown .arrow {
+  width: 44px;
+  position: absolute;
+  height: 24px;
+  overflow: hidden;
+  right: -7px;
+  bottom: -22px;
+}
+.tmDashboardNotificationDropdown .arrow:before {
+  content: '';
+  width: 40px;
+  position: absolute;
+  height: 70px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  top: 12px;
+  z-index: 10;
+  background: white;
+}
+.tmDashboardNotificationDropdown .msgBox {
+  position: absolute;
+  right: -20px;
+  margin-top: 20px;
+  background: white;
+  max-height: 350px;
+  overflow-y: auto;
+  z-index: 8;
+  width: 244px;
+}
+
+.borderBottomDark {
+  border-bottom: 1px solid var(--tm-color-gy-2);
+}
+
+.tmBoxShadow1 {
+  box-shadow: 0px 3px 18px rgba(192, 201, 253, 0.16);
+}
+
+.dropDownItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.dropDownSectionForMobile {
+  display: block;
+}
+
+.dropDownIconImg {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.globIcon {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.dropDownDivForWeb {
+  position: relative;
+}
+
+.changeLanguageDiv {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid var(--tm-color-gy-2);
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  display: flex;
+  /* identical to box height, or 18px */
+  text-transform: capitalize;
+
+  color: var(--tm-color-text-primary);
+}
+
+.dropDownText {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--tm-color-text-secondary);
+  margin-left: 0.75rem;
+}
+
+.dropDownItemActive {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+
+.modalMain.modalTag {
+  max-height: 90%;
+}
+
+.displayForWeb {
+  display: none;
+}
+
+.displayForMweb {
+  display: block;
+}
+
+.dropdownContainer {
+  width: 124px;
+}
+
+.dropdown {
+  background: var(--tm-color-wh-1);
+  box-shadow: 0px 3px 5px rgba(157, 182, 217, 0.2);
+}
+
+.dropdownPlaceholder {
+  display: flex;
+}
+
+.languageLogo {
+  height: 17px;
+  width: 17px;
+  margin-right: var(--tm-kr-spacing-5xs);
+}
+
+@media screen and (min-width: 765px) {
+  .selectFilterSection {
+    border-radius: 4px;
+  }
+  .languageText {
+    overflow-wrap: break-word;
+    width: 100%;
+    letter-spacing: normal;
+    text-transform: capitalize;
+  }
+
+  .tmDashboardNotificationDropdownDiv {
+    display: flex;
+  }
+
+  .dropDownSectionForMobile {
+    display: none;
+  }
+  .changeLanguageDiv {
+    display: none;
+  }
+  .displayForWeb {
+    display: block;
+  }
+
+  .displayForMweb {
+    display: none;
+  }
+}

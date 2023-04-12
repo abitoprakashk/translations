@@ -1,0 +1,91 @@
+.modal {
+  width: 800px;
+  height: 650px;
+}
+
+.modalContent {
+  padding: 20px;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--tm-kr-modal-header-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalTitle {
+  display: flex;
+  align-items: center;
+}
+
+.modalClickable {
+  cursor: pointer;
+}
+
+.confirmAlert {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.confirmAlert > div {
+  align-items: center;
+}
+
+.confirmAlert p {
+  margin-left: 5px;
+}
+
+.dropdown.zIndex {
+  z-index: 4;
+}
+
+.dropdownField {
+  font-size: var(--tm-kr-text-input-font-size);
+}
+
+.dropdownOptionWidth > p {
+  width: 100%;
+}
+
+.upperSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.structureName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212427;
+}
+
+.structureDetails {
+  display: flex;
+}
+
+.structureDetailsSpacing {
+  background-color: #afafb1;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--tm-kr-modal-footer-height);
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.modalErrorSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.modalErrorSection > div:last-child {
+  color: var(--tm-kr-color-semantic-error-100);
+}

@@ -1,0 +1,11 @@
+.gapL {
+  gap: var(--tm-kr-spacing-l);
+}
+
+.placeholder {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: var(--tm-kr-para-line-height-m);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  color: var(--tm-kr-color-neutrals-grey-60);
+  padding-top: var(--tm-kr-spacing-s);
+}

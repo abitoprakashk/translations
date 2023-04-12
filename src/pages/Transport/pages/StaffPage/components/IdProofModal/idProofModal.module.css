@@ -1,0 +1,20 @@
+.modal {
+  width: 540px;
+}
+
+.modalContent {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: var(--tm-kr-spacing-s) var(--tm-kr-spacing-m);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+}
+
+.downloadButton {
+  display: flex;
+  align-items: center;
+  gap: var(--tm-kr-spacing-4xs);
+}

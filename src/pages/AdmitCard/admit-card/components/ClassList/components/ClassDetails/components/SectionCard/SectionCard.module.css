@@ -1,0 +1,36 @@
+.wrapper {
+  width: 144px;
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-gy-2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.title {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.viewWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.view {
+  font-size: 14px;
+  color: var(--tm-color-bl-2);
+}
+
+.viewIcon {
+  padding-top: 1px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 186px;
+  }
+}

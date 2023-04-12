@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'text-security-disc';
+  src: url('../../../fonts/text-security-disc-compat.eot');
+  src: url('../../../fonts/text-security-disc-compat.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../../fonts/text-security-disc-compat.woff2') format('woff2'),
+    url('../../../fonts/text-security-disc-compat.ttf') format('truetype');
+}
+@supports ((content-visibility: visible) or (-moz-appearance: meter)) and
+  (not (-webkit-hyphens: none)) {
+  @font-face {
+    font-family: 'text-security-disc';
+    src: url('../../../fonts/text-security-disc.woff2') format('woff2'),
+      url('../../../fonts/text-security-disc-compat.ttf') format('truetype');
+  }
+}
+
+.fieldsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contentSection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal {
+  height: fit-content;
+}
+.footerMessage {
+  color: var(--tm-kr-color-semantic-error-110);
+  padding-right: 4px;
+}
+.verifyIFSC {
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+  width: max-content;
+  display: inline-block;
+}
+.verifiedIFSC {
+  color: var(--tm-kr-color-semantic-success-100);
+  width: max-content;
+  display: inline-block;
+}
+.invalidIFSC {
+  color: var(--tm-kr-color-semantic-error-100);
+  width: max-content;
+  display: inline-block;
+}
+.branchName {
+  font-size: 14px;
+}
+
+.maskedAccountNumber {
+  font-family: text-security-disc;
+  -webkit-text-security: disc;
+}

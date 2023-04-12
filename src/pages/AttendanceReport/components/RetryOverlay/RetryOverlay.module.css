@@ -1,0 +1,16 @@
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emptyScreen {
+  margin: 1rem 0;
+}
+.column {
+  flex-direction: column;
+}
+.retry {
+  border-bottom: 1px solid var(--primary-color-100);
+  border-radius: 0;
+  margin-top: 1rem;
+}

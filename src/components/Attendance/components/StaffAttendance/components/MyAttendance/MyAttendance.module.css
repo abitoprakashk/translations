@@ -1,0 +1,118 @@
+.myAttendanceWrapper {
+  padding-bottom: calc(
+    var(--tm-kr-button-size-m-height) + 2 * var(--tm-kr-spacing-2xs)
+  );
+}
+
+.summaryCardWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-xs);
+  padding: var(--tm-kr-spacing-xs) 0;
+}
+
+.summaryCard {
+  padding: var(--tm-kr-spacing-xs);
+  border: none;
+}
+
+.success {
+  background-color: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.error {
+  background-color: var(--tm-kr-color-pastels-seaPink-10);
+}
+
+.primary {
+  background-color: var(--tm-kr-color-primary-60);
+}
+
+.secondary {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.summaryValue {
+  font-size: var(--tm-kr-heading-mobile-font-size-s);
+  line-height: var(--tm-kr-heading-mobile-line-height-s);
+}
+
+.summaryValueWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tooltipWrapper {
+  margin-left: var(--tm-kr-spacing-3xs);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.summaryLabel {
+  font-size: var(--tm-kr-para-font-size-m);
+  line-height: 14px;
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.alert {
+  width: 100%;
+}
+
+.heading {
+  margin-top: var(--tm-kr-spacing-xs);
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-xs);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.shiftDetailsText {
+  display: flex;
+  align-items: center;
+}
+
+.headerText {
+  margin-left: var(--tm-kr-spacing-4xs);
+  font-weight: 700;
+}
+
+.setupCardWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  margin: 0;
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+
+.toolTipBody {
+  width: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .summaryCardWrapper {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .summaryCard {
+    padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-xs);
+  }
+
+  .summaryValue {
+    font-size: var(--tm-kr-heading-laptop-font-size-m);
+    line-height: var(--tm-kr-heading-laptop-line-height-m);
+  }
+
+  .summaryLabel {
+    font-size: var(--tm-kr-heading-laptop-font-size-xs);
+    line-height: var(--tm-kr-heading-laptop-line-height-xs);
+  }
+}

@@ -1,0 +1,49 @@
+.stepperWrapper {
+  border: none;
+  width: 210px;
+  top: 0;
+  position: sticky;
+}
+
+.shiftContent {
+  display: flex;
+  height: calc(
+    80vh - var(--tm-kr-modal-header-height) - var(--tm-kr-modal-footer-height)
+  );
+}
+
+.headingWrapper {
+  padding: var(--tm-kr-spacing-xs);
+  padding-bottom: 0;
+}
+
+.stepContentWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.popupWrapper {
+  padding: var(--tm-kr-spacing-m);
+  height: 600px;
+}
+
+.exitModalWrapper {
+  padding: var(--tm-kr-spacing-m);
+}
+
+.shiftModalWrapper {
+  height: 80vh;
+}
+
+@media (min-width: 1024px) {
+  .shiftModalWrapper {
+    width: 1024px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .shiftModalWrapper {
+    width: 1240px;
+  }
+}

@@ -1,0 +1,36 @@
+.outerMwebStepperWrapper {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--tm-kr-spacing-xs);
+  padding-bottom: var(--tm-kr-spacing-l);
+  margin: var(--tm-kr-spacing-xs) 0px;
+}
+.stepperBarsWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: var(--tm-kr-spacing-3xs);
+}
+.step {
+  flex-grow: 1;
+  height: 6px;
+  background-color: var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-s);
+}
+
+.activeStep {
+  background-color: var(--tm-kr-color-semantic-success-100);
+}
+.stepCount {
+  padding: var(--tm-kr-spacing-5xs) var(--tm-kr-spacing-2xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  color: var(--tm-kr-color-semantic-basic-100);
+  font-size: var(--tm-kr-para-font-size-m);
+}
+@media screen and (max-width: 576px) {
+  .outerMwebStepperWrapper {
+    display: flex;
+  }
+}

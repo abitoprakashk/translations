@@ -1,0 +1,15 @@
+.nameAndBtnSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyAccountSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+}
+
+.emptyStateWrapper {
+  text-align: center;
+}

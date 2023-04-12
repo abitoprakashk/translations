@@ -1,0 +1,13 @@
+.wrapper {
+  margin: 5px;
+  background: var(--tm-bg-textarea-grey);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.select {
+  background: var(--tm-bg-textarea-grey);
+  width: 100%;
+}

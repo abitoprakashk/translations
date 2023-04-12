@@ -1,0 +1,219 @@
+.YearlyBannerContainerBox {
+  display: flex;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.YearlyCalendarBannerContainerEvent,
+.YearlyCalendarBannerContainerHoliday {
+  width: 96%;
+  min-width: 86%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--tm-color-light-cyan);
+  grid-gap: 10px;
+  border-radius: 12px;
+  background: url('../../../../assets/images/icons/glitter-background.svg')
+    center right no-repeat;
+}
+.YearlyCalendarBannerContainerEvent {
+  background-color: var(--tm-color-light-brown);
+}
+
+.YearlyCalendarBannerHolidayName,
+.YearlyCalendarBannerEventName {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-color-white);
+  width: fit-content;
+  border-radius: 8px;
+  padding: 2px 8px;
+  margin-bottom: 4px;
+}
+.YearlyCalendarBannerHolidayName {
+  background-color: var(--tm-color-dark-green);
+}
+.YearlyCalendarBannerEventName {
+  background-color: var(--tm-color-dark-blue);
+}
+
+.YearlyCalendarBannerEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-gap: 2px;
+}
+
+.YearlyCalendarBannerEventTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.YearlyCalendarBannerEventTime {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.YearlyCalendarBannerEventSpan {
+  display: hidden;
+}
+
+.YearlyCalendarBannerGreetingCTAImgMWeb {
+  display: block;
+  height: 14px;
+  width: 16px;
+}
+.YearlyCalendarBannerGreetingCTAImgWeb {
+  display: none;
+}
+.YearlyCalendarBannerGreetingCTA,
+.YearlyCalendarBannerGreetingCTA {
+  height: 36px;
+  width: fit-content;
+  left: 1066px;
+  top: 131px;
+  border-radius: 12px;
+  padding: 6px 16px 6px 0px;
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  cursor: pointer;
+}
+
+.YearlyCalendarBannerRemindCTAText,
+.YearlyCalendarBannerGreetingCTAText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--tm-color-blue);
+}
+@media (min-width: 768px) {
+  .YearlyBannerContainerBox {
+    display: flex;
+    overflow: scroll;
+    gap: var(--tm-kr-spacing-s);
+  }
+
+  .YearlyCalendarBannerContainerEvent,
+  .YearlyCalendarBannerContainerHoliday {
+    width: 100%;
+    min-width: 550px;
+    min-width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--tm-color-light-cyan);
+    border-radius: 12px;
+  }
+
+  .YearlyCalendarBannerContainerEvent {
+    background-color: var(--tm-color-light-brown);
+  }
+
+  .YearlyCalendarBannerHolidayName,
+  .YearlyCalendarBannerEventName {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--tm-color-white);
+    width: fit-content;
+    border-radius: 8px;
+    padding: 2px 8px;
+    margin-bottom: 4px;
+  }
+  .YearlyCalendarBannerHolidayName {
+    background-color: var(--tm-color-dark-green);
+  }
+  .YearlyCalendarBannerEventName {
+    background-color: var(--tm-color-dark-blue);
+  }
+
+  .YearlyCalendarBannerEvent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+  }
+
+  .YearlyCalendarBannerEventTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .YearlyCalendarBannerEventTime {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .YearlyCalendarBannerEventSpan {
+    border: 2px solid var(--tm-color-black-1);
+    border-radius: 50%;
+  }
+
+  .YearlyCalendarBannerGreetingCTAImgWeb {
+    display: block;
+    height: 14px;
+    width: 16px;
+  }
+  .YearlyCalendarBannerGreetingCTAImgMWeb {
+    display: none;
+  }
+  .YearlyCalendarBannerGreetingCTA,
+  .YearlyCalendarBannerGreetingCTA {
+    background-color: var(--tm-color-blue);
+    height: 36px;
+    width: fit-content;
+    left: 1066px;
+    top: 131px;
+    border-radius: 12px;
+    padding: 6px 16px 6px 16px;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    cursor: pointer;
+  }
+
+  .YearlyCalendarBannerRemindCTAText,
+  .YearlyCalendarBannerGreetingCTAText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--tm-color-white);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .YearlyBannerContainerBox {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+}

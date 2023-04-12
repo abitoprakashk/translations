@@ -1,0 +1,122 @@
+.recentActivityWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterWrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.filterWrapper > div {
+  cursor: pointer;
+}
+
+.adminClass {
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  height: 72px;
+  margin-top: 20px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.studentClass {
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  height: 72px;
+  margin-top: 20px;
+}
+
+.activityNameSentenceWrapper {
+  display: flex;
+}
+.activityContentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.activityTime {
+  margin-left: 16px;
+}
+
+.activitySentence {
+  margin-left: 4px;
+}
+
+.activityDateTimeWrapper {
+  display: flex;
+  margin-top: 8px;
+}
+
+.activityCardWrapper {
+  display: flex;
+  margin-top: -7px;
+  justify-content: space-between;
+}
+
+.wrapperColor {
+  border-radius: 18px;
+}
+
+.image {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.viewNoteStyle {
+  color: var(--tm-kr-color-primary-100);
+  margin-left: 5px;
+}
+
+.activityIconWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.viewNoteIcon {
+  margin-top: 4px;
+}
+
+.toolTipBody {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.tooltipTitle {
+  color: var(--tm-kr-color-base-light-100);
+}
+
+.tooltipBodyContent {
+  color: var(--tm-kr-color-base-light-100);
+  margin-top: 12px;
+}
+
+.tooltipContentDateTime {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.tooltipContent {
+  width: 160px;
+}
+
+.tooltipContentDateColor {
+  color: var(--tm-kr-color-base-light-100);
+}
+.recentActivityEmpty {
+  height: 200px;
+  margin-top: 120px;
+}
+
+.activityCreatorName {
+  color: var(--tm-kr-color-neutrals-grey-70);
+}

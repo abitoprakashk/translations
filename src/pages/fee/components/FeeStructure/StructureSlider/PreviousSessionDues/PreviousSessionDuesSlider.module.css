@@ -1,0 +1,124 @@
+.container {
+  padding: 2rem;
+  padding-top: 0px;
+  height: calc(100% - 170px);
+  overflow: scroll;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--tm-color-text-primary);
+  margin: 20px 0px;
+}
+
+.divider {
+  margin: 20px 0px;
+  border-top: 1px solid var(--tm-color-gy-2);
+}
+
+.points {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--tm-color-text-primary);
+  list-style-type: decimal;
+}
+
+.points li {
+  list-style-position: inside;
+}
+
+.uploadedText {
+  background-color: var(--tm-color-light-green);
+  color: var(--tm-color-green);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.note {
+  display: flex;
+}
+
+.note > div {
+  margin-left: 5px;
+}
+
+.formGroup {
+  margin-top: 30px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.inputWrapper {
+  padding: 0px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.label {
+  display: flex;
+  margin-bottom: 4px;
+  color: var(--tm-color-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.chipColor span {
+  color: var(--tm-color-text-secondary);
+}
+
+.downloadSampleFile {
+  float: right;
+  cursor: pointer;
+  color: var(--tm-color-bl-2);
+}
+
+.uploadedFile {
+  display: flex;
+}
+
+.closeIcon {
+  display: flex;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.disabledBtn {
+  border-style: none;
+  background-color: var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+}
+
+.warningMsg {
+  background-color: var(--tm-color-rd-2);
+  color: var(--tm-color-text-primary);
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  width: fit-content;
+  padding: 5px 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.enabledBtn {
+  border: 1px solid var(--tm-sk-bl-2);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--tm-color-white);
+  background-color: var(--tm-sk-bl-2);
+}
+
+.higherSpecificityFont.higherSpecificitySize.confirmIcon {
+  font-size: 80px;
+}

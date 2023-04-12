@@ -1,0 +1,25 @@
+.container {
+  padding: var(--tm-kr-spacing-2xs) 0 var(--tm-kr-spacing-s) 0;
+}
+
+.emptyContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.vListWrapper {
+  height: auto;
+  min-height: 412px;
+}
+.vListWrapper > div > div {
+  will-change: unset !important;
+}
+
+.dismissBtn {
+  width: 104px;
+}
+
+.prefixIconBtn {
+  margin-right: var(--tm-kr-spacing-5xs);
+}

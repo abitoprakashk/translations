@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 10px 20px 24px;
+  max-height: 115px;
+  border-bottom: 1px solid var(--tm-color-gy-2);
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 32% 15% calc(53% - 20px);
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  width: 140px;
+}
+
+.selectWrapper {
+  width: 150px;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-gy-1);
+}
+
+.textSection {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+.section {
+  display: inline-flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.toggleSwitchWrapper {
+  align-items: flex-start;
+  height: 40px;
+}
+
+.boolean {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.success {
+  color: var(--tm-color-gr-1);
+}
+
+.error {
+  color: var(--tm-color-rd-1);
+}
+
+.gradeSelection {
+  padding: 3px 16px;
+}

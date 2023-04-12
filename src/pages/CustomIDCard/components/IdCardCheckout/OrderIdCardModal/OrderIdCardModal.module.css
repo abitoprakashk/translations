@@ -1,0 +1,38 @@
+.checkBoxLabel {
+  font-size: var(--tm-kr-para-font-size-l);
+}
+.modalContent {
+  padding: 0;
+}
+.modalBody {
+  display: flex;
+}
+
+.stepperWrapper {
+  border: none;
+  flex-shrink: 0;
+  height: fit-content;
+  position: sticky;
+  top: 0;
+}
+
+.contentArea {
+  border-left: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  width: 100%;
+}
+
+.contentArea > div {
+  width: 100%;
+  display: flex;
+}
+
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footerWarning {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

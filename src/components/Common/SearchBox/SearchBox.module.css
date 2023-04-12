@@ -1,0 +1,9 @@
+.searchBox {
+  border: 1px solid var(--tm-color-gy-3);
+  flex: 1;
+  background: var(--tm-color-off-white);
+}
+
+.input {
+  background: var(--tm-color-off-white);
+}

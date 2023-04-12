@@ -1,0 +1,41 @@
+.fieldWrapper {
+  position: relative;
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: auto;
+}
+.noBorder {
+  border: none;
+}
+.noBorder input:disabled {
+  background: none;
+}
+.fieldWrapper > div:first-child > div:first-child {
+  word-break: break-all;
+}
+
+.fieldWrapper > div:first-child > div:nth-child(2) > div:nth-child(2) > div {
+  height: auto;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.fieldWrapper
+  > div:first-child
+  > div:nth-child(2)
+  > div:first-child
+  span:first-child {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.customDatePicker > div:first-child {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 1024px) {
+  .fieldWrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

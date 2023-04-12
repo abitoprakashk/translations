@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.card {
+  display: flex;
+  padding: 0px;
+  min-height: 500px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+  width: 360px;
+  margin: var(--tm-kr-spacing-s);
+  margin-bottom: 0px;
+}
+
+.vehiclesWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-2xs);
+  overflow: scroll;
+  max-height: 444px;
+  justify-content: space-between;
+}
+
+.overviewMap {
+  width: 70%;
+}

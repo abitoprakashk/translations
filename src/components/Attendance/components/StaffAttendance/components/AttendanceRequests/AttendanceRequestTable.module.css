@@ -1,0 +1,58 @@
+.colWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.buttonWrapper {
+  display: flex;
+}
+
+.buttonStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tm-kr-icon-frame-size-xs);
+  height: var(--tm-kr-icon-frame-size-xs);
+  border-radius: var(--tm-kr-border-radius-m);
+  padding: var(--tm-kr-spacing-4xs);
+  margin-right: var(--tm-kr-spacing-xs);
+}
+
+.buttonStyle div {
+  display: flex;
+}
+
+.iconStyle {
+  display: flex;
+  margin-left: var(--tm-kr-spacing-3xs);
+  cursor: pointer;
+}
+
+.staffAvatarWrapper {
+  display: flex;
+}
+
+.staffDetails {
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+
+.timeInfo {
+  display: flex;
+  align-items: center;
+}
+
+.timeInfo span {
+  margin: 0 var(--tm-kr-spacing-5xs);
+}
+
+.requestMsg {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 300px;
+}
+
+.toolTipBody {
+  text-transform: none;
+  width: 300px;
+}

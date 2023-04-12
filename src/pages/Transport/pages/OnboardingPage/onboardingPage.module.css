@@ -1,0 +1,39 @@
+.onboardingCardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.schoolAddressIconFrame {
+  background-color: var(--tm-kr-color-pastels-melaine-100);
+}
+
+.stopsIconFrame {
+  background-color: var(--tm-kr-color-pastels-seaPink-100);
+}
+
+.vehiclesIconFrame {
+  background-color: var(--tm-kr-color-palette-biloba);
+}
+
+.staffIconFrame {
+  background-color: var(--tm-kr-color-palette-poloBlue);
+}
+
+.routesIconFrame {
+  background-color: var(--tm-kr-color-pastels-calico-100);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.headerTemplateDivider {
+  display: none;
+}

@@ -1,0 +1,176 @@
+.selectedTemplateWrapper {
+  display: flex;
+  gap: var(--tm-kr-spacing-xs);
+  margin-bottom: var(--tm-kr-spacing-s);
+  padding: var(--tm-kr-spacing-2xs);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.templateInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.templateInfo > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-5xs);
+}
+
+.actionRow {
+  display: flex;
+}
+
+.card {
+  height: 120px;
+  padding: 0;
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.templateCardContent {
+  /* pointer-events: none; */
+  position: relative;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.templateImageContainer img {
+  border-radius: var(--tm-kr-border-radius-l) var(--tm-kr-border-radius-l) 0px
+    0px;
+  overflow: hidden;
+  height: 222px;
+}
+
+.card :global(div[data-id='tooltip']) {
+  right: 0px !important;
+  top: 30px !important;
+  opacity: 1 !important;
+  left: initial !important;
+  min-width: 220px;
+  margin-right: 0px;
+}
+
+.templateList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-s);
+}
+
+.cardDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--tm-kr-spacing-5xs);
+  height: 100%;
+  background: var(--tm-kr-color-base-light-100);
+  padding: 0 var(--tm-kr-spacing-s);
+  border-bottom-left-radius: var(--tm-kr-border-radius-l);
+  border-bottom-right-radius: var(--tm-kr-border-radius-l);
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+
+.cardDetails h6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 214px;
+}
+
+.cardContent button {
+  width: 100%;
+}
+
+.templateCardContent:hover .eyeIcon,
+.templateCardContent:hover .kabab {
+  display: block;
+}
+
+.templateCardContent:hover {
+  border: 1px solid var(--tm-kr-color-primary-100);
+}
+
+.optionsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  grid-gap: var(--tm-kr-spacing-4xs);
+  gap: var(--tm-kr-spacing-4xs);
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.orientationLabel {
+  position: absolute;
+  top: var(--tm-kr-spacing-2xs);
+  left: var(--tm-kr-spacing-2xs);
+  z-index: 1;
+  background: var(--tm-kr-color-neutrals-grey-70);
+  padding: 2px 4px 2px 6px;
+  border-radius: var(--tm-kr-border-radius-l);
+  font-size: var(--tm-kr-para-font-size-m);
+  color: var(--tm-kr-color-base-light-100);
+  text-transform: capitalize;
+}
+
+.templateImageContainer {
+  background: white;
+  padding: var(--tm-kr-spacing-s);
+  padding-bottom: 0;
+  border-radius: var(--tm-kr-border-radius-l) var(--tm-kr-border-radius-l) 0px
+    0px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  position: relative;
+  width: 100%;
+  height: 120px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.templateCardContent:hover .templateImageContainer {
+  transform: rotateY(180deg);
+}
+
+.frontImg,
+.backImg {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.frontImg {
+  color: black;
+  display: contents;
+}
+
+.backImg {
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+}
+
+.flipContainer {
+  overflow: hidden;
+  height: 365px;
+}
+.noTransition {
+  transition: none;
+}

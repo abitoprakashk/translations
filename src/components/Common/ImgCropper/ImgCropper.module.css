@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.cropControls {
+  margin-bottom: 10px;
+}
+.cropControls > * {
+  margin-bottom: 3px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.croppedImageCanvas {
+  border: 1px solid black;
+  object-fit: contain;
+  width: 200px;
+  height: auto;
+}

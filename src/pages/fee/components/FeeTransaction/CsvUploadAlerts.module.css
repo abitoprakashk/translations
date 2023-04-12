@@ -1,0 +1,60 @@
+.alertWidth {
+  width: inherit;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.alertWidth > div {
+  gap: var(--tm-kr-spacing-3xs);
+  width: 100%;
+  align-items: center;
+}
+
+.width100,
+.alertWidth > div > p {
+  width: 100%;
+}
+
+.errorLink {
+  margin-left: var(--tm-kr-spacing-3xs);
+  color: var(--tm-kr-color-primary-100);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  cursor: pointer;
+  height: 100%;
+}
+
+.card {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.infoSection,
+.iconAndTextSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.createdDate {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--tm-kr-color-neutrals-grey-60);
+  margin-left: 30px;
+}
+
+.iconAndTextSection {
+  gap: var(--tm-kr-spacing-3xs);
+}

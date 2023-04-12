@@ -1,0 +1,70 @@
+.wrapper {
+  padding-top: var(--tm-kr-spacing-s);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--tm-kr-spacing-s);
+}
+
+.searchBar {
+  width: 400px;
+}
+
+.kebabMenuIconFrame {
+  background-color: inherit;
+}
+
+.deletePopupContent {
+  margin-top: var(--tm-kr-spacing-s);
+}
+
+.routeHeader {
+  display: flex;
+}
+.routeHeaderIconWrapper {
+  margin-left: var(--tm-kr-spacing-5xs);
+  margin-top: 2px;
+}
+.routeTooltipBody {
+  color: var(--tm-kr-color-neutrals-grey-10);
+  text-transform: initial;
+}
+.cancelButton {
+  border-color: var(--tm-kr-color-neutrals-grey-30);
+}
+.cancelButton div {
+  color: var(--tm-kr-color-neutrals-grey-100) !important;
+}
+
+.emptyStateWrapper {
+  margin-top: var(--tm-kr-spacing-5xl);
+}
+.emptyStateIconFrame {
+  width: 64px;
+  height: 64px;
+}
+.buttonWrapper {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contentWrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  width: inherit;
+  opacity: 1;
+}
+
+.menuItem {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  background-color: var(--tm-kr-color-base-light-100);
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+}

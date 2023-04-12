@@ -1,0 +1,33 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 86px;
+}
+
+.cardBgTotalApplied {
+  background: var(--tm-kr-color-pastels-morningGlory-10);
+}
+
+.cardBgDiscount {
+  background: var(--tm-kr-color-pastels-calico-10);
+}
+
+.cardBgPaid {
+  background: var(--tm-kr-color-pastels-feijoa-10);
+}
+
+.cardBgDue {
+  background: var(--tm-kr-color-pastels-seaPink-10);
+}
+
+@media (max-width: 768px) {
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

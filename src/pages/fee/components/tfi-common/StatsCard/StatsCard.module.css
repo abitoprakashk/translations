@@ -1,0 +1,41 @@
+.card {
+  min-width: 200px;
+  box-shadow: none;
+}
+
+.section {
+  border-left: 3px solid var(--tm-color-bl-1);
+  padding-left: 12px;
+}
+
+.titleText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--tm-color-text-primary);
+}
+
+.subText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.basic {
+  border-left: 3px solid var(--tm-color-bl-1);
+}
+
+.success {
+  border-left: 3px solid var(--tm-color-gr-1);
+}
+
+.error {
+  border-left: 3px solid var(--tm-color-rd-1);
+}
+
+.secondary {
+  border-left: 3px solid var(--tm-color-gy-1);
+}

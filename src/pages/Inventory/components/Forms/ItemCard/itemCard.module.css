@@ -1,0 +1,126 @@
+.nameInputWrapper {
+  padding: 0px;
+  width: 100%;
+}
+
+.stockInputWrapper {
+  padding: 0px;
+  width: 210px;
+}
+
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  gap: 20px;
+  background: var(--tm-bg-modal-light-gray);
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.itemNo {
+  height: 20px;
+  left: 0px;
+  top: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 2px;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-primary);
+}
+
+.disabledInputBackground {
+  background: var(--tm-color-light-grayish-blue);
+}
+
+.itemCardHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.inputsWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.inputErrorClass {
+  position: relative;
+}
+
+.confirmBoxWrapper > div {
+  position: absolute;
+  left: -60vw;
+  z-index: 1000;
+}
+
+.popUpButtonOk {
+  display: flex;
+  border: 1px var(--tm-color-blue) solid;
+  color: var(--tm-color-blue);
+  width: 240px;
+  height: 48px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popUpButtonRed {
+  border: 1px var(--tm-color-red) solid !important ;
+  background-color: var(--tm-color-white) !important ;
+  color: var(--tm-color-red) !important ;
+}
+
+@media only screen and (max-width: 1024px) {
+  .confirmBoxWrapper > div {
+    position: absolute;
+    top: -40vh;
+    left: 0;
+    z-index: 1000;
+  }
+}
+
+.makeFlexCenter {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.customTooltip {
+  background: white;
+  color: var(--tm-color-text-primary);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-transform: none;
+}
+
+.leftAlignToolTip {
+  text-align: left;
+}
+
+.editOpeningStockTooltipContent {
+  font-size: 13px;
+  color: var(--tm-color-text-secondary);
+  width: 250px;
+  box-sizing: content-box;
+  position: relative;
+  bottom: 10px;
+}
+
+.editOpeningStockTooltipContentHide {
+  display: none;
+}

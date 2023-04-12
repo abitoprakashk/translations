@@ -1,0 +1,43 @@
+.emptyListContainer {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyListContent {
+  width: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyListContent > p {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.addNewLeadBtn {
+  width: max-content;
+}
+
+.addNewLeadBtn > div {
+  width: -webkit-fill-available;
+}
+
+.dropdownWrapper {
+  position: relative;
+  width: max-content;
+}
+
+.dropdownContainer {
+  position: absolute;
+}
+
+.addNewLeadBtn {
+  margin-top: 8px;
+}
+
+/* Desktop devices */
+@media (width > 1194px) {
+}

@@ -1,0 +1,13 @@
+.activityWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.username {
+  font-weight: bolder;
+}
+
+.emptyState {
+  margin-top: 50px;
+}

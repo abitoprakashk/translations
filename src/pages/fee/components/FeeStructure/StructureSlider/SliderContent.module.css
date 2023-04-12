@@ -1,0 +1,87 @@
+.sliderHeader {
+  height: calc(80% - 15px);
+  overflow: auto;
+  padding-top: 30px;
+}
+
+.sliderContent {
+  width: 100%;
+  padding: 0rem 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.sliderHeader header {
+  padding: 20px 20px 0 40px;
+  background-color: var(--tm-color-off-white);
+}
+
+.sliderHeader header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tm-color-text-primary);
+}
+
+.sliderHeader content {
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.btnSave {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 100px;
+  height: 40px;
+}
+
+.errorOverlay {
+  position: fixed;
+  height: 100%;
+}
+
+.footerSection div {
+  border-bottom-left-radius: 1.5rem;
+}
+
+.footerContent {
+  display: flex;
+  float: right;
+  align-items: center;
+}
+
+.footerAmount {
+  font-weight: 700;
+  text-align: justify;
+  padding-right: 5rem;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--tm-color-green);
+}
+
+.footerAmountText {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-color-text-secondary);
+}
+
+.submitBtn {
+  color: var(--tm-color-white);
+  background-color: var(--tm-sk-bl-2);
+  border: 1px solid var(--tm-sk-bl-2);
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 240px;
+  height: 44px;
+}
+
+.submitBtnDisabled {
+  background-color: var(--tm-bg-light-white);
+  color: var(--tm-color-text-secondary);
+  border-style: none;
+  width: 240px;
+  height: 44px;
+}
+
+.higherSpecificityFontSize.higherSpecificityIcon.infoIcon {
+  font-size: 80px;
+}

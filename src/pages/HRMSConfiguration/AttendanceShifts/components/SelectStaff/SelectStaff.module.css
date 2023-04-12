@@ -1,0 +1,29 @@
+.staffMainWrapper {
+  flex: 1 1 auto;
+  height: 0px;
+  overflow: auto;
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.staffContainer {
+  display: flex;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: var(--tm-kr-border-radius-l);
+  height: 100%;
+}
+
+.staffTypeWrapper {
+  padding: var(--tm-kr-spacing-s);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.staffListWrapper {
+  padding: var(--tm-kr-spacing-s);
+  flex-grow: 1;
+  overflow: auto;
+}

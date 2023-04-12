@@ -1,0 +1,33 @@
+.documentsItemWrapper {
+  margin-bottom: var(--tm-kr-spacing-m);
+}
+
+.documentItemWrapper {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: var(--tm-kr-spacing-xs);
+  margin-top: var(--tm-kr-spacing-2xs);
+}
+
+.documentItemWrapper > div[class*='DocumentFields_cardDesign'] {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.emptyStateWrapper {
+  margin-top: var(--tm-kr-spacing-5xl);
+}
+.emptyButtonWrapper {
+  margin: auto;
+  margin-top: var(--tm-kr-spacing-s);
+}
+@media screen and (min-width: 768px) {
+  .documentItemWrapper {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--tm-kr-spacing-m);
+  }
+  .documentItemWrapper > div[class*='DocumentFields_cardDesign'] {
+    margin: 0;
+    width: 100%;
+  }
+}

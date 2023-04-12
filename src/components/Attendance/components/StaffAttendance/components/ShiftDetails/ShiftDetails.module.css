@@ -1,0 +1,87 @@
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headingSection {
+  display: flex;
+  align-items: center;
+}
+
+.shiftNameHeading {
+  width: 120px;
+}
+
+.badge {
+  background: var(--tm-kr-color-pastels-poloBlue-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+  display: block;
+  height: inherit;
+  line-height: var(--tm-kr-badge-size-small-height);
+  font-size: var(--tm-kr-para-font-size-m);
+}
+
+.shiftNameCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--tm-kr-spacing-2xs);
+}
+
+.shiftInfoCard {
+  padding: 0;
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1 1;
+  padding: var(--tm-kr-spacing-xs);
+}
+
+.heading {
+  font-size: 600;
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.instruction {
+  display: flex;
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.instruction span {
+  margin-right: var(--tm-kr-spacing-5xs);
+}
+
+.btnLabel {
+  font-size: var(--tm-kr-para-font-size-m);
+}
+
+.doubtsSection {
+  display: flex;
+  align-items: center;
+}
+
+.doubtsSection p {
+  margin: var(--tm-kr-spacing-2xs) 0;
+  margin-right: var(--tm-kr-spacing-5xs);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: var(--tm-kr-spacing-xs);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

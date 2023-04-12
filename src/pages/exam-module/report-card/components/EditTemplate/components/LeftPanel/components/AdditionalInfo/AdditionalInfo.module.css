@@ -1,0 +1,33 @@
+.termList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  padding: 10px 0px;
+}
+
+.dateButton {
+  width: 250px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  font-size: var(--tm-kr-text-input-font-size);
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+  border-radius: var(--tm-kr-text-input-border-radius);
+  color: var(--tm-kr-text-input-color);
+  border: 1px solid var(--tm-kr-text-input-border-color);
+  padding: var(--tm-kr-text-input-padding-y) var(--tm-kr-text-input-padding-x);
+  height: var(--tm-kr-text-input-height);
+  background: var(--tm-kr-text-input-background-color);
+  align-items: center;
+  cursor: pointer;
+}
+
+.signature > button {
+  margin-left: auto;
+  margin-right: var(--tm-kr-spacing-s);
+}
+
+.signature ~ ul {
+  padding-top: 0;
+}

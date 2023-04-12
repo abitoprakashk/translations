@@ -1,0 +1,123 @@
+.pageSection {
+  display: flex;
+  gap: 16px;
+}
+
+.headingSection {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+.headingText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+  text-transform: capitalize;
+}
+
+.videoSection,
+.studyMaterialSection {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hr {
+  margin: 5px 0px;
+}
+.footSection {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.viewAllText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--tm-color-bl-2);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.videoModalSection {
+  padding: 10px;
+}
+
+.videoModalHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.videoModalInfoSection {
+  display: flex;
+}
+
+.videoModalTitle {
+  margin-top: 10px;
+  word-break: break-all;
+  font-size: 14px;
+}
+
+.topicListContainerForDesk {
+  display: none;
+}
+
+.contentListSectionDiv {
+  flex-grow: 1;
+}
+
+.videoModalTag.videoModalMain {
+  max-height: 95vh;
+  min-height: 38%;
+}
+
+.videoTag {
+  margin: auto;
+}
+
+.videoWrapper {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  padding: 1px;
+}
+
+@media screen and (min-width: 765px) {
+  .videoSection,
+  .studyMaterialSection {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 620px;
+  }
+  .studyMaterialSection {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .videoModalSection {
+    padding: 20px;
+  }
+
+  .videoModalTitle {
+    font-size: 16px;
+  }
+
+  .topicListContainerForDesk {
+    display: block;
+    max-height: 70vh;
+    width: 228px;
+  }
+
+  .videoTag {
+    width: 64vw;
+  }
+}

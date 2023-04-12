@@ -1,0 +1,170 @@
+.outerCard {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  border-radius: 12px;
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+.colorbar {
+  width: 4px;
+  height: 40px;
+  align-self: stretch;
+  border-radius: 2px;
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+.ruleDetails {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-4xs);
+}
+.smallCard {
+  display: flex;
+  padding: var(--tm-kr-spacing-s);
+  align-items: center;
+}
+.titleSec {
+  padding-left: var(--tm-kr-spacing-2xs);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--tm-kr-spacing-5xs);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.titleLabel {
+  color: var(--tm-kr-color-neutrals-grey-100);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.detailsToggle {
+  align-self: flex-end;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+}
+.kebabWrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  margin-left: var(--tm-kr-spacing-m);
+}
+.deletePopupText {
+  padding-top: var(--tm-kr-spacing-s);
+}
+.feeColor {
+  background-color: var(--tm-kr-color-pastels-feijoa-100);
+}
+.attendanceColor {
+  background-color: var(--tm-kr-color-pastels-calico-100);
+}
+.birthdayBarColor {
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+.holidayColor {
+  background-color: var(--tm-kr-color-pastels-morningGlory-100);
+}
+.expandedView {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: var(--tm-kr-color-neutrals-grey-10);
+  border-radius: 0px 0px var(--tm-kr-spacing-2xs) var(--tm-kr-spacing-2xs);
+}
+.extraInfoContainer {
+  display: flex;
+}
+.extraInfoSec {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  gap: 16px;
+  font-weight: 500;
+  color: var(--tm-kr-color-neutrals-grey-90);
+  flex-direction: column;
+  padding: var(--tm-kr-spacing-s);
+}
+.extraInfoLabel {
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+.footerSecDetails {
+  display: flex;
+  color: var(--tm-kr-color-neutrals-grey-80);
+  font-size: 12px;
+}
+.footerSec {
+  display: flex;
+  width: 100%;
+  padding: var(--tm-kr-spacing-s);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  display: flex;
+  column-gap: var(--tm-kr-spacing-2xs);
+}
+
+.downArrow {
+  transform: rotate(90deg);
+}
+
+.upArrow {
+  transform: rotate(270deg);
+}
+
+.mobileCardFooter {
+  display: flex;
+  padding: var(--tm-kr-spacing-s) var(--tm-kr-spacing-xs);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warningBadge {
+  min-width: fit-content;
+}
+
+.nextRunningOnLabel {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-80);
+}
+
+.footerSecLabels {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--tm-kr-color-neutrals-grey-60);
+  margin-right: var(--tm-kr-spacing-5xs);
+  display: flex;
+  align-items: center;
+}
+
+.kebab {
+  position: relative;
+}
+
+.ruleId {
+  color: var(--tm-kr-color-neutrals-grey-60);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.tooltipWrapper {
+  left: auto !important;
+  top: 30px !important;
+  right: -4px !important;
+  opacity: 1 !important;
+  margin-right: 0 !important;
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .extraInfoContainer {
+    flex-direction: column;
+  }
+
+  .extraInfoSec {
+    gap: var(--tm-kr-spacing-5xs);
+  }
+}

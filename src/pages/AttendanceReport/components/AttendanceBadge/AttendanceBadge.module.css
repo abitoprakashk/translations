@@ -1,0 +1,9 @@
+.notMarked {
+  background: var(--tm-kr-color-neutrals-grey-50) !important;
+  color: var(--tm-kr-color-neutrals-grey-10);
+  font-size: var(--tm-kr-para-font-size-m);
+}
+.notMarked.dash {
+  background: var(--tm-kr-badges-basic-background) !important;
+  color: var(--tm-kr-badges-basic-text);
+}

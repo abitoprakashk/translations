@@ -1,0 +1,20 @@
+.kanbanContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+  overflow-y: scroll;
+  position: sticky;
+  top: 39px;
+  height: calc(90vh - 20px);
+}
+
+.descriptionStyle {
+  margin-top: 20px;
+}
+
+/* Desktop devices */
+@media (height < 800px) {
+  .kanbanContainer {
+    height: calc(90vh - 40px);
+  }
+}

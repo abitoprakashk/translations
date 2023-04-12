@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  padding-left: var(--tm-kr-spacing-l);
+  height: 100%;
+  padding-top: var(--tm-kr-spacing-m);
+  padding-right: var(--tm-kr-spacing-m);
+  overflow: auto;
+}

@@ -1,0 +1,54 @@
+@import '../../../scss/colors';
+.container {
+  position: relative;
+  z-index: 2;
+}
+.desktop_wrapper {
+  display: block;
+  min-width: 650px;
+  width: max-content;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #f2f4f8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 6px 12px rgba(157, 182, 217, 0.2);
+}
+
+.rightAlign {
+  right: 0;
+}
+
+.closebtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.mobile_wrapper {
+  display: none;
+}
+.container .btn {
+  height: 43px;
+  display: flex;
+  padding: 0px;
+  width: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media only screen and (max-device-width: 640px) {
+  .desktop_wrapper {
+    display: none;
+    width: fit-content;
+  }
+  .mobile_wrapper {
+    display: block;
+    width: 100%;
+  }
+}

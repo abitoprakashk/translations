@@ -1,0 +1,52 @@
+.container {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  margin: 2%;
+  width: 96%;
+  border-radius: 4px;
+}
+
+.textContainer {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.close {
+  color: var(--tm-color-orange);
+  cursor: pointer;
+}
+
+.download {
+  color: var(--tm-color-light-orange);
+}
+
+.downloadIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.playstoreIcon {
+  height: 40px;
+}
+@media (min-width: 768px) {
+  .container {
+    display: none;
+  }
+}

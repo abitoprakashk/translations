@@ -1,0 +1,110 @@
+.shiftCardWrapper {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-l);
+  width: 100%;
+  padding: 0;
+  border: none;
+}
+.kebabIcon {
+  background-color: var(--tm-kr-color-neutrals-grey-20);
+}
+
+.kebabOptionsWrapper {
+  width: 120px;
+  padding: var(--tm-kr-spacing-3xs);
+}
+
+.cardSection {
+  padding: var(--tm-kr-spacing-s);
+}
+
+.cardHeading {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.cardHeadingSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cardMidSection {
+  display: flex;
+  width: 100%;
+}
+
+.cardMidSection .cardSection {
+  width: 50%;
+}
+
+.cardDuration {
+  display: flex;
+  align-items: center;
+  margin: var(--tm-kr-spacing-3xs) 0;
+}
+
+.cardDuration p {
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+
+.shiftCardWrapper .geofence {
+  background-color: var(--tm-kr-color-pastels-melaine-100);
+}
+
+.shiftCardWrapper .biometric {
+  background-color: var(--tm-kr-color-pastels-biloba-100);
+}
+
+.avatarGroupWrapper {
+  margin-left: var(--tm-kr-spacing-3xs);
+}
+
+.avatarMoreButton span {
+  color: var(--tm-kr-color-primary-100);
+  cursor: pointer;
+}
+
+.groupType {
+  margin-bottom: var(--tm-kr-spacing-4xs);
+}
+
+.popupWrapper {
+  padding: var(--tm-kr-spacing-m);
+  height: 600px;
+}
+
+.deletePopupWrapper {
+  padding: var(--tm-kr-spacing-m);
+}
+
+.manageUsersModal {
+  width: 60%;
+}
+
+.manageUsersContent {
+  height: 640px;
+  padding: 0 var(--tm-kr-spacing-s);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tooltipWrapper {
+  top: 28px !important;
+  left: auto !important;
+  right: 0px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  opacity: 1 !important;
+}
+
+.header h4 {
+  width: 440px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,30 @@
+.modal {
+  height: 700px;
+}
+
+.modalContent {
+  padding: 0px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-m);
+  margin: var(--tm-kr-spacing-s) 0px;
+  padding: var(--tm-kr-modal-section-padding);
+}
+
+.documentFormWrapper {
+  height: 100%;
+  padding: 0px var(--tm-kr-spacing-s);
+}
+
+.vehicleCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--tm-kr-spacing-s);
+}
+
+.addVehicleButton {
+  align-self: flex-start;
+}

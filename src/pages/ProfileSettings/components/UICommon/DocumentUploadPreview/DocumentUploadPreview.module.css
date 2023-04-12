@@ -1,0 +1,35 @@
+.DocumentMega {
+  margin: 10px 0px;
+  padding-bottom: 150px;
+  overflow: auto;
+  height: calc(100vh - 140px);
+}
+.accordiansWrapper {
+  padding: 5px 0;
+}
+.accordianChildrenWrapper {
+  border: 1px solid var(--tm-border-color-gray-2);
+  border-radius: 12px;
+}
+.accordianChildrenWrapper > div:nth-of-type(2) {
+  padding: 8px 16px 0 16px;
+}
+.fieldsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+@media (min-width: 1024px) {
+  .fieldsWrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .DocumentMega {
+    padding-bottom: 10px;
+  }
+}

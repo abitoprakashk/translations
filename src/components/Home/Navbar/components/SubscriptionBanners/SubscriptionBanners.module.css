@@ -1,0 +1,73 @@
+.icon {
+  margin-right: var(--tm-kr-spacing-xs);
+}
+
+.content {
+  display: flex;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: var(--tm-kr-spacing-s);
+}
+.mobileButton {
+  min-width: 56px;
+}
+
+.infoBanner {
+  background-color: var(--tm-color-semantic-information-10);
+  color: var(--tm-color-semantic-information-100);
+}
+
+.successBanner {
+  background-color: var(--tm-color-semantic-success-10);
+  color: var(--tm-color-semantic-success-100);
+}
+
+.warningBanner {
+  background-color: var(--tm-color-semantic-warning-10);
+  color: var(--tm-color-semantic-warning-100);
+}
+
+.errorBanner {
+  background-color: var(--tm-color-semantic-error-10);
+  color: var(--tm-color-semantic-error-100);
+}
+
+.errorBanner2 {
+  background-color: var(--tm-color-semantic-error-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.errorBanner3 {
+  background-color: var(--tm-color-semantic-error-110);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.closeIcon {
+  margin-left: auto;
+  margin-right: var(--tm-kr-spacing-s);
+  cursor: pointer;
+}
+
+.errorButton > button {
+  background-color: var(--tm-color-semantic-error-10) !important;
+}
+
+.errorButton2 > button {
+  background-color: var(--tm-color-semantic-error-100) !important;
+  border-color: white;
+}
+
+.errorButton2 > button > div {
+  color: white !important;
+}
+
+.errorButton3 > button {
+  background-color: var(--tm-color-semantic-error-110) !important;
+  border-color: white;
+}
+
+.errorButton3 > button > div {
+  color: white !important;
+}

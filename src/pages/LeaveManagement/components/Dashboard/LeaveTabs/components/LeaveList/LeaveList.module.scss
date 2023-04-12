@@ -1,0 +1,138 @@
+$card-height: 72px;
+$card-gap: 10px;
+
+.cardWrapper {
+  height: $card-height + $card-gap;
+  padding-bottom: $card-gap !important;
+}
+.card {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--tm-color-white);
+  justify-content: space-between;
+  box-shadow: 0px 6px 12px rgba(157, 182, 217, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+
+  width: 100%;
+  height: $card-height;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--tm-color-blue);
+  cursor: pointer;
+}
+.staffType {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--tm-color-text-secondary);
+  // margin-top: 4px;
+}
+.staffName {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--tm-color-text-primary);
+}
+.leavedate {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--tm-color-text-primary);
+}
+.leaveCount {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--tm-color-text-primary);
+}
+.flex {
+  display: flex;
+}
+.flexEnd {
+  align-items: flex-end;
+}
+.listwrapper {
+  height: calc(100vh - 444px);
+  width: 100%;
+
+  &.manage {
+    height: calc(100vh - 328px);
+  }
+}
+.loader {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: unset;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-left: 0.3em solid var(--tm-color-blue);
+  border-width: 0.3em;
+}
+.emptysvg {
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+}
+.emptyScreen {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ptop {
+  padding-top: 10px;
+}
+.textEnd {
+  text-align: end;
+}
+
+.manageView {
+  .leavedate {
+    font-size: 14px;
+  }
+  .staffType {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .leaveInfo {
+    text-align: right;
+  }
+}
+
+.approved {
+  color: var(--tm-color-green);
+}
+.rejected {
+  color: var(--tm-color-red);
+}
+.requested {
+  color: var(--tm-color-orange);
+}
+.canceled {
+  color: var(--tm-color-text-secondary);
+}

@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 332px;
+  /* height: 256px; */
+  background: rgba(242, 244, 248, 0.5);
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ruleNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editBtn {
+  background: var(--tm-bg-tag-light-gray);
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteBtn {
+  background: transparent;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.valueNames {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.moreText {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.slotTable {
+  margin: 0px;
+}
+
+.slotTd {
+  padding: 12px 6px 0px 12px;
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-text-primary);
+}
+
+.slotTable tr td:first-child {
+  padding-left: 0px;
+}
+
+.notApplicabletext {
+  font-family: var(--tm-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--tm-color-light-gray);
+}
+
+.slotTableSection {
+  max-height: 80px;
+  overflow-y: auto;
+}

@@ -1,0 +1,170 @@
+.img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.flex,
+.displayData {
+  display: flex;
+  color: var(--tm-color-text-secondary);
+}
+
+.downloadReportBtn {
+  height: 47px;
+  font-size: 100%;
+  padding: 5px 14px;
+  margin-left: 0.5rem;
+}
+
+.link {
+  color: var(--tm-color-bl-2);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.cstTimestamp {
+  margin-top: 5px;
+}
+
+.filtersAndSearchBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.noDueData {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.input {
+  background-color: var(--tm-color-gy-3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.footerText {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+
+.filters span {
+  color: var(--tm-color-text-secondary);
+}
+
+.searchContainer {
+  float: right;
+  background-color: var(--tm-color-gy-3);
+  padding: 4px 8px;
+  border-radius: 9999px;
+  display: flex;
+  margin-left: 10px;
+  width: 50%;
+  height: 48px;
+}
+.searchIcon {
+  width: 15px;
+}
+
+.structureOption {
+  width: 25px;
+  cursor: pointer;
+}
+
+.cstTxnId {
+  display: inline-block;
+}
+.cstTxnIdCopyIcon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* Fee Transaction Filters Custom CSS */
+.cstAddFiltersBtn {
+  /* height: 47px; */
+  margin-left: 0.5rem;
+  height: 44px;
+}
+
+.cstAddFiltersBtn .cstFilterIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+button.fill img {
+  color: #f2f2f2;
+}
+
+.feeTransactionFiltersBl {
+  /* display: inline-block; */
+  display: flex;
+  position: relative;
+  width: 200px;
+  z-index: 9;
+}
+.filterDateRangePicker {
+  display: flex;
+}
+
+.higherSpecificity.higherSpecificity2.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.higherSpecificity.higherSpecificity2.confirmIcon {
+  font-size: 80px;
+}
+
+.higherSpecificity.higherSpecificity2.searchInputDiv {
+  min-width: 40%;
+}
+
+.dateRangePickerWrapper {
+  height: 44px;
+}
+
+.dateRangePickerTextInputBox {
+  height: 44px;
+}
+
+.tableSticyHeader {
+  position: sticky;
+  top: 0px;
+}
+
+.tableSectionDiv {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.tableAndPaginationSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 59vh;
+}
+.capitalized {
+  text-transform: capitalize;
+}

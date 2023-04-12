@@ -1,0 +1,125 @@
+.headerWrapper {
+  padding: var(--tm-kr-spacing-s);
+  padding-bottom: 0;
+}
+.modal {
+  overflow: hidden;
+}
+.modal > div {
+  padding: 0;
+}
+.modal > div > div {
+}
+.filterWrapper {
+  display: flex;
+  height: calc(100% - 90px);
+}
+.listWrapper {
+  padding: var(--tm-kr-spacing-s);
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  border-bottom: 1px solid var(--tm-kr-color-neutrals-grey-30);
+}
+.dividerWrapper {
+  padding: var(--tm-kr-spacing-s) 0 0 0;
+}
+.filterListWrapper {
+  height: 100%;
+  border-right: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  position: sticky;
+  top: 0;
+  flex: 3;
+}
+.highlight {
+  color: var(--tm-kr-color-primary-100);
+}
+.filterDetailsWrapper {
+  padding: var(--tm-kr-spacing-s);
+  overflow: auto;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+}
+.filterDetail {
+  width: 100%;
+  max-width: 480px;
+}
+.accordionWrapper {
+  width: 100%;
+  border: 1px solid var(--tm-kr-color-neutrals-grey-30);
+  margin-top: var(--tm-kr-spacing-s);
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.accordionWrapper > div {
+}
+.accordionWrapper:first-child > div {
+  margin-top: 0;
+}
+.accordionWrapper .accordionBody {
+  margin: 0;
+}
+.accordionBody {
+  padding: 0 0 0 var(--tm-kr-spacing-xs);
+}
+.accordionBody label {
+  margin-left: 0;
+}
+.stickyTop {
+  position: sticky;
+  top: 0;
+  background: var(--tm-kr-color-base-light-100);
+}
+.accordionBody .sectionAccordionWrapper:last-child {
+  margin-bottom: var(--tm-kr-spacing-xs);
+}
+.sectionAccordionWrapper > div {
+  background: white;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  padding-bottom: 0;
+}
+.sectionBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--tm-kr-spacing-xs);
+}
+.sectionBodyWrapper label {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.sectionAccordionHeader {
+  padding-bottom: 0;
+}
+.sectionAccordionHeader h6 {
+  text-transform: capitalize;
+}
+.wrapper h6 {
+  font-weight: var(--tm-kr-heading-font-weight-medium);
+}
+.accordionHeader label {
+  margin: 0;
+}
+
+.sliderWrapper {
+  padding: 10px 0 10px 40px;
+  margin-bottom: var(--tm-kr-spacing-xl);
+}
+
+.slider {
+}
+.slider .value:first-child {
+  left: 0;
+  display: none;
+}
+.headingflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}

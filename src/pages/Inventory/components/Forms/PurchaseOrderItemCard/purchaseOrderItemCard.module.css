@@ -1,0 +1,53 @@
+.itemWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--tm-bg-light-white);
+}
+.isEdit:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.inputWrapper {
+  padding: 0px;
+  width: 162px;
+}
+
+.removeIcon {
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.line {
+  border: 0.5px solid var(--tm-bg-light-white);
+}
+
+.dropDownInput {
+  background-color: var(--tm-color-white);
+}
+
+.dropDownInput > div:nth-child(1) {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropDownInput > div:nth-child(2) > div {
+  max-width: 200px;
+  min-height: 48px;
+  width: 100%;
+  padding: 15px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.disabledInputBackground {
+  background: var(--tm-color-light-grayish-blue);
+}

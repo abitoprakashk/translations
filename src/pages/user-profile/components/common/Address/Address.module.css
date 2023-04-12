@@ -1,0 +1,11 @@
+.addressPinWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+@media (min-width: 1024px) {
+  .addressPinWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+  }
+}

@@ -1,0 +1,21 @@
+.listItemTitle {
+  flex-grow: 1;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tm-kr-color-neutrals-grey-100);
+}
+.listItemMsg {
+  color: var(--tm-kr-color-neutrals-grey-70);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+ul.listItemMsg {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.numReminders {
+  margin-left: var(--tm-kr-spacing-5xs);
+  text-transform: lowercase;
+}

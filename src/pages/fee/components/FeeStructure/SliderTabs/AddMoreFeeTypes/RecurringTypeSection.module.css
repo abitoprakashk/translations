@@ -1,0 +1,50 @@
+.section:not(:first-child) {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.feeTypeDetails {
+  margin-top: 20px;
+}
+
+.table {
+  margin-bottom: 10px;
+  display: table;
+  width: 60%;
+}
+
+.feeTypeCol {
+  width: 60%;
+}
+
+.label {
+  text-align: left;
+  font-size: 14px;
+  color: var(--tm-color-text-secondary);
+}
+
+.table tr {
+  border: none;
+}
+
+.table td:nth-child(-n + 3) {
+  vertical-align: top;
+}
+
+.totalAnnual > div {
+  font-size: 16px;
+}
+
+.addMoreType {
+  color: var(--tm-sk-bl-2);
+  cursor: pointer;
+}
+
+.higherSpecificityFont.higherSpecificityColor.modalDeleteBtn {
+  background-color: var(--tm-color-red);
+  border: none;
+}
+
+.higherSpecificityFont.higherSpecificitySize.removeIcon {
+  font-size: 80px;
+}

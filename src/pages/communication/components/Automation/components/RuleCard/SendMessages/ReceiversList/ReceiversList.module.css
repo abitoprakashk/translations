@@ -1,0 +1,25 @@
+/* Receivers list */
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: var(--tm-kr-spacing-xs);
+}
+
+.tabGroupWrapper {
+  width: 232px;
+}
+
+.searchBarWrapper {
+  width: 320px;
+}
+
+.readStats {
+  padding: var(--tm-kr-spacing-s) 0 var(--tm-kr-spacing-xs) 0;
+  color: var(--tm-kr-color-neutrals-grey-60);
+}
+
+.para {
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,0 +1,21 @@
+.sliderHeadingWrapper {
+  padding: 40px;
+  padding-bottom: 20px;
+  background-color: #f8fafd;
+}
+
+.sliderIconAndHeadingSection {
+  display: flex;
+  align-items: center;
+}
+.sliderHeading {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--tm-color-text-primary);
+  margin-left: 5px;
+}
+
+.smallIcon {
+  width: 24px;
+  height: 24px;
+}

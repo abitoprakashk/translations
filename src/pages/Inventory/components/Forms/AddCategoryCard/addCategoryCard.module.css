@@ -1,0 +1,84 @@
+.categoryHeader {
+  height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-primary);
+  left: 0px;
+  top: 2px;
+}
+
+.category {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px;
+  gap: 10px;
+  width: 100%;
+  background: var(--tm-color-white);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  box-shadow: 0px 6px 12px rgba(157, 182, 217, 0.2);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+}
+
+.categoryNameInput {
+  padding: 0px;
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.accordion {
+  box-shadow: none;
+  padding: 0px;
+}
+
+.accordionTitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background: var(--tm-color-white);
+  padding: 0px;
+  height: 20px;
+}
+
+.titleGreen {
+  color: var(--tm-color-green);
+}
+
+.itemForm {
+  padding: 12px 0px;
+  width: 100%;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addItemButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addItemButton {
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.itemCardHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.categoryHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+}

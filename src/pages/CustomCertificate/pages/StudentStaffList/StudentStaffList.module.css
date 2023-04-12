@@ -1,0 +1,9 @@
+.wrapper {
+  background-color: var(--tm-kr-color-base-light-100);
+  padding: var(--tm-kr-spacing-l) 0 0 var(--tm-kr-spacing-l);
+  overflow: scroll;
+  max-height: 100%;
+  position: relative;
+  padding-right: var(--tm-kr-spacing-m);
+  height: calc(100vh - var(--tm-header-height));
+}

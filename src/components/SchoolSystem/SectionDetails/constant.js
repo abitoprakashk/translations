@@ -1,0 +1,7 @@
+export const ADD_STUDENT = 'Add Student'
+export const IMPORT_STUDENT = 'From Previous Session'
+export const UNASSIGNED_STUDENT = 'Unassigned Students'
+export const ACADEMIC_YEAR = 'Academic Session'
+export const SELECT_CLASS = 'Select Class'
+export const SELECT_YEAR = 'Select Academic Session to import students from'
+export const SELECT_CLASS_TEXT = 'Select Class to import students from'

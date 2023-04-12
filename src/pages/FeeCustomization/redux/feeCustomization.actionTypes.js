@@ -1,0 +1,1 @@
+export const SET_EDITOR_FIELDS = 'SET_EDITOR_FIELDS'

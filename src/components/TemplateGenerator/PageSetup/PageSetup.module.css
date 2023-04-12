@@ -1,0 +1,70 @@
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  /* gap: var(--tm-kr-spacing-xs); */
+  width: 540px;
+  margin: var(--tm-kr-spacing-xs) 0px;
+}
+
+.modalBody div > h6 {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}
+
+.marginInputs {
+  display: flex;
+  gap: var(--tm-kr-spacing-xs);
+}
+
+.marginInputs > div > div {
+  color: var(--tm-kr-heading-type-text-primary);
+}
+
+.radioText {
+  /* color: var(--tm-kr-color-neutrals-grey-70); */
+  font-size: var(--tm-kr-para-font-size-m);
+}
+
+.orientationInput {
+  display: flex;
+  gap: var(--tm-kr-spacing-2xs);
+}
+
+.imgContainer {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+  cursor: pointer;
+}
+
+.orientationDiv {
+  margin: var(--tm-kr-spacing-xs) 0;
+}
+
+.orientationDiv > p {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.orientationInput .imgContainer {
+  width: 126px;
+  padding: var(--tm-kr-spacing-xs);
+  border: 1px solid var(--tm-kr-color-neutrals-grey-40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--tm-kr-border-radius-l);
+}
+
+.marginDiv > p {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+
+.pageSize {
+  margin-top: var(--tm-kr-spacing-3xs);
+}
+.pageSize > p {
+  margin-bottom: var(--tm-kr-spacing-3xs);
+}
+.pageSize > label {
+  margin-left: 0px;
+}
+.addMarginButton {
+  margin-bottom: var(--tm-kr-spacing-2xs);
+}

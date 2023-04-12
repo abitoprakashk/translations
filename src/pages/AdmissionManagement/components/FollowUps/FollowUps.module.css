@@ -1,0 +1,229 @@
+/* Desktop devices */
+
+.para {
+  margin-top: 4px;
+}
+
+.divider {
+  margin-top: -10px;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: -20px;
+}
+
+.item {
+  margin-left: 24px;
+}
+
+.divider2 {
+  margin-top: -20px;
+}
+
+.search {
+  width: 400px;
+  margin-top: -20px;
+}
+
+.OuterWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdownContainer {
+  width: 199px;
+  position: absolute;
+  right: 15px;
+}
+
+.table {
+  margin-top: 16px;
+}
+
+.image {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+}
+
+.blue {
+  color: var(--tm-kr-color-primary-100);
+}
+
+.rowWrapper {
+  display: flex;
+}
+
+.content {
+  margin-left: 8px;
+}
+
+.last {
+  display: flex;
+}
+
+.options {
+  z-index: 5;
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.followUpTabs nav {
+  width: 500px;
+}
+
+.followUpTabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.followUpTabsInner {
+  display: flex;
+  gap: 12px;
+}
+
+.trackFollowupPara {
+  margin-top: 4px;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: -20px;
+}
+
+.item {
+  margin-left: 24px;
+}
+
+.searchBarWrapper {
+  width: 400px;
+}
+
+.toolTipBody {
+  color: var(--tm-kr-color-base-light-100);
+  max-width: 200px;
+}
+
+.searchDropdownWrapper {
+  margin-top: 16px;
+}
+
+.image {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+}
+
+.studentName {
+  color: var(--tm-kr-color-primary-100);
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.studentContent {
+  margin-left: 8px;
+  width: max-content;
+}
+
+.options {
+  opacity: 3;
+  background-color: var(--tm-kr-color-base-light-100);
+}
+
+.kebabOption:hover {
+  background-color: var(--tm-kr-color-primary-60);
+  width: 145px;
+}
+
+.kebabOption {
+  width: 145px;
+}
+
+.dateDropDownWrapper {
+  position: relative;
+}
+
+.badgeStyling {
+  display: flex;
+  justify-content: center;
+  width: 152px;
+  height: 28px;
+}
+
+.emptyStateWrapper {
+  margin-top: 120px;
+}
+
+.markCompleteButtonStyle {
+  width: 152px;
+  height: 36px;
+}
+
+.followupNoteStyle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  width: fit-content;
+}
+
+.noteColumn {
+  width: 200px;
+  line-height: 20px;
+}
+
+.dateTimeColumn {
+  line-height: 20px;
+  width: max-content;
+}
+
+.createdByColumn {
+  width: 100px;
+}
+
+.studentColumn {
+  display: flex;
+  align-items: center;
+}
+
+.showCursor {
+  cursor: pointer;
+}
+
+.hideCursor {
+  cursor: not-allowed;
+}
+
+.disabledColumn {
+  display: flex;
+  align-items: center;
+}
+
+.actionColumn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableStyle {
+  margin-top: 20px;
+}
+
+.kebabMenuIcon {
+  background: none;
+}
+
+.delete {
+  color: var(--tm-kr-color-semantic-error-100);
+}
+
+.textTransform {
+  text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+.previewContainer {
+  position: relative;
+}
+.loadingPDF {
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loadingPDF img {
+  width: 24px;
+  animation:spin 2s linear infinite;
+}
+
+.previewContainer .paginationDiv {
+  position: sticky;
+  bottom: var(--tm-kr-spacing-s);
+  display: flex;
+  justify-content: flex-end;
+  margin-right: var(--tm-kr-spacing-s);
+}
+.pdfWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--tm-kr-color-neutrals-grey-30);
+}
+
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}

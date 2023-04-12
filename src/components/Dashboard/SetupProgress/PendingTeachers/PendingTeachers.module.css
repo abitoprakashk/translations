@@ -1,0 +1,200 @@
+.border_left_blue {
+  border-left: 1px solid var(--tm-sk-bl-2);
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  box-shadow: 0px 0px 24px rgba(157, 182, 217, 0.06);
+}
+.background_gray {
+  background-color: var(--tm-color-off-white);
+}
+.background_announcement {
+  background: var(--tm-color-wh-1);
+  border: 1px solid var(--tm-color-light-grayish-blue);
+  box-shadow: 0px 10px 18px rgba(157, 182, 217, 0.15);
+  border-radius: 8px;
+}
+.pending_teacher_name_without_phone,
+.pending_teacher_name {
+  font-family: var(--tm-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pending_teacher_name {
+  color: var(--tm-sk-bl-2);
+}
+.pending_teacher_name_without_phone {
+  color: var(--tm-color-light-gray);
+}
+
+.titleSection {
+  padding: 12px 0px;
+}
+
+.titleLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--tm-color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.titleInput {
+  background: var(--tm-bg-light-blue);
+  border: 1px solid var(--tm-color-gy-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+}
+
+.pending_teacher_steps_container {
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+}
+
+.margin_16 {
+  margin: 1rem;
+}
+
+.pending_teacher_component_container {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.margin_bottom_32 {
+  margin-bottom: 32px;
+}
+
+.pending_teacher_slider_container_select_all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pending_teacher_button_container {
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.pending_teacher_slider_container_select_all_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.pending_teacher_slider_container_select_all_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pending_teacher_slider_container_select_all_input {
+  height: 1rem;
+  width: 1rem;
+  color: var(--tm-color-blue);
+}
+.pending_teacher_slider_container_select_all_text {
+  margin-left: 1rem;
+}
+
+.pending_teacher_slider_container_table_container {
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.pending_teacher_slider_container_table {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.pending_teacher_slider_container_table_teacher_div {
+  display: flex;
+  align-items: center;
+}
+.pending_teacher_slider_container_table_teacher_label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pending_teacher_slider_container_table_teacher_input {
+  height: 1rem;
+  width: 1rem;
+  color: var(--tm-color-blue);
+}
+.pending_teacher_slider_container_table_teacher_img_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pending_teacher_slider_container_table_teacher_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 24px;
+}
+
+.red_text {
+  color: var(--tm-color-dark-red);
+}
+.pending_teacher_announcement_container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: flex-start;
+  border-radius: 8px;
+}
+
+.pending_teacher_announcement_row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.pending_teacher_announcement_no_phone_text {
+  margin-right: 1rem;
+}
+.text_message {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text_message_redirect {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--tm-sk-bl-2);
+  margin-left: 10px;
+}
+@media (min-width: 1024px) {
+  .pending_teacher_component_container {
+    padding: 40px;
+  }
+  .pending_teacher_steps_container {
+    flex-direction: row;
+  }
+}
+@media (max-width: 1024px) {
+  .margin_16 {
+    display: none;
+  }
+}

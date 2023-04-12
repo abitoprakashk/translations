@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--tm-kr-spacing-5xs);
+  gap: var(--tm-kr-spacing-3xs);
+
+  width: 100%;
+  height: 36px;
+
+  background: var(--tm-kr-color-neutrals-grey-20);
+  border-radius: var(--tm-kr-border-radius-m);
+}
+
+.stateItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 28px;
+  flex: 1 0 calc((100% - 2 * 10px - 30px) / 2);
+
+  padding: var(--tm-kr-spacing-4xs) var(--tm-kr-spacing-s);
+  border-radius: var(--tm-kr-border-radius-m);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: var(--tm-kr-color-neutrals-grey-100);
+  cursor: pointer;
+}
+
+.notMarked {
+  width: 30px;
+  height: 28px;
+  flex: 0 0;
+
+  padding: var(--tm-kr-spacing-4xs);
+  background: var(--tm-kr-color-neutrals-grey-30);
+}
+
+.absent.active,
+.absent:hover {
+  background: var(--tm-kr-color-semantic-error-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.present.active,
+.present:hover {
+  background: var(--tm-kr-color-semantic-success-100);
+  color: var(--tm-kr-color-neutrals-grey-10);
+}
+
+.notMarked.active,
+.notMarked:hover {
+  background: var(--tm-kr-color-neutrals-grey-40);
+  color: var(--tm-kr-color-neutrals-grey-70);
+}

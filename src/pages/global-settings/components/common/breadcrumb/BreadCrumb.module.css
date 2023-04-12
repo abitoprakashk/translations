@@ -1,0 +1,18 @@
+.breadCrumbContainer {
+  display: none;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.breadCrumbTitle {
+  margin-left: 0.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .breadCrumbContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
