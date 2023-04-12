@@ -37,7 +37,7 @@ const localizationCheck = async () => {
             });
         });
 
-        process.exit();
+        process.exit(1);
     }
 };
 
