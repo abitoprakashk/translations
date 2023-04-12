@@ -3,7 +3,7 @@ const fs = require("fs");
 console.log("Some random script");
 
 const data = {
-    name: "Usman",
+    name: "John Wick",
     flow: Math.round(Math.random() * 1020),
     moo: 2,
 };
