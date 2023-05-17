@@ -15,7 +15,7 @@ export default function AddAdminPopUp({
   setShowAcknowledgementPopup,
   setValidationObject,
 }) {
-  // YOLO
+  // YOLO s
   const [adminName, setAdminName] = useState('')
   const [countryCode, setCountryCode] = useState('91')
   const [phoneNumber, setPhoneNumber] = useState('')
