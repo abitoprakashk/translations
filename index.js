@@ -3,8 +3,8 @@ const fs = require("fs");
 console.log("Some random script");
 
 const data = {
-    name: "John Wick",
-    flow: Math.round(Math.random() * 1020),
+    name: "release 200",
+    flow: 304,
     moo: 2,
 };
 

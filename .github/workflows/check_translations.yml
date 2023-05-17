@@ -3,7 +3,7 @@ name: Check Translations
 on:
     pull_request:
         branches:
-            - release/*
+            - release2/*
 
 jobs:
     check_translations:
@@ -17,4 +17,4 @@ jobs:
               run: npm install
 
             - name: Run script to check translations
-              run: node check_translations.js
+              run: npm run translations

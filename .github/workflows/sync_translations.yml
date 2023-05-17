@@ -1,17 +1,15 @@
 name: Sync translations CI
 
 on:
-    # push:
-    #     branches:
-    #         - "release/*"
     pull_request:
-        types: [closed]
+        types:
+            - closed
         branches:
             - "release/*"
-    workflow_dispatch:
 
 jobs:
     sync_translations:
+        if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
 
         steps:
@@ -23,6 +21,13 @@ jobs:
 
             - name: Run sync translation script
               run: node index.js
+
+            - name: Check for changes and stop workflow if no changes
+              run: |
+                if git diff --quiet HEAD; then
+                  echo "No files have changed. Skipping commit and push."
+                  exit 0
+                fi
 
             - name: Add and commit changes to translation files
               run: |
