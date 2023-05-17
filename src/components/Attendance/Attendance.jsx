@@ -9,7 +9,7 @@ import StudentAttendance from './components/StudentAttendance/StudentAttendance'
 import TeacherAttendance from './components/TeacherAttendance/TeacherAttendance'
 import * as ATC from '../../constants/attendance.constants'
 
-export default function Attendance({match}) {
+export default function Attendasnce({match}) {
   const {instituteInfo, currentAdminInfo} = useSelector((state) => state)
   const [selectedTab, setSelectedTab] = useState(ATC.ATTENDANCE_PAGE_TABS[0].id)
   const isPremium = checkSubscriptionType(instituteInfo)
