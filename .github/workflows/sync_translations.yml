@@ -1,17 +1,15 @@
 name: Sync translations CI
 
 on:
-    # push:
-    #     branches:
-    #         - "release/*"
     pull_request:
-        types: [closed]
+        types:
+            - closed
         branches:
             - "release/*"
-    workflow_dispatch:
 
 jobs:
     sync_translations:
+        if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
 
         steps:
