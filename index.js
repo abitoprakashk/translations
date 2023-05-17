@@ -4,7 +4,7 @@ console.log("Some random script");
 
 const data = {
     name: "release 200",
-    flow: Math.round(Math.random() * 1020),
+    flow: 304,
     moo: 2,
 };
 
