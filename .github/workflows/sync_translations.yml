@@ -22,6 +22,13 @@ jobs:
             - name: Run sync translation script
               run: node index.js
 
+            - name: Check for changes and stop workflow if no changes
+              run: |
+                if git diff --quiet HEAD; then
+                  echo "No files have changed. Skipping commit and push."
+                  exit 0
+                fi
+
             - name: Add and commit changes to translation files
               run: |
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
