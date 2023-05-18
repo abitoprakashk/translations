@@ -4,7 +4,7 @@ console.log("Some random script");
 
 const data = {
     name: "release 200",
-    flow: 304,
+    flow: Math.floor(Math.random() * 10002 + 890890),
     moo: 2,
 };
 
