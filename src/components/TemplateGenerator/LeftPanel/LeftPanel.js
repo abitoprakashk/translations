@@ -13,7 +13,7 @@ const LeftPanel = ({panelItems, defaultActivePanel}) => {
   const eventManager = eventManagerSelector()
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrappers}>
       <div className={styles.leftPanelHeaderWrapper}>
         <div className={styles.leftPanelHeader}>
           {panelItems &&
