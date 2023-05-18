@@ -27,23 +27,27 @@ jobs:
                   git status
 
             - name: Check for changes and stop workflow if no changes
+              id: changes_check
               run: |
                   if git diff --quiet HEAD; then
                     echo "No files have changed"
                   else
-                    echo "::set-output name=has_changes::true"
+                    echo "has_changes=true" >> "$GITHUB_OUTPUT"
+                    echo "Translation files are updated"
                   fi
+                  
 
             - name: Add and commit changes to translation files
-              if: needs.check_changes.outputs.has_changes == 'true'
+              if: steps.changes_check.output == 'true'
               run: |
-                  git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                  git config --local user.name "github-actions[bot]"
-                  git add result.json
-                  git commit -m "Auto update - translation files"
+                    git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                    git config --local user.name "github-actions[bot]"
+                    git add result.json
+                    git commit -m "Auto update - translation files"
+                  
 
             - name: Push changes
-              if: needs.check_changes.outputs.has_changes == 'true'
+              if: steps.changes_check.output == 'true'
               uses: ad-m/github-push-action@master
               with:
                   branch: ${{ github.ref }}
