@@ -2,6 +2,9 @@ name: Check Translations
 
 on:
     pull_request:
+        types:
+            - opened
+            - synchronize
         branches:
             - release/*
 
@@ -21,4 +24,7 @@ jobs:
               run: npm install
 
             - name: Run script to check translations
-              run: npm run translations
+              run: |
+                  branch_name="${{ github.ref }}"
+                  echo "Checking translations on branch: $branch_name"
+                  npm run translations
