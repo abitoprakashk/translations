@@ -16,6 +16,11 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v2
 
+            - name: Get release branch name
+              id: release_branch
+              run: |
+                  echo "release_branch=${{ github.ref }}" >> "$GITHUB_OUTPUT"
+
             - name: Create sync branch
               run: |
                   sync_branch="sync-translation-${GITHUB_RUN_NUMBER}"
@@ -57,7 +62,7 @@ jobs:
               if: steps.changes_check.outputs.has_changes == 'true'
               uses: ad-m/github-push-action@master
               with:
-                  branch: ${{ github.ref }}
+                  branch: ${{ steps.create_sync_branch.outputs.sync_branch }}
                   github_token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Create Pull Request
@@ -65,6 +70,7 @@ jobs:
               uses: peter-evans/create-pull-request@v3
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
+                  base: ${{ steps.release_branch.outputs.release_branch }}
                   branch: ${{ steps.create_sync_branch.outputs.sync_branch }}
                   title: "Sync Translation Changes"
                   body: "This pull request is automatically generated to sync translation changes."
