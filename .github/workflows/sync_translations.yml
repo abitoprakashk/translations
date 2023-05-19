@@ -12,13 +12,9 @@ jobs:
         if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
 
-        strategy:
-            matrix:
-                node-version: [14.x]
-
         steps:
             - name: Checkout code
-              uses: actions/checkout@v3
+              uses: actions/checkout@v2
 
             - name: Create sync branch
               run: |
@@ -27,45 +23,41 @@ jobs:
                   git push origin $sync_branch
                   echo "sync_branch=$sync_branch" >> "$GITHUB_OUTPUT"
 
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
-              with:
-                  node-version: ${{ matrix.node-version }}
-
-            - name: Google artifact registry auth
-              run: npm run registry-login
-
             - name: Install dependencies
-              run: cd admin && npm ci
+              run: npm install
 
             - name: Run sync translation script
-              env:
-                  GSHEET_SERVICE_ACCOUNT_CRED: ${{ secrets.GSHEET_SERVICE_ACCOUNT_CRED }}
-              run: cd admin && npm run sync:translations
+              run: node index.js
 
-            - name: Check for changes
+            - name: git status
+              run: |
+                  git status
+
+            - name: Check for changes and stop workflow if no changes
               id: changes_check
               run: |
                   if git diff --quiet HEAD; then
                     echo "No files have changed"
                   else
-                    echo "has_changes=true" >> "$GITHUB_ENV"
+                    echo "has_changes=true" >> "$GITHUB_OUTPUT"
                     echo "Translation files are updated"
                   fi
 
-            - name: Commit changes to translation files
+            - name: Add and commit changes to translation files
               if: steps.changes_check.outputs.has_changes == 'true'
               run: |
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
-                  git add admin/src/i18n
+                  git add result.json
                   git commit -m "Auto update - translation files"
+                  echo $steps.changes_check.outputs.has_changes
+                  echo steps.changes_check.outputs.has_changes
 
             - name: Push changes
               if: steps.changes_check.outputs.has_changes == 'true'
               uses: ad-m/github-push-action@master
               with:
-                  branch: ${{ steps.create_sync_branch.outputs.sync_branch }}
+                  branch: ${{ github.ref }}
                   github_token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Create Pull Request
