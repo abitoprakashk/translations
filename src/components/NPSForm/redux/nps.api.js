@@ -9,6 +9,6 @@ export const submitNPSForm = async (data) => {
 }
 
 export const getNPSForm = async () => {
-  const res = await axios.get(`${REACT_APP_API_URL}admin-feedback`)
+  const res = await axios.sget(`${REACT_APP_API_URL}admin-feedback`)
   return res
 }
