@@ -22,6 +22,7 @@ jobs:
                   echo "release_branch=${{ github.ref }}" >> "$GITHUB_OUTPUT"
 
             - name: Create sync branch
+              id: create_sync_branch
               run: |
                   sync_branch="sync-translation-${GITHUB_RUN_NUMBER}"
                   git checkout -b $sync_branch
