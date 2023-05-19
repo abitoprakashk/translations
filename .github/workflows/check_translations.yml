@@ -3,7 +3,7 @@ name: Check Translations
 on:
     pull_request:
         branches:
-            - release2/*
+            - release/*
 
 jobs:
     check_translations:
