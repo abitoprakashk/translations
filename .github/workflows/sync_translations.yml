@@ -1,15 +1,14 @@
 name: Sync translations CI
 
 on:
-    pull_request:
-        types:
-            - closed
-        branches:
-            - "release/*"
+    workflow_dispatch:
+        inputs:
+            releaseBranch:
+                description: "Release branch"
+                required: true
 
 jobs:
     sync_translations:
-        if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
 
         steps:
@@ -71,7 +70,7 @@ jobs:
               uses: peter-evans/create-pull-request@v3
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  base: ${{ steps.release_branch.outputs.release_branch }}
+                  base: ${{ inputs.releaseBranch }}
                   branch: ${{ steps.create_sync_branch.outputs.sync_branch }}
                   title: "Sync Translation Changes"
                   body: "This pull request is automatically generated to sync translation changes."
